@@ -1,9 +1,9 @@
 ---
 layout: layout/fiche.njk
 
-title: "Sarah Sebastien"
+title: "Vladimir Jeantroux"
 authors:
-    - "Sarah Sebastien"
+    - "Vladimir Jeantroux"
 ---
 
 ## POK & MON
@@ -11,6 +11,3 @@ authors:
 * [POK](./pok)
 * [MON](./mon)
 
-## Projet
-
-Bientôt...
