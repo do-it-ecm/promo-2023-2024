@@ -12,7 +12,7 @@ tags:
 
 résumé: Créer mon CV intéractif.
 ---
-Un POK a pour objectif de créer mon premier CV en intéractif. Pour cela je vais me baser sur les POK d'Agathe [Création d'un CV en ligne interactif ](https://francoisbrucker.github.io/do-it/promos/2023-2024/Agathe-Rabachou/pok/temps-1/) et de Mathis [CV interactif ](https://francoisbrucker.github.io/do-it/promos/2023-2024/Mathis%20Schultz/pok/temps-2/).
+Un POK a pour objectif de créer mon premier CV en intéractif. Pour cela je vais me baser sur les POK d'Agathe [Création d'un CV en ligne interactif ]({{ site.url }}/promos/2023-2024/Agathe-Rabachou/pok/temps-1/) et de Mathis [CV interactif ]({{ site.url }}/promos/2023-2024/Mathis%20Schultz/pok/temps-2/).
 
 ## Introduction
 Un CV interactif est une version numérique et dynamique du curriculum vitae traditionnel. Contrairement au format papier ou au simple fichier PDF, un CV interactif utilise des éléments web comme HTML, CSS, et JavaScript pour créer une expérience engageante pour le spectateur.
@@ -31,7 +31,7 @@ Pendant ce Sprint, j'ai lu et compris le travail d'Agathe et de Mathis.
 - Parcourir le code de Mathis et comprendre comment il a publié son CV.
 - Adapter le code de Mathis à mon propre parcours scolaire et professionnel.
 ### Conclusion
-Le travail fait par Agathe et Mathis est très intéressant et très bien décrit. J'ai passé ce Sprint à comprendre leur travail pour savoir comment je peux l'approprier, l'adapter à mon parcours et l'améliorer, et c'est ce que je vais faire pendant le deuxième Sprint de ce POK. 
+Le travail fait par Agathe et Mathis est très intéressant et très bien décrit. J'ai passé ce Sprint à comprendre leur travail pour savoir comment je peux l'approprier, l'adapter à mon parcours et l'améliorer, et c'est ce que je vais faire pendant le deuxième Sprint de ce POK.
 
 ## Sprint 2
 L'objectif de ce print est de personnaliser le CV intéractif, l'améliorer et le rendre le plus complet possible. Pour y arriver, je compte :
@@ -63,7 +63,7 @@ L'objectif de ce print est de personnaliser le CV intéractif, l'améliorer et l
 - IL faut cloner le projet localement et  utiliser la commande suivante dans votre terminal
 ```
 git clone https://github.com/KhaoulaBelaaziz/CV_interactif.git
-``` 
+```
 - Créer et initialiser un nouveau dépôt Github
 - Il faut Supprimer le lien du dépôt original et initialisez un nouveau dépôt Git
 ```
@@ -72,16 +72,16 @@ rm -rf .git
 git init
 git add .
 git commit -m "Initial commit"
-``` 
+```
 Cela supprime l'historique de version du projet original et commence un nouvel historique pour votre projet.
 - Liaison du nouveau dépôt Github
 ```
 git remote add origin URL_DU_NOUVEAU_DEPOT
-``` 
-- Finalement, il faut pousser le code au nouveau dépôt 
+```
+- Finalement, il faut pousser le code au nouveau dépôt
 ```
 git push -u origin main
-``` 
+```
 {% enddetails %}
 
 ### Conclusion

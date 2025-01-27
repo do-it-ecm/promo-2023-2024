@@ -15,18 +15,18 @@ tags:
 résumé: "Sciences sociales pour élaborer un questionnaire "
 
 ---
-{%prerequis 'Aucun prérequis'%}  
+{%prerequis 'Aucun prérequis'%}
 {%endprerequis%}
 
-A l'occasion de mon précédent [MON](https://francoisbrucker.github.io/do-it/promos/2023-2024/Lola-Bourdon/mon/temps-2.2/), dans lequel j'ai réalisé l'analyse des données d'un questionnaire,je me suis rendue compte qu'il était plutôt mal réalisé. J'ai donc décidé pour ce MON de faire une étude des sciences sociales pour élaborer une enquête ce qui me permettra de revoir l'enquête et le questionnaire réalisé.
+A l'occasion de mon précédent [MON]({{ site.url }}/promos/2023-2024/Lola-Bourdon/mon/temps-2.2/), dans lequel j'ai réalisé l'analyse des données d'un questionnaire,je me suis rendue compte qu'il était plutôt mal réalisé. J'ai donc décidé pour ce MON de faire une étude des sciences sociales pour élaborer une enquête ce qui me permettra de revoir l'enquête et le questionnaire réalisé.
 
 ### Sommaire
 
 1. Introduction
 2. Etapes de l'enquête
 3. Construire un échantillon
-4. Concevoir et élaborer le questionnaire 
-5. Amélioration d'une enquête existante 
+4. Concevoir et élaborer le questionnaire
+5. Amélioration d'une enquête existante
 6. Conclusion
 
 ### Introduction
@@ -74,26 +74,26 @@ Les principales étapes d'une enquête comprennent :
 
 Lors de la construction d'un échantillon pour une enquête, il est préférable de suivre des techniques appropriées afin de garantir la validité et la représentativité des résultats. Voici les principales étapes à considérer :
 
-1. **Détermination de la taille de l'échantillon :** La taille de l'échantillon dépend de plusieurs facteurs, notamment la taille totale de la population, le niveau de confiance souhaité et la marge d'erreur acceptable. Plus la population est grande, plus l'échantillon doit être important pour garantir la représentativité des résultats. 
+1. **Détermination de la taille de l'échantillon :** La taille de l'échantillon dépend de plusieurs facteurs, notamment la taille totale de la population, le niveau de confiance souhaité et la marge d'erreur acceptable. Plus la population est grande, plus l'échantillon doit être important pour garantir la représentativité des résultats.
 
 2. **Détermination du taux de sondage :** Le taux de sondage correspond à la proportion de la population qui sera effectivement sondée. Il est calculé en divisant la taille de l'échantillon par la taille totale de la population. Un bon taux de réponse se situe généralement autour de 30 %, mais cela peut varier en fonction de la nature de l'enquête et de la méthode d'échantillonnage utilisée.
 
-3. **Choix de la méthode d'échantillonnage :** Il existe deux principales catégories de méthodes d'échantillonnage : **probabiliste et non probabiliste**. 
-L'échantillonnage probabiliste repose sur le principe que tous les éléments de la population ont une chance égale d'être sélectionnés, garantissant ainsi une représentativité statistique. Les méthodes incluent l'échantillonnage aléatoire simple, l'échantillonnage systématique, l'échantillonnage par grappe et l'échantillonnage stratifié. 
+3. **Choix de la méthode d'échantillonnage :** Il existe deux principales catégories de méthodes d'échantillonnage : **probabiliste et non probabiliste**.
+L'échantillonnage probabiliste repose sur le principe que tous les éléments de la population ont une chance égale d'être sélectionnés, garantissant ainsi une représentativité statistique. Les méthodes incluent l'échantillonnage aléatoire simple, l'échantillonnage systématique, l'échantillonnage par grappe et l'échantillonnage stratifié.
 En revanche, l'échantillonnage non probabiliste repose sur des critères spécifiques et peut inclure des méthodes telles que l'échantillonnage par quotas, l'échantillonnage accidentel et l'échantillonnage de volontaires. Chaque méthode a ses avantages et ses inconvénients en termes de coût, de rapidité et de représentativité.
 
 4. **Application de règles strictes :** Quelle que soit la méthode d'échantillonnage choisie, il est essentiel de respecter certaines règles pour garantir la fiabilité des résultats. Cela comprend l'absence de double-sondage, l'évitement de questionner des personnes qui se connaissent ou qui connaissent l'enquêteur, et le contrôle rigoureux de la répartition géographique et des quotas.
 
 En suivant ces étapes et en utilisant les techniques appropriées, il est possible de construire un échantillon robuste et représentatif pour mener à bien une enquête.
 
-### Concevoir et élaborer le questionnaire 
+### Concevoir et élaborer le questionnaire
 
 On différencie 4 catégories de questions :
 
-1.  Questions démographiques et factuelles 
+1.  Questions démographiques et factuelles
     1.  Qui sont ces personnes ?
 2. Question de comportement
-   1. Que font les personnes 
+   1. Que font les personnes
 3. Questions d'opinion
    1. Que pensent-elles?
 4. Questions de connaissances
@@ -103,7 +103,7 @@ Ensuite, pour concevoir et élaborer un questionnaire, il faut suivre plusieurs 
 
 1. **Définition du contenu du questionnaire** : Identifiez la variable principale et les variables secondaires liées à l'objet d'étude. Ces variables doivent être clairement définies pour orienter les questions du questionnaire.
 2. . **Forme du questionnaire** : Le questionnaire doit être rédigé de manière interrogative, en utilisant des formules telles que "qui", "quoi", "où", "comment", "quand" et "lequel". Les questions peuvent être ouvertes ou fermées en fonction de la nature de l'enquête.
-3. . **Respect des règles de rédaction des questions** : les questions sont claires, concises, neutres et pertinentes. 
+3. . **Respect des règles de rédaction des questions** : les questions sont claires, concises, neutres et pertinentes.
 
 4. **Formulation des questions** : Les questions ouvertes permettent une expression libre, tandis que les questions fermées offrent des choix de réponses facilitant le traitement quantitatif. Il est préférable d'utiliser un langage approprié à la méthodologie de l'enquête et de limiter les questions ouvertes pour faciliter le traitement des données.
 
@@ -116,17 +116,17 @@ Ensuite, pour concevoir et élaborer un questionnaire, il faut suivre plusieurs 
 Avec toutes ces informations, il est possible d'élaborer un questionnaire efficace pour une enquête donnée, qu'elle soit qualitative ou quantitative.
 
 
-### Amélioration d'une enquête existante 
+### Amélioration d'une enquête existante
 
-Afin de mettre en place l'étude précédente, j'ai trouvé intéressant de reprendre le questionnaire utilisé dans le cadre du [MON](https://francoisbrucker.github.io/do-it/promos/2023-2024/Lola-Bourdon/mon/temps-2.2/) afin de le réaliser correctement cette fois-ci. Je vais donc reprendre étape par étape jusqu'a la réalisation du questionnaire, les étapes suivantes n'ayant pas d’intérêt pour l'exercice.
+Afin de mettre en place l'étude précédente, j'ai trouvé intéressant de reprendre le questionnaire utilisé dans le cadre du [MON]({{ site.url }}/promos/2023-2024/Lola-Bourdon/mon/temps-2.2/) afin de le réaliser correctement cette fois-ci. Je vais donc reprendre étape par étape jusqu'a la réalisation du questionnaire, les étapes suivantes n'ayant pas d’intérêt pour l'exercice.
 
-#### Erreurs commises 
+#### Erreurs commises
 
 Dans la première réalisation du questionnaire, plusieurs erreurs ont été commises. Premièrement l'étape de traçage et de définition des objectifs n'était pas claire, il manquait des informations telles que le budget disponible pour notre projet. Par ailleurs, il y avait beaucoup trop de questions ouvertes ce qui rend les résultats très difficiles et long à traiter, la plupart des réponses peuvent se regrouper par catégories (lieu de vie, sports, etc). Il y avait aussi beaucoup de questions redondantes qui peuvent être regroupés en une seule. Pour finir j'ai réalisé que quelques questions n'étaient tout simplement pas pertinentes en l'état actuel du projet.
 
 #### Recommencer étape par étape
 
-1. **Tracer les objectifs et définir l'objet :** L'objectif de l'enquête est de trouver le **persona** ou client principal de notre future restaurant. 
+1. **Tracer les objectifs et définir l'objet :** L'objectif de l'enquête est de trouver le **persona** ou client principal de notre future restaurant.
     On s'attend à ce que ce soit des personnes:
 
    - plutôt sportives mais pas trop non plus (pas sportif de haut niveau)
@@ -159,7 +159,7 @@ Pour valider nos persona, il est important d'avoir une meilleure homogénéité 
 
 **Introduction :**
 
-Bonjour, Nous c’est Prot&eat un équipe de passionnés de sport et de nutrition. Dans le cadre de notre projet entrepreneurial, nous avons besoin de vos réponses à ce formulaire afin de connaître plus précisément vos besoins et vos attentes en ce qui concerne vos habitudes alimentaires et sportives. 
+Bonjour, Nous c’est Prot&eat un équipe de passionnés de sport et de nutrition. Dans le cadre de notre projet entrepreneurial, nous avons besoin de vos réponses à ce formulaire afin de connaître plus précisément vos besoins et vos attentes en ce qui concerne vos habitudes alimentaires et sportives.
 Merci d'avance pour vos retours !
 L'équipe Prot&eat.
 
@@ -167,7 +167,7 @@ L'équipe Prot&eat.
 
 1. Quel est votre genre ?
 2. Quel est votre tranche d'âge ?
-3. quel est votre profession 
+3. quel est votre profession
 4. Ou habitez-vous ?
    1. choix du département
 
@@ -225,7 +225,7 @@ L'équipe Prot&eat.
    1. je n'en consomme pas
    2. plutôt oui
    3. plutôt non
-   
+
 **Questions de connaissances :**
 
 1. Sur une échelle de 1 à 10, comment pensez vous connaître la nécessité de vos apports énergétiques / glucides, lipides, protides journaliers ?

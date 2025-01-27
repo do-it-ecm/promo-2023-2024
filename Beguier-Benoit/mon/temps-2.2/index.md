@@ -36,7 +36,7 @@ Pour la réalisation de ce cours, je me réfèrerais aux sources listées ci-des
 
 - *Passez au Full Stack avec Node.js, Express et MongoDB*, cours réalisé sur OpenClassrooms*. Accessible [ici](https://openclassrooms.com/fr/courses/6390246-passez-au-full-stack-avec-node-js-express-et-mongodb)
 - *Deep Dive Into Modern Web Development*. Accessible [ici](https://fullstackopen.com/en/)
-- *Maîtriser le Développement Back-End Web avec Node.js, Express et MongoDB*, MON d'Omar Salame. Accessible [ici](https://francoisbrucker.github.io/do-it/promos/2023-2024/Omar-Salame/mon/temps-1.2/)
+- *Maîtriser le Développement Back-End Web avec Node.js, Express et MongoDB*, MON d'Omar Salame. Accessible [ici]({{ site.url }}/promos/2023-2024/Omar-Salame/mon/temps-1.2/)
 - *Introduction to Node.js*, Node.js. Accessible [ici](https://nodejs.org/en/learn/getting-started/introduction-to-nodejs)
 - *Basic Routing*, ExpressJS. Accessible [ici](https://expressjs.com/en/starter/basic-routing.html).
 
@@ -70,8 +70,8 @@ Vite dirige l'application sur le port 5173. Cela crée un répertoire entier ave
 
 ### Configuration du serveur Node.js
 
-Node.js est un environnement d'exécution JavaScript côté serveur, basé sur le moteur V8 de Google. L'un de ses principaux avantages réside dans sa capacité à créer des serveurs de manière efficace et non bloquante. Pour mettre en place un serveur avec Node.js de manière traditionnelle, le processus est relativement simple. 
-Tout d'abord, il faut importer le module "http" inclus dans Node.js, puis créer un serveur en utilisant la méthode `createServer()`. Ensuite, on définit une fonction de rappel qui sera appelée à chaque fois qu'une requête est reçue. Cette fonction de rappel prend généralement deux paramètres, représentant la requête (*request*) et la réponse (*response*). À l'intérieur de cette fonction, on spécifie les actions à effectuer en réponse à la requête, comme par exemple l'envoi de données ou la lecture de fichiers. On spécifie enfin le port sur lequel le serveur "écoutera" les requêtes entrantes, en utilisant la méthode `listen()`. 
+Node.js est un environnement d'exécution JavaScript côté serveur, basé sur le moteur V8 de Google. L'un de ses principaux avantages réside dans sa capacité à créer des serveurs de manière efficace et non bloquante. Pour mettre en place un serveur avec Node.js de manière traditionnelle, le processus est relativement simple.
+Tout d'abord, il faut importer le module "http" inclus dans Node.js, puis créer un serveur en utilisant la méthode `createServer()`. Ensuite, on définit une fonction de rappel qui sera appelée à chaque fois qu'une requête est reçue. Cette fonction de rappel prend généralement deux paramètres, représentant la requête (*request*) et la réponse (*response*). À l'intérieur de cette fonction, on spécifie les actions à effectuer en réponse à la requête, comme par exemple l'envoi de données ou la lecture de fichiers. On spécifie enfin le port sur lequel le serveur "écoutera" les requêtes entrantes, en utilisant la méthode `listen()`.
 
 Pour ajouter un serveur Node.js, je vais plutôt utiliser Express, un framework web reposant sur Node. Cette méthode est relativement plus rapide et simple. Express s'installe avec la commande :
 

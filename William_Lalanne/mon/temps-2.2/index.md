@@ -25,23 +25,23 @@ résumé: "Dans ce MON je souhaite me former à l'utilisation des bases de React
 2. Props
 3. States
 4. React pour mon site
-5. Conclusion 
+5. Conclusion
 
 ## Sources
 
-[MON de Lucas Rioual](https://francoisbrucker.github.io/do-it/promos/2023-2024/Rioual-Lucas/mon/temps-2.1/)
+[MON de Lucas Rioual]({{ site.url }}/promos/2023-2024/Rioual-Lucas/mon/temps-2.1/)
 
 [Documentation et tutos React](https://openclassrooms.com/fr/courses/6390246-passez-au-full-stack-avec-node-js-express-et-mongodb/6521356-tirez-le-maximum-de-ce-cours)
 
 ## Introduction
-React est un framework 
+React est un framework
 
 ## 1. Components
 
 En React, un composant est comme une boîte autonome qui contient une partie spécifique de ce que l'on voit à l'écran. C'est comme si le code étaut constituée de plusieurs briques différentes, et chaque brique est un composant. Un composant peut être aussi bien un petit bouton ou quelque chose de plus complexe comme une barre de navigation, un form...
 C'est très pratique pour réutiliser un élément d'un code à un autre, ou même plusieurs fois dans le même code.
 
-Exemple de Component très simple, voici un bouton "S'inscrire" placé dans un div : 
+Exemple de Component très simple, voici un bouton "S'inscrire" placé dans un div :
 ```js
 import React from 'react';
 import './Button.css';
@@ -61,7 +61,7 @@ export default Button;
 
 les composants peuvent recevoir des "props", qui sont comme des instructions ou des données que le composant parent transmet à ses composants enfants. Les "props" permettent de personnaliser le comportement d'un composant et de le rendre adaptable et réutilisable dans différentes parties de l'application.
 
-Par exemple, je peux mettre un props à mon component Button créé au dessus : 
+Par exemple, je peux mettre un props à mon component Button créé au dessus :
 ```js
 import React from 'react';
 import './Button.css';
@@ -99,7 +99,7 @@ export default App;
 
 ## 3. States
 
-En plus des props, React propose le concept d'état (state) pour gérer les données qui changent au fil du temps à l'intérieur d'un composant. 
+En plus des props, React propose le concept d'état (state) pour gérer les données qui changent au fil du temps à l'intérieur d'un composant.
 
 ## 4. React pour mon site
 
@@ -126,7 +126,7 @@ const Header = () => {
 export default Header;
 ```
 
-- Button : 
+- Button :
 ```js
 import React from 'react';
 import './Button.css';
@@ -142,7 +142,7 @@ const Button = ({ text, onClick }) => {
 export default Button;
 ```
 
-- LoginForm : 
+- LoginForm :
 ```js
 import React from 'react';
 import './LoginForm.css';
@@ -203,7 +203,7 @@ const LoginForm = () => {
 export default LoginForm;
 ```
 
-- Container : 
+- Container :
 ```js
 import React from 'react';
 import ThemeSelection from './ThemeSelection';
@@ -226,7 +226,7 @@ const Container = () => {
 export default Container;
 ```
 
-- ThemeSelection : 
+- ThemeSelection :
 ```js
 import React from 'react';
 import RadioSection from './RadioSection.jsx';
@@ -244,7 +244,7 @@ const ThemeSelection = () => {
 export default ThemeSelection;
 ```
 
-- PlayerSelection : 
+- PlayerSelection :
 ```js
 import React from 'react';
 import RadioSection from './RadioSection.jsx';
@@ -262,7 +262,7 @@ const GridSelection = () => {
 export default GridSelection;
 ```
 
-- StartButton : 
+- StartButton :
 ```js
 import React from 'react';
 import './StartButton.css';
@@ -278,7 +278,7 @@ const StartButton = () => {
 export default StartButton;
 ```
 
-- RadioSection : 
+- RadioSection :
 ```js
 import React from 'react';
 
@@ -333,10 +333,10 @@ export default App;
 
 
 ## Conclusion
-Grâce à ce MON j'ai pu apprendre les bases de React, notamment comment créer des components et les modifier avec les states ou les personnaliser avec des props. 
+Grâce à ce MON j'ai pu apprendre les bases de React, notamment comment créer des components et les modifier avec les states ou les personnaliser avec des props.
 
-Temps passé sur le mon : 
+Temps passé sur le mon :
 1. Les components : 1h
 2. Les props : 1h
 3. Les states : 1h
-4. React pour mon site : 7h 
+4. React pour mon site : 7h

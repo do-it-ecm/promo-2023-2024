@@ -12,14 +12,14 @@ tags:
 résumé: Cette page est conçue pour les débutants qui aspirez à maîtriser React Native. Ici, nous allons découvrir ensemble les bases de React Native, accompagnées d'exemples de code simples et de ressources utiles pour démarrer. J'ai choisi d'apprendre React Native pour développer la partie frontend de notre projet 3A "Killer".
 ---
 
-Avant de commencer React Native, vaut mieux avoir des bases sur React. Je vous propose de jeter un coup d'oeil sur [React.js et Tailwind CSS](https://francoisbrucker.github.io/do-it/promos/2023-2024/Rioual-Lucas/mon/temps-2.1/) fait par [ Lucas Rioual](https://francoisbrucker.github.io/do-it/promos/2023-2024/Rioual-Lucas/) 
+Avant de commencer React Native, vaut mieux avoir des bases sur React. Je vous propose de jeter un coup d'oeil sur [React.js et Tailwind CSS]({{ site.url }}/promos/2023-2024/Rioual-Lucas/mon/temps-2.1/) fait par [ Lucas Rioual]({{ site.url }}/promos/2023-2024/Rioual-Lucas/)
 
 ## Qu'est-ce que React Native ?
 
 React Native est un framework de développement d'applications mobiles créé par Facebook. Il permet aux développeurs de construire des applications mobiles en utilisant JavaScript et React, tout en offrant une expérience proche de celle d'une application native. Les principaux avantages de React Native incluent la capacité de réutiliser le code entre les plateformes iOS et Android, une grande communauté de développeurs, et un développement plus rapide.
 
 ## Les Bases de React Native
-Pour commencer avec React Native, on aura besoin d'installer Node.js, Watchman, et l'environnement de développement React Native CLI. Une fois installé, on peut créer un premier projet en exécutant *npx react-native init MonApplication*. 
+Pour commencer avec React Native, on aura besoin d'installer Node.js, Watchman, et l'environnement de développement React Native CLI. Une fois installé, on peut créer un premier projet en exécutant *npx react-native init MonApplication*.
 Un projet React Native typique a une structure de dossiers contenant des fichiers JavaScript pour les composants, ainsi que des dossiers pour les ressources et les tests.
 
 ## Exemples de Code de Base
@@ -125,9 +125,9 @@ Projet 3A : **KILLER**
 </div>
 
 
-## Bibliographie 
+## Bibliographie
 
 - React native official site **Tout au long de la phase d'apprentissage** : (https://reactnative.dev/docs/getting-started)
 - Build your first React Native app - Todo List Tutorial **Temps estimé = 1h**, , **Niveau débutant**: (https://www.youtube.com/watch?v=0kL6nhutjQ8&t=54s)
--	React Native Course – Android and iOS App Development **Temps estimé = 5h**, **Niveau débutant** : (https://youtu.be/obH0Po_RdWk?si=sR43Z5PRW9saUu_q) 
+-	React Native Course – Android and iOS App Development **Temps estimé = 5h**, **Niveau débutant** : (https://youtu.be/obH0Po_RdWk?si=sR43Z5PRW9saUu_q)
 -	Build and Deploy a React Native App **Temps estimé = 3H**, **Niveau Avancé** : (https://youtu.be/mJ3bGvy0WAY?si=E2pUqappCHahguCX)

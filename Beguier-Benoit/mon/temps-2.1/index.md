@@ -169,7 +169,7 @@ J'ai ensuite regardé la vidéo [*Seaborn Tutorial : Seaborn Full Course*](https
 
 ## Mise en pratique en reprenant l'exemple du MON 1.1
 
-Dans mon [MON 1.1](https://francoisbrucker.github.io/do-it/promos/2023-2024/Beguier-Benoit/mon/temps-1.1/), j'avais utilisé le langage R pour analyser les données issues du Grand Prix du Japon et afficher un graphique montrant la position de deux pilotes en foction du tour de la course.
+Dans mon [MON 1.1]({{ site.url }}/promos/2023-2024/Beguier-Benoit/mon/temps-1.1/), j'avais utilisé le langage R pour analyser les données issues du Grand Prix du Japon et afficher un graphique montrant la position de deux pilotes en foction du tour de la course.
 
 ![MON](MON_R.png)
 

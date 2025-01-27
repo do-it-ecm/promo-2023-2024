@@ -3,7 +3,7 @@ layout: layout/mon.njk
 
 title: "Management de l'innovation"
 authors:
-  - Lola Bourdon 
+  - Lola Bourdon
 
 date: 2024-03-27
 temps: 3
@@ -12,7 +12,7 @@ tags:
 
 résumé: " Suite du MON de Soline sur le management de l'innovation"
 ---
-L'objectif de ce MON est de faire suite au [MON de Soline](https://francoisbrucker.github.io/do-it/promos/2023-2024/de-Miribel-Soline/mon/temps-3.1/) sur le management de l'innovation. Pour cela, je vais revenir plus en détail sur certaines notions et faire des études de cas représentatives.
+L'objectif de ce MON est de faire suite au [MON de Soline]({{ site.url }}/promos/2023-2024/de-Miribel-Soline/mon/temps-3.1/) sur le management de l'innovation. Pour cela, je vais revenir plus en détail sur certaines notions et faire des études de cas représentatives.
 
 ## Sommaire
 
@@ -36,7 +36,7 @@ Une invention est la création d'une nouvelle idée ou technologie, tandis que l
 
 ## Les outils du management de l'innovation
 
-Il existe de nombreux outils de management de l'innovation comme le mentionne [Soline](https://francoisbrucker.github.io/do-it/promos/2023-2024/de-Miribel-Soline/mon/temps-3.1/). Je vais donc expliquer plus en profondeur les méthodes C-K, TRL et crowdsourcing qui sont pour moi les plus intéressantes.
+Il existe de nombreux outils de management de l'innovation comme le mentionne [Soline]({{ site.url }}/promos/2023-2024/de-Miribel-Soline/mon/temps-3.1/). Je vais donc expliquer plus en profondeur les méthodes C-K, TRL et crowdsourcing qui sont pour moi les plus intéressantes.
 
 ### La méthode C-K
 
@@ -54,7 +54,7 @@ Dans un contexte où les entreprises sont confrontées à des transformations ma
 
 ### La méthode TRL
 
-La méthode du TRL (Technological Readiness Level), également connue sous le nom de Niveau de Maturité Technologique, est un cadre d'évaluation largement utilisé dans le domaine de la gestion de l'innovation et du développement technologique. Cette méthode fournit une échelle de mesure permettant d'évaluer le degré de préparation et de développement d'une technologie spécifique, en la situant sur une échelle allant de niveaux bas (TRL 1) à des niveaux élevés (TRL 9). 
+La méthode du TRL (Technological Readiness Level), également connue sous le nom de Niveau de Maturité Technologique, est un cadre d'évaluation largement utilisé dans le domaine de la gestion de l'innovation et du développement technologique. Cette méthode fournit une échelle de mesure permettant d'évaluer le degré de préparation et de développement d'une technologie spécifique, en la situant sur une échelle allant de niveaux bas (TRL 1) à des niveaux élevés (TRL 9).
 
 Développée à l'origine par des organisations gouvernementales américaines telles que la NASA et l'US Air Force, l'échelle TRL a été conçue pour aider à mesurer et à évaluer la maturité des technologies émergentes. Elle est devenue un outil essentiel dans le domaine de la recherche et développement, ainsi que dans l'évaluation des projets innovants.
 
@@ -111,7 +111,7 @@ Le crowdsourcing présente plusieurs avantages, notamment l'accès à une divers
 
 ### Etude de cas 1 - dilemme de l'innovateur
 
-Cette première étude cas détaille l'exemple fourni par [Soline](https://francoisbrucker.github.io/do-it/promos/2023-2024/de-Miribel-Soline/mon/temps-3.1/) sur le dilemme de l'innovateur.
+Cette première étude cas détaille l'exemple fourni par [Soline]({{ site.url }}/promos/2023-2024/de-Miribel-Soline/mon/temps-3.1/) sur le dilemme de l'innovateur.
 
 #### Introduction et Contexte
 
@@ -225,7 +225,7 @@ Prenons l'exemple fictif d'une entreprise automobile qui cherche à développer 
 - **Contraintes :**
   - Respecter les réglementations en matière de sécurité et d'émissions.
   - Assurer une autonomie suffisante pour répondre aux besoins des conducteurs.
-  
+
 - **Opportunités :**
   - Saisir la demande croissante pour les véhicules électriques et autonomes.
   - Créer un avantage concurrentiel en proposant des fonctionnalités innovantes et une expérience utilisateur exceptionnelle.
@@ -285,11 +285,11 @@ Prenons l'exemple fictif d'une entreprise de technologie qui souhaite développe
 #### Étape 1 : Planification de la Plateforme de Crowdsourcing
 
 - **Objectif Principal :** Créer une plateforme conviviale et efficace pour recueillir des idées innovantes et mobiliser les ressources internes et externes.
-  
+
 - **Contraintes :**
   - Respecter les normes de sécurité et de confidentialité des données.
   - Assurer la participation active des employés et des parties prenantes externes.
-  
+
 - **Opportunités :**
   - Favoriser la créativité et l'engagement des employés.
   - Encourager la collaboration ouverte et la diversité des idées.
@@ -331,7 +331,7 @@ La nouvelle plateforme de crowdsourcing a connu un succès significatif, avec un
 
 ## Conclusion
 
-Ce MON m'aura permis d'acquérir plus de connaissances dans le domaine du management de l'innovation qui est un domaine qui me plait beaucoup. Je n'avais jamais entendu parler des méthodes de crouwdsourcing et TRL et j'ai trouvé ça très intéressant. J'ai ainsi pu compléter le [MON de Soline](https://francoisbrucker.github.io/do-it/promos/2023-2024/de-Miribel-Soline/mon/temps-3.1/) avec des études de cas plus approfondies.
+Ce MON m'aura permis d'acquérir plus de connaissances dans le domaine du management de l'innovation qui est un domaine qui me plait beaucoup. Je n'avais jamais entendu parler des méthodes de crouwdsourcing et TRL et j'ai trouvé ça très intéressant. J'ai ainsi pu compléter le [MON de Soline]({{ site.url }}/promos/2023-2024/de-Miribel-Soline/mon/temps-3.1/) avec des études de cas plus approfondies.
 
 ### Horodateur
 

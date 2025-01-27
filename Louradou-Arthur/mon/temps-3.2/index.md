@@ -24,9 +24,9 @@ Il est préférable d’avoir fait un peu de CSS (voir Sass que nous approfondir
 
 ## Autres MONs
 
-Le [MON de Lucie](https://francoisbrucker.github.io/do-it/promos/2023-2024/Lucie-Le-Boursicaud/mon/temps-2.2/) porte sur le sujet qui m’intéresse. Après avoir navigué dans ses notes, je décide de me lancer dans le visionnage du cours OpenClassrooms sans y passer les 15 heures préconisées et m’attarder sur les parties qui ont suscité mon intérêt pour la rédaction d’un tel MON.
+Le [MON de Lucie]({{ site.url }}/promos/2023-2024/Lucie-Le-Boursicaud/mon/temps-2.2/) porte sur le sujet qui m’intéresse. Après avoir navigué dans ses notes, je décide de me lancer dans le visionnage du cours OpenClassrooms sans y passer les 15 heures préconisées et m’attarder sur les parties qui ont suscité mon intérêt pour la rédaction d’un tel MON.
 
-J’ai aussi vu au cours de l’année au cours d’un MON de Benoit “**[HTML C'est Super Simple](https://francoisbrucker.github.io/do-it/promos/2023-2024/Beguier-Benoit/mon/temps-1.2/)**” un petit jeu nommé Flexbox Froggy que nous allons utiliser pour se remettre à niveau.
+J’ai aussi vu au cours de l’année au cours d’un MON de Benoit “**[HTML C'est Super Simple]({{ site.url }}/promos/2023-2024/Beguier-Benoit/mon/temps-1.2/)**” un petit jeu nommé Flexbox Froggy que nous allons utiliser pour se remettre à niveau.
 
 ## Objectifs du MON
 
@@ -67,7 +67,7 @@ Source : [8]
 
 {% prerequis %}
 Avant toute chose, un presque prérequis pour ce cours a déjà été abordé dans le cadre d’[un de mes POK](../../pok/temps-1/). En effet, il s’agit de Sass. Le cours est lisible sans connaitre cette technologie, mais nous reviendrons sur Sass dans ce MON et dans le cours OpenClassrooms auquel il fait référence.
-{% endprerequis %} 
+{% endprerequis %}
 
 #### Bonnes pratiques de design
 
@@ -127,7 +127,7 @@ Ceci étant dit, on peut inspecter et modifier ses animations avec l’inspecteu
 
 #### Exemple : mon portfolio.
 
-[Le portfolio](http://alouradou.perso.centrale-marseille.fr) que j’ai conçu durant mon premier POK contient des lignes animées qui bougent en arrière plan, et j’ai toujours pensé que ces animations seraient véritablement gourmandes en ressources. 
+[Le portfolio](http://alouradou.perso.centrale-marseille.fr) que j’ai conçu durant mon premier POK contient des lignes animées qui bougent en arrière plan, et j’ai toujours pensé que ces animations seraient véritablement gourmandes en ressources.
 
 Pour vérifier cela, j'ai utilisé l'outil de performances de Chrome DevTools. Après avoir analysé les résultats, j'ai constaté que, bien que les animations soient quelque peu exigeantes, elles ne ralentissent pas considérablement la page. En effet, inspectons le code :
 

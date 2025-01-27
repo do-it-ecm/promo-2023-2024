@@ -20,10 +20,10 @@ résumé: "Ce MON a pour but de m'initier à la notion de back-end et aux outils
 
 ## 1. Introduction
 
-J'ai côtoyé de loin la notion de back-end dans différents cours et projets, sans jamais réellement en comprendre le fonctionnement et les méthodes d'implémentation. Ce MON a donc été pour moi l'occasion de reprendre de zéro ce sujet et de développer mes connaissances. Pour cela, je me suis appuyée sur les MON de [Lucas](https://francoisbrucker.github.io/do-it/promos/2023-2024/Rioual-Lucas/mon/temps-1.2/) et de [William](https://francoisbrucker.github.io/do-it/promos/2023-2024/William%20Lalanne/mon/temps-2.1/) qui portent sur ce sujet, sur le cours [Web](https://francoisbrucker.github.io/cours_informatique/cours/web/) de François Brucker, sur une partie de la formation [Passez au Full Stack avec Node.js, Express et MongoDB](https://openclassrooms.com/fr/courses/6390246-passez-au-full-stack-avec-node-js-express-et-mongodb/6466206-configurez-votre-environnement-de-developpement) d'OpenClassrooms et sur quelques recherches annexes isolées quand il me manquaient des connaissances pour comprendre un concept.
+J'ai côtoyé de loin la notion de back-end dans différents cours et projets, sans jamais réellement en comprendre le fonctionnement et les méthodes d'implémentation. Ce MON a donc été pour moi l'occasion de reprendre de zéro ce sujet et de développer mes connaissances. Pour cela, je me suis appuyée sur les MON de [Lucas]({{ site.url }}/promos/2023-2024/Rioual-Lucas/mon/temps-1.2/) et de [William]({{ site.url }}/promos/2023-2024/William%20Lalanne/mon/temps-2.1/) qui portent sur ce sujet, sur le cours [Web](https://francoisbrucker.github.io/cours_informatique/cours/web/) de François Brucker, sur une partie de la formation [Passez au Full Stack avec Node.js, Express et MongoDB](https://openclassrooms.com/fr/courses/6390246-passez-au-full-stack-avec-node-js-express-et-mongodb/6466206-configurez-votre-environnement-de-developpement) d'OpenClassrooms et sur quelques recherches annexes isolées quand il me manquaient des connaissances pour comprendre un concept.
 
 Mais avant de rentrer dans le vif du sujet, rappelons rapidement **le rôle du back-end** en informatique. La construction d'un site ou d'une application web peut être décomposée en deux parties qui communiquent entre-elles : le front-end et le back-end.
-- Le front est la partie visible du site, l'interface de communication côté client, qui s'exécute dans un navigateur. Mon MON [Web Front](https://francoisbrucker.github.io/do-it/promos/2023-2024/Agathe-Rabachou/mon/temps-1.1/) rentre plus dans le détail si besoin.
+- Le front est la partie visible du site, l'interface de communication côté client, qui s'exécute dans un navigateur. Mon MON [Web Front]({{ site.url }}/promos/2023-2024/Agathe-Rabachou/mon/temps-1.1/) rentre plus dans le détail si besoin.
 - Le back-end, que nous verrons ici, est la partie invisible du site, mais qui permet de le faire fonctionner. C'est notamment lui qui gère les bases de données, le traitement des requêtes ou encore la logique métier. Contrairement au front-end, le back-end s'exécute à distance sur un serveur.
 
 Nous verrons donc dans ce MON comment implémenter le back-end d'un site ou d'une application web, et comment celui-ci communique avec le front pour récupérer et renvoyer les informations pertinentes.
@@ -153,7 +153,7 @@ Les routes permettent de construire l'API et donc le lien entre le front et le b
 
 Voici un exemple de requête GET commentée :
 ```js
-x = 7 
+x = 7
 
 app.get('/', (req, res) => { //le '/' indique l'emplacement
     res.statusCode = 200; //200 est un code d'état classique pour indiquer une requête réussie
@@ -168,7 +168,7 @@ De même pour une requête POST :
 ```js
 app.post('/', (req, res) => {
 
-    donnée = req.query.valeur //attribue à la variable "donnée" la valeur de "valeur" 
+    donnée = req.query.valeur //attribue à la variable "donnée" la valeur de "valeur"
     res.redirect('/') //ajoute une méthode GET pour éviter de renvoyer une donnée au rafraîchissement du navigateur
 
 })
@@ -215,15 +215,15 @@ app.use((req, res, next) => { //il n'y a pas d'URL spécifié donc le code s'app
   res.setHeader('Access-Control-Allow-Origin', '*'); //cette ligne autorise toutes les origines (d'où le '*') à accéder à l'API
   res.setHeader('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content, Accept, Content-Type, Authorization'); //cette ligne autorise l'ajout aux requêtes des headers mentionnés
   res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, PATCH, OPTIONS'); //cette ligne autorise l'envoi de requêtes avec les méthodes mentionnées
-  next(); //fonction next à ne pas oublier pour passer au middleware suivant 
+  next(); //fonction next à ne pas oublier pour passer au middleware suivant
 });
 ```
 Retenons au moins que pour permettre des requêtes de différentes origines (Cross Origin), il faut ajouter des headers spécifiques de contrôle d'accès aux objets de réponse.
 
 ## 5. Conclusion
 
-Finalement, ce MON m'a beaucoup aidé à éclaircir la notion de back-end, même si j'ai eu besoin de nombreuses recherches pour assimiler certains concepts qui ne me sont pas très intuitifs. Cela me permettra de mieux cerner le fonctionnement global de futurs projets et notamment du projet 3A. 
+Finalement, ce MON m'a beaucoup aidé à éclaircir la notion de back-end, même si j'ai eu besoin de nombreuses recherches pour assimiler certains concepts qui ne me sont pas très intuitifs. Cela me permettra de mieux cerner le fonctionnement global de futurs projets et notamment du projet 3A.
 
-Concernant les ressources, le [cours OpenClassrooms](https://openclassrooms.com/fr/courses/6390246-passez-au-full-stack-avec-node-js-express-et-mongodb/6466206-configurez-votre-environnement-de-developpement) m'a semblé plutôt complet, même si je l'ai trouvé relativement compliqué pour le niveau que j'avais. Il m'a souvent manqué du vocabulaire technique que j'ai dû chercher par moi-même pour pouvoir suivre la formation. J'ai par exemple consulté [ce site](https://fullstackopen.com/fr/) entre autres, sur les conseils du [MON de Lucas](https://francoisbrucker.github.io/do-it/promos/2023-2024/Rioual-Lucas/mon/temps-1.2/), qui est pour moi beaucoup plus clair et accessible pour un débutant, même si peut-être moins complet sur certaines notions.
+Concernant les ressources, le [cours OpenClassrooms](https://openclassrooms.com/fr/courses/6390246-passez-au-full-stack-avec-node-js-express-et-mongodb/6466206-configurez-votre-environnement-de-developpement) m'a semblé plutôt complet, même si je l'ai trouvé relativement compliqué pour le niveau que j'avais. Il m'a souvent manqué du vocabulaire technique que j'ai dû chercher par moi-même pour pouvoir suivre la formation. J'ai par exemple consulté [ce site](https://fullstackopen.com/fr/) entre autres, sur les conseils du [MON de Lucas]({{ site.url }}/promos/2023-2024/Rioual-Lucas/mon/temps-1.2/), qui est pour moi beaucoup plus clair et accessible pour un débutant, même si peut-être moins complet sur certaines notions.
 
 La suite du [cours OpenClassrooms](https://openclassrooms.com/fr/courses/) porte entre autres sur les moyens d'autoriser les utilisateurs à ajouter leurs articles sur le site, l'introduction d'une base de données au projet, ainsi que la sécurisation du back-end avec des méthodes d'authentification. Je n'ai pas eu le temps de m'attarder sur ces différentes parties, mais elles pourraient faire l'objet d'un prochain MON.

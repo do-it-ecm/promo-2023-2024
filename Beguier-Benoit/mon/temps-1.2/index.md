@@ -32,17 +32,17 @@ résumé: "Apprentissage d'HTML5 et CSS3."
 
 ## Introduction
 
-Pour la réalisation de ce cours, je me réfèrerais aux sources listées ci-dessous : 
+Pour la réalisation de ce cours, je me réfèrerais aux sources listées ci-dessous :
 - *Créez votre site web avec HTML5 et CSS3*, cours réalisé sur OpenClassrooms par Mathieu Nebra et Alexia Toulmet. Accessible [ici](https://openclassrooms.com/fr/courses/1603881-creez-votre-site-web-avec-html5-et-css3).
 - *Flexbox Froggy*, jeu permettant de s'entraîner à la syntaxe des Flexbox. Jeu créé par Codepip, accessible [ici](https://flexboxfroggy.com/#fr).
 
-Je souhaitais dès le début de l'année savoir comment créer un site web, et cela passe par l'apprentissage de l'HTML et du CSS. Suivant les recommandations des [MONs précédents](https://francoisbrucker.github.io/do-it/mon/2023-2024/), j'ai choisi de suivre la formation de 15 heures disponible sur OpenClassrooms. Nous sommes amené tout au long de la formation à mettre nos connaissances en pratique à travers la construction d'un site web fictif de Robbie Lens.
+Je souhaitais dès le début de l'année savoir comment créer un site web, et cela passe par l'apprentissage de l'HTML et du CSS. Suivant les recommandations des [MONs précédents]({{ site.url }}/mon/2023-2024/), j'ai choisi de suivre la formation de 15 heures disponible sur OpenClassrooms. Nous sommes amené tout au long de la formation à mettre nos connaissances en pratique à travers la construction d'un site web fictif de Robbie Lens.
 
 ## Structure de la page
 La structure sommaire d'une page web est la suivante :
 
 ```html
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="fr">  <!--Balise principale : elle nous dit que la langue de la page est en français -->
     <head>        <!--Balise d'en tête : contient les informations de la page, comme le nom ou le type de caractère utilisé-->
         <meta charset="utf-8">
@@ -54,15 +54,15 @@ La structure sommaire d'une page web est la suivante :
 
 ```
 
-Les différents éléments de la page sont définis par des balises (par exemple : `<head>` et `</head>`) qui ouvrent et ferment le bloc. 
-Pour plus de détails, je vous recommande de consulter le [MON de Vladimir](https://francoisbrucker.github.io/do-it/promos/2023-2024/Vladimir-Jeantroux/mon/temps-1.1/) qui détaille l'ensemble des balises standards.
+Les différents éléments de la page sont définis par des balises (par exemple : `<head>` et `</head>`) qui ouvrent et ferment le bloc.
+Pour plus de détails, je vous recommande de consulter le [MON de Vladimir]({{ site.url }}/promos/2023-2024/Vladimir-Jeantroux/mon/temps-1.1/) qui détaille l'ensemble des balises standards.
 
 On y rajoute des paragraphes avec `<p>` et des sections avec `<div>`.
 
 ```html
-<!DOCTYPE html> 
-<html lang="fr">  
-    <head>        
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
         <meta charset="utf-8">
         <title>Mon de Benoît</title>
     </head>
@@ -82,11 +82,11 @@ On y rajoute des paragraphes avec `<p>` et des sections avec `<div>`.
 
 ```
 
-Cependant, nous n'avons ici écrit que la structure du site que le navigateur interprètera. 
+Cependant, nous n'avons ici écrit que la structure du site que le navigateur interprètera.
 Il est aussi important de s'attarder sur la forme et la mise en page.
 
 ## CSS3
-Le CSS est un autre langage qui permet de mettre en forme les différents composants écrits en HTML. Dans l'idée, nous pouvons en CSS paramétrer le visuel de chaque composant HTML. Je recommande cette fois le [MON de William](https://francoisbrucker.github.io/do-it/promos/2023-2024/William%20Lalanne/mon/temps-1.1/) qui insiste sur les points importants du CSS et qui est très complet.
+Le CSS est un autre langage qui permet de mettre en forme les différents composants écrits en HTML. Dans l'idée, nous pouvons en CSS paramétrer le visuel de chaque composant HTML. Je recommande cette fois le [MON de William]({{ site.url }}/promos/2023-2024/William%20Lalanne/mon/temps-1.1/) qui insiste sur les points importants du CSS et qui est très complet.
 
 Personnellement, je retiens les points suivants pour mon futur site Web.
 

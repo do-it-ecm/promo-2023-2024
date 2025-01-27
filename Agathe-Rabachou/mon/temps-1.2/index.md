@@ -21,7 +21,7 @@ La programmation orientée objet (abrégée POO) est un modèle qui a pour but d
 
 Dans ce MON, mon objectif est de m'approprier les notions de bases de la programmation orientée objet, et de l'utiliser sur des applications simples en Python.
 Contrairement à ce que je pensais, je me suis rendu compte que j'avais très peu de restes de mes connaissances du langage Python, et j'ai donc dû passer plus de temps que prévu à revoir la syntaxe et les fonctionnalités de base. J'ai utilisé pour cela les 8 premiers chapitres du livre [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/) en ligne. Cela m'a permis de me remettre en mémoire les principaux types de données, leur écriture et les opérations possibles sur chacune d'entre elles.
-Ensuite, j'ai suivi la première moitié du cours [Programmation Objet](https://francoisbrucker.github.io/cours_informatique/cours/algorithme-code-th%C3%A9orie/code/programmation-objet/) de François Brucker et j'ai aussi regardé en détail l'exemple traité dans le MON [Programmation objet en Python](https://francoisbrucker.github.io/do-it/promos/2022-2023/Bert-Nicolas/mon/poo-python/) de Nicolas Bert.
+Ensuite, j'ai suivi la première moitié du cours [Programmation Objet](https://francoisbrucker.github.io/cours_informatique/cours/algorithme-code-th%C3%A9orie/code/programmation-objet/) de François Brucker et j'ai aussi regardé en détail l'exemple traité dans le MON [Programmation objet en Python]({{ site.url }}/promos/2022-2023/Bert-Nicolas/mon/poo-python/) de Nicolas Bert.
 
 ## 2. Principes et définitions
 
@@ -47,7 +47,7 @@ Après avoir assimilé ces différents concepts et leur utilité dans la program
 
 1. Le premier exemple simule un dé que l'on peut lancer, dont on peut lire la valeur, et également que l'on peut lancer jusqu'à obtenir une certaine valeur choisie, on peut dans ce cas récupérer le nombre de lancers qui ont été nécessaires pour atteindre cette valeur.
 
-Voici la modélisation du dé : 
+Voici la modélisation du dé :
 ```py
 import random
 
@@ -140,7 +140,7 @@ class Carte:
             return COULEURS.index(self.couleur) < COULEURS.index(carte2.couleur)
         else :
             return False
-        
+
     def __gt__(self, carte2) :
         if self.valeur > carte2.valeur :
             return True
@@ -148,7 +148,7 @@ class Carte:
             return COULEURS.index(self.couleur) > COULEURS.index(carte2.couleur)
         else :
             return False
-        
+
     def __le__(self, carte2) :
         if self.valeur <= carte2.valeur :
             return True
@@ -156,7 +156,7 @@ class Carte:
             return COULEURS.index(self.couleur) <= COULEURS.index(carte2.couleur)
         else :
             return False
-        
+
     def __ge__(self, carte2) :
         if self.valeur >= carte2.valeur :
             return True

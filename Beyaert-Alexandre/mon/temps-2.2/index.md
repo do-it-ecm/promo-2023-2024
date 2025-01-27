@@ -20,7 +20,7 @@ résumé: "Un MON traitant de l'utilisation des bibliothèques Python pour la Da
 ## Sommaire
 
 1. Introduction
-2. Bibliothèque Seaborn 
+2. Bibliothèque Seaborn
 3. Bibliothèque Scikit Learn
 4. Application : combinaison des bibliothèques
 5. Conclusion
@@ -31,7 +31,7 @@ résumé: "Un MON traitant de l'utilisation des bibliothèques Python pour la Da
 La vocation de ce MON est d'introduire de façon non exhaustive aux bibliothèques python utiles pour la DataScience.
 Ce second MON introduit aux bibliothèques Seaborn et Scikit Leanr qui servent respectivement à la **visualisation des données et au Machine Learning.**
 
-Le MON 2.2 est une suite du [MON 2.1](https://francoisbrucker.github.io/do-it/promos/2023-2024/Beyaert-Alexandre/mon/temps-2.1/) qui lui introduit les bibliothèques NumPy, Matplotlib et Pandas.
+Le MON 2.2 est une suite du [MON 2.1]({{ site.url }}/promos/2023-2024/Beyaert-Alexandre/mon/temps-2.1/) qui lui introduit les bibliothèques NumPy, Matplotlib et Pandas.
 
 ## 2. Bibliothèque Seaborn
 ```python
@@ -369,7 +369,7 @@ La normalisation est également une étape très importante du pré-traitement.
 Elle va notamment permettre à l'algorithme de converger plus facilement vers sa valeur finale.
 
 3 types de normalisation sont principalement utilisés :
-- MinMax : la plage de données initiale va être rapportée à l'intervalle [0, 1] 
+- MinMax : la plage de données initiale va être rapportée à l'intervalle [0, 1]
 ```python
 from sklearn.preprocessing import MinMaxScaler
 
@@ -423,10 +423,10 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.metrics import confusion_matrix
 
 # import du dataset
-titanic = sns.load_dataset('titanic') 
+titanic = sns.load_dataset('titanic')
 
 # sélection des colonnes et supression des NaN
-titanic = titanic[['survived', 'pclass', 'sex', 'age']] 
+titanic = titanic[['survived', 'pclass', 'sex', 'age']]
 titanic.dropna(axis=0, inplace=True)
 
 Y = titanic['survived']
@@ -471,7 +471,7 @@ On remarque ainsi que la performance est de 81%, alors que pour un modèle sans 
 ```python
 titanic = sns.load_dataset('titanic') # import du dataset
 
-titanic = titanic[['survived', 'pclass', 'sex', 'age']] 
+titanic = titanic[['survived', 'pclass', 'sex', 'age']]
 titanic.dropna(axis=0, inplace=True)
 
 Y = titanic['survived']

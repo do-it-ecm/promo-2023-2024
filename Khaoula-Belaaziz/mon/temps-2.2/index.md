@@ -13,8 +13,8 @@ résumé: .
 ---
 
 
-Ce MON vient pour compléter mon MON 2-1 à propos des bases de REACT NATIVE : [Apprendre et Maîtriser React Native : Guide pour Débutants](http://localhost:8080/promos/2023-2024/Khaoula-Belaaziz/mon/temps-2.1/). 
-Mon objectif pour ce MON est d'apprendre à faire des animations et des tranformation avec react native pour notre projet 3A [KILLER](https://francoisbrucker.github.io/do-it/projets/2023-2024/Killer/)
+Ce MON vient pour compléter mon MON 2-1 à propos des bases de REACT NATIVE : [Apprendre et Maîtriser React Native : Guide pour Débutants](http://localhost:8080/promos/2023-2024/Khaoula-Belaaziz/mon/temps-2.1/).
+Mon objectif pour ce MON est d'apprendre à faire des animations et des tranformation avec react native pour notre projet 3A [KILLER]({{ site.url }}/projets/2023-2024/Killer/)
 
 # Fondamentaux des Animations dans React Native
 
@@ -34,7 +34,7 @@ import { Animated } from 'react-native';
 ```
 {% endraw %}
 
-#### Lottie : [LottieFiles](https://lottiefiles.com/search?q=eliminated&category=animations) 
+#### Lottie : [LottieFiles](https://lottiefiles.com/search?q=eliminated&category=animations)
 Pour intégrer des animations vectorielles de haute qualité conçues avec Adobe After Effects.
 {% raw %}
 ```js
@@ -161,7 +161,7 @@ const scale = value.interpolate({
 # Android Emulator
 J'avais besoin d'installer Android Emulator car je n'ai pas pu lancer la simulation du projet 3A avec n'importe quel réseau wifi, et vue que je ne peux pas coder sans voir la simulation vertuelle de mon travail, j'ai dû chercher un moyen pour visualiser mon travail sans passer par l'application Expo Go sur mon smartphone.
 ## Définition
- L'émulateur Android est une composante du SDK Android qui permet de simuler un appareil Android sur un ordinateur, ce qui  permet de tester les applications dans un environnement virtuel Android sans avoir besoin d'un appareil physique. 
+ L'émulateur Android est une composante du SDK Android qui permet de simuler un appareil Android sur un ordinateur, ce qui  permet de tester les applications dans un environnement virtuel Android sans avoir besoin d'un appareil physique.
 
 ## Installation et configuration de l'émulateur Android
 ### Installez Android Studio :
@@ -181,7 +181,7 @@ Durant l'installation, assurez-vous d'inclure le Android Virtual Device (AVD) qu
   <img src="android_studio.png" alt="android emulaor" style="width: 100%; margin-right: 2%;">
 </div>
 
-## Bibliographie 
+## Bibliographie
 {% prerequis "**Références**" %}
 - React native :Animated **Tout au long de la phase d'apprentissage** : (https://reactnative.dev/docs/animated)
 - React native modal animation popup example with overlay | Blurry background color and style **Temps estimé de la vidéo avec application du contenu = 1h30**, **Niveau débutant**  : (https://youtu.be/ccAilrI0IxA?si=ndYD4z5r8SEe5I9g)
@@ -190,10 +190,10 @@ Durant l'installation, assurez-vous d'inclure le Android Virtual Device (AVD) qu
 {% endprerequis %}
 {%info "**Pour l'installation de Android Emulator**"%}
 **Temps estimé de cette partie, avec les bugs = 3h**, réalisé le 14/01/2024 de 14h à 17h.
--	Install Android Emulator for React Native Expo - Windows PC **Temps estimé de la vidéo = 15min**: (https://youtu.be/ZGIU5aIRi9M?si=lZBQPYtbrDL7HwRy) 
--	Setting up a React Native Expo App and Android Studio | 1  **Temps estimé de la vidéo = 5min**: (https://youtu.be/WkXrDvImVXc?si=K1uNJCQb-bjeFm_Q) 
--	React Native CLI and Android Emulator in Windows  **Temps estimé de la vidéo = 17min**: (https://youtu.be/RF7zwYIrlds?si=WiUZ2-3KNyw7ruOd) 
-- How To Run React Native Android Emulator On Android Studio  **Temps estimé de la vidéo = 3min**: (https://youtu.be/43E9FDjTJBM?si=12QzwKXsEA5gylXm) 
-- How To Setup & Run React Native App on Android Emulator from Terminal and edit In Visual Studio Code  **Temps estimé de la vidéo = 15min**: (https://youtu.be/8ejuHsaXiwU?si=aFJ6zRkJ2mSj_5Ma) 
+-	Install Android Emulator for React Native Expo - Windows PC **Temps estimé de la vidéo = 15min**: (https://youtu.be/ZGIU5aIRi9M?si=lZBQPYtbrDL7HwRy)
+-	Setting up a React Native Expo App and Android Studio | 1  **Temps estimé de la vidéo = 5min**: (https://youtu.be/WkXrDvImVXc?si=K1uNJCQb-bjeFm_Q)
+-	React Native CLI and Android Emulator in Windows  **Temps estimé de la vidéo = 17min**: (https://youtu.be/RF7zwYIrlds?si=WiUZ2-3KNyw7ruOd)
+- How To Run React Native Android Emulator On Android Studio  **Temps estimé de la vidéo = 3min**: (https://youtu.be/43E9FDjTJBM?si=12QzwKXsEA5gylXm)
+- How To Setup & Run React Native App on Android Emulator from Terminal and edit In Visual Studio Code  **Temps estimé de la vidéo = 15min**: (https://youtu.be/8ejuHsaXiwU?si=aFJ6zRkJ2mSj_5Ma)
 {% endinfo %}
 

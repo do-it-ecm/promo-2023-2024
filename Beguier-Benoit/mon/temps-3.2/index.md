@@ -28,7 +28,7 @@ résumé: "Ce MON va rendre compte de l'organisation du barbecue de fin d'année
 
 Pour la réalisation de ce cours, je me réfèrerais aux sources listées ci-dessous :
 
-- *Organisation du Barbecue de fin d'option Do-IT*, Eugénie Giraud-Telme. Accessible [ici](https://francoisbrucker.github.io/do-it/promos/2022-2023/Giraud-Telme-Eug%C3%A9nie/mon/MON_3_2/).
+- *Organisation du Barbecue de fin d'option Do-IT*, Eugénie Giraud-Telme. Accessible [ici]({{ site.url }}/promos/2022-2023/Giraud-Telme-Eug%C3%A9nie/mon/MON_3_2/).
 
 ## Construction de la To-do
 
