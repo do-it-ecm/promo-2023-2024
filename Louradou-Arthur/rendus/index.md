@@ -15,7 +15,7 @@ function turnExportOn() {
 
    document.querySelector("header").hidden = true;
    document.querySelector("article").style.marginTop = "40px";
-   document.querySelector("footer p").innerHTML = document.querySelector("footer p").innerHTML + " - CSS de <a href=\"https://francoisbrucker.github.io/do-it/\">https://francoisbrucker.github.io/do-it/</a>";
+   document.querySelector("footer p").innerHTML = document.querySelector("footer p").innerHTML + " - CSS de <a href=\"{{ site.url }}/\">{{ site.url }}/</a>";
 }
 
 </script>

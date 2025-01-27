@@ -19,7 +19,7 @@ résumé: "Initiation au développement mobile à l'aide de Flutter"
 
 ---
 
-{%prerequis 'MON intermédiaire'%} 
+{%prerequis 'MON intermédiaire'%}
 Ce MON nécessite quelques prérequis :
 - avoir des notions de programmation orientée objet
 - avoir un pc qui tient la route pour émuler une téléphone
@@ -75,7 +75,7 @@ En résumé, Dart et Flutter forment un tandem puissant, offrant aux développeu
 **Retour et ajustement du Sprint 1**
 
 J'ai dédié environ 8h30 de mon temps sur le premier Sprint, mais je pense avoir commis une erreur qui m'a fait perdre pas mal de temps.
-En effet, j'ai voulu avancer petit à petit sur mon POK en installant tout l'environnement nécessaire au développement avec Flutter dans un premier temps, puis en espaçant mes sessions de travail afin d'avoir une certaine continuité. 
+En effet, j'ai voulu avancer petit à petit sur mon POK en installant tout l'environnement nécessaire au développement avec Flutter dans un premier temps, puis en espaçant mes sessions de travail afin d'avoir une certaine continuité.
 J'ai justement trop espacé ces sessions et j'avais donc du mal à replonger dans le logiciel et les formations que je suivais du fait que je sois purement débutant (d'autant plus que l'installation de tout l'environnement de développement m'a joué des tours)
 
 Le petit projet sympas que je souhaite réaliser doit ressembler à cela :
@@ -106,7 +106,7 @@ Durant le deuxième Sprint, j'ai tout d'abord terminé mon petit projet solo :
 
 ![Openclassroom_accueil](./work.png)
 
-Assane a accepté de me laisser travailler avec lui sur son projet d'application [CupCare](https://francoisbrucker.github.io/do-it/promos/2023-2024/Diouf-Asssane/pok/temps-2/). Je vous invite à aller voir sa superbe application !
+Assane a accepté de me laisser travailler avec lui sur son projet d'application [CupCare]({{ site.url }}/promos/2023-2024/Diouf-Asssane/pok/temps-2/). Je vous invite à aller voir sa superbe application !
 
 Voici comment nous avons travaillé ensemble.
 
@@ -131,11 +131,11 @@ J'ai tout d'abord eu accès au Figma de son projet ainsi qu'au code mis sur gith
 
 
 
-{%prerequis "<u>Sources</u>"%} 
+{%prerequis "<u>Sources</u>"%}
 - Flutter installation et guide: https://docs.flutter.dev/get-started/install
 - Playlist tutoriel Graven : https://www.youtube.com/watch?v=eKoo5gkEFjQ&list=PLMS9Cy4Enq5LUTdetDXnCwf8Q2j0xeMGD&pp=iAQB
 Petit projet sympas sur youtube : https://www.youtube.com/watch?v=D4nhaszNW4o&list=LL&index=2
 - Illustration Flutter : https://www.appstud.com/fr/flutter-faut-il-y-aller/
 - Illustration Widget : https://miro.medium.com/v2/resize:fit:2000/1*LD4cLqvDpT0NG5lp9AUL2A.png
 - Illustration liste Widget : Screen depuis https://www.youtube.com/watch?v=WOvj84xq_fc
-{%endprerequis%} 
+{%endprerequis%}

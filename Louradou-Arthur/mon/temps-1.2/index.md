@@ -32,7 +32,7 @@ Ce MON s’inscrit dans la continuité du précédent (lien), où nous étudions
 
 ## Autres MONs
 
-[Thibault - Hachage et chiffrement](https://francoisbrucker.github.io/do-it/promos/2022-2023/Adelain-thibault/mon/HachageChiffrement/)
+[Thibault - Hachage et chiffrement]({{ site.url }}/promos/2022-2023/Adelain-thibault/mon/HachageChiffrement/)
 
 ## État de l’art sur la sécurité des bases de données
 
@@ -54,7 +54,7 @@ Durant la négociation TLS, soit le premier échange, sont envoyés des clés pu
 
 **Protection contre les vulnérabilités XSS**
 
-Les vulnérabilités XSS (Cross-Site Scripting) peuvent compromettre la sécurité d'un site web en permettant à des attaquants d'injecter des scripts malveillants dans les pages consultées par les utilisateurs. Ces failles sont explorés dans d’autres MON comme [celui de Thibault](https://francoisbrucker.github.io/do-it/promos/2022-2023/Adelain-thibault/mon/FaillesWeb/). Pour se protéger contre les attaques XSS, il faut valider et encoder correctement les données provenant des utilisateurs avant de les afficher.
+Les vulnérabilités XSS (Cross-Site Scripting) peuvent compromettre la sécurité d'un site web en permettant à des attaquants d'injecter des scripts malveillants dans les pages consultées par les utilisateurs. Ces failles sont explorés dans d’autres MON comme [celui de Thibault]({{ site.url }}/promos/2022-2023/Adelain-thibault/mon/FaillesWeb/). Pour se protéger contre les attaques XSS, il faut valider et encoder correctement les données provenant des utilisateurs avant de les afficher.
 
 Ensuite, la mise en place d'une Content Security Policy (CSP) constitue une défense de plus contre les attaques XSS en restreignant les sources à partir desquelles les ressources peuvent être chargées sur un site web.
 

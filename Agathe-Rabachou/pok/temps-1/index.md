@@ -18,7 +18,7 @@ résumé: Un POK ayant pour objectif de créer mon premier site web sous la form
 ---
 ## Introduction
 
-Ce POK est la continuité de mon premier MON intitulé [Web Front](https://francoisbrucker.github.io/do-it/promos/2023-2024/Agathe-Rabachou/mon/temps-1.1/). L'objectif ici est d'approfondir les connaissances acquises lors de ce MON, de les compléter en découvrant les bases du langage **JavaScript**, et d'utiliser le tout pour réaliser mon premier site web de A à Z.
+Ce POK est la continuité de mon premier MON intitulé [Web Front]({{ site.url }}/promos/2023-2024/Agathe-Rabachou/mon/temps-1.1/). L'objectif ici est d'approfondir les connaissances acquises lors de ce MON, de les compléter en découvrant les bases du langage **JavaScript**, et d'utiliser le tout pour réaliser mon premier site web de A à Z.
 
 ## Sprint 1 - Les langages et la maquette
 

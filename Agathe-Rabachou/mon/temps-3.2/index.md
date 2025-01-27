@@ -23,7 +23,7 @@ résumé: "Ce MON a pour but de m'initier aux bases du langage de programmation 
 
 A travers ce MON, je cherche à me familiariser avec le langage de programmation Java, couramment utilisé en entreprise, afin de faciliter de potentiels futurs échanges avec des équipes de développeurs (mon but n'étant pas dans devenir un, mais sûrement de travailler en contact avec eux).
 
-J'ai donc commencé par regarder ce qui avait déjà été fait sur le sujet, et on peut recenser le [MON de Nicolas](https://francoisbrucker.github.io/do-it/promos/2023-2024/Ouzoulias-Nicolas/mon/temps-1.1/), le [MON de Vladimir](https://francoisbrucker.github.io/do-it/promos/2023-2024/Vladimir-Jeantroux/mon/temps-3.1/) et le [POK de Sarah](https://francoisbrucker.github.io/do-it/promos/2023-2024/Sarah-Sebastien/pok/temps-2/). Tous les trois on commencé en s'appuyant sur la même formation OpenClassroom intitulée [Apprenez à programmer en Java](https://openclassrooms.com/fr/courses/6173501-apprenez-a-programmer-en-java), qu'ils recommandent. J'ai donc suivi cette formation en un peu moins des 10h annoncées, et je vais essayer de la synthétiser ci-dessous afin de pouvoir réutiliser ce MON comme fiche mémoire au besoin.
+J'ai donc commencé par regarder ce qui avait déjà été fait sur le sujet, et on peut recenser le [MON de Nicolas]({{ site.url }}/promos/2023-2024/Ouzoulias-Nicolas/mon/temps-1.1/), le [MON de Vladimir]({{ site.url }}/promos/2023-2024/Vladimir-Jeantroux/mon/temps-3.1/) et le [POK de Sarah]({{ site.url }}/promos/2023-2024/Sarah-Sebastien/pok/temps-2/). Tous les trois on commencé en s'appuyant sur la même formation OpenClassroom intitulée [Apprenez à programmer en Java](https://openclassrooms.com/fr/courses/6173501-apprenez-a-programmer-en-java), qu'ils recommandent. J'ai donc suivi cette formation en un peu moins des 10h annoncées, et je vais essayer de la synthétiser ci-dessous afin de pouvoir réutiliser ce MON comme fiche mémoire au besoin.
 
 J'ai ensuite utilisé le temps restant pour lire le MON de Vladimir, qui a suivi une formation plus avancée sur Codecademy, disponible à [ce lien](https://www.codecademy.com/courses/learn-intermediate-java/informationals/welcome-to-learn-intermediate-java). Je n'ai pas suivi la formation moi-même par manque de temps, et le résumé de Valdimir m'a donc été très utile.
 
@@ -52,7 +52,7 @@ final String MESSAGE = "bonjour";
 // C'est un bonne pratique commune de les nommer en majuscules
 ```
 
-Lorsque l'on réalise une opération mathématique sur des variables, il faut faire attention à la façon dont les types se mélangent. Par exemple, la division d'un entier par un entier donnera forcément un résultat entier, même si celui-ci est faux, et cela peut être à l'origine de nombreuses erreurs. Il faut donc bien penser à déclarer au moins l'un des entiers initiaux comme décimal pour que le résultat soit correct. Il existe une autre méthode pour corriger ce problème, qui consiste à changer le type d'une variable déjà déclarée directement dans l'opération dans laquelle on l'utilise. On écrit alors : 
+Lorsque l'on réalise une opération mathématique sur des variables, il faut faire attention à la façon dont les types se mélangent. Par exemple, la division d'un entier par un entier donnera forcément un résultat entier, même si celui-ci est faux, et cela peut être à l'origine de nombreuses erreurs. Il faut donc bien penser à déclarer au moins l'un des entiers initiaux comme décimal pour que le résultat soit correct. Il existe une autre méthode pour corriger ce problème, qui consiste à changer le type d'une variable déjà déclarée directement dans l'opération dans laquelle on l'utilise. On écrit alors :
 ```java
 int a = 5;
 int b = 2;
@@ -117,7 +117,7 @@ for (int i=0; i<10; i++) {               // ou en général for (initialisation,
 Elles fonctionnent comme les boucles for, mais lorsqu'on veut parcourir tous les éléments d'un tableau par exemple, dont on ne connaît pas la taille. On écrit alors :
 ```java
 for (int number: monTableau) {
-  // instruction 
+  // instruction
 };
 ```
 
@@ -127,7 +127,7 @@ L'instruction est alors répétée tant que la condition est vraie.
 while (condition) {
   // instruction
 };
-``` 
+```
 
 - **Les boucles 'do... while'**
 C'est une variante de la boucle while classique, mais dans laquelle la condition se trouve à la fin du code. Ainsi, l'instruction de la boucle est forcément exécutée au moins une fois, même quand la condition est fausse. On écrit :
@@ -183,13 +183,13 @@ Premièrement, la commande *switch*. Imaginons que l'on veuille par exemple agir
 public static void main(String[] args) {
     if (args.length==0) {
         //instructions
-    } 
+    }
     else if (args.length==1) {
         //instructions
-    } 
+    }
     else if (args.length==2) {
         //instructions
-    } 
+    }
     else {
         //instructions
     }
@@ -257,7 +257,7 @@ public static void main(String[] args) {
 
 ## 5. La Programmation Orientée Objet en Java
 
-Pour comprendre le principe global de la POO, je vous renvoie vers mon [MON 1.2 : Programmation orientée objet](https://francoisbrucker.github.io/do-it/promos/2023-2024/Agathe-Rabachou/mon/temps-1.2/). Ici, on va s'intéresser plus particulièrement à son implémentation en Java.
+Pour comprendre le principe global de la POO, je vous renvoie vers mon [MON 1.2 : Programmation orientée objet]({{ site.url }}/promos/2023-2024/Agathe-Rabachou/mon/temps-1.2/). Ici, on va s'intéresser plus particulièrement à son implémentation en Java.
 Voici le format d'une déclaration de **classe** en Java :
 ```java
 class ExempleClasse {
@@ -446,7 +446,7 @@ writer.write("text") // ajoute du texte
 writer.newLine(); // revient à la ligne
 ```
 
-Enfin, le [MON de Vladimir](https://francoisbrucker.github.io/do-it/promos/2023-2024/Vladimir-Jeantroux/mon/temps-3.1/) présente d'autres notions avancées en Java, comme les **input et output** (que j'ai en partie utilisé plus haut sans réellement expliquer le concept), la **sérialisation** et les **génériques**, que je ne vais pas expliquer ici car il l'a déjà très bien fait.
+Enfin, le [MON de Vladimir]({{ site.url }}/promos/2023-2024/Vladimir-Jeantroux/mon/temps-3.1/) présente d'autres notions avancées en Java, comme les **input et output** (que j'ai en partie utilisé plus haut sans réellement expliquer le concept), la **sérialisation** et les **génériques**, que je ne vais pas expliquer ici car il l'a déjà très bien fait.
 
 ## 11. Retours
 

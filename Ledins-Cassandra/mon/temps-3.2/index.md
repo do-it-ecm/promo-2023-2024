@@ -29,22 +29,22 @@ L'interview a été préparée en amont pour comprendre en détail le processus 
    L'entrevue s'est déroulée de manière interactive, me permettant ainsi de poser des questions ouvertes pour encourager l'assistante de direction à détailler chaque étape du processus de facturation. J'ai demandé des exemples concrets pour clarifier les aspects plus complexes du processus.
 
 3. **Analyse des Réponses :**
-   Les réponses fournies par l'assistante de direction ont été par la suite analysées à l'aide entre autre d'un diagramme pour identifier les étapes clés du processus de facturation, les points de friction potentiels et les opportunités d'amélioration. 
+   Les réponses fournies par l'assistante de direction ont été par la suite analysées à l'aide entre autre d'un diagramme pour identifier les étapes clés du processus de facturation, les points de friction potentiels et les opportunités d'amélioration.
 
 ### Présentation de l'entreprise et de la personne interviewée
 
 J'ai eu une autorisation de consultation des dossiers de l'entreprise mais pas une autorisation de diffusion des informations. Je vais donc tout au long de la description anonymiser l'entreprise et changer les détails qui pourraient associer cette entreprise à mon MON.
 
-L'entreprise compte moins de 30 salariés, est donc une PME, et fait partie d'un groupe, qui au total compte moins de 100 salariés. 
+L'entreprise compte moins de 30 salariés, est donc une PME, et fait partie d'un groupe, qui au total compte moins de 100 salariés.
 Elle effectue des études sur un thème environnemental, principalement pour des collectivités, elle répond donc a des appels d'offres. Elle se trouve en concurrence avec beaucoup d'autres entreprises du marché, de toutes tailles, mais les principaux concurrents sont des mastodontes du domaine.
 
-La personne interviewée est l'assistante de direction, qui a des tâches très variées dans l'organisme, de part la taille relativement petite de l'entreprise. 
+La personne interviewée est l'assistante de direction, qui a des tâches très variées dans l'organisme, de part la taille relativement petite de l'entreprise.
 
 
 ### Diagramme BPMN avec couloirs:
 
 
-Après consultation d'un des <a href="https://francoisbrucker.github.io/do-it/promos/2023-2024/Sarah-Sebastien/mon/temps-2.2/">MON de Sarah</a>, j'ai créé un diagramme BPMN pour représenter visuellement le processus de facturation tel qu'il a été décrit lors de l'interview. Les étapes suivantes ont été implémentées lors de la création du diagramme :
+Après consultation d'un des <a href="{{ site.url }}/promos/2023-2024/Sarah-Sebastien/mon/temps-2.2/">MON de Sarah</a>, j'ai créé un diagramme BPMN pour représenter visuellement le processus de facturation tel qu'il a été décrit lors de l'interview. Les étapes suivantes ont été implémentées lors de la création du diagramme :
 
 1. **Identification des Activités :**
    À partir des informations recueillies lors de l'interview, les différentes activités impliquées dans le processus de facturation ont été identifiées. Cela comprenait la création des factures, la vérification des données, l'envoi aux clients, etc.
@@ -64,22 +64,22 @@ Mais aussi :
 
 ### Identification des problèmes
 
-Après consultation d'un autre <a href="https://francoisbrucker.github.io/do-it/promos/2023-2024/Sarah-Sebastien/mon/temps-1.1/">MON de Sarah</a>, j'ai pu remarquer des patterns décrit dans les entreprises sans ERP généralisé. On remarque plusieurs problèmes grâce au diagramme et à l'interview.
+Après consultation d'un autre <a href="{{ site.url }}/promos/2023-2024/Sarah-Sebastien/mon/temps-1.1/">MON de Sarah</a>, j'ai pu remarquer des patterns décrit dans les entreprises sans ERP généralisé. On remarque plusieurs problèmes grâce au diagramme et à l'interview.
 
-- Les données éparpillées 
+- Les données éparpillées
 - Perte de temps à communiquer pour récupérer des données
 - Création manuelle de facture alors qu'elles pourraient être automatiquement générées à partir des données
 - Répétition de tâches par différents services (ex: mise à jour des tableaux de bords)
 - Grande place à l'erreur tout au long du process. Il n'y a pas de vérification automatisée du respect des étapes ni des informations copiées.
 - Dépendance trop importante sur une seule personne : une absence ou un départ non à l'amiable de l'assistante de direction pourrait s'avérer presque fatal pour l'entreprise.
 
-Les tableaux de bords tenus par l'assistante de direciton et la commptabilité ne sont comparés qu'une fois tous les 2 mois : possible grande perte de temps pour trouver l'erreur quand il y a différence. Il y a aussi une possibilité d'avoir des répercussions pénales si les comptes sont évalués par un inspecteur et qu'il y a une erreur non détectée qui pourrait être prise pour de la fraude. 
+Les tableaux de bords tenus par l'assistante de direciton et la commptabilité ne sont comparés qu'une fois tous les 2 mois : possible grande perte de temps pour trouver l'erreur quand il y a différence. Il y a aussi une possibilité d'avoir des répercussions pénales si les comptes sont évalués par un inspecteur et qu'il y a une erreur non détectée qui pourrait être prise pour de la fraude.
 
 Après avoir posé la question de **pourquoi** les données étaient séparées entre une agence et toutes les autres, on m'a répondu qu'un contrat était en cours entre l'agence isolée et un prestataire de serveurs. L'agence isolée a donc ses propres serveurs et, à cause des clauses du contrat, ne peut pas accéder aux données des autres agences directement. Et celà pour encore **2 ans**.
 
-L'assistante de direction a estimé que le travail de facturation (et seulement la création des factures) lui prenait 1h30 par semaine (lissé sur l'année). On peut imaginer que le reste du processus, qui présente aussi des défauts, prend un temps non négligeable sur son travail, mais aussi aux autres services, qui pourraient gagner en **efficacité** en adoptant un logiciel généralisé. 
+L'assistante de direction a estimé que le travail de facturation (et seulement la création des factures) lui prenait 1h30 par semaine (lissé sur l'année). On peut imaginer que le reste du processus, qui présente aussi des défauts, prend un temps non négligeable sur son travail, mais aussi aux autres services, qui pourraient gagner en **efficacité** en adoptant un logiciel généralisé.
 
-### Tableau des spécifications techniques pour le Logiciel de Facturation 
+### Tableau des spécifications techniques pour le Logiciel de Facturation
 
 On peut commencer par définir les éléments attendus dans un cahier des charges. Il pourra comprendre les éléments suivants :
 
@@ -104,7 +104,7 @@ On peut commencer par définir les éléments attendus dans un cahier des charge
 7. **Validation et Test :**
    Méthodes de validation et de test pour s'assurer que le logiciel répond aux exigences spécifiées et fonctionne de manière fiable dans le contexte opérationnel de l'entreprise.
 
-Ce cahier des charges servira de document de référence pour le développement du logiciel de facturation, garantissant ainsi que les besoins de l'entreprise sont correctement pris en compte et que le produit final répondra aux attentes. 
+Ce cahier des charges servira de document de référence pour le développement du logiciel de facturation, garantissant ainsi que les besoins de l'entreprise sont correctement pris en compte et que le produit final répondra aux attentes.
 
 Pour ce MON, j'ai tenté d'ériger un tableau de spécification technique qui pourrait faire partie du cahier des charges. J'ai mal utilisé le mot cahier des charges lors de la présentation et l'introduction du MON. Je pensais en effet plutôt à une liste de spécifications techniques.
 

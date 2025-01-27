@@ -65,7 +65,7 @@ Un dernier point extrêmement positif est que la prise de note dans l’applicat
 Chaque élément du backlog sera détaillé, priorisé en fonction de son importance et prêt à être exécuté dans un Sprint. Pour la rédaction de mon backlog, je vais suivre une approche itérative en me basant sur les étapes fondamentales de la méthodologie SCRUM. Cette approche SCRUM aidera à maintenir un processus organisé et itératif tout au long du projet. À noter que le fait que le projet soit réalisé en individuel contrevient au principe même du développement SCRUM en équipe. Nous allons donc procéder par forte inspiration bien qu’il constituerais un abus de parler de cette méthode stricto sensu.
 
 {% info %}
-Je renvoie à ce propos au [MON de Louise](https://francoisbrucker.github.io/do-it/promos/2022-2023/Gacoin-Louise/mon/MON1/) qui compare les différentes méthodologies de projet agile. Vous en apprendrez ainsi plus sur le concept de méthodes agiles au cas où celui-ci ne soit pas déjà familier. Vous comprendrez aussi mieux la rigueur méthodologique dont je tâcherai de faire preuve durant ce POK.
+Je renvoie à ce propos au [MON de Louise]({{ site.url }}/promos/2022-2023/Gacoin-Louise/mon/MON1/) qui compare les différentes méthodologies de projet agile. Vous en apprendrez ainsi plus sur le concept de méthodes agiles au cas où celui-ci ne soit pas déjà familier. Vous comprendrez aussi mieux la rigueur méthodologique dont je tâcherai de faire preuve durant ce POK.
 {% endinfo %}
 
 Aussi, procéder de la sorte permettra de mettre en pratique les notions de méthodologie SCRUM agile expérimentées par le passé en césure durant mes cours et mon stage. La méthodologie de projet fera donc partie intégrante des acquis à présenter au cours du POK.
@@ -141,7 +141,7 @@ Parmi cette documentation, voici des liens intéressants à consulter.
 - [4 tendances 3D en UI design en 2023 autour du morphisme](https://www.blogduwebdesign.com/blog/webdesign/tendances-ui-morphisme-3d.html)
 - [60-30-10 Color Rule](https://www.youtube.com/watch?v=UWwNIMHFdW4)
 - [Glassmorphism in user interfaces](https://uxdesign.cc/glassmorphism-in-user-interfaces-1f39bb1308c9) (le plus utile de mes recherches !)
-- [Inspiration parallax et scroll](https://marchantweb.com/) 
+- [Inspiration parallax et scroll](https://marchantweb.com/)
 
 {% info %}
 J’ai développé un gout assez poussé pour le **glass morphism**, courant utilisé par Apple ou Microsoft dans leurs différents OS par exemple. Je trouve ce courant élégant, épuré mais surtout dans l’air du temps<sup><a href="https://www.laculturegenerale.com/ere-du-temps-air-du-temps-orthographe/" style="text-decoration:none;">[!]</a></sup>. (Notez bien cette phrase pour plus tard, internet n’oubliant jamais rien, surtout pas les Skyblogs…)
@@ -187,13 +187,13 @@ Voici le résultat de la mise en application des principes cités précédemment
 
 J’utiliserai une stack technique assez simple pour initialiser ce projet, dans la mesure où j’aimerais apprendre le Sass en programmant ce portfolio. J’avais par le passé suivi [un cours en ligne](https://openclassrooms.com/fr/courses/8069761-simplifiez-vous-le-css-avec-sass) sur ce sujet mais jamais mis en application ses grands principes (nesting, mixins, etc.).
 
-{% info %} 
+{% info %}
 💄 Pour s’entrainer en Sass, je recommande l’outil [Sass Meister](https://www.sassmeister.com/), qui donne un résultat visuel immédiat de son code Sass compilé en CSS.
 {% endinfo %}
 
 ## Lien avec Figma : Fonctionnalité « Variant »
 
-{% info %} 
+{% info %}
 💡 Ce point intéressera mes camarades ayant choisi le cours UI/UX de Do_It.
 {% endinfo %}
 
@@ -203,7 +203,7 @@ Ensuite, viennent les variants. Il s’agit d’alternatives à un composant . I
 
 Cette fonctionnalité est au plus proche de ce que l’on peut faire avec les mixins de Sass, ce qui rapproche naturellement le développeur du designer. Je renvoie à [ce lien](https://sass-lang.com/documentation/values/mixins/) pour comprendre en détail le principe des mixins Sass.
 
-{% info %} 
+{% info %}
 📖 La documentation associée aux variants Figma (avec une vidéo) :
 https://help.figma.com/hc/en-us/articles/360056440594-Create-and-use-variants
 {% endinfo %}

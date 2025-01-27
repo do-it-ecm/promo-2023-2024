@@ -25,7 +25,7 @@ J’utilise Excel quotidiennement dans le cadre de mon alternance, et je me suis
 
 ## 2. Excel
 
-Après avoir fait rapidement le tour de ce qui avait déjà été fait en termes de MON sur Excel (notamment par [Sarah](https://francoisbrucker.github.io/do-it/promos/2022-2023/Honor%C3%A9-Sarah/mon/MON3-1/) et [Lola](https://francoisbrucker.github.io/do-it/promos/2023-2024/Lola-Bourdon/mon/temps-1.2/)) et des retours concernant le contenu des différentes plateformes de formation, j’ai choisi de suivre le cours d’[Excel-pratique](https://www.excel-pratique.com/).
+Après avoir fait rapidement le tour de ce qui avait déjà été fait en termes de MON sur Excel (notamment par [Sarah]({{ site.url }}/promos/2022-2023/Honor%C3%A9-Sarah/mon/MON3-1/) et [Lola]({{ site.url }}/promos/2023-2024/Lola-Bourdon/mon/temps-1.2/)) et des retours concernant le contenu des différentes plateformes de formation, j’ai choisi de suivre le cours d’[Excel-pratique](https://www.excel-pratique.com/).
 
 Il est découpé en 11 chapitres ponctués d’exercices d’application. J’ai parcouru sans difficulté les 6 premiers et la première partie du 7ème, qui étaient majoritairement des révisions pour moi. Ils reprenaient les bases d’Excel, les options de mise en forme, les concepts de tableaux, objets, incrémentations, formules et fonctions, et graphiques. La suite contenait plus de nouveautés, et voici un condensé de ce que j’y ai appris (ou revu pour certaines parties) :
 
@@ -106,26 +106,26 @@ Sub instructions_de_bases()
 
     'sélectionner une plage de cellules (on peut également sélectionner des lignes, des colonnes ou des cellules distinctes)
     Range("C3:C7").Select
-    
+
     'changer la valeur d'une cellule (on peut retirer les morceaux du code correspondants lorsque l'on est dèja dans le bon fichier ou dans la bonne feuille)
     Workbooks("Nom_du_fichier").Sheets("Nom_de_la_feuille").Range("A8").Value = 48
-    
+
     'mise en forme du texte
     Range("B2").Font.Size = 14
     Range("B2").Font.Bold = True
-    
+
     'bordures de la cellule sélectionnée
     Selection.Borders.Value = 1
-    
+
     'masquer une feuille
     Sheets("Feuil3").Visible = 2
-    
+
     'modifier une propriété de la cellule active en fonction d'une autre cellule
     ActiveCell.Font.Name = Range("A1").Font.Name
-    
+
     'créer un compteur de clics
     Range("C1") = Range("C1") + 1
-    
+
     'pour éviter les répétitions
     With Sheets("Feuil1").Range("A1")
         .Borders.Weight = 3
@@ -135,7 +135,7 @@ Sub instructions_de_bases()
             .Underline = False
         End With
     End With
-    
+
     'appliquer une couleur (ColorIndex est un index proposé directement dans VBA qui contient 56 couleurs prédéfinies, numérotées de 1 à 56. Sinon, on peut choisir une couleur personnalisée)
     Range("A1").Font.ColorIndex = 25
     Range("A2").Font.Color = RGB(156, 12, 233)
@@ -143,7 +143,7 @@ Sub instructions_de_bases()
     Range("A4").Interior.Color = RGB(255, 0, 0)
     Sheets("Feuil1").Tab.Color = RGB(0, 0, 255)
     'la dernière commande colore l'onglet de la feuille
-    
+
 End Sub
 ```
 
@@ -181,9 +181,9 @@ End Sub
 
 <img src="variables boite_dialogue.png">
 
-Une variable est utilisable dans l’environnement dans lequel elle a été définie. Dans une procédure (Sub) si elle est définie au début de cette procédure, dans tout un module si elle est initiée au début du module ou même dans l’ensemble des modules si l’on remplace Dim par Public. 
+Une variable est utilisable dans l’environnement dans lequel elle a été définie. Dans une procédure (Sub) si elle est définie au début de cette procédure, dans tout un module si elle est initiée au début du module ou même dans l’ensemble des modules si l’on remplace Dim par Public.
 
-Pour conserver la valeur d’une variable d’une procédure après la fin de cette procédure il faut remplacer `Dim` par `Static`, et pour conserver la valeur de toutes les variables d’une procédure il faut ajouter Static devant Sub. 
+Pour conserver la valeur d’une variable d’une procédure après la fin de cette procédure il faut remplacer `Dim` par `Static`, et pour conserver la valeur de toutes les variables d’une procédure il faut ajouter Static devant Sub.
 
 Il est également possible pour des cas particuliers de créer son propre type de variable.
 
@@ -197,7 +197,7 @@ Sub tableaux()
     'attribuer une valeur à la case 3
     Nom_tableau(2) = "texte"
     'à noter que la première case est la case 0
-    
+
     'créer un tableau à 2 dimensions, 3x4 cases
     Dim Nom_tableau(2, 3) As Integer
     'attribuer une valeur à la case en haut à gauche
@@ -214,7 +214,7 @@ Les constantes sont des variables dont on ne peut pas modifier la valeur. Elles 
 On peut ensuite ajouter des conditions, qui fonctionnent exactement comme en Python, avec la syntaxe suivante :
 ```vba
 Sub conditions()
-    If [CONDITION] Then 
+    If [CONDITION] Then
         [INSTRUCTION]
     ElseIf [CONDITION2]
         [INSTRUCTION2]
@@ -257,30 +257,30 @@ Sub boucles()
     Do While [CONDITION]
         [INSTRUCTION]
     Loop
-    
+
     'idem mais l'instruction s'exécute au moins une première fois peu importe la condition
     Do
         [INSTRUCTION]
     Loop While [CONDITION]
-    
+
     'lorsque la condition est vraie, la boucle d'arrête
     Do Until [CONDITION]
         [INSTRUCTION]
     Loop
-    
+
     'la boucle se répète un nombre de fois défini
     For i = 1 To 10
         [INSTRUCTION]
     Next
     'on peut ajouter Step = x à la ligne For pour définir un pas x autre que 1
-    
+
     'la boucle se répète au fur et à mesure que l'on parcourt un ensemble d'éléments
     For Each cellule In Range("A1:C5")
     'ou For Each feuille In Worksheets
     'ou For Each valeur In Tableau
         [INSTRUCTION]
     Next
-    
+
     'pour quitter avant la fin
     Exit For 'une boucle For
     Exit Do 'une boucle Do
@@ -338,7 +338,7 @@ On obtient alors à l’exécution :
 
 <img src="boite_dialogue.png">
 
-Puis l’action s’effectue ou non selon la réponse à la boîte de dialogue. Il existe de nombreux boutons qui permettent des interactions différentes telles que Ok, Annuler, Recommencer…, qui ajoutent une icône ou encore qui forcent à répondre avant de continuer. Il est possible de mettre plusieurs valeurs dans le deuxième argument de la MsgBox, séparés par des `+`. 
+Puis l’action s’effectue ou non selon la réponse à la boîte de dialogue. Il existe de nombreux boutons qui permettent des interactions différentes telles que Ok, Annuler, Recommencer…, qui ajoutent une icône ou encore qui forcent à répondre avant de continuer. Il est possible de mettre plusieurs valeurs dans le deuxième argument de la MsgBox, séparés par des `+`.
 
 Enfin, on peut demander à l’utilisateur de remplir une valeur dans la boîte de dialogue grâce à la fonction `InputBox(«texte», «titre», «valeur par défaut»)`, et la comparer à un résultat pour générer une action. La valeur par défaut est un argument optionnel.
 
@@ -350,7 +350,7 @@ Premièrement, nous avons lancé des macros uniquement en cliquant sur un bouton
 
 Ensuite, il est possible de créer ce que l'on appelle un UserForm. C'est un objet qui se présente sous la forme d'une boîte de dialogue, et que l'on peut personnaliser avec de très nombreuses fonctionnalités appelées contrôles. On peut entre autres y ajouter des boutons, du texte, des cases à cocher, des listes déroulantes... Certains aspects du design sont également modifiables. Lorsque l'UserForm est appelé, tout comme pour une macro classique, les interactions avec celui-ci induisent des actions sur le fichier Excel associé. Ainsi, un UserForm peut être un point d'entrée pour remplir des informations dans un tableau par exemple.
 
-Voici un exemple de rendu : 
+Voici un exemple de rendu :
 
 <img src="userform.png">
 

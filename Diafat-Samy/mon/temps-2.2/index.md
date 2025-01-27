@@ -6,23 +6,23 @@ authors:
   - Samy Diafat
 
 date: 2024-01-16
-tags: 
+tags:
   - "Java"
   - "Programmation Orientée Objet"
 
 
 résumé: "Ce MON a pour but d'obtenir les bases en Java. "
 ---
-{%prerequis 'Niveau débutant'%} 
+{%prerequis 'Niveau débutant'%}
 Aucun prérequis.
 {%endprerequis%}
-  
-### Sommaire 
+
+### Sommaire
 1. Introduction
 2. Où Apprendre ?
 3. Où Pratiquer ?
 4. Conclusion
-  
+
 ## Introduction
 
 
@@ -33,7 +33,7 @@ J'ai décidé de consacrer mon deuxième MON au langage Java car c'est un langag
 ![Openclassroom_accueil](./logo.png)
 
 
-Mais avant de commencer, qu'est ce que Java ? 
+Mais avant de commencer, qu'est ce que Java ?
 
 {% info %}
 **Java** est un langage de programmation polyvalent et orienté objet, créé par Sun Microsystems. Il est réputé pour sa portabilité, permettant l'exécution du code sur différentes plates-formes via la machine virtuelle Java (JVM). Java favorise la réutilisation du code avec son approche orientée objet, garantit la sécurité grâce à l'exécution dans la JVM, prend en charge le multithreading, dispose d'une gestion automatique de la mémoire via un garbage collector, et offre une riche bibliothèque standard. Sa plateforme indépendante le rend largement utilisé dans le développement d'applications diverses, de logiciels embarqués à des applications d'entreprise.
@@ -45,7 +45,7 @@ Mais avant de commencer, qu'est ce que Java ?
 ## Où apprendre ?
 
 
-Pour commencer, je suis allé voir le deuxième POK de [Sarah](https://francoisbrucker.github.io/do-it/promos/2023-2024/Sarah-Sebastien/pok/temps-2/) , qui s'initie au langage Java et qui a pour objectif de coder le jeu Mastermind. Celle-ci recommande une chaine Youtube pour apprendre les bases de Java.
+Pour commencer, je suis allé voir le deuxième POK de [Sarah]({{ site.url }}/promos/2023-2024/Sarah-Sebastien/pok/temps-2/) , qui s'initie au langage Java et qui a pour objectif de coder le jeu Mastermind. Celle-ci recommande une chaine Youtube pour apprendre les bases de Java.
 
 J'ai suivi sa piste et commencé par regarder des vidéos sur plusieurs chaînes différentes, en fonction de ce que j'avais besoin d'apprendre.
 
@@ -59,7 +59,7 @@ Après avoir effectué quelques tests sur ma machine, j'ai suivi une autre playl
 
 
 
-Sur la chaine Youtube de [Graven](https://www.youtube.com/playlist?list=PLMS9Cy4Enq5LKYxJmD1ZIu3C7f3vA00hM), chez qui j'avais déjà suivi une playlist pour apprendre à développer une application mobile avec [Flutter](https://francoisbrucker.github.io/do-it/promos/2023-2024/Diafat-Samy/pok/temps-2/), se trouve une formation pour apprendre les bases de Java.
+Sur la chaine Youtube de [Graven](https://www.youtube.com/playlist?list=PLMS9Cy4Enq5LKYxJmD1ZIu3C7f3vA00hM), chez qui j'avais déjà suivi une playlist pour apprendre à développer une application mobile avec [Flutter]({{ site.url }}/promos/2023-2024/Diafat-Samy/pok/temps-2/), se trouve une formation pour apprendre les bases de Java.
 
 J'ai alors regardé une quinzaine de ces vidéos :
 
@@ -69,7 +69,7 @@ J'ai alors regardé une quinzaine de ces vidéos :
 ## Où pratiquer ?
 
 Cela faisait beaucoup de vidéos visionnées, mais peu de pratique.
-Toujours sur les recommandations du POK de Sarah, j'ai consulté 3 sites afin de m'exercer : 
+Toujours sur les recommandations du POK de Sarah, j'ai consulté 3 sites afin de m'exercer :
 
 - [w3schools](https://www.w3schools.com/java/default.asp) : Les exercices sont très rapides à terminer et sont à faire directement sur la page web. Permet de survoler les notions. Je recommande si l'on débute vraiment la POO.
 - [cours-gratuit](https://www.cours-gratuit.com/java) : Des exercices complets et prenant parfois du temps. J'ai terminé les 10 premiers exercices ce qui m'a permis d'appréhender les concepts d'héritage, de surcharge, d'interface, de polymorphismes...
@@ -93,12 +93,12 @@ Voici l'exemple d'un exercice ayant pour but de coder un jeu du chifoumi avec un
 
 ##  Conclusion
 
-Ce MON m'a permis d'être plus à l'aise avec la syntaxe du langage Java, mais aussi avec les différents concepts de la Programmation Orientée Objet. 
+Ce MON m'a permis d'être plus à l'aise avec la syntaxe du langage Java, mais aussi avec les différents concepts de la Programmation Orientée Objet.
 
 
 
 
-{%prerequis "<u>Sources</u>"%} 
+{%prerequis "<u>Sources</u>"%}
 - Playlist Youtube Coding with John : https://www.youtube.com/playlist?list=PLkeaG1zpPTHhXOfy-mFbdqd1Zz4GnjcpC
 - Playlist Youtube Graven: https://www.youtube.com/playlist?list=PLMS9Cy4Enq5LKYxJmD1ZIu3C7f3vA00hM
-{%endprerequis%} 
+{%endprerequis%}

@@ -14,7 +14,7 @@ tags:
 résumé: "Un MON sur l'apprentissage du langage VBA"
 ---
 
-{%prerequis 'Bases du VBA'%}  
+{%prerequis 'Bases du VBA'%}
 {%endprerequis%}
 
 Ce premier MON du temps 2 sera consacré à l'apprentissage du langage VBA et fait suite au mon précédent sur les bases d'excel.
@@ -29,11 +29,11 @@ Pour ce mon, j'ai décidé de suivre une formation vidéo sur YouTube, la playli
 
 ### Introduction
 
-VBA est un langage de programmation intégré dans Excel permettant d'automatiser des tâches et de créer des fonctionnalités personnalisées. La formation au VBA sur excel-pratique.com fait parfaitement suite à mon [MON](https://francoisbrucker.github.io/do-it/promos/2023-2024/Lola-Bourdon/mon/temps-1.2/) précédent sur les bases d'excel, réalisé grâce au même site. Toutefois, plusieurs MONs ont deja été réalisés à ce sujet et grâce à ce site. La première étape a été de les lire. Puis, n'étant pas très à l'aise avec le code de manière générale j'ai voulu commencer par une formation vidéo, plus explicative à mon sens. J'ai trouvé une playlist sur YouTube. J'ai complémenté cette formation par la formation sur excel-pratique.com. Pour finir, j'ai réalisé des petits jeux grâce à VBA, unique partie que je vais détailler dans ce MON pour éviter les redondances avec les MONs précédents.
+VBA est un langage de programmation intégré dans Excel permettant d'automatiser des tâches et de créer des fonctionnalités personnalisées. La formation au VBA sur excel-pratique.com fait parfaitement suite à mon [MON]({{ site.url }}/promos/2023-2024/Lola-Bourdon/mon/temps-1.2/) précédent sur les bases d'excel, réalisé grâce au même site. Toutefois, plusieurs MONs ont deja été réalisés à ce sujet et grâce à ce site. La première étape a été de les lire. Puis, n'étant pas très à l'aise avec le code de manière générale j'ai voulu commencer par une formation vidéo, plus explicative à mon sens. J'ai trouvé une playlist sur YouTube. J'ai complémenté cette formation par la formation sur excel-pratique.com. Pour finir, j'ai réalisé des petits jeux grâce à VBA, unique partie que je vais détailler dans ce MON pour éviter les redondances avec les MONs précédents.
 
 ### Tutoriel YouTube et exercices
 
-Les vidéos suivies sont réparties comme suit et durent en moyenne 6 min : 
+Les vidéos suivies sont réparties comme suit et durent en moyenne 6 min :
 
 1. VBA Qu’est ce que c’est
 2. Enregistrer et lire une macro
@@ -63,13 +63,13 @@ Il m'a fallu 2h30 pour regarder les 17 vidéos et faire les exercices proposés.
 
 ### Excel pratique
 
-j'ai complété ma formation vidéo par les formation excel-pratique. com.  j'ai pu revoir certaines notions de base comme les variables, macro , boucles, MsgBox etc. et en apprendre de nouvelles comme les fonctions par exemple. La formation de excel pratique et détaillé dans le [MON de Louise](https://francoisbrucker.github.io/do-it/promos/2022-2023/Gacoin-Louise/mon/MON5/)
+j'ai complété ma formation vidéo par les formation excel-pratique. com.  j'ai pu revoir certaines notions de base comme les variables, macro , boucles, MsgBox etc. et en apprendre de nouvelles comme les fonctions par exemple. La formation de excel pratique et détaillé dans le [MON de Louise]({{ site.url }}/promos/2022-2023/Gacoin-Louise/mon/MON5/)
 
 Après avoir réalisé les exercices proposés, j'ai décidé de réaliser un jeu simple en vba.
 
 ### Réalisation d'un jeu sur excel avec VBA
 
-Pour commencer je vais réaliser un jeu de devinette. l'objectif est qu'excel génère un nombre au hasard entre 1 et 10 et que l'utilisateur essaye de deviner en ayant des indices *plus haut* ou *plus bas*. 
+Pour commencer je vais réaliser un jeu de devinette. l'objectif est qu'excel génère un nombre au hasard entre 1 et 10 et que l'utilisateur essaye de deviner en ayant des indices *plus haut* ou *plus bas*.
 Pour cela j'aurai besoin que d'une seule macro **JeuDevinette** et de 3 variables; **Devine, EssaiNombre et NombreSecret** qui traduisent respectivement l'état de la devinette, le nombre proposé et le nombre qu'il faut trouver.
 le code du jeu est le suivant :
 

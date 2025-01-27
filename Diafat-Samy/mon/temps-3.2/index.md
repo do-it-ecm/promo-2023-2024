@@ -6,13 +6,13 @@ authors:
   - Samy Diafat
 résumé: "Spring et Spring Boot sont LES librairies qu'un développeur Java doit absolument connaître. Les 3/4 des applications Java d'aujourd'hui utilisent Spring quelque part. Ce MON de 10 heures a pour but d'apprendre les fondements qu'il est essentiel et indispensable de connaître lorsque l'on est développeur Java."
 
-tags: 
+tags:
    - 'Java'
    - 'Spring'
    - 'Spring Boot'
 ---
 
-{%prerequis 'Intermédiaire'%} 
+{%prerequis 'Intermédiaire'%}
 Bonne expérience du developpement Java.
 Une première expérience du developpement Java avec les bases de donnnées.
 Une première expérience en developpement web.
@@ -26,10 +26,10 @@ Tout comme mon précédent MON, j'ai choisi de suivre la formation du même form
 Il est possible d'obtenir 30 jours d'essai gratuit sur toutes les formations Java, puis de payer 10 euros par mois pour garder un accès aux formations. L'abonnement est sans engagement donc il est possible de ne rien payer. Je trouve personnellement que la qualité des vidéos proposées en vaut largement le prix.
 
 
-### Sommaire 
+### Sommaire
 1. Présentation de la formation
 1.1 Pourquoi suivre ce cours ?
-1.2 A quoi ressemble un chapitre  ? 
+1.2 A quoi ressemble un chapitre  ?
 1.3 Comment valide-t-on nos connaissances ?
 1.4 Quelles sont les thèmes abordés ?
 2. Points positifs & Points négatifs
@@ -47,7 +47,7 @@ L'enseignant de la formation est Jean-Philippe EHRET, voici sa description sur l
 ![Openclassroom_accueil](./JP.png)
 
 
-Ce mon fait suite à mon précedent [MON](https://francoisbrucker.github.io/do-it/promos/2023-2024/Diafat-Samy/mon/temps-3.1/), vous pouvez trouver la formation que j'ai suivie directement sur le site du formateur [apprendre-java](https://apprendre-java.com/courses) (où les formations sont beaucoup moins chères).
+Ce mon fait suite à mon précedent [MON]({{ site.url }}/promos/2023-2024/Diafat-Samy/mon/temps-3.1/), vous pouvez trouver la formation que j'ai suivie directement sur le site du formateur [apprendre-java](https://apprendre-java.com/courses) (où les formations sont beaucoup moins chères).
 
 
 Après avoir commencé par le commencement (pour mon cas), c'est à dire "Java et les bases de données avec JDBC, Hibernate et JPA", j'ai poursuivi ma formation avec le cours sur le framework Spring "Bien débuter avec Spring et Spring Boot pour Java"
@@ -56,7 +56,7 @@ Après avoir commencé par le commencement (pour mon cas), c'est à dire "Java e
 ## Pourquoi suivre ce cours ?
 
 
-### A quoi ressemble un chapitre ? 
+### A quoi ressemble un chapitre ?
 
 Les cours sont assez classiques dans leur forme : un lecteur vidéo (avec la possiblité d'accélérer la vidéo et de la sous-titrer), une section commentaire dédiée, et des fichiers utilisés dans le cours disponibles en téléchargement.
 
@@ -96,7 +96,7 @@ Quelles sont les points positifs selon moi ?
 - Le découpage des vidéos est pertinent.
 - Les vidéos peuvent être accélérées et sous-titrées.
 - Le site est ergonomique.
-- Le contenu de la formation a été mis à jour. 
+- Le contenu de la formation a été mis à jour.
 - Les exercices sont simples à faire après avoir vu les vidéos.
 - Le code est disponible.
 - Les vidéos sont téléchargeables.

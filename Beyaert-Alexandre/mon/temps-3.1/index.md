@@ -29,7 +29,7 @@ résumé: "Un MON traitant de la découverte de VBA"
 
 ## 1. Introduction
 
-Les MON sur VBA ne datent pas d'hier, cette année [Paul](https://francoisbrucker.github.io/do-it/promos/2023-2024/Le_Bihan-Paul/mon/temps-1.1/), [Mathis](https://francoisbrucker.github.io/do-it/promos/2023-2024/Mathis%20Schultz/mon/temps-2.1/#h4), [Agathe](https://francoisbrucker.github.io/do-it/promos/2023-2024/Agathe-Rabachou/mon/temps-2.1/) et [Lola](https://francoisbrucker.github.io/do-it/promos/2023-2024/Lola-Bourdon/mon/temps-2.1/) s'y sont déjà prêtés.
+Les MON sur VBA ne datent pas d'hier, cette année [Paul]({{ site.url }}/promos/2023-2024/Le_Bihan-Paul/mon/temps-1.1/), [Mathis]({{ site.url }}/promos/2023-2024/Mathis%20Schultz/mon/temps-2.1/#h4), [Agathe]({{ site.url }}/promos/2023-2024/Agathe-Rabachou/mon/temps-2.1/) et [Lola]({{ site.url }}/promos/2023-2024/Lola-Bourdon/mon/temps-2.1/) s'y sont déjà prêtés.
 
 Cette fois-ci c'est à mon tour de découvrir se langage, à la fois par curiosité mais aussi par intérêt pour mon stage de fin d'études en tant que consultant en Supply Chain.
 
@@ -61,7 +61,7 @@ L'automatisation des tâches en VBA est rendu possible grâce à l'enregistreur 
 
 **Qu'est-ce qu'une macro ?**
 
-Une macro est une série d'instructions ou de commandes enregistrées dans un langage de programmation intégré - dans notre cas VBA - qui permet d'automatiser des tâches répétitives ou complexes dans une application. 
+Une macro est une série d'instructions ou de commandes enregistrées dans un langage de programmation intégré - dans notre cas VBA - qui permet d'automatiser des tâches répétitives ou complexes dans une application.
 
 **Enregistreur de macro**
 
@@ -97,7 +97,7 @@ Il est également possible de :
 - changer la mise en forme d'un texte
 - afficher / masquer des feuilles...
 
-Le MON d'[Agathe](https://francoisbrucker.github.io/do-it/promos/2023-2024/Agathe-Rabachou/mon/temps-2.1/) résume très bien ces fonctionnalités, je me contenterai donc de renvoyer vers sa page pour éviter les répétitions et de développer davantage la partie 4 sur les variables et types de données.
+Le MON d'[Agathe]({{ site.url }}/promos/2023-2024/Agathe-Rabachou/mon/temps-2.1/) résume très bien ces fonctionnalités, je me contenterai donc de renvoyer vers sa page pour éviter les répétitions et de développer davantage la partie 4 sur les variables et types de données.
 
 ## 4. Variables et types de données
 

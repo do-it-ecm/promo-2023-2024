@@ -16,7 +16,7 @@ tags:
 
 ---
 
-## Description 
+## Description
 
 (Les liens de téléchargement sont après la conclusion)
 
@@ -32,11 +32,11 @@ Partie éditeur           |  Partie console
 :-------------------------:|:-------------------------:
 ![](editor.JPG)  |  ![](console.JPG)
 
-Sur la partie éditeur, on peut distinguer en haut à gauche la scène, c'est à dire l'endroit où on va pouvoir arranger et visualiser les éléments du jeu dans l'espace. En bas à gauche, la prévisualisation du jeu du point de vue du joueur, c'est là où on va regarder lors des phases de test. Toute la partie droite est la liste des éléments du projet, ainsi que leurs attributs qu'on va pouvoir modifier. 
+Sur la partie éditeur, on peut distinguer en haut à gauche la scène, c'est à dire l'endroit où on va pouvoir arranger et visualiser les éléments du jeu dans l'espace. En bas à gauche, la prévisualisation du jeu du point de vue du joueur, c'est là où on va regarder lors des phases de test. Toute la partie droite est la liste des éléments du projet, ainsi que leurs attributs qu'on va pouvoir modifier.
 
-Unity dispose d'une intégration Microsoft Visual Studio, et c'est là dessus qu'on va éditer les scripts du projet en C#. Généralement, pour un objet, on va avoir un script associé pour dicter son comportement, ainsi qu'un script Game Manager, qui va dicter le déroulement général du jeu ainsi que gérer les interactions entre plusieurs entités. 
+Unity dispose d'une intégration Microsoft Visual Studio, et c'est là dessus qu'on va éditer les scripts du projet en C#. Généralement, pour un objet, on va avoir un script associé pour dicter son comportement, ainsi qu'un script Game Manager, qui va dicter le déroulement général du jeu ainsi que gérer les interactions entre plusieurs entités.
 
-**Qu'a-t-on appris du [dernier POK](https://francoisbrucker.github.io/do-it/promos/2023-2024/Vladimir-Jeantroux/pok/temps-2/) ?**
+**Qu'a-t-on appris du [dernier POK]({{ site.url }}/promos/2023-2024/Vladimir-Jeantroux/pok/temps-2/) ?**
 
 - __Faire de son premier jeu quelque chose de simple.__ Les jeux de combat, bien que complets et permettant de passer en revue beaucoup d'éléments d'apprentissage pour le développement d'un jeu vidéo, sont aussi extrêmement difficiles à développer en entier, et surtout ensuite d'en faire quelque chose de fonctionnel. J'ai dû dessiner moi même des personnages afin que le jeu soit un minimum lisible, aussi bien pour un joueur qu'un développeur. Ici, on va faire un jeu où il faut attraper des pièces et sauter par dessus des obstacles. Tous les éléments du jeu (ou presque) seront des cubes colorés.
 
@@ -66,37 +66,37 @@ Unity dispose d'une intégration Microsoft Visual Studio, et c'est là dessus qu
 - Exportation en application ~~(1h)~~ (1h30)[X]
 - **Augmentation de la difficulté (1h) [X]**
 
-En gras les tâches ajoutées en cours de route. Le backlog prévoit 2h parmi les 20 dédiées à la correction de bugs. 
+En gras les tâches ajoutées en cours de route. Le backlog prévoit 2h parmi les 20 dédiées à la correction de bugs.
 
 ## Résumé du Sprint 1
 
-Bonne nouvelle : les objectifs du sprint 1 ont été fait en la moitié du temps. Mauvaise nouvelle : je n'ai pas pu avancer plus à cause d'imprévus. Pour le moment, on a un jeu très rudimentaire : un cube pouvant seulement sauter par dessus des obstacles s'avançant vers lui à des intervalles aléatoires. Le score augmente à chaque seconde où le joueur encore en vie, et le jeu recommence si le joueur touche un obstacle. C'est un jeu très simple, mais déjà fonctionnel, par dessus lequel je pourrai construire et ajouter des fonctionnalités. 
+Bonne nouvelle : les objectifs du sprint 1 ont été fait en la moitié du temps. Mauvaise nouvelle : je n'ai pas pu avancer plus à cause d'imprévus. Pour le moment, on a un jeu très rudimentaire : un cube pouvant seulement sauter par dessus des obstacles s'avançant vers lui à des intervalles aléatoires. Le score augmente à chaque seconde où le joueur encore en vie, et le jeu recommence si le joueur touche un obstacle. C'est un jeu très simple, mais déjà fonctionnel, par dessus lequel je pourrai construire et ajouter des fonctionnalités.
 
 ![Capture en jeu](./basegame.jpg "Capture d'écran du jeu")
 
 ## Ajustements et objectifs pour le Sprint 2
 
 En plus des objectifs déjà établis pour le sprint 2 :
-- Faire des obstacles qui apparaissent sur les pistes gauche et droite 
+- Faire des obstacles qui apparaissent sur les pistes gauche et droite
 - Garder en mémoire les infos telles que le meilleur score
-- Rendre le jeu compatible sur iOS 
+- Rendre le jeu compatible sur iOS
 
-## Résumé du Sprint 2 
+## Résumé du Sprint 2
 
-Le 2e sprint a été consacré à l'ajout de fonctionnalités pour rendre le jeu un tout petit peu plus intéressant, et de la correction de bugs. Les principaux ajouts sont le mouvement en 2 dimensions, et les bonus. En effet, les obstacles arrivent maintenant aussi sur les couloirs de gauche et de droite ainsi qu'au milieu, et le joueur peut se déplacer à droite, à gauche, ou sauter pour les esquiver. 
+Le 2e sprint a été consacré à l'ajout de fonctionnalités pour rendre le jeu un tout petit peu plus intéressant, et de la correction de bugs. Les principaux ajouts sont le mouvement en 2 dimensions, et les bonus. En effet, les obstacles arrivent maintenant aussi sur les couloirs de gauche et de droite ainsi qu'au milieu, et le joueur peut se déplacer à droite, à gauche, ou sauter pour les esquiver.
 
-2 bonus ont été ajoutés, qui apparaissent aléatoirement sur un des couloirs et qui octroient un avantage au joueur quand il en ramasse un : soit 10 points sont rajoutés à son score, soit tous les obstacles à l'écran sont détruits. La partie la plus difficile était de faire fonctionner le bonus de score, car il fallait faire interagir plusieurs objets à la fois : le joueur (qui entre en contact avec le bonus), le bonus, et le compteur de score, qui doit être incrémenté de 10. 
+2 bonus ont été ajoutés, qui apparaissent aléatoirement sur un des couloirs et qui octroient un avantage au joueur quand il en ramasse un : soit 10 points sont rajoutés à son score, soit tous les obstacles à l'écran sont détruits. La partie la plus difficile était de faire fonctionner le bonus de score, car il fallait faire interagir plusieurs objets à la fois : le joueur (qui entre en contact avec le bonus), le bonus, et le compteur de score, qui doit être incrémenté de 10.
 
-L'écran de jeu ressemble finalement à ça : 
+L'écran de jeu ressemble finalement à ça :
 
 ![Jeu en action](exemple1.jpg)
 
-On a plusieurs éléments qui se détachent : le joueur, en noir, dont on a le contrôle, l'obstacle, en rouge, qu'il ne faut absolument pas toucher, et un bonus, et c'est un bleu donc il donne 10 de score. Le meilleur score est affiché en personnage, une façon de constamment rappeler de donner le meilleur de soi-même. Le meilleur score est conservé sur la mémoire du téléphone, c'est à dire que même si on ferme/tue l'appli, le jeu se souviendra toujours du score le plus haut, à moins de désinstaller l'appli. 
-Lorsqu'on perd, on a un écran indiquant qu'on a perdu, affichant notre score final, et un bouton qui nous remet au tout début. 
+On a plusieurs éléments qui se détachent : le joueur, en noir, dont on a le contrôle, l'obstacle, en rouge, qu'il ne faut absolument pas toucher, et un bonus, et c'est un bleu donc il donne 10 de score. Le meilleur score est affiché en personnage, une façon de constamment rappeler de donner le meilleur de soi-même. Le meilleur score est conservé sur la mémoire du téléphone, c'est à dire que même si on ferme/tue l'appli, le jeu se souviendra toujours du score le plus haut, à moins de désinstaller l'appli.
+Lorsqu'on perd, on a un écran indiquant qu'on a perdu, affichant notre score final, et un bouton qui nous remet au tout début.
 
 Vu que je testais l'application sur mon ordinateur, j'avais donc codé des déplacements par rapport à des appuis de bouton sur mon clavier. Au moment de l'exporter, j'ai donc dû recoder les mouvements du joueur pour qu'il réponde à des appuis d'écran, et tout le problème était là. Alors que sur un clavier, on a un bouton différent = une commande différente, alors que sur un téléphone, tout provient d'une tape sur l'écran ! Il faut donc prévoir les différences subtiles entre les manières de taper son écran pour sortir le mouvement approprié (tape rapide = saut, glissement vers la gauche = déplacement vers la gauche et inversement). C'était un challenge de devoir prendre conscience de tous ses mouvements sur un écran de téléphone; combien de temps dure une tape ou un glissement, quelle distance le doigt parcourt sur l'écran,...
 
-Dans le même mode de fonctionnement que Subway Surfers, je voulais coder les obstacles de façon à ce que plus le jeu avance et le score augmente, plus les obstacles arrivent à grande vitesse sur le joueur. Après avoir eu beaucoup de mal à faire fonctionner ce concept, j'ai fait une erreur et rendu la vitesse de chaque obstacle aléatoire. Ca donnait au jeu une difficulté bien particulière et l'a rendu un peu plus amusant, j'ai donc décidé de garder ce système. 
+Dans le même mode de fonctionnement que Subway Surfers, je voulais coder les obstacles de façon à ce que plus le jeu avance et le score augmente, plus les obstacles arrivent à grande vitesse sur le joueur. Après avoir eu beaucoup de mal à faire fonctionner ce concept, j'ai fait une erreur et rendu la vitesse de chaque obstacle aléatoire. Ca donnait au jeu une difficulté bien particulière et l'a rendu un peu plus amusant, j'ai donc décidé de garder ce système.
 
 ![Vidéo du gameplay](demo.gif)
 
@@ -104,28 +104,28 @@ Ci-dessus une petite démo du jeu et de ses différentes fonctionnalités (le gi
 
 ## Difficultés et échecs
 
-Il y a eu quelques fonctionnalités sur lesquelles j'ai travailler qui n'ont pas abouti. J'ai voulu ajouter des effets sonores et visuels lorsque le joueur ramassait un bonus ou tapait un obstacle. 
+Il y a eu quelques fonctionnalités sur lesquelles j'ai travailler qui n'ont pas abouti. J'ai voulu ajouter des effets sonores et visuels lorsque le joueur ramassait un bonus ou tapait un obstacle.
 
 La plus grande déception, cependant, était lorsque j'ai tenté d'ajouter une forme de connexion réseau à l'appli, sous forme des pubs. J'ai d'abord tenté d'utiliser le service pubs directement inclus dans Unity, mais il était malheureusement trop vieux, et donc non supporté pour la version que j'utilisais. J'ai ensuite essayé de faire une application rudimentaire qui permettrait de connecter mon jeu mobile à l'ovh où j'y aurais stocké des fausses pubs que l'application irait chercher pour l'afficher sur le téléphone. Ca n'a malheureusement pas abouti non plus.
 
-Le backlog est aussi une boucherie, avec une multitude de tâches qui ont été supprimées en cours de route, car trop longues, superflues, ou simplement moins prioritaires que d'autres fonctions primordiales sur lesquelles il fallait se concentrer. C'est en travaillant sur le jeu que je me suis rendu compte de tâches sous-jacentes à une certaine fonctionnalité, etc. Je n'ai aussi pas prévu assez de temps purement dédié à la correction de bugs. Un piège extrêmement commun est de mal coder une fonctionnalité au tout début, mais se rendre compte beaucoup plus tard que c'était mal fait, et donc il faut passer un temps énorme à tout creuser pour faire les ajustements nécessaires. 
+Le backlog est aussi une boucherie, avec une multitude de tâches qui ont été supprimées en cours de route, car trop longues, superflues, ou simplement moins prioritaires que d'autres fonctions primordiales sur lesquelles il fallait se concentrer. C'est en travaillant sur le jeu que je me suis rendu compte de tâches sous-jacentes à une certaine fonctionnalité, etc. Je n'ai aussi pas prévu assez de temps purement dédié à la correction de bugs. Un piège extrêmement commun est de mal coder une fonctionnalité au tout début, mais se rendre compte beaucoup plus tard que c'était mal fait, et donc il faut passer un temps énorme à tout creuser pour faire les ajustements nécessaires.
 
 ## Bilan et Ouverture
 
-Ce POK a été très instructif sur Unity et le développement de jeux mobiles en général. C'est un moteur à la fois extrêmement dense et complet, mais aussi intuitif par le fait que la documentation est très riche, les forums sont actifs, et le langage principal est le C#. C'est un projet que je continuerai probablement pendant mon temps libre, notamment pour rajouter les fonctionnalités que je n'ai pas réussi à implémenter pendant le POK, mais aussi pour y faire des améliorations mineures et peut-être même le déployer sur le Play Store si je vais assez loin. 
+Ce POK a été très instructif sur Unity et le développement de jeux mobiles en général. C'est un moteur à la fois extrêmement dense et complet, mais aussi intuitif par le fait que la documentation est très riche, les forums sont actifs, et le langage principal est le C#. C'est un projet que je continuerai probablement pendant mon temps libre, notamment pour rajouter les fonctionnalités que je n'ai pas réussi à implémenter pendant le POK, mais aussi pour y faire des améliorations mineures et peut-être même le déployer sur le Play Store si je vais assez loin.
 
 Le Github du projet se trouve [ici](https://github.com/VlaadimirJ/parcours-obstacles-kubique) et le jeu peut s'installer depuis [ici](https://drive.google.com/file/d/1PiJLEEll2Knoigbu2sob3Rf1GkHs_0Ns/view?usp=sharing) ou à partir du QR Code ci-dessous. (Android seulement, désolé !).
 
 <img src="qr-code.png" alt="qr code" width="200"/>
 
-## Bibliographie 
+## Bibliographie
 
 - Documentation Unity : https://docs.unity.com
 - Procedural Generation: Endless Runner Unity Tutorial : https://www.youtube.com/watch?v=Ldyw5IFkEUQ
 - 3D ENDLESS RUNNER IN UNITY - JUMP : https://www.youtube.com/watch?v=x-EtYggJdP0&list=PLvcJYjdXa962PHXFjQ5ugP59Ayia-rxM3
-- Getting started with Unity Ads : https://learn.unity.com/tutorial/getting-started-with-unity-monetization?signup=true#62c566faedbc2a165949c1ad 
-- Icônes start, pause et recommencer : https://store.steampowered.com/app/1388770/Cruelty_Squad/ 
-- Create A 3D Endless Runner Android Game With Unity - Complete Tutorial : https://www.youtube.com/watch?v=WDXKp-OKxGs&t=1869s 
+- Getting started with Unity Ads : https://learn.unity.com/tutorial/getting-started-with-unity-monetization?signup=true#62c566faedbc2a165949c1ad
+- Icônes start, pause et recommencer : https://store.steampowered.com/app/1388770/Cruelty_Squad/
+- Create A 3D Endless Runner Android Game With Unity - Complete Tutorial : https://www.youtube.com/watch?v=WDXKp-OKxGs&t=1869s
 
 **Horodatage**
 
@@ -147,5 +147,5 @@ Le Github du projet se trouve [ici](https://github.com/VlaadimirJ/parcours-obsta
 >Implémentation de moyens de monétisation (1h30) (échec)
 >Ajout de commandes de déplacements adaptées au mobile (1h)
 >Incrémentation de la difficulté (1h)
->Export au format mobile (30 min) 
+>Export au format mobile (30 min)
 >Ajout d'effets sonores (1h) (échec)
