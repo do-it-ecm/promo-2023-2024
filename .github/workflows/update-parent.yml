@@ -11,10 +11,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
       - name: Compliance Check
         uses: do-it-ecm/compliance-check@1.0.0
-        with:
-          source: src/promos/2023-2024
 
       - name: Trigger Parent Workflow
         uses: peter-evans/repository-dispatch@v3
