@@ -13,9 +13,9 @@ tags:
   - "Analyse de besoin"
   - "Formation"
 
-résumé: Comment former une équipe à faire une étude photométrique en utilisant DIALux ?
+description: Comment former une équipe à faire une étude photométrique en utilisant DIALux ?
 ---
-## Roadmap : 
+## Roadmap :
 {%faire "**Sprint 1**"%}
 - Documentation (Revoir les bases de Dialux) ***5h***
 - Les normes européennes de l'éclairage ***1h***
@@ -30,14 +30,14 @@ résumé: Comment former une équipe à faire une étude photométrique en utili
 
 # Choix du logiciel
 
-| | DIALux | Relux | 
+| | DIALux | Relux |
 |-----------|-----------|-----------|
-|Fonctionnalités  |- Options avancées pour la simulation d'éclairage intérieur et extérieur. <br>- Large gamme de bibliothèques de luminaires et de matériaux.|- Options robustes pour la planification d'éclairage intérieur, extérieur et de la lumière du jour.<br>- Bibliothèques de produits constamment mises à jour. | 
-|Interface Utilisateur   |- Interface relativement complexe, nécessitant un temps d'adaptation.<br>- Personnalisable selon les besoins de l'utilisateur.|- Interface utilisateur plus intuitive et facile à naviguer.<br>- Conviviale pour les nouveaux utilisateurs. | 
-|Convivialité            |- Convient mieux aux utilisateurs ayant une certaine expérience de la conception d'éclairage.<br>- Documentation et tutoriels détaillés disponibles pour l'apprentissage. |- Approprié pour les débutants et les utilisateurs intermédiaires.<br>- Tutoriels et guides d'utilisation pour faciliter l'apprentissage.| 
-|Capacités de Simulation |- Simulations précises et détaillées.<br>- Bonne représentation de l'effet de la lumière sur différents matériaux.| Simulations de haute qualité, avec un accent sur la lumière naturelle.<br>- Rendus rapides et efficaces.| 
-|Compatibilité           |- Peut importer des données de différents formats de fichiers CAO.<br>- Bonne intégration avec d'autres outils de conception. |- Bonne intégration avec divers formats de fichiers CAO.<br>- Exporte facilement les données vers d'autres logiciels. | 
-|Ressources              |- Cours de formation et certifications disponibles.<br>- Communauté d'utilisateurs active et forums de support.|- Support technique et formation en ligne disponibles.<br>- Base d'utilisateurs moins vaste comparée à DIALux, mais communauté active. | 
+|Fonctionnalités  |- Options avancées pour la simulation d'éclairage intérieur et extérieur. <br>- Large gamme de bibliothèques de luminaires et de matériaux.|- Options robustes pour la planification d'éclairage intérieur, extérieur et de la lumière du jour.<br>- Bibliothèques de produits constamment mises à jour. |
+|Interface Utilisateur   |- Interface relativement complexe, nécessitant un temps d'adaptation.<br>- Personnalisable selon les besoins de l'utilisateur.|- Interface utilisateur plus intuitive et facile à naviguer.<br>- Conviviale pour les nouveaux utilisateurs. |
+|Convivialité            |- Convient mieux aux utilisateurs ayant une certaine expérience de la conception d'éclairage.<br>- Documentation et tutoriels détaillés disponibles pour l'apprentissage. |- Approprié pour les débutants et les utilisateurs intermédiaires.<br>- Tutoriels et guides d'utilisation pour faciliter l'apprentissage.|
+|Capacités de Simulation |- Simulations précises et détaillées.<br>- Bonne représentation de l'effet de la lumière sur différents matériaux.| Simulations de haute qualité, avec un accent sur la lumière naturelle.<br>- Rendus rapides et efficaces.|
+|Compatibilité           |- Peut importer des données de différents formats de fichiers CAO.<br>- Bonne intégration avec d'autres outils de conception. |- Bonne intégration avec divers formats de fichiers CAO.<br>- Exporte facilement les données vers d'autres logiciels. |
+|Ressources              |- Cours de formation et certifications disponibles.<br>- Communauté d'utilisateurs active et forums de support.|- Support technique et formation en ligne disponibles.<br>- Base d'utilisateurs moins vaste comparée à DIALux, mais communauté active. |
 
 ## Normes européennes de l'éclairage public
 
@@ -67,7 +67,7 @@ La durée fixée à l'avance : 2h
 <a href="2F_for_Dialux.pdf" target="_blank">Plan 2 de construction</a>
 {% endattention %}
 
-Résultat attendu de cette première prise en main du logiciel: 
+Résultat attendu de cette première prise en main du logiciel:
 1. Construire le première étage de la Villa
 <div style="display: flex; justify-content: space-around;">
   <img src="Resultat_1.png" alt="android emulaor" style="width: 70%; margin-right: 2%;">
@@ -90,11 +90,11 @@ Tous les collaborateurs ont bien réussi la première étape de construction. Un
 Voici les questions que j'ai proposées pour mieux cerner le besoin de la deuxième formation :
 {%faire "**Formulaire**"%}
 
-1. Notez le contenu de la formation : "Pas du tout d'accord - Pas d'accord - Neutre - D'accord - Tout à fait d'accord " : 
-  - Les objectifs d’apprentissage étaient clairs.	
-  - Le contenu de la formation était structuré et bien préparé.	
-  - La  charge de travail était adaptée à la formation.	
-  - La formation était organisée de manière à faire participer pleinement tous les membres de l'équipe.	
+1. Notez le contenu de la formation : "Pas du tout d'accord - Pas d'accord - Neutre - D'accord - Tout à fait d'accord " :
+  - Les objectifs d’apprentissage étaient clairs.
+  - Le contenu de la formation était structuré et bien préparé.
+  - La  charge de travail était adaptée à la formation.
+  - La formation était organisée de manière à faire participer pleinement tous les membres de l'équipe.
 2. Quels aspects de la première formation DIALux avez-vous trouvés les plus utiles ?
 3. Y a-t-il des points de la formation qui n'étaient pas clairs ou qui nécessitent plus d'explication ?
 4. Quel est votre niveau de satisfaction vis-à-vis des supports utilisés pour la formation ?
@@ -161,13 +161,13 @@ Je vous ai mis les réponses des mes cinqs collaborateurs qui ont assisté à la
 </div>
 
 
-Pourquoi cette station ? 
+Pourquoi cette station ?
 - La station écopôle est une station tramway de la ligne 3 qui est à côté du site de Montpellier, donc tous les collaborateurs la connaissent.
-- La station est sujette d'un nouveau projet mené par l'équipe, donc ils connaissent la station existantes et les futurs changements 
+- La station est sujette d'un nouveau projet mené par l'équipe, donc ils connaissent la station existantes et les futurs changements
 2. Préparer le fichier Autocad
-3. Faire une simulation Post-Formation pour fixer le temps 
+3. Faire une simulation Post-Formation pour fixer le temps
 4. Fixer la date de la deuxième formation
-5. Préparer un nouveau manuel plus détaillé qui se base sur la conception à réaliser 
+5. Préparer un nouveau manuel plus détaillé qui se base sur la conception à réaliser
 
 ## Bibliothèque
 

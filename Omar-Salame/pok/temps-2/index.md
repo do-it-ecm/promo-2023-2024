@@ -10,7 +10,7 @@ date: 2023-11-25
 temps: 2
 tags:
 
-résumé: Mon premier site web.
+description: Mon premier site web.
 ---
 {% chemin %}
 [Le Github du POK1](https://github.com/Omar-Salame/football-fantasy)
@@ -24,7 +24,7 @@ résumé: Mon premier site web.
 
 ## Recap<a id="section-1"></a>
 Mon projet de fantasy football pour la ligue marocaine INWI Botola Pro1 a déjà accompli des étapes significatives. Jusqu'à présent, j'ai mis en place les fondations de la plateforme, en développant la structure HTML et CSS de base, en intégrant les données des joueurs et des équipes via un processus de webscraping, et en commençant à travailler sur des fonctionnalités backend telles que l'authentification des utilisateurs. J'ai également créé un design initial pour le site, y compris la modélisation du terrain et la page d'accueil. Alors que je me prépare à entamer la deuxième phase du projet, mon intention est de développer davantage la plateforme en ajoutant des fonctionnalités clés, en améliorant son esthétique et en rendant le site pleinement fonctionnel. Ce développement inclura l'implémentation d'un système de gestion d'équipes, d'un système de points basé sur les performances des joueurs, et d'une interface utilisateur améliorée pour une expérience plus immersive et compétitive pour les utilisateurs.
- 
+
 ## 1er Sprint : Fonctionnalités de Base<a id="section-2"></a>
 ### Backlog
 | Fonctionnalité                               | Description                                                                                   | Temps Estimé |
@@ -33,13 +33,13 @@ Mon projet de fantasy football pour la ligue marocaine INWI Botola Pro1 a déjà
 | Création et Gestion d'Équipe                 | Développement de la fonctionnalité backend permettant aux utilisateurs de créer et de gérer des équipes. Mise en œuvre des opérations CRUD (Créer, Lire, Mettre à jour, Supprimer) pour la gestion d'équipe. | 6 heures     |
 | Système de Points Basique pour les Joueurs   | Définition des règles et de la logique de scoring. Implémentation d'une version simple du système de points. | 1 heures     |
 
-### Implémentation 
+### Implémentation
 #### Intégration et Gestion des Données des Joueurs
 Jusqu'à présent, j'ai pu avancer sur la fonctionnalité "Intégration et Gestion des Données des Joueurs". J'ai réussi à importer manuellement les données des joueurs dans la base de données MongoDB, comme une base de mon processus. Bien que l'automatisation complète ne soit pas encore mise en place, Cette étape initiale sert de fondement solide pour la suite du développement. Les prochaines étapes impliqueront la recherche et l'intégration d'une API appropriée pour garantir la mise à jour en temps réel des données des joueurs et de la ligue.
 ```js
 const mongoose = require('mongoose');
 const fs = require('fs');
-const PlayerModel = require('./models/player'); 
+const PlayerModel = require('./models/player');
 const mongoURI = "mongodb+srv://TinySpy:@cluster0.guwuhmj.mongodb.net/MFL"
 mongoose.connect(mongoURI, {
   useNewUrlParser: true,
@@ -111,7 +111,7 @@ async function scrapeJournee(url) {
         const fixtures = [];
 
         $(".style-table-7.cs7-1 tr").each((index, element) => {
-            if (index === 0) return; 
+            if (index === 0) return;
 
             const tds = $(element).find('td');
             const homeTeam = $(tds[0]).text().trim();

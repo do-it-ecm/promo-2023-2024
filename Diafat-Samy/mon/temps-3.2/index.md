@@ -4,7 +4,7 @@ layout: layout/post.njk
 title: "Bien débuter avec Spring et Spring Boot pour Java"
 authors:
   - Samy Diafat
-résumé: "Spring et Spring Boot sont LES librairies qu'un développeur Java doit absolument connaître. Les 3/4 des applications Java d'aujourd'hui utilisent Spring quelque part. Ce MON de 10 heures a pour but d'apprendre les fondements qu'il est essentiel et indispensable de connaître lorsque l'on est développeur Java."
+description: "Spring et Spring Boot sont LES librairies qu'un développeur Java doit absolument connaître. Les 3/4 des applications Java d'aujourd'hui utilisent Spring quelque part. Ce MON de 10 heures a pour but d'apprendre les fondements qu'il est essentiel et indispensable de connaître lorsque l'on est développeur Java."
 
 tags:
    - 'Java'

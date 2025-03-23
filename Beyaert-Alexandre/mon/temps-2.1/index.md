@@ -9,7 +9,7 @@ date: 1970-11-01
 temps: 2
 tags:
 
-résumé: "Un MON traitant de l'utilisation des bibliothèques Python pour la Data Science."
+description: "Un MON traitant de l'utilisation des bibliothèques Python pour la Data Science."
 ---
 
 {% prerequis %}
@@ -20,7 +20,7 @@ résumé: "Un MON traitant de l'utilisation des bibliothèques Python pour la Da
 ## Sommaire
 
 1. Introduction
-2. Bibliothèque NumPy 
+2. Bibliothèque NumPy
 3. Bibliothèque Matplotlib
 4. Bibliothèque Pandas
 5. Conclusion
@@ -62,19 +62,19 @@ Ainsi, notre tableau B est bien une matrice à 2 lignes et 3 colonnes.
 
 ```python
 #np.zeros((shape), dtype)
->>>np.zeros((3,2))             
+>>>np.zeros((3,2))
 array([[0., 0.],
        [0., 0.],
        [0., 0.]])
 
 #np.ones((shape), dtype)
->>>np.ones((3,4))              
+>>>np.ones((3,4))
 array([[1., 1., 1., 1.],
        [1., 1., 1., 1.],
        [1., 1., 1., 1.]])
 
 #np.ones(shape, dtype)
->>>np.ones(2)           
+>>>np.ones(2)
 array([[1., 0.],
        [0., 1.]])
 ```
@@ -149,7 +149,7 @@ array([[0., 0., 1., 1.],
 En 2D, il est également possible d'utiliser **np.hstack** et **np.vstack** afin d'assembler selon l'axe 0 (vertical), l'axe 1 (horizontal)...
 
 **reshape**
-La fonction reshape est utilisée pour redimensionner la forme d'un tableau sans modifier les données qu'il contient. 
+La fonction reshape est utilisée pour redimensionner la forme d'un tableau sans modifier les données qu'il contient.
 
 ```python
 >>>A = np.zeros((3,2)), B = np.ones((3,2))

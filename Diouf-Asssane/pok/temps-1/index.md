@@ -10,7 +10,7 @@ date: 2023-09-17
 temps: 1
 tags:
 
-résumé: Depuis 2019, la plupart des navigateurs intègrent WebAssembly (WASM). Il est donc possible de réaliser des applications web avec des performances proches d'applications natives en utilisant des langages de programmation variés (C++, python, Rust, etc...). Réalisons une application de ce type avec Rust dans ce POK.
+description: Depuis 2019, la plupart des navigateurs intègrent WebAssembly (WASM). Il est donc possible de réaliser des applications web avec des performances proches d'applications natives en utilisant des langages de programmation variés (C++, python, Rust, etc...). Réalisons une application de ce type avec Rust dans ce POK.
 ---
 ## C'est quoi le WebAssembly ?
 ![logo WebAssembly](./webassembly.svg)

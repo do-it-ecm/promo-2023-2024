@@ -11,7 +11,7 @@ temps: 1
 tags:
   - "frontend"
 
-résumé: Création du site web Curiolab.
+description: Création du site web Curiolab.
 ---
 
 {% prerequis %}
@@ -19,7 +19,7 @@ Lien de mon repo Github : https://github.com/LucasRioual/Curiolab/tree/main
 {% endprerequis %}
 
 
-## Sommaire 
+## Sommaire
 1. Présentation
 2. Objectif du sprint 1
 3. Sprint 1
@@ -50,7 +50,7 @@ L'objectif global du sprint 1 est d'avoir une page d'acceuil fonctionnelle et jo
 
 ### Première étape : la Maquette
 
-Avant de me lancer dans le developpement, j'ai décidé de creer un wireframe. Cela me permet de poser mes idées. 
+Avant de me lancer dans le developpement, j'ai décidé de creer un wireframe. Cela me permet de poser mes idées.
 J'ai réalisé ce wireframe sur Figma. Ensuite, j'ai créé une maquette sur **Illustrator** en me basant sur le wireframe.
 
 <div style = " display: flex; justify-content: center">
@@ -67,7 +67,7 @@ Dans l'espace blanc, en haut, je veux mettre le modèle 3d de mon objet.
 ### Deuxième étape : le développement
 
 Maintenant que la maquette est faite, je peux attaquer le développement.
-J'ai essayé d'être fidèle à la maquette en reflechissant à un site responsive. 
+J'ai essayé d'être fidèle à la maquette en reflechissant à un site responsive.
 Voici le resultat du sprint 1 :
 
 <img src="site1.PNG"/>
@@ -83,11 +83,11 @@ La partie qui m'a le plus posé de problème est l'importation du modèle 3D. J'
 
 Pour la section **"Nos Produits"**, j'ai ajouté un effet de zoom lorsque la souris passe sur un élement.
 
-## Bilan du sprint 1 
+## Bilan du sprint 1
 
 Je n'ai pas réalisé tous mes objectifs initiaux. En effet, la page d'accueil de mon site n'est pas finie. Il me reste à réaliser des sections qui permettent d'en savoir plus sur l'entreprise. De plus, le site n'est pas responsive. Il s'adapte mals au différentes tailles d'écran.
 
-## Objectif du sprint 2 
+## Objectif du sprint 2
 
 Pour le sprint 2, je souhaite finir la page d'**accueil** et réaliser la page présentant le **produit**.
 
@@ -120,7 +120,7 @@ Une fois la maquette réalisée, j’ai pu continuer le code.
 
 ### Page d’accueil
 
-Pour cette page, je n’ai pas eu beaucoup de travail à faire car j’avais déjà quasiment fini lors du sprint 1. J’ai simplement modifié la deuxième section pour inclure une présentation succincte de l’entreprise. 
+Pour cette page, je n’ai pas eu beaucoup de travail à faire car j’avais déjà quasiment fini lors du sprint 1. J’ai simplement modifié la deuxième section pour inclure une présentation succincte de l’entreprise.
 
 <img src="page1.png"/>
 
@@ -157,8 +157,8 @@ Ensuite, je voulais que cette page soit dynamique. C’est à dire que cette pag
         "prixht": 99,
         "difficulte":3,
         "ressource":"./Ressource/RingBox"
-        
-   
+
+
       },
       {
         "id": 2,
@@ -169,7 +169,7 @@ Ensuite, je voulais que cette page soit dynamique. C’est à dire que cette pag
         "prixht": 9,
         "difficulte":2,
         "ressource":"./Ressource/RingBox"
-   
+
       },
       {
         "id": 3,
@@ -180,7 +180,7 @@ Ensuite, je voulais que cette page soit dynamique. C’est à dire que cette pag
         "prixht": 9,
         "difficulte":2,
         "ressource":"./Ressource/RingBox"
-   
+
       },
       {
         "id": 4,
@@ -191,9 +191,9 @@ Ensuite, je voulais que cette page soit dynamique. C’est à dire que cette pag
         "prixht": 9,
         "difficulte":2,
         "ressource":"./Ressource/RingBox"
-   
+
       }
-      
+
 ]
 ```
 
@@ -207,7 +207,7 @@ Voilà la page si on affiche **“Truc Box”**.
 
 ## Bilan du sprint 2
 
-Globalement, je suis content du résultat. J’ai pu découvrir beaucoup de notion de frontend grâce à ce projet mais ce projet m’a pris plus de 20h.  
+Globalement, je suis content du résultat. J’ai pu découvrir beaucoup de notion de frontend grâce à ce projet mais ce projet m’a pris plus de 20h.
 
 Ce projet est encore loin d’être fini si je veux vraiment avoir un site web commercial.
 

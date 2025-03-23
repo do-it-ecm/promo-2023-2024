@@ -12,7 +12,7 @@ tags:
   - "data"
   - "cybersécurité"
 
-résumé: Le but de ce POK est d'analyser les risques de la data
+description: Le but de ce POK est d'analyser les risques de la data
 ---
 
 <h2 id="h1"> Introduction </h2>
@@ -71,7 +71,7 @@ Le principal problème de ce système réside dans la simplicité théorique à 
 
 - Le rôle des ordinateurs quantiques
 
-Le rôle des ordinateurs quantique pourrait mettre fin au chiffrement RSA. En effet, suite aux différents concours de chiffrement, il a été démontré que des algorithmes quantiques peuvent décoder très rapidement le chiffrement RSA via notamment l'algorithme de SHOR.  
+Le rôle des ordinateurs quantique pourrait mettre fin au chiffrement RSA. En effet, suite aux différents concours de chiffrement, il a été démontré que des algorithmes quantiques peuvent décoder très rapidement le chiffrement RSA via notamment l'algorithme de SHOR.
 Il faut tout de même noter que ces ordinateurs ne sont pas encore industrialisable à cause des contraintes de température des supraconducteur. De plus, de nouvelle méthode de chiffrement sont déjà prête pour être mise en place si les ordinateurs quantique se répande.
 
 **Chiffrer son impact. (économique, social, politique et environnemental ?)**
@@ -88,8 +88,8 @@ Les nouvelles entreprises sont pour beaucoup des services internet : Amazon, Ube
 
 - La data, au coeur des débats politiques et les Fakenews.
 
-Comment est-ce que ces données peuvent-elles avoir autant de valeur ?  
-Il y a tout d'abord l'utilisation du ciblage publicitaire à des fins moralement discutable. Comme par exemple mettre en avant un dictateur, soutenir une guerre, favoriser un candidat à des élections en montrant des fakenews nuisant aux adversaires.  
+Comment est-ce que ces données peuvent-elles avoir autant de valeur ?
+Il y a tout d'abord l'utilisation du ciblage publicitaire à des fins moralement discutable. Comme par exemple mettre en avant un dictateur, soutenir une guerre, favoriser un candidat à des élections en montrant des fakenews nuisant aux adversaires.
 La seconde problématique réside dans les attaques au phishing : nous recevons régulièrement des mails de A..maZ00n3 ou Chr0noppost, qui ne ressemble à rien. Cependant si vous commencez à ajouter "Bonjour Mathis Schultz" puis des recommendations d'article que j'ai vraiment consulté, ainsi qu'une promotion en or, une "vente flash". ou alors si le mail indique mon numéro client ? Mes chiffres de sécurité sociale ? Il est raisonnable de penser qu'une grande part de la population se fasse avoir.
 
 <h2 id="h3"> Sprint 2 </h2>
@@ -110,7 +110,7 @@ La complexification des systèmes les rends de plus en plus dur à sonder. Perso
 
 - Qui utilise et possède de la donnée ?
 
-Les acteurs de la données comme Amazon travail quotidiennement pour l'accumuler. Cela se fait notamment via des stratégie de pricing très faible, en effet pour quelques euros par mois on peut stocker énormément sur le cloud. Cela sert bien évidemment à la publicité sur internet qui a un impact énorme sur les utilisateurs mais aussi pour les propagandes. Mention spécial pour les pubs de tourisme dans un pays du proche orient qui souhaite maintenir le soutien Européen pendant les massacres au sud de son territoire. Ou pour des élections présidentielles américaines.  
+Les acteurs de la données comme Amazon travail quotidiennement pour l'accumuler. Cela se fait notamment via des stratégie de pricing très faible, en effet pour quelques euros par mois on peut stocker énormément sur le cloud. Cela sert bien évidemment à la publicité sur internet qui a un impact énorme sur les utilisateurs mais aussi pour les propagandes. Mention spécial pour les pubs de tourisme dans un pays du proche orient qui souhaite maintenir le soutien Européen pendant les massacres au sud de son territoire. Ou pour des élections présidentielles américaines.
 Au delà des pubs, nos données servent aussi à l’entraînement des IA sans avoir un consentement particulier de la part de l'utilisateur. Ainsi ces données collecté massivement deviennent des enjeux majeurs, et les infrastructures sont régulièrement la proie des hackeurs.
 
 - Cloud VS On premise
@@ -145,7 +145,7 @@ Les gestionnaires de mot de passe sont des outils redoutable pour sécuriser l'e
 
 - La double authentification
 
-Ce système est sûrement le plus désagréable à utiliser puisqu'il vous demande un effort supplémentaire mais c'est le plus sécurisé puisqu'il limite le pouvoir d'un mot de passe sur un service. Il existe différentes manières de le mettre en place. Soit via une clé externe (clé usb notamment) ou alors via la signature d'un appareil ou d'une application. 
+Ce système est sûrement le plus désagréable à utiliser puisqu'il vous demande un effort supplémentaire mais c'est le plus sécurisé puisqu'il limite le pouvoir d'un mot de passe sur un service. Il existe différentes manières de le mettre en place. Soit via une clé externe (clé usb notamment) ou alors via la signature d'un appareil ou d'une application.
 
 - Le rôle des VPN ?
 

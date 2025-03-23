@@ -16,7 +16,7 @@ tags:
   - "API"
   - "JavaScript"
 
-résumé: Je vais dans ce POK créer mon site Internet permettant à l'utilisateur d'analyser ses goûts musicaux, en utilisant l'API de Spotify.
+description: Je vais dans ce POK créer mon site Internet permettant à l'utilisateur d'analyser ses goûts musicaux, en utilisant l'API de Spotify.
 ---
 
 {% prerequis %}
@@ -160,12 +160,12 @@ Voici le résultat pour la page d'accueil :
             <img src="chart-up_1.png" class="arrow">
             <div class="column">
                 <h1> Toutes vos statistiques.</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    Sit amet dictum sit amet justo donec. Dolor sed viverra ipsum nunc aliquet 
-                    bibendum enim facilisis. Erat imperdiet sed euismod nisi porta. Viverra 
-                    accumsan in nisl nisi scelerisque eu ultrices. In vitae turpis massa sed elementum. 
-                    Pretium aenean pharetra magna ac placerat vestibulum. Quis vel eros donec ac odio tempor. 
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Sit amet dictum sit amet justo donec. Dolor sed viverra ipsum nunc aliquet
+                    bibendum enim facilisis. Erat imperdiet sed euismod nisi porta. Viverra
+                    accumsan in nisl nisi scelerisque eu ultrices. In vitae turpis massa sed elementum.
+                    Pretium aenean pharetra magna ac placerat vestibulum. Quis vel eros donec ac odio tempor.
                     Felis donec et odio pellentesque diam volutpat commodo. Et tortor consequat id porta nibh
                     venenatis.
                 </p>
@@ -175,19 +175,19 @@ Voici le résultat pour la page d'accueil :
         <div class="container2">
             <div class="column2">
                 <h1> Analysez vos goûts musicaux.</h1>
-                <p class="parap2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    Sit amet dictum sit amet justo donec. Dolor sed viverra ipsum nunc aliquet 
-                    bibendum enim facilisis. Erat imperdiet sed euismod nisi porta. Viverra 
-                    accumsan in nisl nisi scelerisque eu ultrices. In vitae turpis massa sed elementum. 
-                    Pretium aenean pharetra magna ac placerat vestibulum. Quis vel eros donec ac odio tempor. 
+                <p class="parap2">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Sit amet dictum sit amet justo donec. Dolor sed viverra ipsum nunc aliquet
+                    bibendum enim facilisis. Erat imperdiet sed euismod nisi porta. Viverra
+                    accumsan in nisl nisi scelerisque eu ultrices. In vitae turpis massa sed elementum.
+                    Pretium aenean pharetra magna ac placerat vestibulum. Quis vel eros donec ac odio tempor.
                     Felis donec et odio pellentesque diam volutpat commodo. Et tortor consequat id porta nibh
                     venenatis.
                 </p>
             </div>
             <img src="sound_1.png" class="sound">
         </div>
-        
+
     </body>
 </html>
 ```
@@ -396,12 +396,12 @@ A noter que la page ne fait rien avec l'e-mail et le mot de passe, cela viendra 
             <img src="chart-up_1.png" class="arrow">
             <div class="column">
                 <h1> Toutes vos statistiques.</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    Sit amet dictum sit amet justo donec. Dolor sed viverra ipsum nunc aliquet 
-                    bibendum enim facilisis. Erat imperdiet sed euismod nisi porta. Viverra 
-                    accumsan in nisl nisi scelerisque eu ultrices. In vitae turpis massa sed elementum. 
-                    Pretium aenean pharetra magna ac placerat vestibulum. Quis vel eros donec ac odio tempor. 
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Sit amet dictum sit amet justo donec. Dolor sed viverra ipsum nunc aliquet
+                    bibendum enim facilisis. Erat imperdiet sed euismod nisi porta. Viverra
+                    accumsan in nisl nisi scelerisque eu ultrices. In vitae turpis massa sed elementum.
+                    Pretium aenean pharetra magna ac placerat vestibulum. Quis vel eros donec ac odio tempor.
                     Felis donec et odio pellentesque diam volutpat commodo. Et tortor consequat id porta nibh
                     venenatis.
                 </p>
@@ -411,19 +411,19 @@ A noter que la page ne fait rien avec l'e-mail et le mot de passe, cela viendra 
         <div class="container2">
             <div class="column2">
                 <h1> Analysez vos goûts musicaux.</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    Sit amet dictum sit amet justo donec. Dolor sed viverra ipsum nunc aliquet 
-                    bibendum enim facilisis. Erat imperdiet sed euismod nisi porta. Viverra 
-                    accumsan in nisl nisi scelerisque eu ultrices. In vitae turpis massa sed elementum. 
-                    Pretium aenean pharetra magna ac placerat vestibulum. Quis vel eros donec ac odio tempor. 
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Sit amet dictum sit amet justo donec. Dolor sed viverra ipsum nunc aliquet
+                    bibendum enim facilisis. Erat imperdiet sed euismod nisi porta. Viverra
+                    accumsan in nisl nisi scelerisque eu ultrices. In vitae turpis massa sed elementum.
+                    Pretium aenean pharetra magna ac placerat vestibulum. Quis vel eros donec ac odio tempor.
                     Felis donec et odio pellentesque diam volutpat commodo. Et tortor consequat id porta nibh
                     venenatis.
                 </p>
             </div>
             <img src="sound_1.png" class="sound">
         </div>
-        
+
         <div id="ecran_noir" class="ecran_noir">
             <div class="ecran_noir-content">
                 <span class="close" onclick="fermerEcran_noir()">&times;</span>
@@ -434,22 +434,22 @@ A noter que la page ne fait rien avec l'e-mail et le mot de passe, cela viendra 
                 <button class="check_id" onclick="submitForm()">Connexion</button>
             </div>
         </div>
-    
+
         <script>
             function afficherEcran_noir() {
                 var ecran_noir = document.getElementById('ecran_noir');
                 ecran_noir.style.display = 'block';
             }
-    
+
             function fermerEcran_noir() {
                 var ecran_noir = document.getElementById('ecran_noir');
                 ecran_noir.style.display = 'none';
             }
-    
+
             function submitForm() {
                 var emailValue = document.getElementById('email').value;
                 var mdpValue = document.getElementById('mdp').value;
-        
+
                 fermerEcran_noir()
             }
         </script>
@@ -686,7 +686,7 @@ Je vais maintenant créer la page FAQ, ce qui devrait être assez rapide.
             window.onload = function () {
                 var emailInput = document.getElementById('email');
                 var mdpInput = document.getElementById('mdp');
-    
+
                 if (emailInput && mdpInput) {
                     emailInput.value = '';
                     mdpInput.value = '';
@@ -709,12 +709,12 @@ Je vais maintenant créer la page FAQ, ce qui devrait être assez rapide.
         </p>
         <h1>Que faites-vous de mes données de connexion Spotify ?</h1>
         <p>Vos données de connexion ne sont pas stockées mais seulement utilisées par notre service.
-            Nous validons l'authentification grâce à l'API Spotify, qui elle se charge d'évaluer 
+            Nous validons l'authentification grâce à l'API Spotify, qui elle se charge d'évaluer
             la corrélation entre votre adresse mail et le mot de passe indiqué.
         </p>
         <h1>Est-il possible de regarder les données de quelqu'un d'autre ?</h1>
         <p>Pour des raisons de sécurité, il n'est pas possible de consulter les analyse Spotistats
-            d'un autre individu. En effet, nous certifions l'authentification personnelle et la privatisation 
+            d'un autre individu. En effet, nous certifions l'authentification personnelle et la privatisation
             de chaque résultat.
         </p>
         <h1>Sera-t'il possible dans l'avenir d'effectuer l'analyse sur Deezer ?</h1>
@@ -813,7 +813,7 @@ p{
     color:#FFFFFF;
     font-size:20px;
     margin-left: 40px;
-    margin-right:40px;    
+    margin-right:40px;
 }
 
 .ecran_noir {
@@ -942,22 +942,22 @@ Création de la page principale; c'est-à-dire la page d'analyse de l'utilisateu
                 <h1> Votre overview.</h1>
                 <p>
                 <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </li> 
+                </li>
                 <li>
-                    Sit amet dictum sit amet justo donec. Dolor sed viverra ipsum nunc aliquet 
+                    Sit amet dictum sit amet justo donec. Dolor sed viverra ipsum nunc aliquet
                     ibendum enim facilisis.
                 </li>
                 <li>
-                    Erat imperdiet sed euismod nisi porta. Viverra accumsan in nisl nisi scelerisque eu 
+                    Erat imperdiet sed euismod nisi porta. Viverra accumsan in nisl nisi scelerisque eu
                     ultrices.
                     In vitae turpis massa sed elementum.
                 </li>
-                <li>Pretium aenean pharetra magna ac placerat vestibulum. Quis vel eros 
+                <li>Pretium aenean pharetra magna ac placerat vestibulum. Quis vel eros
                     donec ac odio tempor.</li>
-                <li>Felis donec et odio pellentesque diam volutpat commodo. 
-                    Et tortor consequat id porta nibh venenatis.</li>  
+                <li>Felis donec et odio pellentesque diam volutpat commodo.
+                    Et tortor consequat id porta nibh venenatis.</li>
                 </p>
             </div>
             <img src="../spectre.jpg" class="spectre">
@@ -968,28 +968,28 @@ Création de la page principale; c'est-à-dire la page d'analyse de l'utilisateu
             <div class="column2">
                 <h1> Vos goûts musicaux.</h1>
                 <p><li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </li> 
+                </li>
                 <li>
-                    Sit amet dictum sit amet justo donec. Dolor sed viverra ipsum nunc aliquet 
+                    Sit amet dictum sit amet justo donec. Dolor sed viverra ipsum nunc aliquet
                     ibendum enim facilisis.
                 </li>
                 <li>
-                    Erat imperdiet sed euismod nisi porta. Viverra accumsan in nisl nisi scelerisque eu 
+                    Erat imperdiet sed euismod nisi porta. Viverra accumsan in nisl nisi scelerisque eu
                     ultrices.
                     In vitae turpis massa sed elementum.
                 </li>
-                <li>Pretium aenean pharetra magna ac placerat vestibulum. Quis vel eros 
+                <li>Pretium aenean pharetra magna ac placerat vestibulum. Quis vel eros
                     donec ac odio tempor.</li>
-                <li>Felis donec et odio pellentesque diam volutpat commodo. 
+                <li>Felis donec et odio pellentesque diam volutpat commodo.
                     Et tortor consequat id porta nibh venenatis.</li>
                 </p>
             </div>
-            
+
         </div>
-        
- 
+
+
 
     </body>
 </html>
@@ -1196,11 +1196,11 @@ Invoke-RestMethod -Uri "https://accounts.spotify.com/api/token" -Method Post `
 >>         "grant_type"    = "client_credentials"
 >>         "client_id"     = "70b7021a56234ecda100b97df9******"
 >>         "client_secret" = "a5191ccecc734218b92f879346******"
->>     } 
-    
+>>     }
+
 access_token
 ------------
-BQBf8bmbQ36w84jhmPm6zyN7CuzaekzLF6bwVCpgpiQO-RgRfPssBD198d49BRQiO6sLyADRMaRVfjpzsknWo6JLYta4ZkaK*****... 
+BQBf8bmbQ36w84jhmPm6zyN7CuzaekzLF6bwVCpgpiQO-RgRfPssBD198d49BRQiO6sLyADRMaRVfjpzsknWo6JLYta4ZkaK*****...
 ```
 
 J'ai ainsi l'*Access token* qui me permet d'interagir avec l'API.
@@ -1213,7 +1213,7 @@ npm create vite@latest spotistats -- --template vanilla
 
 cd spotistats
 npm install
-npm run dev 
+npm run dev
 ```
 
 Dans le fichier index.html créé par cette commande Vite, j'ai inséré le contenu de la page Analyse.html, et j'ai fait référence à un script JS que l'on créera ensuite. J'ai ensuite modifié son contenu pour en faire une page dynamique et non statique : par exemple, le nom dans la box en haut à droite doit être celui de la personne connectée et non un string 'Nicolas Ouzouliasse'. J'utilise pour cela des attributs *id* tels que `<span id="displayName">` qui seront obtenus avec le script JS et l'appel à l'API.
@@ -1249,22 +1249,22 @@ Dans le fichier index.html créé par cette commande Vite, j'ai inséré le cont
                 <h1> Votre overview.</h1>
                 <p>
                 <li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </li> 
+                </li>
                 <li>
-                    Sit amet dictum sit amet justo donec. Dolor sed viverra ipsum nunc aliquet 
+                    Sit amet dictum sit amet justo donec. Dolor sed viverra ipsum nunc aliquet
                     ibendum enim facilisis.
                 </li>
                 <li>
-                    Erat imperdiet sed euismod nisi porta. Viverra accumsan in nisl nisi scelerisque eu 
+                    Erat imperdiet sed euismod nisi porta. Viverra accumsan in nisl nisi scelerisque eu
                     ultrices.
                     In vitae turpis massa sed elementum.
                 </li>
-                <li>Pretium aenean pharetra magna ac placerat vestibulum. Quis vel eros 
+                <li>Pretium aenean pharetra magna ac placerat vestibulum. Quis vel eros
                     donec ac odio tempor.</li>
-                <li>Felis donec et odio pellentesque diam volutpat commodo. 
-                    Et tortor consequat id porta nibh venenatis.</li>  
+                <li>Felis donec et odio pellentesque diam volutpat commodo.
+                    Et tortor consequat id porta nibh venenatis.</li>
                 </p>
             </div>
             <img src="../spectre.jpg" class="spectre">
@@ -1275,28 +1275,28 @@ Dans le fichier index.html créé par cette commande Vite, j'ai inséré le cont
             <div class="column2">
                 <h1> Vos goûts musicaux.</h1>
                 <p><li>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </li> 
+                </li>
                 <li>
-                    Sit amet dictum sit amet justo donec. Dolor sed viverra ipsum nunc aliquet 
+                    Sit amet dictum sit amet justo donec. Dolor sed viverra ipsum nunc aliquet
                     ibendum enim facilisis.
                 </li>
                 <li>
-                    Erat imperdiet sed euismod nisi porta. Viverra accumsan in nisl nisi scelerisque eu 
+                    Erat imperdiet sed euismod nisi porta. Viverra accumsan in nisl nisi scelerisque eu
                     ultrices.
                     In vitae turpis massa sed elementum.
                 </li>
-                <li>Pretium aenean pharetra magna ac placerat vestibulum. Quis vel eros 
+                <li>Pretium aenean pharetra magna ac placerat vestibulum. Quis vel eros
                     donec ac odio tempor.</li>
-                <li>Felis donec et odio pellentesque diam volutpat commodo. 
+                <li>Felis donec et odio pellentesque diam volutpat commodo.
                     Et tortor consequat id porta nibh venenatis.</li>
                 </p>
             </div>
-            
+
         </div>
-        
- 
+
+
 
     </body>
 </html>
@@ -1569,7 +1569,7 @@ function populateUI(profile, topArtists) {
 
     if (topArtists && topArtists.items) {
         const topArtistsList = document.getElementById("topArtistsList");
-        topArtistsList.innerHTML = ""; 
+        topArtistsList.innerHTML = "";
 
         topArtists.items.forEach(artist => {
             const listItem = document.createElement("li");
@@ -1626,7 +1626,7 @@ et on adapte le code HTML pour intégrer les réponses de l'API : `topTracksList
             <div class="column">
                 <h1> Votre top 5 des artistes les plus écoutés.</h1>
                 <p>
-                    <ul id="topArtistsList"></ul> 
+                    <ul id="topArtistsList"></ul>
                 </p>
             </div>
             <img src="../spectre.jpg" class="spectre">
@@ -1639,9 +1639,9 @@ et on adapte le code HTML pour intégrer les réponses de l'API : `topTracksList
                 <p><ul id="topTracksList"></ul>
                 </p>
             </div>
-            
+
         </div>
-        
+
     </body>
 </html>
 

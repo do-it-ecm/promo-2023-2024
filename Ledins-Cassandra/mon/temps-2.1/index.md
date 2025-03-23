@@ -9,7 +9,7 @@ date: 1970-11-01
 temps: 2
 tags:
 
-résumé: "Je vais suivre un tutoriel vidéo pas à pas pour découvrir le logiciel Unity et créer un jeu."
+description: "Je vais suivre un tutoriel vidéo pas à pas pour découvrir le logiciel Unity et créer un jeu."
 ---
 
 {% prerequis "**Prérequis**" %}
@@ -38,17 +38,17 @@ On créé un projet vide et on commence par importer un petit package. Dans ce p
 
 Ce n'est qu'en avançant dans le tutoriel que j'ai commencé à comprendre les différents concepts fondamentaux liés à l'utilisation d'Unity. C'était assez obscur au début, mais à la fin des 20h, je pense maîtriser les bases. Voici donc un petit résumé de ce que j'ai compris :
 
-### Prefab 
+### Prefab
 
 Une Prefab, dans l'univers d'Unity, représente un modèle ou un prototype d'objet. C'est une sorte de version préconfigurée d'un GameObject, comprenant tous les détails comme les composants, les propriétés, et les scripts nécessaires. Les Prefabs sont utiles pour créer des objets de manière efficace, les utilisant comme des modèles que l'on peut reproduire plusieurs fois dans une scène.
 
-### GameObject 
+### GameObject
 
 Le GameObject est la pierre angulaire dans Unity. Il symbolise toute entité visualisable dans la scène, qu'il s'agisse de personnages, d'objets, de lumières, de caméras, et plus encore. Ces GameObjects sont constitués de divers composants tels que des transformateurs, des mesh renderers, ou des scripts. Ils forment ainsi la structure de base de toute scène Unity.
 
 ![](./image.png)
 
-### Instance 
+### Instance
 
 Une Instance est une occurrence particulière d'un Prefab dans la scène. Lorsqu'on place un Prefab dans la scène, il devient une Instance unique avec ses propres caractéristiques. Chaque Instance peut être manipulée individuellement sans impacter les autres. En illustrant, si un Prefab représente un arbre, chaque arbre spécifique placé dans la scène est considéré comme une Instance de ce Prefab. On parle aussi d'instances quand on créé une instance particulière d'un type plus général. Par exemple, j'ai défini une classe Item, et les ItemsInstances étaient des définitions de pierre, morceau de bois, chapeaux...
 
@@ -122,13 +122,13 @@ L'organisation des éléments dans le jeu a été facilitée par l'utilisation d
 ## UI - Game Menus
 
 J'ai été surprise par la manière de créer des Menus dans une scène, on dirait que le Menu est affiché en géant dans la scène, à côté du terrain qui a l'air minuscule.
-J'ai galéré à personnaliser cette partie, j'ai trouvé que le UI était difficile à gérer dynamiquement, car il y a beaucoup de choses et de paramètres à prendre en contre. Par exemple l'inventaire c'est un *panel dans un *canvas qui contient un *content, et ce content et composé de *slots qui contiennent une *image dont on configure le *sprite. 
+J'ai galéré à personnaliser cette partie, j'ai trouvé que le UI était difficile à gérer dynamiquement, car il y a beaucoup de choses et de paramètres à prendre en contre. Par exemple l'inventaire c'est un *panel dans un *canvas qui contient un *content, et ce content et composé de *slots qui contiennent une *image dont on configure le *sprite.
 
 Il y avait des layout grids, des alignements dynamiques dans tous les sens, et j'ai pas vraiment la fibre front donc pour moi c'était un peu de la magie noire mais heureusement le tutoriel est bien fait.
 
 ![](./image-6.png)
 
-## Unity Terrain 
+## Unity Terrain
 
 La création du terrain de jeu a été simplifiée grâce à l'outil Terrain d'Unity. J'ai pu sculpter le relief, peindre les textures et intégrer des éléments naturels pour donner vie à l'environnement du jeu. Je n'ai pas été très créative ou pointilleuse sur cette partie bien qu'elle soit amusante. Le level design est un métier en soi et il n'est pas facile de s'improviser maestro dans ce sujet.
 
@@ -151,7 +151,7 @@ Les fonctionnalités finales du jeu sont:
 * Stacker des items du même type
 * S'equiper d'une armure qui réduit les dégâts pris
 * Consommer de la nourriture, des kits de soins qui nous rendent des stats
-* Craft(R) d'objets à partir d'une recette 
+* Craft(R) d'objets à partir d'une recette
 * Construction de murs, escaliers et sols genre Fortnite
 * Couper des arbres
 * Miner des rochers

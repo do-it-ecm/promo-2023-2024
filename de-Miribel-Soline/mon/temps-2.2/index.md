@@ -12,7 +12,7 @@ tags:
   - "gouvernance d'entreprise"
   - "gouvernance partagée"
 
-résumé: "Ce MON aborde le sujet de la gouvernance partagée."
+description: "Ce MON aborde le sujet de la gouvernance partagée."
 ---
 {% prerequis %}
 **Niveau** : débutant
@@ -30,14 +30,14 @@ résumé: "Ce MON aborde le sujet de la gouvernance partagée."
 
 ## Cadrage du concept
 ### Définition
-La gouvernance partagée est un **mode de gouvernance** qui implique la participation et la collaboration équitable de toutes les parties prenantes au processus décisionnel au sein d'une organisation. L’objectif est de réduire ou supprimer la concentration des pouvoirs entre les mains d'un petit nombre de personnes, pour les répartir parmi celles qui réalisent le travail. 
+La gouvernance partagée est un **mode de gouvernance** qui implique la participation et la collaboration équitable de toutes les parties prenantes au processus décisionnel au sein d'une organisation. L’objectif est de réduire ou supprimer la concentration des pouvoirs entre les mains d'un petit nombre de personnes, pour les répartir parmi celles qui réalisent le travail.
 Il s'agit d’un mode de gouvernance reposant sur la volonté de privilégier les relations de **coopération** et de développer l’**autonomie** des membres (ce qui va avec plus de responsabilité). Elle n’est pas nécessairement synonyme de « gouvernance horizontale ».
 
 ### Les objectifs recherchés
-La gouvernance des organisations nécessite de plus en plus, à l’image de l’environnement de ces organisations, d’être **pluraliste**. Par sa volonté de privilégier la participation et la collaboration, la gouvernance partagée permet de constituer un ensemble cohérent de sous-systèmes en interaction entre eux, organisés de manière souple. Ce qui offre aux organisations de rester **ouvertes sur l’extérieur**, réactives, attractives et innovantes. Permettant ainsi de mieux résister aux crises et aux multiples changements qui sont aujourd’hui imposés par notre environnement, la gouvernance partagée est aussi présentée comme un facteur de **bien-être des salariés** et être source de motivation et d’implication. En effet, dans un système suivant une gouvernance partagée, chacun est encouragé à être acteur du pilotage stratégique et opérationnel de son organisation. Pour cela, il est défini qui est responsable de prendre des décisions sur quoi. Chaque collaborateur peut donc gagner en autonomie et contribuer au succès de son entreprise. Il peut aussi compter sur un soutien hiérarchique. En effet, la gouvernance partagée ne doit pas uniquement se comprendre comme une remise en cause des rapports hiérarchiques. Elle correspond aussi à un **autre mode de management**, davantage tourné vers l’animation d’équipes, les rapports humains et la responsabilisation plutôt que le contrôle et la surveillance. La gouvernance partagée constitue enfin un modèle organisationnel en adéquation avec la mission sociale et les valeurs de son organisation. 
+La gouvernance des organisations nécessite de plus en plus, à l’image de l’environnement de ces organisations, d’être **pluraliste**. Par sa volonté de privilégier la participation et la collaboration, la gouvernance partagée permet de constituer un ensemble cohérent de sous-systèmes en interaction entre eux, organisés de manière souple. Ce qui offre aux organisations de rester **ouvertes sur l’extérieur**, réactives, attractives et innovantes. Permettant ainsi de mieux résister aux crises et aux multiples changements qui sont aujourd’hui imposés par notre environnement, la gouvernance partagée est aussi présentée comme un facteur de **bien-être des salariés** et être source de motivation et d’implication. En effet, dans un système suivant une gouvernance partagée, chacun est encouragé à être acteur du pilotage stratégique et opérationnel de son organisation. Pour cela, il est défini qui est responsable de prendre des décisions sur quoi. Chaque collaborateur peut donc gagner en autonomie et contribuer au succès de son entreprise. Il peut aussi compter sur un soutien hiérarchique. En effet, la gouvernance partagée ne doit pas uniquement se comprendre comme une remise en cause des rapports hiérarchiques. Elle correspond aussi à un **autre mode de management**, davantage tourné vers l’animation d’équipes, les rapports humains et la responsabilisation plutôt que le contrôle et la surveillance. La gouvernance partagée constitue enfin un modèle organisationnel en adéquation avec la mission sociale et les valeurs de son organisation.
 
 ### Principes
-La gouvernance partagée repose sur la confiance en la capacité de chacun à s’orienter et à prendre des décisions par soi-même dans son domaine d’action. Elle s’appuie en effet sur les principes suivants : 
+La gouvernance partagée repose sur la confiance en la capacité de chacun à s’orienter et à prendre des décisions par soi-même dans son domaine d’action. Elle s’appuie en effet sur les principes suivants :
 - **La décentralisation** du pouvoir et la participation équitable : la décentralisation du pouvoir consiste à partager structurellement le pouvoir d’initiative et de décision entre tous les membres et toutes les équipes de l’organisation. Les décisions importantes ne sont donc pas prises exclusivement par un petit groupe de dirigeants, mais plutôt par l'ensemble des membres de l'organisation, qu'ils soient employés, gestionnaires ou autres parties prenantes.
 - **La collaboration** : les différentes parties collaborent pour élaborer des décisions qui tiennent compte des perspectives variées et des besoins de chacun. Cela favorise une approche inclusive et la prise en compte de diverses idées et compétences.
 La transparence : il y a une transparence accrue dans le processus décisionnel. Les informations pertinentes sont partagées ouvertement, permettant à tous les membres de l'organisation de comprendre comment les décisions sont prises.
@@ -50,8 +50,8 @@ La transparence : il y a une transparence accrue dans le processus décisionnel.
 L’une des premières questions à se poser pour la redistribution des pouvoirs, est de savoir qui les détient actuellement. Cela permettra de savoir **qui a le pouvoir de changer l’organisation en profondeur**. La réponse à cette interrogation peut-être très claire quand le pouvoir est détenu par un patron ou des actionnaires par exemple. La réponse à cette même interrogation peut aussi être très floue quand les influences sont nombreuses et complexes. Une deuxième question est alors aussi à soulever : quelles sont les **parts implicites que le pouvoir a pris** (leader charismatique, pouvoir gardé grâce à la rétention d’information, rôle clé,...). Il faut donc en premier lieu reconnaître la culture de pouvoir de l’organisation.
 Dans des organisations où le pouvoir est perçu négativement, c’est souvent l’autoritarisme du groupe qui s’impose.
 
-### Donner au pouvoir ses 3 dimensions 
-Le pouvoir peut se développer en 3 dimensions. Ces 3 dimensions doivent entretenir une relation saine et garder un équilibre certain : 
+### Donner au pouvoir ses 3 dimensions
+Le pouvoir peut se développer en 3 dimensions. Ces 3 dimensions doivent entretenir une relation saine et garder un équilibre certain :
 - la **verticalité** : c’est elle qui fonde la puissance et l’efficience du pouvoir. Elle laisse aussi de la place à la créativité, car en effet il n’y a pas de consensus systématique ce qui réduit les décisions au plus petit ensemble commun et elle permet au collaborateur d’affirmer ce qu’il est sans chercher l'approbation collective. La verticalité est donc le moteur de la souveraineté individuelle et de la confiance en soi, en les autres et en le groupe
 - l’**horizontalité** : c’est elle qui développe la puissance de coopération qui joue sur la tension entre l’individuel et le collectif. Si la verticalité, permet l’affirmation de l’individu, l’horizontalité lui permet d’entendre et de prendre en compte la dimension collective. L’horizontalité se traduit par une posture ouverte sur l’autre avec pour objectif commun à tous l’épanouissement de l’organisation entière et pas seulement celle de chacun individuellement.
 - la **profondeur** : cette dernière dimension permet de fuire les formes d’organisation mécaniques froides en “colorant” et “poétisant” le faire ensemble. Cela peut se traduire par l’apport de soin à l’esthétisme, l’attention au chemin emprunté (et non à l’objectif seulement) et à la relation avec autrui.
@@ -67,10 +67,10 @@ Pour bien capter les bonnes tensions chacun doit veiller à :
 - noter régulièrement en dehors des réunions de tensions que je rencontre dans son rôle
 
 #### Identifier et traiter les tensions
-Une fois captée, la tension doit être identifiée pour savoir ce qu’elle implique et comment y réagir. On distinguera 4 types de tensions : 
+Une fois captée, la tension doit être identifiée pour savoir ce qu’elle implique et comment y réagir. On distinguera 4 types de tensions :
 - les **tensions opérationnelles** : un collaborateur identifie un manque concret pour avancer dans son travail et il sait à quel rôle il doit s’adresser pour l’obtenir. Pour cela il va voir la personne et convient avec elle d’une action ou d’un projet pour supprimer cette tension. Ce genre de tension se traite dans des réunions de triage opérationnel au cours desquelles aucune décision n’est prise, il s’agit uniquement de synchroniser les actions des collaborateurs.
 - les **tensions de gouvernance** : un collaborateur identifie un manque récurrent dans son travail et ne sait pas vers quel rôle se tourner pour l’obtenir (soit parce qu’il n’y a aucun rôle pour ce type d’action soit parce qu’il y a un flou sur les rôles responsables). Pour résoudre cette tension, il sollicite une réunion de gouvernance pour la modification, création ou suppression d’un rôle.
-- les **tensions stratégiques** : un collaborateur rencontre des difficultés de priorisation dans son travail, les différents rôles de l’organisation la poussent dans des directions différentes ou la direction prise n’est plus adaptée à l’environnement de l’organisation. 
+- les **tensions stratégiques** : un collaborateur rencontre des difficultés de priorisation dans son travail, les différents rôles de l’organisation la poussent dans des directions différentes ou la direction prise n’est plus adaptée à l’environnement de l’organisation.
 - les **tensions interpersonnelles** : elles concernent les relations entre les collaborateurs et se traitent dans un espace de régulation.
 Chacun veillera à garder des réflexes de **bon sens** : les process de réunions sont des propositions. Si une tension peut être traitée directement et simplement il n’est pas forcément nécessaire de solliciter une réunion. Il faut toutefois garder à l’esprit la question de la gouvernance : est-ce qu’une modification de l’organisation serait nécessaire pour traiter durablement la tension en question ?
 
@@ -78,15 +78,15 @@ Chacun veillera à garder des réflexes de **bon sens** : les process de réunio
 Les 3 dimensions du pouvoir et le nouveau mode de pilotage nécessite une **approche managériale participative** afin d’intégrer largement les acteurs de l’organisation dans les prises de décision. Il s’agit d’associer les personnes concernées par les sujets traités au processus de décision. Le dirigeant ou le manager s’il reste “le décideur final”, notamment en cas d’impasse, doit aujourd’hui avoir les compétences d’un “animateur” afin d’organiser la prise de décision collective.
 Son rôle est de communiquer et de rassembler ses équipes dans un sens commun, d’insuffler cohérence et motivation.
 Par exemple, la gouvernance partagée implique :
-- que les salariés aient un niveau d’informations suffisant et les compétences nécessaires pour statuer sur le sujet à traiter 
-- de créer des espaces de discussion entre les acteurs de l’entreprise pour prendre en considération des différents points de vue en présence 
+- que les salariés aient un niveau d’informations suffisant et les compétences nécessaires pour statuer sur le sujet à traiter
+- de créer des espaces de discussion entre les acteurs de l’entreprise pour prendre en considération des différents points de vue en présence
 - de clarifier les différents niveaux de prise de décision et la responsabilité nouvelle que cela implique pour chacun.
 
 ### Organiser la prise de décision
 Dans l’art de décider c’est la façon d’aborder la décision qui importe. Il existe 3 dimensions dans la prise de décision : **décider seul, décider ensemble, et ne pas décider**. C’est un juste équilibre entre ses 3 dimensions qu’il faut obtenir en fonction de la décision.
 
 #### Décider ensemble
-La décision collective cherche à s’approcher du consensus, cependant, selon la taille de l’organisation, celui-ci est plus ou moins facilement atteignable. La décision peut alors être prise par **délégation** ou **majorité au ⅔**. 
+La décision collective cherche à s’approcher du consensus, cependant, selon la taille de l’organisation, celui-ci est plus ou moins facilement atteignable. La décision peut alors être prise par **délégation** ou **majorité au ⅔**.
 
 Dans le cas de la **majorité aux deux tiers**, chaque personne est invitée à donner son opinion. La décision est ensuite prise si deux tiers des votes sont en accord avec la décision. Une pondération peut être construite pour augmenter le poids des personnes les plus qualifiées pour prendre des décisions spécifiques.
 
@@ -102,7 +102,7 @@ Les sujets concernés par les décisions collectives sont la **définition de p�
 Une personne seule prend sa décision avec les éléments qu’elle détient pour répondre au mieux, selon elle, à ses objectifs et besoins. Elle a néanmoins un devoir d’informer les personnes impactées. C’est pourquoi, toute prise de décision individuelle qui a une incidence sur l’équipe ou l’entreprise doit être communiquée à toutes les personnes impactées au moins 12h avant son application (dans la mesure du possible).
 Les sujets concernés par les prises de décision individuelles, sont des **questions précises** qui relèvent davantage du détail ou de l’organisation personnelle. On proposera par exemple :
 - l’ensemble des questions relatives à l’organisation de son temps personnel : télétravail, horaires de travail, déplacements, etc.
-- les problématiques engageant un moindre budget (inférieur à 50 €) 
+- les problématiques engageant un moindre budget (inférieur à 50 €)
 - la gestion des activités opérationnelles courantes : relations commerciales, ateliers, animations, entretiens de recrutement, etc.
 - la gestion de projets à faible enjeu (selon toujours le bon sens) : construction de l’offre, relation client, etc.
 
@@ -134,7 +134,7 @@ La gouvernance partagée implique de nouveau rôle dans l’organisation comme c
 
 ### Les outils numériques
 Le numérique est utile à la gouvernance partagée grâce à de nombreuses solutions participatives. Des accompagnements en interne peuvent être proposés aux personnes moins à l'aise avec ces outils. On peut notamment citer :
-- la mise en place d'outils de gestion de projet ouverts et participatifs (Google Drive, FramaTalk, FramaDate …). 
+- la mise en place d'outils de gestion de projet ouverts et participatifs (Google Drive, FramaTalk, FramaDate …).
 - les outils de vote à distance (Framavox , Loomio ) permettant de prendre une décision en différé, avec un vote sur plusieurs jours. Cela permet aux absents de participer, et de prendre des décisions régulièrement, sans avoir à attendre les assemblées générales. Ce type d’outils favorise aussi la transparence sur les arguments et sur l’historique des échanges, afin d’ajuster au mieux la proposition pour atteindre le consensus.
 
 ### L’organisation d’une réunion
@@ -143,7 +143,7 @@ Pour établir l’ordre du jour on peut utiliser la matrice urgent/important pou
 
 ### Les outils de prise de décision
 #### La gestion par consentement
-C'est un mode de décision qui vient travailler la souveraineté. Celle de poser une objection au service du groupe. Elle vient également développer la capacité à identifier les préférences, à lâcher prise sur les éléments ouverts (qui ne représentent pas un risque ici et maintenant). Un changement de paradigme qui m'invite à sortir de la décision parfaite pour aller vers "c'est suffisamment sûr pour essayer". La gestion par consentement suis les étapes suivantes : 
+C'est un mode de décision qui vient travailler la souveraineté. Celle de poser une objection au service du groupe. Elle vient également développer la capacité à identifier les préférences, à lâcher prise sur les éléments ouverts (qui ne représentent pas un risque ici et maintenant). Un changement de paradigme qui m'invite à sortir de la décision parfaite pour aller vers "c'est suffisamment sûr pour essayer". La gestion par consentement suis les étapes suivantes :
 - émergence de la proposition : adopter une position d’écoute centrale, élaborer une proposition argumentée, présenter la proposition
 - clarification de la proposition en la confrontant aux réflexions et questions des autres
 - ressenti global et personnel sur la tournure prise
@@ -153,7 +153,7 @@ C'est un mode de décision qui vient travailler la souveraineté. Celle de poser
 - adoption
 
 #### Election sans candidat
-Dans ce processus c’est chaque membre du groupe qui va choisir pour qui il souhaite voter en expliquant à cette personne (et devant le groupe) pourquoi. Les étapes de l’élection sans candidat sont les suivantes : 
+Dans ce processus c’est chaque membre du groupe qui va choisir pour qui il souhaite voter en expliquant à cette personne (et devant le groupe) pourquoi. Les étapes de l’élection sans candidat sont les suivantes :
 - fixer le cadre : définir la fonction, le mandat et les critères de choix
 - voter
 - dépouiller et reporter les voix pour faire émerger la proposition
@@ -178,7 +178,7 @@ Avec le temps, différents modèles de gouvernance partagée ont émergé.
 ### La sociocratie
 Aux racines de la gouvernance partagée, il y a la sociocratie théorisée par Gérard Endenburg en 1970. Si l’on prend soin de creuser un peu, on se rend compte alors qu’il s’inspire des travaux que Kees Boeke a mené dans le cadre de l’école alternative qu’il suivait dans les années 30. Car c’est déjà dans ce cadre scolaire que les décisions sont prises par consentement. La sociocratie est, en effet, un modèle de gouvernance qui met l'accent sur la **prise de décision par consentement plutôt que par consensus**. Elle utilise des cercles de gouvernance pour organiser les responsabilités et favorise l'équivalence entre les membres. Chaque cercle défini sa vision, sa mission et ses objectifs
 
-### Holacratie 
+### Holacratie
 La révolution suivante survient avec l'holacratie en 2009, sous l’impulsion de Brian Robertson. La sociocratie a été pratiquée et enrichie par diverses **méthodes agiles**. Il en résulte une «constitution», soit un ensemble de **règles du jeu** cohérentes permettant de décrire, ajuster et faire évoluer une structure, de la plus simple à la plus complexe. Aux processus collectifs de la sociocratie, l'holacratie offre son pendant individuel, le rôle opérationnel. Ce rôle opérationnel permet de distribuer l’autorité et jouer avec les modes de décision. Parfois délégués à une personne lorsqu’il faut pouvoir décider vite, parfois ramené au collectif lorsqu’il s’agit de générer de l’engagement et de l’adhésion. L'holacratie est un modèle de gouvernance qui distribue le pouvoir de manière décentralisée en utilisant des "cercles" autonomes. Chaque cercle a ses propres rôles et responsabilités, et la prise de décision se fait de manière distribuée.
 La forme écrite d’un ensemble de règles permet également de penser le système comme évolutionnaire : en définissant les règles, mais également la façon de changer les règles, l'holacratie se positionne dans un monde en constante évolution, un monde de recherches, d’expérimentations et d’améliorations.
 
@@ -196,7 +196,7 @@ La culture consensuelle, qui souvent s’installe pour faire avancer l’organis
 
 La plupart des individus prenant part à une décision collective n’en restent pas moins, très souvent, illégitimes pour donner un avis éclairé et pour trancher.
 
-Les outils ne font pas le bonheur. Ils aident et cadrent pour ancrer les changements dans le quotidien mais il n’auront pas d’effets miracle sur les relations humaines. 
+Les outils ne font pas le bonheur. Ils aident et cadrent pour ancrer les changements dans le quotidien mais il n’auront pas d’effets miracle sur les relations humaines.
 
 La bienveillance de mise dans une gouvernance partagée peut être une excuse pour ne pas faire face à des problèmes
 

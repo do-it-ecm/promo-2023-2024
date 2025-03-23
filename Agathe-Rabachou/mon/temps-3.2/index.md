@@ -12,7 +12,7 @@ tags:
   - "programmation"
   - "Java"
 
-résumé: "Ce MON a pour but de m'initier aux bases du langage de programmation Java."
+description: "Ce MON a pour but de m'initier aux bases du langage de programmation Java."
 ---
 {%prerequis 'Niveau' %}
   - Débutant en Java

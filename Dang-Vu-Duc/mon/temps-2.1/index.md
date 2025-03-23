@@ -12,7 +12,7 @@ tags:
   - "Pygame"
   - "Programmation objet"
 
-résumé: "L'objectif de ce MON est d'apprendre à utiliser la bibliothèque Pygame de Python, afin d'implémenter des jeux."
+description: "L'objectif de ce MON est d'apprendre à utiliser la bibliothèque Pygame de Python, afin d'implémenter des jeux."
 ---
 
 {% prerequis 'Prérequis' %}

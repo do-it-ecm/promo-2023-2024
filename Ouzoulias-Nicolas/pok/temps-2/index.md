@@ -10,14 +10,14 @@ date: 2023-12-13
 temps: 2
 tags:
 
-résumé:  Le second POK de l'année pour apprendre à programmer la partie back d'un site web.
+description:  Le second POK de l'année pour apprendre à programmer la partie back d'un site web.
 ---
 
 ## Objectifs
 
-Suite à mon premier POK de l'année qui avait pour objectif initial de réaliser un site de paris sportif pour le tournoi de coinche à Centrale, je me suis confronté à un mur : créer un site internet prend plus de temps que prévu pour un novice comme moi. 
+Suite à mon premier POK de l'année qui avait pour objectif initial de réaliser un site de paris sportif pour le tournoi de coinche à Centrale, je me suis confronté à un mur : créer un site internet prend plus de temps que prévu pour un novice comme moi.
 
-Lors du premier POK j'ai donc uniquement eu le temps de réaliser la partie Front de Centrale Coinche. Ce second POK va donc me permettre de réaliser le Back du site. Pour cela mon premier MON du temps 2 va me permette de plonger dans la théorie de Node.js et de Express. 
+Lors du premier POK j'ai donc uniquement eu le temps de réaliser la partie Front de Centrale Coinche. Ce second POK va donc me permettre de réaliser le Back du site. Pour cela mon premier MON du temps 2 va me permette de plonger dans la théorie de Node.js et de Express.
 
 ### Sprint 1
 
@@ -27,11 +27,11 @@ Réaliser une page du site pour permettre au participant du tournoi de rentrer l
 
 Réaliser une page pour les paris sportifs si le sprint 1 s'est déroulé sans accroc.
 
-## Premier Sprint 
+## Premier Sprint
 
-- Reprise de quelques éléments de Front 
+- Reprise de quelques éléments de Front
 - Rajout d'un bouton et d'une page pour ajouter des résultats
-- Structure de la base de données en JS et JSON pour automatiser la mise à jour du site 
+- Structure de la base de données en JS et JSON pour automatiser la mise à jour du site
 
 
 ![resultats](./images/affichage_resultats.png)
@@ -44,17 +44,17 @@ Réaliser une page pour les paris sportifs si le sprint 1 s'est déroulé sans a
 - Continuer et finir l'affichage des résultats (notamment les phases finales)
 
 **Objectifs sprint deux :**
-- Finir la mise à jour des pages de résultats après l'ajout d'un match par l'utilisateur (*environ 1h*)  
+- Finir la mise à jour des pages de résultats après l'ajout d'un match par l'utilisateur (*environ 1h*)
 - Côté serveur avec Node.js (*sûrement 7h*)
 - Continuer et finir l'affichage des résultats (notamment les phases finales) (*environ 2h*)
 
-## Sprint 2 
+## Sprint 2
 
-Le second sprint du POK s'est déroulé bien plus difficilement que ce qui était attendu. Une bonne partie de ce que j'avais fait au temps 1 ne fonctionnait finalement pas suffisament bien et j'ai donc dû quasiment tout reprendre à 0. 
+Le second sprint du POK s'est déroulé bien plus difficilement que ce qui était attendu. Une bonne partie de ce que j'avais fait au temps 1 ne fonctionnait finalement pas suffisament bien et j'ai donc dû quasiment tout reprendre à 0.
 
 ### Initialisation du back
 
-Pour bien démarrer le **backend** il faut bien l'initialiser. Comme je n'ai suivi que des tutos guidés pour mon [MON 2.2](../../mon/temps-2.2/index.md) et que je ne l'ai jamais fait totalement moi même je me suis un peu perdu dans toute la syntaxe et le système de routes etc... 
+Pour bien démarrer le **backend** il faut bien l'initialiser. Comme je n'ai suivi que des tutos guidés pour mon [MON 2.2](../../mon/temps-2.2/index.md) et que je ne l'ai jamais fait totalement moi même je me suis un peu perdu dans toute la syntaxe et le système de routes etc...
 
 ```js
 const http = require('http')
@@ -71,7 +71,7 @@ server.listen(port)
 
 ### Ajout des match
 
-Mon form initial a tout d'abord été repris pour véritablement bien fonctionner avec le back. 
+Mon form initial a tout d'abord été repris pour véritablement bien fonctionner avec le back.
 
 ![formulaire](./images/ajout_resultat.png)
 
@@ -116,7 +116,7 @@ Mon form initial a tout d'abord été repris pour véritablement bien fonctionne
         </form>
 ```
 
-Une fois le form bien créé il faut pouvoir récupérer les données : 
+Une fois le form bien créé il faut pouvoir récupérer les données :
 
 ```js
 const express = require('express')
@@ -179,12 +179,12 @@ Une fois dans la base de donnée il est possible de modifier la page `histo.html
 
 ## Conclusion
 
-Ce POK a été extrêmement chaotique et compliqué pour moi, j'ai eu énormément de mal a bien appréhender toutes les notions techniques du back et surtout le lien avec le front. 
+Ce POK a été extrêmement chaotique et compliqué pour moi, j'ai eu énormément de mal a bien appréhender toutes les notions techniques du back et surtout le lien avec le front.
 
-Je devais faire bien plus que le peu que j'ai réussi à réaliser car cela s'est avéré bien plus difficile. Je n'ai réussi qu'à mettre en place l'ajout de partie par les utilisateur sans pouvoir commencer mon système de paris sportif. 
+Je devais faire bien plus que le peu que j'ai réussi à réaliser car cela s'est avéré bien plus difficile. Je n'ai réussi qu'à mettre en place l'ajout de partie par les utilisateur sans pouvoir commencer mon système de paris sportif.
 
-Une des raisons à cela est mon manque de pratique et d'efficacité en JavaScript ainsi que le fait que mon premier sprint n'a quasiment servi à rien car j'ai dû presque tout reprendre à 0. J'avais commencé à programmer des scripts pour créer les matchs et mettre à jour ma page `histo.html` mais l'ajout de la base de donnée, du serveur Node et de l'application Express a finalement tout changé. 
+Une des raisons à cela est mon manque de pratique et d'efficacité en JavaScript ainsi que le fait que mon premier sprint n'a quasiment servi à rien car j'ai dû presque tout reprendre à 0. J'avais commencé à programmer des scripts pour créer les matchs et mettre à jour ma page `histo.html` mais l'ajout de la base de donnée, du serveur Node et de l'application Express a finalement tout changé.
 
-L'expérience m'a néanmoins appris beaucoup de chose. Là où les MON m'ont fait découvrir la théorie ainsi que quelques exemples, ce POK m'a fait un peu plus comprendre le fonctionnement global d'un site avec le backend. 
+L'expérience m'a néanmoins appris beaucoup de chose. Là où les MON m'ont fait découvrir la théorie ainsi que quelques exemples, ce POK m'a fait un peu plus comprendre le fonctionnement global d'un site avec le backend.
 
-Au moins je sais maintenant que le développement Web ce n'est pas totalement fait pour moi. 
+Au moins je sais maintenant que le développement Web ce n'est pas totalement fait pour moi.

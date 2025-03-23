@@ -10,7 +10,7 @@ tags:
   - "PowerPoint"
   - "Présentation"
 
-résumé: "L'objectif de ce MON est d'apprendre à faire des présentations impactantes."
+description: "L'objectif de ce MON est d'apprendre à faire des présentations impactantes."
 ---
 
 ## Introduction

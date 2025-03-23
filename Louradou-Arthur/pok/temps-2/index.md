@@ -15,7 +15,7 @@ tags:
   - "Python"
 
 
-résumé: Ce POK, modestement nommé selon le nom de son grand frère Sérénade, est un projet de création d'un site web de gestion de calendrier pour les élèves en 3A.
+description: Ce POK, modestement nommé selon le nom de son grand frère Sérénade, est un projet de création d'un site web de gestion de calendrier pour les élèves en 3A.
 ---
 
 <a href="http://node.oignon.ovh1.ec-m.fr/" class="buttonGithub">
@@ -174,7 +174,7 @@ Un point important à noter est que les cases fusionnées dans Excel ne sont pr�
 
 Pour combler ceci, il va falloir extraire les informations de fusion du google spreadsheet. Après de longues recherches, ceci s'est avéré impossible.
 
-Il faut donc trouver une autre solution, dont l'une retenue est d'exporter la taille des cours du fichier excel exporté, qui lui possède bien les informations de fusion. 
+Il faut donc trouver une autre solution, dont l'une retenue est d'exporter la taille des cours du fichier excel exporté, qui lui possède bien les informations de fusion.
 
 Nous verrons dans un second temps comment procéder.
 
@@ -243,7 +243,7 @@ Dans ce Sprint, nous avons vu comment extraire les informations de l'emploi du t
 Nous avons ainsi produit un Proof Of Concept qui nous permet de voir que le projet est réalisable, puis nous avons défini la structure du code sous forme de classes qui sera utilisée pour la suite du projet.
 
 Vous pourrez noter ici que la structure du code est générée à l'aide de l'assistant chatGPT et je m'assurerai que le contenu qui s'y trouve en dernier lieu sera bien vérifié et testé par mes soins.
-Petit point méthodologique cependant : j'utilise principalement chatGPT dans ce genre de cas, à l'initialisation d'un projet, car ses réponses sont bonnes pour établir une architecture globale et "dans les règles de l'art" (respectant des bonnes pratiques dès le départ) d'une application. 
+Petit point méthodologique cependant : j'utilise principalement chatGPT dans ce genre de cas, à l'initialisation d'un projet, car ses réponses sont bonnes pour établir une architecture globale et "dans les règles de l'art" (respectant des bonnes pratiques dès le départ) d'une application.
 
 ## Suite : Sprint 2 { #suite--sprint-2 }
 
@@ -345,7 +345,7 @@ Ce projet a été très intéressant à réaliser car il m’a permis de découv
 
 Je pense que ce projet peut être amélioré en plusieurs points :
 
-- Demander des retours aux utilisateur 
+- Demander des retours aux utilisateur
 - Ajouter des tests unitaires pour garantir la fiabilité de l’algorithme de persionnalisations des cours
 - Ajouter une fonction de mise à jour automatique du calendrier
 

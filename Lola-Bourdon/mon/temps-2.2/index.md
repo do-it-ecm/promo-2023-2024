@@ -12,7 +12,7 @@ tags:
   - "excel"
   - "google form"
 
-résumé: "Analyse des résultats d'un google form en utilisant Excel Power BI"
+description: "Analyse des résultats d'un google form en utilisant Excel Power BI"
 ---
 {%prerequis 'Bases de POwer BI'%}
 {%endprerequis%}

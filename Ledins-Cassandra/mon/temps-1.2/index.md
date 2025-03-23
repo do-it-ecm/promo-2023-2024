@@ -9,7 +9,7 @@ date: 2023-18-10
 temps: 1
 tags:
 
-résumé: "Apprendre les bases du C"
+description: "Apprendre les bases du C"
 ---
 
 {% prerequis "**Prérequis**" %}
@@ -19,11 +19,11 @@ résumé: "Apprendre les bases du C"
 
 {% endprerequis %}
 
-## Introduction 
+## Introduction
 
 J'ai voulu développer mon champ de connaissance en programmation pour avoir plus d'outils à ma disposition pour aborder différents problèmes. J'ai pensé à apprendre le C ou le C++ (langage utilisé en développement de jeux vidéos, domaine qui m'intéresse). M. Brucker ayant suggéré d'apprendre le C d'abord, c'est ce que je vais faire ici. Cela me servira aussi pour mon alternance dans le milieu de l'intelligence artificielle, où on est parfois amenés à modifier des librairies écrites en C pour entraîner nos modèles.
 
-Je pars de 0 dans ce langage. Je vais prendre le cours "Apprenez à programmer en C" d'OpenClassrooms, durée estimée 10h, de difficulté moyenne. **mettre lien** 
+Je pars de 0 dans ce langage. Je vais prendre le cours "Apprenez à programmer en C" d'OpenClassrooms, durée estimée 10h, de difficulté moyenne. **mettre lien**
 
 ## A l'abordage !
 
@@ -33,7 +33,7 @@ On créé donc notre premier petit code "minimal" **main.c** qui a la tête suiv
 
 ```c
 
-/* Mon super programme de hacker 
+/* Mon super programme de hacker
 Attention à vos mirettes*/
 
 #include <stdio.h>
@@ -48,7 +48,7 @@ int main()
 **stdio.h** et **stdlib.h** sont des librairies avec lesquelles on travaille dans le code. Comme dans un code python où on import les librairies.
 D'après ce que j'ai compris, stdio s'occupera de la gestion des standard input/output, et stdlib de l'exit.
 
-On créé une fonction **main** qui sera exécutée en première par défaut. Elle retourne un "int" par convention (0) pour dire que tout s'est bien passé. 
+On créé une fonction **main** qui sera exécutée en première par défaut. Elle retourne un "int" par convention (0) pour dire que tout s'est bien passé.
 
 {% note %}
 Par lisibilité et car c'est fortement recommandé pour éviter les confusions, on doit donc, comme on le voit dans l'exemple, **déclarer le type de sortie** de la fonction.
@@ -66,7 +66,7 @@ gcc main.c -o bonjour.exe
 
 Ici, on utilise le compilateur gcc, sur notre fichier main.c que l'on vient d'écrire. Avec l'option -o, on indique que l'on veut compiler le tout sous forme d'un fichier exécutable que l'on veut appeler bonjour.exe.
 
-Après avoir tapé cela dans le terminal, le fichier exécutable bonjour.exe apparaît dans notre dossier projet. Il ne nous reste plus qu'à taper son petit nom pour l'exécuter et voir la magie s'opérer (on s'assure d'écrire ./ devant le fichier pour que le shell sache qu'on parle d'un fichier et non d'une commande): 
+Après avoir tapé cela dans le terminal, le fichier exécutable bonjour.exe apparaît dans notre dossier projet. Il ne nous reste plus qu'à taper son petit nom pour l'exécuter et voir la magie s'opérer (on s'assure d'écrire ./ devant le fichier pour que le shell sache qu'on parle d'un fichier et non d'une commande):
 
 ```
 ./bonjour.exe
@@ -82,9 +82,9 @@ On sait grâce au cours Linux/OPS comment vérifier le code de sortie, on voit q
 
 ### Variables
 
-Il y a plusieurs types de variables, et on doit également déclarer leurs types à la création. Il y a des variables pour les entiers (**int**, **long**, **signed char**), et pour les float (**float**, **double**). Leur différence tient dans la place en mémoire qu'ils prennent, ils sont donc aussi limités dans leur grandeur. On peut aussi ajouter **unsigned** devant tout ça, si on veut déclarer un nombre positif, et avoir la possibilité qu'il soit plus grand. 
+Il y a plusieurs types de variables, et on doit également déclarer leurs types à la création. Il y a des variables pour les entiers (**int**, **long**, **signed char**), et pour les float (**float**, **double**). Leur différence tient dans la place en mémoire qu'ils prennent, ils sont donc aussi limités dans leur grandeur. On peut aussi ajouter **unsigned** devant tout ça, si on veut déclarer un nombre positif, et avoir la possibilité qu'il soit plus grand.
 
-On peut annoncer au monde en quelle année on est, en utilisant les outils de remplacement de variable **%**. Après ce symbole, on ajoute une lettre pour indiquer de quel type de variable il s'agira. Ici **d** pour un entier int, **f** pour un float. 
+On peut annoncer au monde en quelle année on est, en utilisant les outils de remplacement de variable **%**. Après ce symbole, on ajoute une lettre pour indiquer de quel type de variable il s'agira. Ici **d** pour un entier int, **f** pour un float.
 
 ```c
  int annee = 2023;
@@ -161,7 +161,7 @@ default:
 
 On peut **assigner** une valeur à une variable en fonction de si une **condition** est vérifiée ou non de cette sorte:
 
-```c 
+```c
 variable = (condition) ? valeur1 : valeur2;
 ```
 
@@ -243,7 +243,7 @@ int main()
 ```
 ## Headers et fonctions modulaires
 
-On peut également créer des fichiers annexes de headers et d'autres fonctions, comme des librairies. 
+On peut également créer des fichiers annexes de headers et d'autres fonctions, comme des librairies.
 
 Dans notre code, si on définit une fonction après la fonction main, cela ne marchera pas. Pour faire cela, il faut indiquer dans un header (donc au début du code) le format de la fonction. Pour notre braquage par exemple on pourrait créer:
 
@@ -262,7 +262,7 @@ On peut même créer la fonction dans un autre fichier, par exemple fonctions.c.
 
 void braquage(int mes_compotes);
 
-#endif 
+#endif
 ``````
 {% enddetails %}
 
@@ -334,7 +334,7 @@ gcc main.c fonctions.c -o test.exe
 Et maintenant notre test fonctionne **exactement** comme toute à l'heure ! Sauf que notre fonction main est plus propre et pourra être complexifiée.
 
 
-## Pointeurs 
+## Pointeurs
 
 Une variable est toujours stockée à une adresse. Un pointeur c'est un outil qui stocke l'adresse mémoire d'une variable. On le déclare avec le type de la variable et une étoile. On peut récupérer l'adresse d'une variable avec **&**.
 

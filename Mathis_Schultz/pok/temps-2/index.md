@@ -13,7 +13,7 @@ tags:
   - "html"
   - "CSS"
 
-résumé: Le but de ce POK est de réaliser un CV interactif 
+description: Le but de ce POK est de réaliser un CV interactif
 ---
 
 <h2 id="h1"> Introduction </h2>
@@ -50,7 +50,7 @@ Mon repository Github a pour vocation à vous être utile, n'hésitez pas à rep
 - Construire l'environnement de travail via Github
 - S'approprier le travail d'Agathe : comprendre la structure du code html et des différentes fonctionnalités
 - Adapter le CV avec mes propres expériences
-- Publier le site web en ligne via Github 
+- Publier le site web en ligne via Github
 - Créer un carrousel pour faire défiler mes expériences sans utiliser de librairie particulière.
 
 
@@ -79,7 +79,7 @@ Bien que le parcours d'Agathe soit très intéressant, il ne correspond pas tout
 **Publication du site**
 
 Une fois que je m'étais approprié le code d'Agathe, que j'eu remplassé ces expériences par les miennes j'ai voulu publier le CV sur internet. Pour cela j'ai commencé par étudier le fonctionnement de pythonAnywhere qu'on avait utilisé l'an dernier durant le cours d'info2. Cependant, en faisant des recherches j'ai trouvé plus simple d'utiliser les fonctionnalités de incluse de Github qui ne nécessitait donc pas d'une application tierce. Ainsi, à la manière du site Do_It, j'ai utilisé les fonctionnalités gratuite de Github qui me permette de publier mon site web. Les caractéristiques de Github sont amplement suffisante pour moi puisque ce site n'a pas vocation à détrôner Facebook.
-En éditant ce site web, j'ai choisit de le rendre publique, visible par tous. Cependant des questions de vie privée se pose, quels informations est-ce que j'accepte de transmettre. Étant donnée que mon LinkedIn réduit déjà à néant ma vie privée je ne me suis pas longuement attardé sur cette question mais je tiens à rappeler l'importance de se poser la question des informations que l'on partage sur internet surtout lorsque l'on développe un site qui ne comporte aucune fenêtre de connexion. 
+En éditant ce site web, j'ai choisit de le rendre publique, visible par tous. Cependant des questions de vie privée se pose, quels informations est-ce que j'accepte de transmettre. Étant donnée que mon LinkedIn réduit déjà à néant ma vie privée je ne me suis pas longuement attardé sur cette question mais je tiens à rappeler l'importance de se poser la question des informations que l'on partage sur internet surtout lorsque l'on développe un site qui ne comporte aucune fenêtre de connexion.
 
 **Création du Carrousel**
 
@@ -98,13 +98,13 @@ Une amélioration que j'essaie de mettre en oeuvre est d'avoir l'expérience pri
 
 **Conclusion de Sprint 1**
 
-Chaque étape me paraissait simple, effectivement les missions de mise en page, la création des animations, la publications et les intégrations sont individuellement simple. Cependant, le fait d'avoir du code legacy, d'avoir un temps de compréhension de ce code qui est court et de vouloir le modifier crée un ensemble de petite erreur qui se répercute. Je conseillerai à chacun de partir de zéro pour être complètement souverain de son code, le comprendre à 100%. Cependant, il est évident qu'en vue d'être efficace et d'obtenir rapidement des résultats il est plus simple de partir d'un code existant. Et je vous encourage à reprendre mon code, et à rajouter des fonctionnalités. 
+Chaque étape me paraissait simple, effectivement les missions de mise en page, la création des animations, la publications et les intégrations sont individuellement simple. Cependant, le fait d'avoir du code legacy, d'avoir un temps de compréhension de ce code qui est court et de vouloir le modifier crée un ensemble de petite erreur qui se répercute. Je conseillerai à chacun de partir de zéro pour être complètement souverain de son code, le comprendre à 100%. Cependant, il est évident qu'en vue d'être efficace et d'obtenir rapidement des résultats il est plus simple de partir d'un code existant. Et je vous encourage à reprendre mon code, et à rajouter des fonctionnalités.
 
 **Rendu Intermédiaire**
 
 <img src="accueille.png">
 <img src="competence.png">
-<img src="experience.png">  
+<img src="experience.png">
 <img src="contact.png">
 <img src="formation.png">
 <img src="loisir.png">

@@ -11,10 +11,10 @@ temps: 1
 tags:
   - "excel"
 
-résumé: "MON 1.2 sur les bases d'excel"
+description: "MON 1.2 sur les bases d'excel"
 ---
 
-{%prerequis 'Niveau débutant'%}  
+{%prerequis 'Niveau débutant'%}
 {%endprerequis%}
 
 Mes objectifs pour ce deuxième MON sont de (re)découvrir les bases d'excel. En effet, lors de mes derniers stages, j'ai été amenée a utiliser excel mais je me suis souvent retrouvée en difficulté dans la manipulation des données. C'est pourquoi je repars du début afin d'être capable de les maîtriser convenablement et d'en apprendre d'avantage dans le cadre d'un futur stage en entreprise. Je souhaiterai également poursuivre avec l'apprentissage du VBA.

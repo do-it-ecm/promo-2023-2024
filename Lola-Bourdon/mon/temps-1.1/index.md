@@ -10,10 +10,10 @@ date: 2023-09-25
 temps: 1
 tags:
 
-résumé: "MON 1 sur le développement d'un site web basique"
+description: "MON 1 sur le développement d'un site web basique"
 ---
 
-{%prerequis 'Niveau débutant'%}  
+{%prerequis 'Niveau débutant'%}
 {%endprerequis%}
 
 Mes objectifs pour ce premier MON sont de découvrir les bases des langages HTML et CSS afin d'être capable de coder un site internet simple pour appliquer ce que j'ai appris. Pour rendre cela plus ludique, je vais coder au fur et à mesure de mon apprentissage un site internet très basique décrivant une fiche méthode du langage html pour Soline qui n'a pas suivi la formation html. Par la suite j'améliorerait l'esthétique du site grâce à la découverte de CSS.
@@ -27,12 +27,12 @@ Il est temps de partager mes nouvelles compétences avec Soline pour qu'elle soi
 
 Pour commencer, Soline aura besoin d'utiliser sur son ordinateur un éditeur de texte tel que Visual Studio Code qu'elle possède déjà, même si elle pourrait en utiliser d'autres.
 
-Sur VScode, elle devra suivre les étapes suivantes : 
+Sur VScode, elle devra suivre les étapes suivantes :
 
 1. Dans l’explorateur de fichier, créer un dossier : "Mon-premier-site-vsc"
 2. Ouvrir l'application VsCode et choisir Fichier > ouvrir > fichier puis naviguer jusqu'au dossier "Mon-premier-site-vsc".
 3. Installer l’extension live folder : extension > live folder > installer, qui lui permettra de visualiser son super site web basique
-4. Créer un nouveau fichier html "premier-essai.html", un icone <> devrait apparaitre devant le nom du dossier 
+4. Créer un nouveau fichier html "premier-essai.html", un icone <> devrait apparaitre devant le nom du dossier
 
 ## 2. Les bases
 
@@ -43,15 +43,15 @@ Maintenant l’intégralité de la page Web doit être enveloppée dans  &lt;htm
 
 Entres les **&lt;html&gt;&lt;/html&gt;.** :
 
-- Il ne faut jamais mélanger les imbrications 
-- Placer **&lt;head&gt;&lt;/head&gt;** qui fait référence au titre de la page, langages CSS, et contenu qui ne seront pas visible directement sur le site 
+- Il ne faut jamais mélanger les imbrications
+- Placer **&lt;head&gt;&lt;/head&gt;** qui fait référence au titre de la page, langages CSS, et contenu qui ne seront pas visible directement sur le site
 - Écrire le titre de la page entre &lt;title&gt;&lt;/title&gt; même si il n'apparaitra pas directement sur le site.
 
 Maintenant que le &lt;/head&gt; est fermée mais pas le &lt;/html&gt;, placer &lt;body&gt;&lt;/body&gt; qui encadre le contenu visible, rien ne s'affiche  sur la page web lorsqu'il est vide.
 
 Dans **&lt;body&gt;&lt;/body&gt;** :
 
-- &lt;p&gt;&lt;/p&gt; encadre les paragraphes,  
+- &lt;p&gt;&lt;/p&gt; encadre les paragraphes,
 - &lt;h1&gt;&lt;/h1&gt; à &lt;h6&gt;&lt;/h6&gt; sont pour les titres du plus au moins gros
 - &lt;ul&gt;&lt;/ul&gt;et &lt;li&gt;&lt;/li&gt; servent pour les listes simple et sont indissociables
 - On peut mettre le &lt;p&gt;&lt;/p&gt; dans le &lt;li&gt;&lt;/li&gt; mais pas dans le &lt;ul&gt;&lt;/ul&gt;
@@ -68,7 +68,7 @@ Il existe également des liste ordonnées qui permettent de numéroter la liste.
 
 Pour écrire en *italique* :
 
-- Utiliser  la commande &lt;em&gt; *texte* &lt;/em&gt; 
+- Utiliser  la commande &lt;em&gt; *texte* &lt;/em&gt;
 
 Pour écrire en **gras** :
 
@@ -76,7 +76,7 @@ Pour écrire en **gras** :
 
 Pour écrire en <u>Souligné : </u>
 
-- Utiliser la commande &lt;u&gt; <u> texte </u>&lt;/u&gt; 
+- Utiliser la commande &lt;u&gt; <u> texte </u>&lt;/u&gt;
 
 On peux également imbriquer un élément gras dans un italique ou vice versa avec :</strong></em> &lt;em&gt;&lt;strong&gt;<em><strong> texte  </strong></em> &lt;/strong&gt;&lt;/em&gt;
 
@@ -87,8 +87,8 @@ Avec ces nouvelles informations, voyons ce que cela peut donner sur donner sur n
 ![code](code2.png)
 ![code](code3.png)
 
-### Les Eléments Vides 
-Les sauts de ligne et les lignes horizontales sont les éléments vides les plus courants. 
+### Les Eléments Vides
+Les sauts de ligne et les lignes horizontales sont les éléments vides les plus courants.
 Pour indiquer un <u>saut de ligne définitif,</u> utiliser un seul élément **&lt;/br&gt;**
 Pour les lignes horizontales, utiliser **&lt;hr/&gt;**.
 
@@ -111,7 +111,7 @@ Le fin du site final est le suivant :
 
 ## 3. Amélioration du site
 
-L'objectif principal du site est terminée mais l'esthétique n'est pas forcément la meilleure. Pour l'améliorer j'ai fait mes premiers pas avec CSS en me basant toujours sur les cours de https://internetingishard.netlify.app. Finalement, j'ai tenté d'amener un côté plus pratique qu'esthétique. 
+L'objectif principal du site est terminée mais l'esthétique n'est pas forcément la meilleure. Pour l'améliorer j'ai fait mes premiers pas avec CSS en me basant toujours sur les cours de https://internetingishard.netlify.app. Finalement, j'ai tenté d'amener un côté plus pratique qu'esthétique.
 
 J'ai aimé créer un sommaire avec des liens cliquables (en html) qui créent des liens vers certains titres de la page de la manière suivante :
 

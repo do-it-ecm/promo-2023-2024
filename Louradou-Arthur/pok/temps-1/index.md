@@ -18,7 +18,7 @@ tags:
   - "agile"
   - "scrum"
 
-résumé: Ce POK consistera en la réalisation d'un portfolio de projet pour se joindre à un CV retravaillé avec des assets graphiques professionnels. Nous mettrons en pratique des principes de méthodologies agiles.
+description: Ce POK consistera en la réalisation d'un portfolio de projet pour se joindre à un CV retravaillé avec des assets graphiques professionnels. Nous mettrons en pratique des principes de méthodologies agiles.
 ---
 
 

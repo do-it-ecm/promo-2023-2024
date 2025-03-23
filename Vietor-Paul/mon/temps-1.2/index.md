@@ -11,14 +11,14 @@ temps: 1
 tags:
   - "Rust"
 
-résumé: "Une introduction au langage Rust au travers du livre Rust officiel."
+description: "Une introduction au langage Rust au travers du livre Rust officiel."
 ---
 
 ## Introduction
 
 Dans ce second MON, j'ai décidé de me lancer dans le langage Rust en parcourant le [livre de Rust](https://doc.rust-lang.org/stable/book/title-page.html), en faisant les quelques projets qui y sont proposés au cours de sa lecture.
 
-Mais, me demanderez-vous, qu'est-ce que Rust ? 
+Mais, me demanderez-vous, qu'est-ce que Rust ?
 
 ## Présentation du langage Rust
 
@@ -26,7 +26,7 @@ D'après [Wikipédia](https://fr.wikipedia.org/wiki/Rust_\(langage\)), "Rust est
 - Tout d'abord, reprenons les deux termes cités ci-dessus :
   - Rust est compilé : on écrit du code en Rust, puis on le donne à un compilateur qui va lui nous donner un exécutable, un fichier en langage machine que le processeur pourra directement utiliser. Il est en cela similaire à des langages tels que le C, le C++, l'OCaml, et bien d'autres, et s'oppose par exemple aux langages Bash et Perl.
   - Rust est multi-paradigme : en programmation, un paradigme est, grossièrement, l'approche utilisée par un langage pour décrire le programme. En programmation dite impérative (C, Python...), un programme est une suite d'instructions que doit exécuter le processeur. En programmation fonctionnelle (OCaml, Haskell), un programme est une chaîne d'évaluations de fonctions. Enfin, pour ne citer que trois exemples, en programmation orientée (Java, C#...), un programme consiste en un ensemble d'"objets", des sortes de briques du programme, qui interagissent entre eux. Dans les faits, très peu de langages modernes se restreignent à un seul de ces paradigmes, et en ce qui concerne Rust, c'est un langage principalement impératif et fonctionnel, qui intègre quelques notions de la programmation orientée objet.
-- Rust est de plus un langage fortement typé : chaque variable a un type qui définit les opérations que l'on peut faire sur cette variable, et il est interdit de changer implicitement le type d'une variable. Par exemple, on ne peut pas additionner une variable entière et un nombre à virgule flottante ou une chaîne de caractère (à moins de ne définir explicitement l'opération nous-même), contrairement à ce qui est possible en JavaScript, qui acceptera volontiers de dire que la chaîne de caractère `"Hello"` à laquelle on additionnerait le nombre `2.718` nous donne... la chaîne de caractère `"Hello2.718"`. 
+- Rust est de plus un langage fortement typé : chaque variable a un type qui définit les opérations que l'on peut faire sur cette variable, et il est interdit de changer implicitement le type d'une variable. Par exemple, on ne peut pas additionner une variable entière et un nombre à virgule flottante ou une chaîne de caractère (à moins de ne définir explicitement l'opération nous-même), contrairement à ce qui est possible en JavaScript, qui acceptera volontiers de dire que la chaîne de caractère `"Hello"` à laquelle on additionnerait le nombre `2.718` nous donne... la chaîne de caractère `"Hello2.718"`.
 - Il est également statiquement typé : à chaque variable est associé un unique type, et on ne peut pas lui assigner une valeur d'un type différent.
 - Enfin, sa syntaxe est similaire à celle du C (et du C++, de JavaScript...), avec l'utilisation d'accolades pour définir des blocs de code, de parenthèses pour définir les arguments de ses fonction, les points-virgules en fin de ligne... avec quelques différences, notamment au niveau de la déclaration du type d'une variable, qui se trouve après le nom de la variable.
 
@@ -34,9 +34,9 @@ D'après [Wikipédia](https://fr.wikipedia.org/wiki/Rust_\(langage\)), "Rust est
 
 La communauté Rust a écrit un livre à destination de ceux désirant apprendre le langage Rust. En une vingtaine de chapitres (trop pour que je puisse le finir en 10h), il nous présente les fonctionnalités du langage Rust, et nous accompagne dans 3 projets : un très simple jeu dans lequel le joueur doit deviner un nombre aléatoire entre 1 et 100, dès le chapitre 2, un clone minimaliste du programme `grep`, qui permet de rechercher une chaîne de caractères dans un fichier, au chapitre 12, et enfin un serveur web *multithreadé*, c'est-à-dire qui exécute plusieurs tâches en parralèle sur différents *threads* du processeur, au chapitre 20.
 
-Tout d'abord, le premier chapitre est dédié à l'installation des outils nécessaires au développement en Rust, et le deuxième chapitre nous guide au travers du premier projet.  
-Ensuite, les chapitres 3 à 10 nous présentent les fonctionnalités et spécificités essentielles du langage : les types et structures de données de base disponibles, les bibliothèques (nommées *crates*), la gestion des erreurs, et, bien sûr, la spécificité incontournable de Rust, la notion de propriété, reprise plus en détail par Assane Diouf dans son [premier MON]({{ "/promos/2023-2024/Diouf-Asssane/mon/Rust" | url }}).  
-Le chapitre 11, quant à lui, nous présente les fonctionnalités de tests automatiques qui pourront être exécutés par `cargo`, l'outil principal de gestion des projets Rust, afin de nous préparer au deuxième projet, au chapitre 12.  
+Tout d'abord, le premier chapitre est dédié à l'installation des outils nécessaires au développement en Rust, et le deuxième chapitre nous guide au travers du premier projet.
+Ensuite, les chapitres 3 à 10 nous présentent les fonctionnalités et spécificités essentielles du langage : les types et structures de données de base disponibles, les bibliothèques (nommées *crates*), la gestion des erreurs, et, bien sûr, la spécificité incontournable de Rust, la notion de propriété, reprise plus en détail par Assane Diouf dans son [premier MON]({{ "/promos/2023-2024/Diouf-Asssane/mon/Rust" | url }}).
+Le chapitre 11, quant à lui, nous présente les fonctionnalités de tests automatiques qui pourront être exécutés par `cargo`, l'outil principal de gestion des projets Rust, afin de nous préparer au deuxième projet, au chapitre 12.
 Enfin, les chapitres 13 à 19 nous présentent les fonctionnalités avancées de Rust afin de nous préparer au dernier projet du chapitre 20, à l'exception du chapitre 14 qui revient sur `cargo` ainsi que la gestion des *crates* et [Crates.io](https://crates.io/), le site officiel pour trouver des *crates*.
 
 Pour ce MON, je vais donc tenter d'expliquer de façon succinte les divers concepts rencontrés dans ce livre au fil de ma lecture, chapitre par chapitre, jusqu'au point auquel j'aurai réussi à arriver en dix heures.
@@ -72,10 +72,10 @@ Le chapitre 3, rapide à lire quand on a déjà des bases de programmation, pré
 Le chapitre 4 est le chapitre qui présente la notion de propriété, et peut être long à comprendre puisque qu'il explique la gestion de la mémoire en Rust. J'en ai personnellement eu pour deux petites heures, en ayant déjà rencontré certaines notions abordées dans ce chapitre. Je ne reviendrai pas sur la notion de propriété spécifiquement, puisque ce serait une redite de ce qu'a déjà expliqué Assane dans son MON. Cependant, je peux expliquer la gestion de la mémoire : en Rust, les données peuvent aller à deux endroits :
 - La **pile** (*stack*), pour les valeurs de types de taille constante (un nombre, un caractère) et, généralement, réduite
 - Le **tas** (*heap*), pour les valeurs de types de taille variable (les chaînes de caractères) ou les valeurs qui sont particulièrement grandes.
-Quand on crée une variable de type, par exemple, `i32` (un nombre entier entre -2³¹ et 2³¹-1), qui est de taille constante (32 bits), Rust met sa valeur sur le haut de la pile. Cette variable est ainsi particulièrement rapide d'accès et peut être copiée et transférée très rapidement.  
+Quand on crée une variable de type, par exemple, `i32` (un nombre entier entre -2³¹ et 2³¹-1), qui est de taille constante (32 bits), Rust met sa valeur sur le haut de la pile. Cette variable est ainsi particulièrement rapide d'accès et peut être copiée et transférée très rapidement.
 Quand on crée une chaîne de caractères, par contre, Rust va allouer une certaine quantité de mémoire sur le tas dans laquelle il va enregistrer les caractères, et mettre sur la pile une valeur de taille fixée qui contient l'emplacement sur le tas de la chaîne de caractère, et quelques informations sur la chaîne de caractères : sa longueur, et la place disponible pour cette chaîne de caractères sur le tas.
 
-La distinction est importante car, quand on assigne une valeur à une variable, on assigne seulement la valeur qui se trouve sur la pile. Ainsi, si on déclare deux entiers, `a` et `b`, puis que l'on fait `b = a`, b est une copie indépendante de a, et on peut modifier b sans affecter la valeur de a (pour peu que b soit mutable, évidemment).  
+La distinction est importante car, quand on assigne une valeur à une variable, on assigne seulement la valeur qui se trouve sur la pile. Ainsi, si on déclare deux entiers, `a` et `b`, puis que l'on fait `b = a`, b est une copie indépendante de a, et on peut modifier b sans affecter la valeur de a (pour peu que b soit mutable, évidemment).
 Cependant, si on essaye de faire la même chose avec deux chaînes de caractères, b ne va copier que la valeur de a se trouvant sur la pile : l'emplacement sur le tas, la longueur et la place disponible. Les deux variables pointeront donc aux même données sur le tas, et toute modification à b modifierait a, et inversement. Pour éviter de faire cette erreur, Rust rend alors a invalide : on ne peut plus l'utiliser, sous peine de causer une erreur à la compilation. Si on veut réellement copier a dans une nouvelle variable, il faut le faire explicitement avec la méthode `clone()`.
 
 {% info %}
@@ -110,7 +110,7 @@ On peut alors considérer chaque variante de notre énumération comme une struc
 
 Les énumérations ont plusieurs utilités : il se pourrait que l'on veuille, par exemple utiliser des adresses IP. Or, il existe de nos jours deux types d'adresses IP : les adresses IPv4 et les adresses IPv6. Plutôt que de devoir s'embêter avec un type (qui serait alors une structure) pour chaque forme, on peut utiliser une énumération, et définir des méthodes communes à toutes les adresses IP, n'avoir qu'une seule définition de fonction qui doit prendre une adresse IP en paramètre, etc.
 
-Cependant, cette approche demande de pouvoir distinguer les opérations que l'on fait selon la variante de l'énumération : c'est là que `match` entre en jeu.  
+Cependant, cette approche demande de pouvoir distinguer les opérations que l'on fait selon la variante de l'énumération : c'est là que `match` entre en jeu.
 Quand on utilise `match` sur une variable dont le type est une énumération, on peut emprunter une différente branche de notre programme pour chaque variante, et, si cette variante contient elle-même une valeur, on peut lier cette valeur à une variable pour la durée de la branche.
 
 Enfin, ce chapitre nous parle des énumérations `Result` et `Option`, représentant respectivement un résultat, qui pourrait indiquer un échec ou une réussite avec une valeur, et une valeur pouvant éventuellement valoir `Null` (qui est en quelque sorte une "absence de valeur"), et de certaines méthodes ou fonctionnalités du langage que l'on peut utiliser avec ces énumérations.
@@ -123,7 +123,7 @@ En Rust, formellement, une ***crate*** est tout simplement une unité de code qu
 
 Un **paquet** est un ensemble de une ou plusieurs *crates*, mais qui ne peut pas avoir plus d'une *crate* bibliothèque. À chacune des *crates* d'un paquet va correspondre soit le fichier `src/main.rs`, qui est la *crate* binaire principale du paquet, soit le fichier `src/lib.rs`, qui est la *crate* bibliothèque du paquet, soit un fichier dans `src/bin`.
 
-Enfin, tout fichier qui ne correspond à aucun de ces chemins peut définir un **module**, que l'on peut ensuite utiliser dans notre code avec l'instruction `mod <nom du module>`, où le nom du module est le nom du fichier sans l'extension ou le nom d'un dossier contenant un fichier `mod.rs`.  
+Enfin, tout fichier qui ne correspond à aucun de ces chemins peut définir un **module**, que l'on peut ensuite utiliser dans notre code avec l'instruction `mod <nom du module>`, où le nom du module est le nom du fichier sans l'extension ou le nom d'un dossier contenant un fichier `mod.rs`.
 Par défaut, tout ce que l'on définit dans un module est privé, il faut précéder les déclarations du mot-clef `pub` afin de rendre ce que l'on définit accessible par le module parent et utiliser `pub mod` au lieu de `mod` pour rendre les sous-modules accessibles au module parent.
 
 ### Chapitre 8 : Collections
@@ -146,7 +146,7 @@ Il ne me restait pas beaucoup de temps, et le chapitre 10 me semblait plus inté
 
 ### Chapitre 10 : Types génériques, traits et durées de vie
 
-Ce chapitre, qui est le dernier que j'ai eu le temps de lire, nous présente la programmation générique : ne pas se soucier des types mêmes, mais uniquement de propriétés qu'ont les types. Par exemple, on peut définir des relations d'ordres sur de nombreux types, tels que les entiers, les nombres à virgule flottante, les chaînes de caractères... mais dans un langage statiquement typé comme Rust, à priori, il faudrait écrire une fonction pour chacun de ces types si on souhaite par exemple trier une liste, ou en trouver le maximum. Pour remédier à cela, on va utiliser un type **générique**, et dire au compilateur que, pour que l'appel à notre fonction soit valide, il faut que ce type supporte une relation de comparaison. 
+Ce chapitre, qui est le dernier que j'ai eu le temps de lire, nous présente la programmation générique : ne pas se soucier des types mêmes, mais uniquement de propriétés qu'ont les types. Par exemple, on peut définir des relations d'ordres sur de nombreux types, tels que les entiers, les nombres à virgule flottante, les chaînes de caractères... mais dans un langage statiquement typé comme Rust, à priori, il faudrait écrire une fonction pour chacun de ces types si on souhaite par exemple trier une liste, ou en trouver le maximum. Pour remédier à cela, on va utiliser un type **générique**, et dire au compilateur que, pour que l'appel à notre fonction soit valide, il faut que ce type supporte une relation de comparaison.
 
 {% note %}
 Il est également possible d'utiliser des types génériques dans les définitions de structures ou d'énumération, de la même façon que dans les fonctions.
@@ -166,7 +166,7 @@ Pour les traits cités ci-dessus, les méthodes à implémenter sont en fait cel
 Comme il est souvent chronophage d'implémenter toutes les méthodes requises pour un trait, Rust nous permet de demander au compilateur de créer une implémentation par défaut pour certains traits en utilisant la macro `derive`, mais ce n'est pas abordé dans ce chapitre.
 {% endinfo %}
 
-Enfin, ce chapitre présente les durées de vie. C'est ce qui détermine dans quel cadre (pour combien de "temps") une référence est valide. Cela est notamment utile quand on veut écrire une fonction qui renvoie une référence ou une structure dont un des membres est une référence, puisqu'il faut que Rust sache quand est valide cette référence par rapport à la structure ou aux arguments de la fonction.  
+Enfin, ce chapitre présente les durées de vie. C'est ce qui détermine dans quel cadre (pour combien de "temps") une référence est valide. Cela est notamment utile quand on veut écrire une fonction qui renvoie une référence ou une structure dont un des membres est une référence, puisqu'il faut que Rust sache quand est valide cette référence par rapport à la structure ou aux arguments de la fonction.
 Cependant, c'est un sujet que je n'ai pas encore bien compris, et que j'espère réussir à comprendre en passant à la pratique lors du projet.
 
 ## Conclusion

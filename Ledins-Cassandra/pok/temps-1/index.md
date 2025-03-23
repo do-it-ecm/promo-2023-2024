@@ -10,14 +10,14 @@ date: 1970-09-01
 temps: 1
 tags:
 
-résumé: Un site internet pour interagir avec un animal virtuel.
+description: Un site internet pour interagir avec un animal virtuel.
 ---
 
 **Tout dans ce POK a été réalisé en HTML, JavaScript, CSS, Python, à la main.**
 
 ## Point Sprint 1
 
-### Ce que je voulais faire 
+### Ce que je voulais faire
 
 Je n'avais pas bien compris qu'il fallait découper les objectifs du POK en deux sprints, donc je n'avais pas en tête un objectif pour le sprint 1. Je savais en tout cas que j'allais démarrer par :
 
@@ -25,9 +25,9 @@ Je n'avais pas bien compris qu'il fallait découper les objectifs du POK en deux
 - mettre en place une page de login
 - commencer le front pour la main page du jeu
 
-### Ce que j'ai fait 
+### Ce que j'ai fait
 
-La page de login du site est prête et fonctionelle. Les appels sont fait à une API faite avec Flask sur Python. J'avais dans l'idée d'intégrer un système de chat avec son animal (intégrer l'API ChatGPT). L'intégration de l'API à l'air simple mais je ne me rends pas compte du temps de mise en place des prompts. 
+La page de login du site est prête et fonctionelle. Les appels sont fait à une API faite avec Flask sur Python. J'avais dans l'idée d'intégrer un système de chat avec son animal (intégrer l'API ChatGPT). L'intégration de l'API à l'air simple mais je ne me rends pas compte du temps de mise en place des prompts.
 
 Donc pour l'instant on peut **créer un compte et se connecter**.
 
@@ -45,7 +45,7 @@ Je n'ai pas passé 10h sur ce premier sprint, et je n'ai donc pas eu le temps d'
 
 ### Main page
 
-Les prochains objectifs étaient donc de construire la main page. J'ai commencé par établir un lien de redirection, puis juste mettre une image d'un chat. 
+Les prochains objectifs étaient donc de construire la main page. J'ai commencé par établir un lien de redirection, puis juste mettre une image d'un chat.
 
 ### Fonction de discussion
 
@@ -101,7 +101,7 @@ J'ai ajouté un effet de display lettre par lettre, comme on peut retrouver dans
 
 ### Fonction nourrir et caresser
 
-J'ai ajouté deux boutons pour nourrir et caresser le chat. Les boutons font plusieurs choses quand on les clique (déjà ils ont une animation en css javascript vraiment stylée, que j'ai allègrement emprunté à <a href="https://webdeasy.de/en/top-css-buttons-en/?utm_content=cmp-true">Nour Saud</a>). 
+J'ai ajouté deux boutons pour nourrir et caresser le chat. Les boutons font plusieurs choses quand on les clique (déjà ils ont une animation en css javascript vraiment stylée, que j'ai allègrement emprunté à <a href="https://webdeasy.de/en/top-css-buttons-en/?utm_content=cmp-true">Nour Saud</a>).
 
 Ils font aussi apparaître un gif sur le chat, représentant l'action. Ils envoient aussi des données à l'API qui met à jour la base de données.
 
@@ -138,7 +138,7 @@ import pickle
 from sqlitedict import SqliteDict
 from flask_cors import CORS
 from flask import Response
-import traceback 
+import traceback
 import openai
 import requests
 import json
@@ -267,7 +267,7 @@ if __name__ == '__main__':
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-image: URL("getimage/test.jpg");
-        background-position: center top; 
+        background-position: center top;
         font-family: "Open Sans", sans-serif;
         color: #00353F;
         opacity: 0.8;
@@ -320,7 +320,7 @@ if __name__ == '__main__':
     font-family: fantasy;
     src: url("getimage/IMMORTAL.ttf");
     }
-    
+
     h2 {
         position: center top;
         font-family: fantasy;
@@ -345,21 +345,21 @@ if __name__ == '__main__':
 <body>
     <label for="title"><h2>ChatClique!</h2></label>
     <div class="container" display=inline-block>
-        
+
         <div class="vertical-center">
-            
+
         <label for="uname"><b>Username</b></label>
         <input type="text" id="username" placeholder="Enter Username" name="uname" required>
-    
+
         <label for="psw"><b>Password</b></label>
         <input type="password" id="password" placeholder="Enter Password" name="psw" required>
-    
+
         <button id="login">Login</button>
-        
+
         </script>
         <button id="signup">New ? Sign up</button>
 
-                
+
         </div>
       </div>
 
@@ -373,7 +373,7 @@ if __name__ == '__main__':
         <h3>Username taken. Please choose another one !</h3>
     </div>
 
-                
+
         </div>
       </div>
 
@@ -390,11 +390,11 @@ if __name__ == '__main__':
                     if (!response.ok) {
                         throw new Error('Network response was not ok');
                     }
-                    return response.json(); 
+                    return response.json();
                 })
                 .then(data => {
 
-                    const apiResponse = data.success; 
+                    const apiResponse = data.success;
                     const hiddenText2 = document.getElementById("hiddenText2");
                     if (apiResponse) {
                         hiddenText2.style.display = "block";
@@ -402,7 +402,7 @@ if __name__ == '__main__':
                         hiddenText3.style.display = "block";
                     }
                 })
-            
+
         });
 
         document.getElementById("login").addEventListener("click", function() {
@@ -411,18 +411,18 @@ if __name__ == '__main__':
             hiddenText3.style.display = "none";
             const inputValueU = document.getElementById("username").value.toString();
             const inputValueP = document.getElementById("password").value.toString();
-            
+
 
             fetch("http://localhost:49130/login/U"+inputValueU+"-P"+inputValueP)
                 .then(response => {
                     if (!response.ok) {
                         throw new Error('Network response was not ok');
                     }
-                    return response.json(); 
+                    return response.json();
                 })
                 .then(data => {
 
-                    const apiResponse = data.success; 
+                    const apiResponse = data.success;
                     const hiddenText = document.getElementById("hiddenText");
                     if (apiResponse) {
                         document.cookie = "username=" + inputValueU;
@@ -431,7 +431,7 @@ if __name__ == '__main__':
                         hiddenText.style.display = "block";
                     }
                 })
-            
+
         });
     </script>
 </body>
@@ -463,9 +463,9 @@ if __name__ == '__main__':
         margin-left: 30%;
         margin-right: 25%;
         }
-        
+
         #pet{
-            
+
         font-family: 'Helvetica', 'Arial', sans-serif;
         display: inline-block;
         font-size: 1em !important;
@@ -482,11 +482,11 @@ if __name__ == '__main__':
         position: absolute;
         transition: transform ease-in 0.1s, box-shadow ease-in 0.25s;
         box-shadow: 0 2px 25px rgba(255, 0, 130, 0.5);
-        
+
         &:focus {
             outline: 0;
         }
-        
+
         &:before, &:after{
             position: absolute;
             content: '';
@@ -498,14 +498,14 @@ if __name__ == '__main__':
             transition: all ease-in-out 0.5s;
             background-repeat: no-repeat;
         }
-        
+
         &:before{
             display: none;
             top: -75%;
-            background-image:  
+            background-image:
             radial-gradient(circle,#FF7D7A 20%, transparent 20%),
             radial-gradient(circle,  transparent 20%, #FF7D7A 20%, transparent 30%),
-            radial-gradient(circle, #FF7D7A 20%, transparent 20%), 
+            radial-gradient(circle, #FF7D7A 20%, transparent 20%),
             radial-gradient(circle,#FF7D7A 20%, transparent 20%),
             radial-gradient(circle,  transparent 10%, #FF7D7A 15%, transparent 20%),
             radial-gradient(circle, #FF7D7A 20%, transparent 20%),
@@ -515,12 +515,12 @@ if __name__ == '__main__':
         background-size: 10% 10%, 20% 20%, 15% 15%, 20% 20%, 18% 18%, 10% 10%, 15% 15%, 10% 10%, 18% 18%;
         background-position: 0% 80%, -5% 20%, 10% 40%, 20% 0%, 30% 30%, 22% 50%, 50% 50%, 65% 20%, 85% 30%;
         }
-        
+
         &:after{
             display: none;
             bottom: -75%;
-            background-image:  
-            radial-gradient(circle, #FF7D7A 20%, transparent 20%), 
+            background-image:
+            radial-gradient(circle, #FF7D7A 20%, transparent 20%),
             radial-gradient(circle, #FF7D7A 20%, transparent 20%),
             radial-gradient(circle,  transparent 10%, #FF7D7A 15%, transparent 20%),
             radial-gradient(circle, #FF7D7A 20%, transparent 20%),
@@ -530,13 +530,13 @@ if __name__ == '__main__':
             background-size: 15% 15%, 20% 20%, 18% 18%, 20% 20%, 15% 15%, 10% 10%, 20% 20%;
             background-position: 5% 90%, 10% 90%, 10% 90%, 15% 90%, 25% 90%, 25% 90%, 40% 90%, 55% 90%, 70% 90%;
         }
-        
+
         &:active{
             transform: scale(0.9);
             background-color: darken(#FF7D7A, 5%);
             box-shadow: 0 2px 25px rgba(255, 0, 130, 0.2);
         }
-        
+
         &.animate{
             &:before{
             display: block;
@@ -572,7 +572,7 @@ if __name__ == '__main__':
         background-size: 0% 0%, 0% 0%,  0% 0%,  0% 0%,  0% 0%,  0% 0%;
         }
         }
-    
+
     button[name=feed]{
         margin-top: 30% !important;
     }
@@ -581,7 +581,7 @@ if __name__ == '__main__':
         margin-left: -20% !important;
         position: absolute !important;
     }
-        
+
     </style>
     <script>
         function getCookie(name) {
@@ -594,9 +594,9 @@ if __name__ == '__main__':
             }
             return "";
             }
-    
+
         var storedUsername = getCookie("username");
-        
+
         </script>
     <title>ChatClique</title>
 </head>
@@ -614,7 +614,7 @@ if __name__ == '__main__':
       var resultElement = $("#result");
       resultElement.text("Hello "+storedUsername);
 
-      
+
 
       $(document).ready(function() {
         updateLeftSideInfo();
@@ -625,21 +625,21 @@ if __name__ == '__main__':
             type: "GET",
             url: "/gpt-response?text=" + userInput + "&user=" + storedUsername,
             success: function(response) {
-              
+
               displayStreamingText(response.content);
             }
           });
         });
       });
-      
+
       function displayStreamingText(text) {
         var resultElement = $("#result");
         $("#result").empty();
         var index = 0;
-    
+
         function addNextCharacter() {
             if (index < text.length) {
-            var randomDelay = Math.random() * 100; 
+            var randomDelay = Math.random() * 100;
             setTimeout(function() {
                 resultElement.append(text.charAt(index));
                 index++;
@@ -653,7 +653,7 @@ if __name__ == '__main__':
       var animateButton = function(e) {
 
         e.preventDefault();
-        e.target.classList.remove('animate'); 
+        e.target.classList.remove('animate');
 
         var name = e.target.getAttribute('name');
 
@@ -680,7 +680,7 @@ if __name__ == '__main__':
     };
 
     function updateLeftSideInfo() {
-        fetch('/getinfo-cat_status?user='+storedUsername) 
+        fetch('/getinfo-cat_status?user='+storedUsername)
             .then(response => response.json())
             .then(data => {
                 var info = data.info;
@@ -699,14 +699,14 @@ if __name__ == '__main__':
         }
     }
 
-    var petButton = document.getElementsByName("pet")[0]; 
-    var feedButton = document.getElementsByName("feed")[0]; 
+    var petButton = document.getElementsByName("pet")[0];
+    var feedButton = document.getElementsByName("feed")[0];
 
     feedButton.addEventListener('click', animateButton, false);
     petButton.addEventListener('click', animateButton, false);
 
     </script>
-    
+
 </body>
 </html>
 ```
@@ -717,14 +717,14 @@ if __name__ == '__main__':
 
 J'ai essayé de lancer l'appli sur le serveur ovh de do-it mais cela n'a pas fonctionné. C'est peut-être dû à la gestion de Flask.
 
-Voici donc une petite démo du fonctionnement. Le score d'humeur est à gauche. Le caresser le rend heureux, le nourrir le rend malheureux, pour des besoins de démonstration !! 
+Voici donc une petite démo du fonctionnement. Le score d'humeur est à gauche. Le caresser le rend heureux, le nourrir le rend malheureux, pour des besoins de démonstration !!
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/X0wQnHDmt8I?si=o1d2ll1UJ6evGSzD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 ## Par la suite
 
-Ca m'a beaucoup amusée de développer ce petit projet. Il y a un nombre incalculable de choses à améliorer, que ce soit dans l'optimisation du chargement des gifs, de la base de donnée utilisateur, de l'augmentation de la mémoire et des caractéristiques du chat (ajouter une barre de faim), on pourrait enregistrer des dates de dernière connexion et faire monter la barre de faim au fil du temps... 
+Ca m'a beaucoup amusée de développer ce petit projet. Il y a un nombre incalculable de choses à améliorer, que ce soit dans l'optimisation du chargement des gifs, de la base de donnée utilisateur, de l'augmentation de la mémoire et des caractéristiques du chat (ajouter une barre de faim), on pourrait enregistrer des dates de dernière connexion et faire monter la barre de faim au fil du temps...
 
 Ajouter des styles grâce à la monnaie (j'ai déjà une panoplie de gifs de ce même chat décliné avec des accesoires). C'est quelque chose que j'aurais voulu ajouter mais où j'ai clairement pas eu le temps.
 

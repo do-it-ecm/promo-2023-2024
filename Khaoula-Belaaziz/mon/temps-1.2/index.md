@@ -15,7 +15,7 @@ tags:
   - "Gestion de projet"
   - "débutant"
 
-résumé: ""
+description: ""
 ---
 ## Qu'est-ce que Notion ?
 - Une plateforme tout-en-un pour la gestion de projets, la documentation, et l'organisation personnelle.
@@ -28,11 +28,11 @@ résumé: ""
 - On peut utiliser le **Markdown**
 - Collaboration en temps réel : sur des documents, des bases de données et d'autres contenus en temps réel avec des membres de l'équipe ou des personnes extérieures.
 - Intégration avec d'autres outils : Bien que Notion soit un outil tout-en-un, il offre également des intégrations avec d'autres outils populaires comme **Figma**, **Github**..., ce qui facilite le flux d'information entre différentes plateformes.
-- Prix : Notion offre une version gratuite qui est assez généreuse en termes de fonctionnalités. 
-- Modèles préfabriqués 
-- Communauté active 
-- Evolution constante 
-- Esthétiquement plaisant : L'interface propre et moderne de Notion rend le travail agréable. 
+- Prix : Notion offre une version gratuite qui est assez généreuse en termes de fonctionnalités.
+- Modèles préfabriqués
+- Communauté active
+- Evolution constante
+- Esthétiquement plaisant : L'interface propre et moderne de Notion rend le travail agréable.
 
 ## Planification d'un projet de développement logiciel:
 
@@ -56,14 +56,14 @@ résumé: ""
 
 
 ## Pourquoi j'ai choisi Notion ?
-L'idée était de créer une template pour structurer notre projet 3A, avec un tableau de bord, une liste de tâches, une page pour noter nos idées... où on peut visualiser notre avancement du jour le jour. 
+L'idée était de créer une template pour structurer notre projet 3A, avec un tableau de bord, une liste de tâches, une page pour noter nos idées... où on peut visualiser notre avancement du jour le jour.
 So, j'ai créé un espace bien organisé, avec une liste de pages et une liste de BD.
 <img src="Killer1.png"  width=600px>
 <img src="Killer2.png"  width=600px>
 
 
 
-## Références : 
+## Références :
 
 {% prerequis %}
 -	[COMMENT S'ORGANISER AVEC NOTION EN TANT QU'ÉTUDIANT ? ](https://youtu.be/dKQmXp15Efk?si=uSJceWaojdnuzcdL)

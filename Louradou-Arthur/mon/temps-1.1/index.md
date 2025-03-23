@@ -16,7 +16,7 @@ tags:
   - "sql"
   - "injection"
 
-résumé: "Ce MON détaillera le parcours d'un développeur qui souhaite en apprendre plus sur la sécurité des applications qu'il déploie."
+description: "Ce MON détaillera le parcours d'un développeur qui souhaite en apprendre plus sur la sécurité des applications qu'il déploie."
 ---
 
 <br />

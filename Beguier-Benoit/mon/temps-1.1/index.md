@@ -13,7 +13,7 @@ tags:
   - "Analyse des données"
   - "RStudio"
 
-résumé: "Initiation au langage R et application dans l'analyse et la visualisation des données."
+description: "Initiation au langage R et application dans l'analyse et la visualisation des données."
 ---
 
 {% prerequis %}
@@ -32,7 +32,7 @@ résumé: "Initiation au langage R et application dans l'analyse et la visualisa
 4. Application sur des données de Formule 1
 
 ## 1. Introduction
-Pour la réalisation de ce cours, j'aurais cinq sources principales : 
+Pour la réalisation de ce cours, j'aurais cinq sources principales :
 - Initiez-vous au langage R pour analyser vos données, cours dispensé sur le site openclassrooms que vous pouvez trouvez [ici](https://openclassrooms.com/fr/courses/4525256-initiez-vous-au-langage-r-pour-analyser-vos-donnees).
 - La documentation officielle R pour aller plus loin accessible [ici](https://cran.r-project.org/other-docs.html).
 - Le site internet Racing Statistics accessible [ici](https://www.racing-statistics.com)
@@ -44,13 +44,13 @@ Je vais utiliser l'environnement de travail RStudio tout au long de cette format
 
 ## 2. Bases
 #### Répertoire
-Comme dans beaucoup d'environnements, il faut spécifier à RStudio le répertoire de travail avec la commande 
+Comme dans beaucoup d'environnements, il faut spécifier à RStudio le répertoire de travail avec la commande
 ```shell
 setwd("C:Users...")
 ```
 
 #### Types d'objets
-S'en suivent ensuite d'autres explications basiques sur les trois manières d'attribuer des variables, ou *objets* comme ils sont appelés dans la formation ; ainsi que la suppression des objets et l'explication sur les différents types d'objets en R. 
+S'en suivent ensuite d'autres explications basiques sur les trois manières d'attribuer des variables, ou *objets* comme ils sont appelés dans la formation ; ainsi que la suppression des objets et l'explication sur les différents types d'objets en R.
 
 J'ai trouvé très intéressante la partie sur la conversion entre les types. R permet de convertir un objet en n'importe quel type, et ce même quand cela n'a pas de sens (par exemple : un nombre en type *numeric* que l'on peut convertir en booléen de type *logical*). Cette liberté peut permettre, à mon sens, des facilités de programmation utiles dans certains cas.
 
@@ -109,19 +109,19 @@ Celle-ci permet de visualiser un résumé de chaque donnée, ainsi que le nombre
 
 ```shell
 > summary(data1)
-     noms               sexe                age    
- Length:6           Length:6           Min.   :16  
- Class :character   Class :character   1st Qu.:17  
- Mode  :character   Mode  :character   Median :17  
-                                       Mean   :17  
-                                       3rd Qu.:17  
-                                       Max.   :18  
+     noms               sexe                age
+ Length:6           Length:6           Min.   :16
+ Class :character   Class :character   1st Qu.:17
+ Mode  :character   Mode  :character   Median :17
+                                       Mean   :17
+                                       3rd Qu.:17
+                                       Max.   :18
 ```
 
 {% info %}
 Ici il n'y a aucun problème d'import.
 {% endinfo %}
- 
+
 Ce MOOC s'est ensuite terminé sur un petit test que j'ai validé.
 ![MOOC](Mooc.png)
 Source : Open Classrooms
@@ -139,7 +139,7 @@ Source : Pitwall
 Cela me paraît assez accessible mais relève d'un bon entraînement d'utilisation de la fonction `plot()` .
 
 #### Récupérer les données
-A partir du site [Pitwall](https://pitwall.app), j'ai extrait les positions à chaque tour de deux pilotes (seulement deux pour l'exemple car je dois faire la procédure manuellement), Max Verstappen et lando Norris, pour le Grand Prix du Japon qui s'est déroulé le 24/09/2023. J'ai ensuite placé ces données dans un fichier Excel puis je les ai exporté en .csv. 
+A partir du site [Pitwall](https://pitwall.app), j'ai extrait les positions à chaque tour de deux pilotes (seulement deux pour l'exemple car je dois faire la procédure manuellement), Max Verstappen et lando Norris, pour le Grand Prix du Japon qui s'est déroulé le 24/09/2023. J'ai ensuite placé ces données dans un fichier Excel puis je les ai exporté en .csv.
 J'importe ensuite les fichiers dans RStudio, en déclarant des variables `Lando` et `Max` qui sont de type `dataframe` :
 
 ```shell

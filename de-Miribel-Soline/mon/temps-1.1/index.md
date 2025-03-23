@@ -11,7 +11,7 @@ temps: 1
 tags:
   - "gestion de crise"
 
-résumé: "Ce MON décrit ce que les cabinets de conseil en gestion de crise proposent aux entreprises pour faire face à une situation critique. Il s'agit d'une gestion théorique de l'événement."
+description: "Ce MON décrit ce que les cabinets de conseil en gestion de crise proposent aux entreprises pour faire face à une situation critique. Il s'agit d'une gestion théorique de l'événement."
 ---
 {% prerequis %}
 **Niveau** : débutant
@@ -21,7 +21,7 @@ résumé: "Ce MON décrit ce que les cabinets de conseil en gestion de crise pro
 ## Introduction
 Selon une étude du Cabinet Deloitte, plus de 60% des entreprises sont confrontées à davantage de crises aujourd’hui qu’il y a 10 ans. L’exemple le plus éloquent est sans nul doute la crise sanitaire. Nombreuses sont les entreprises qui ont dû mettre en place le télétravail pendant l’épidémie tout en faisant face à la digitalisation croissante des métiers et à la baisse de l’engagement des collaborateurs qui questionnent leur rapport au travail. Lorsqu’elle est mal gérée, une crise peut avoir des conséquences plus ou moins importantes sur le bien-être, l’engagement, la performance, le chiffre d’affaires et l’image de marque. Si l’on ne peut échapper à certaines crises, on peut en revanche s’y adapter et même en faire une opportunité de développement.
 
-Qu’est-ce qu’une crise ? Peut-on l’anticiper ? Comment la gérer efficacement ? 
+Qu’est-ce qu’une crise ? Peut-on l’anticiper ? Comment la gérer efficacement ?
 
 ## Sommaire
 1. Une crise
@@ -37,11 +37,11 @@ Le terme “crise” est parfois utilisé pour décrire des périodes de remise 
 Une crise se caractérise par la **soudaineté et la brutalité** avec laquelle la situation d’équilibre est rompue.
 
 ### 1.2.Les différents types de crises
-Les crises peuvent avoir différentes origines. On différencie : 
-* les crises **externes** provoquées par une rupture dans l’équilibre du contexte dans lequel évolue l’entreprise. C’est le cas pour les crises économiques, politiques, sociales, sanitaires ou environnementales. 
-* les crises **internes** se produisant à cause d’une perturbation au sein même de l’écosystème de l’entreprise. Ces crises peuvent prendre différentes formes : crise structurelle, crise organisationnelle, crise sociale, crise managériale, crise financière… 
+Les crises peuvent avoir différentes origines. On différencie :
+* les crises **externes** provoquées par une rupture dans l’équilibre du contexte dans lequel évolue l’entreprise. C’est le cas pour les crises économiques, politiques, sociales, sanitaires ou environnementales.
+* les crises **internes** se produisant à cause d’une perturbation au sein même de l’écosystème de l’entreprise. Ces crises peuvent prendre différentes formes : crise structurelle, crise organisationnelle, crise sociale, crise managériale, crise financière…
 
-Les entreprises sont à elles seules des systèmes complexes évoluant et interagissant avec un environnement en perpétuelle évolution. L’adaptation et l’ajustement sont donc indispensables à la survie des organisations. Ces mécanismes sont cependant exigeants et demandeurs de temps. Un changement soudain entraîne donc facilement un point de **rupture d’équilibre** c’est-à-dire une crise. On pourrait citer : 
+Les entreprises sont à elles seules des systèmes complexes évoluant et interagissant avec un environnement en perpétuelle évolution. L’adaptation et l’ajustement sont donc indispensables à la survie des organisations. Ces mécanismes sont cependant exigeants et demandeurs de temps. Un changement soudain entraîne donc facilement un point de **rupture d’équilibre** c’est-à-dire une crise. On pourrait citer :
 * la crise **financière** : lorsque les ressources financières ne permettent plus d’assurer le bon fonctionnement de la structure
 * la crise du **personnel** : lorsque le nombre d'employés ou leurs pratiques impacte négativement le travail des collaborateurs
 * la crise **d’organisation** : lorsque la structure de l’entreprise n’est plus au service de l’activité
@@ -52,7 +52,7 @@ la crise naturelle : toute crise ayant pour origine un phénomène naturel
 #### 1.3.1 12h de panne sur le réseau d’Orange en juillet 2012
 Le jour des résultats du baccalauréat et un jour de départ en vacances, 26 millions de Français se retrouvent sans possibilité de communication à cause d’une panne logiciel. Celle-ci est réparée en urgence depuis le centre de crise mis en place en urgence par l'entreprise. Il s'agit là d’une crise interne et technologique qui a mis en jeu l’image de qualité et fiabilité de la marque.
 
-#### 1.3.2. Starbuck accusé de racisme aux Etats-Unis 
+#### 1.3.2. Starbuck accusé de racisme aux Etats-Unis
 Parce qu’ils n’avaient rien commandé comme tant d’autres clients mais qui sont, eux de couleur blanche, deux hommes de couleur noire sont interpellés par la police, elle-même appelée par des employés de la succursale. Un tweet montrant l'arrestation des deux hommes fait le tour du web en quelques secondes : 170 000 retweets et plus de 230 000 commentaires. Les internautes s’insurgent contre ce traitement. Starbucks réagit en lançant une grande campagne antiraciste. Au lieu de blâmer les employés du magasin, ils y ont vu un problème systémique interne. L’entreprise a fermé tous ses magasins pendant une journée et a organisé à la place une session de formation contre les préjugés racistes. Cette décision, qui a coûté plus de 10 millions de dollars à l’entreprise, a fait la une des journaux internationaux et a présenté Starbucks sous un meilleur jour. Il s’agit d’une crise interne du personnel.
 
 ### 1.4 Ce qui est mis en jeu dans une crise
@@ -81,7 +81,7 @@ Prendre des décisions dans l’urgence, est le meilleur moyen de commettre des 
 ### 3.1 L’équipe de gestion de crise
 Le plan de gestion de crise définit avant tout le **rôle et les responsabilités** de chacun en cas de situation critique. Il propose généralement la constitution d’une **cellule de crise** qui sera composée de membres clés de l'entreprise. Les équipes de gestion de crise sont souvent composées de personnes chargées des opérations, des finances, des ressources humaines, ainsi que d'experts juridiques, chacun se spécialisant dans l’une des composantes du plan de gestion de crise :
 * un membre de l’**équipe IT** sera idéal pour gérer les composantes technologiques.
-* un représentant des **ressources humaines** sera plus disposé à assurer l’accompagnement et le soutien des employés pendant et après l’événement. 
+* un représentant des **ressources humaines** sera plus disposé à assurer l’accompagnement et le soutien des employés pendant et après l’événement.
 * Un représentant **juridique** saura utiliser  son expertise professionnelle afin de s’assurer que les décisions ne mettent pas l’organisation en danger.
 * un membre de la **direction** pourra quant à lui, utiliser  expertise professionnelle pour donner des conseils sur les perspectives globales de l’entreprise
 * s’ajoute enfin un **gestionnaire de crise** ayant pour rôle de diriger l’exécution du plan de gestion de crise ainsi que la réponse publique de l’entreprise face à l’événement.
@@ -90,7 +90,7 @@ Cette équipe participe généralement à la rédaction du plan de gestion de cr
 
 ### 3.2 Contenu du plan de gestion de crise
 La matérialisation d’un risque n’est jamais totalement évitable. Pour chaque risque, il convient donc d’établir la série d’actions concrètes qu’il faudra réaliser pour résoudre l’incident ou, tout du moins, en limiter les effets. Ces procédures sont regroupées dans le plan de gestion de crise. Ce plan contient aussi une liste ordonnée des personnes à contacter avec leur fonction et leurs coordonnées en cas de crise pour lancer la chaîne d’alerte.
-Dans les mesures à prendre, le plan prend en compte 5 ressources essentielles de l’entreprise : 
+Dans les mesures à prendre, le plan prend en compte 5 ressources essentielles de l’entreprise :
 * les **personnes** : les collaborateurs sont l’actif le plus important de toute organisation, et les entreprises ont un devoir de diligence envers leurs employés. Lors de chaque événement critique, l’équipe de crise doit pouvoir déterminer si des vies sont en danger, s’il existe un problème de sécurité physique et si un impact potentiel sera à prévoir sur les employés, les clients, les visiteurs et les fournisseurs. Il est essentiel de pouvoir anticiper de quelle manière ils seront informés et de définir s’il est pertinent de les avertir en utilisant des notifications d’urgence.
 * les **installations/infrastructures** critiques : les installations et les infrastructures critiques doivent être vérifiées pour déterminer si elles ont été touchées par l’événement ou si elles risquent de subir des dommages en cas de crise durable.
 * la **technologie** : un plan de gestion de crise doit également couvrir l’aspect technologique. L’interruption des services ou un problème de sécurité de l’information pourrait être fatal. Le plan prévoit des solutions techniques et la personne chargée de remédier aux défaillances potentielles ou réelles de l’infrastructure technique pendant un événement critique.
@@ -98,7 +98,7 @@ Dans les mesures à prendre, le plan prend en compte 5 ressources essentielles d
 * la **réputation de la marque** : en cas de crise, la réputation de la marque peut sembler moins prioritaire que certaines opérations de survie, mais il est pourtant primordial de l’inclure dans le plan. En effet, la réputation de la marque est en jeu surtout en cas de crise. Pour la maintenir, si ce n’est l’améliorer, il faut à la fois bien communiquer sur les solutions ou compensations mises en place pour les clients mais aussi s’assurer de la collaboration active et rapide des équipes pour réagir rapidement et éviter toute répercussion extrême.
 
 ### 3.3.Test et actualisation du plan de crise
-Pour qu’un plan de crise soit réellement efficace, il convient de le **tester en fonction de scénarios spécifiques**. Un test grandeur nature permet de sensibiliser les acteurs, de pointer les dysfonctionnements dans la réponse apportée et de mettre à jour les procédures. L’équipe de gestion des crises de s’assurera notamment de la bonne communication, c’est-à-dire que les informations de contact soient exactes, que les messages spécifiques au scénario soient préparés et que l’exécution des notifications d’urgence se déroule bien comme prévu. Des simulations d’ouragans, de tremblements de terre, d’inondations soudaines, de pannes de services publics, de tireurs actifs ou d’alertes à la bombe sont des exemples de scénarios à tester. Ces tests permettent de **minimiser l‘erreur humaine**. En effet, les crises sont des situations très stressantes. Il est donc essentiel de s’assurer que l’équipe de gestion des crises n’expérimente pas les actions du plan de gestion de crise pour la première fois lorsqu’un incident se produit réellement. Les essais permettent aussi de **tester les dispositifs d’alerte et de communication**. Dans de telles situations, chacune des minutes passées à regrouper, répéter, mettre à jour ou coordonner feront la différence. Il est donc essentiel de centraliser les informations et de les traiter de manière automatisée, rapide et précise. Ces flux de données sont selon leur nature destinés : 
+Pour qu’un plan de crise soit réellement efficace, il convient de le **tester en fonction de scénarios spécifiques**. Un test grandeur nature permet de sensibiliser les acteurs, de pointer les dysfonctionnements dans la réponse apportée et de mettre à jour les procédures. L’équipe de gestion des crises de s’assurera notamment de la bonne communication, c’est-à-dire que les informations de contact soient exactes, que les messages spécifiques au scénario soient préparés et que l’exécution des notifications d’urgence se déroule bien comme prévu. Des simulations d’ouragans, de tremblements de terre, d’inondations soudaines, de pannes de services publics, de tireurs actifs ou d’alertes à la bombe sont des exemples de scénarios à tester. Ces tests permettent de **minimiser l‘erreur humaine**. En effet, les crises sont des situations très stressantes. Il est donc essentiel de s’assurer que l’équipe de gestion des crises n’expérimente pas les actions du plan de gestion de crise pour la première fois lorsqu’un incident se produit réellement. Les essais permettent aussi de **tester les dispositifs d’alerte et de communication**. Dans de telles situations, chacune des minutes passées à regrouper, répéter, mettre à jour ou coordonner feront la différence. Il est donc essentiel de centraliser les informations et de les traiter de manière automatisée, rapide et précise. Ces flux de données sont selon leur nature destinés :
 * aux décisionnaires quand ils fournissent des renseignements et mettent en corrélation les menaces avec la localisation des biens et des personnes car ils conditionnent alors la pertinence des prises de décision.
 * aux employés quand ils notifient de l’état de la situation et des actions à mener en conséquence. Pour informer rapidement tous les collaborateurs, un système d’alerte d’urgence utilisant un canal de communication dédié doit être mis en place.
 

@@ -12,11 +12,11 @@ tags:
   - "Bubble"
   - "Application web"
 
-résumé: Ce premier POK a pour but de créer une application web qui permettrait de revendre des montres d'occasions entre particuliers en utilisant la plateforme bubble.io/ que j'ai récemment appris à utiliser.
+description: Ce premier POK a pour but de créer une application web qui permettrait de revendre des montres d'occasions entre particuliers en utilisant la plateforme bubble.io/ que j'ai récemment appris à utiliser.
 
 ---
 
-{%prerequis 'Connaitre les bases de Bubble'%}  
+{%prerequis 'Connaitre les bases de Bubble'%}
 {%endprerequis%}
 
 ### Objectif : créer une application avec bubble.io/
@@ -87,7 +87,7 @@ Les objectifs techniques du sprint 2 sont :
 
 ### Méthodologie
 
-Pour ce second sprint j'ai avancé par phases : 
+Pour ce second sprint j'ai avancé par phases :
 
 1. Premier design de l'application web
 2. Terminer la base de donnée
@@ -140,7 +140,7 @@ Pour la base de donnée de ce projet, je vais avoir besoin de trois *"Data types
 Dans l'onglet Data > App Data, on peut voir les éléments de chaque *"Data types"* déjà implémentés ou ajoutés manuellement.
 ![bubble](screen_BDD.png)
 
-### Workflow 
+### Workflow
 
 Un workflow représente une série d'actions automatisées qui se déclenchent en réponse à un événement donné, comme un clic sur un bouton.
 Par exemple, sur la page d'accueil, il y a 5 boutons cliquables (sign up, log in, icône personnel et trouver sa montre deux fois). L'idée est que ces boutons envoient vers d'autres pages ou pop up. Cela représente des workflow simples.
@@ -159,22 +159,22 @@ L'entête de toutes les pages du site offre les disponibilités suivantes :
 ![bubble](screen_liste_montre2.png)
 * **Icon personnel** renvoie quant à lui un menu déroulant à l'aide d'un *GroupFocus* qui permet d'accéder à son profil, ses favoris, son panier et donnera la possibilité de proposer une montre à la plateforme ou bien de se déconnecter.
 ![bubble](screen_accueil_t.png)
-Actuellement, je n'ai pas donné suite aux boutons panier et favoris. 
+Actuellement, je n'ai pas donné suite aux boutons panier et favoris.
 
 ##### Accès aux autres pages
 
-La page **Mon profil** affiche les données de l'utilisateur connecté et permet de modifier certaines informations. Pour cela, il faut utiliser des *Dynamic data* dans le design comme suit : 
+La page **Mon profil** affiche les données de l'utilisateur connecté et permet de modifier certaines informations. Pour cela, il faut utiliser des *Dynamic data* dans le design comme suit :
 ![bubble](screen_builder_profil.png)
 ce qui donne le résultat suivant sur le site :
 ![bubble](screen_profil_user.png)
 Les informations peuvent être modifiées en temps réel sur le site lorsque l'utilisateur entre la donnée à modifier puis clique sur **Actualiser**.
 La page **Vendre une montre** affiche un formulaire qui permet de renseigner une montre que l'on souhaite vendre. On y entre diverses informations et une photo, qui vont directement implémenter la base de donnée **montre** et la page liste_montre après avoir cliqué sur le bouton **soumettre**.
 ![bubble](screen_formulaire_vendre.png)
-L'action de cliquer sur le bouton **soumettre** qui ajoute une montre à la base de donnée est traduite par le workflow suivant : 
+L'action de cliquer sur le bouton **soumettre** qui ajoute une montre à la base de donnée est traduite par le workflow suivant :
 ![bubble](screen_workflow.png)
-Une fois le formulaire rempli, le bouton **soumettre** amène a la page suivante, avec  des boutons fonctionnels : 
+Une fois le formulaire rempli, le bouton **soumettre** amène a la page suivante, avec  des boutons fonctionnels :
 ![bubble](scree_felicitations.png)
-Sur la page Liste_montre, l'utilisateur a la possibilité d'ajouter au panier en cliquant sur le bouton correspondant. Cela apporte une alerte *Ajouté au panier* et  implémente la base de donnée **panier**. 
+Sur la page Liste_montre, l'utilisateur a la possibilité d'ajouter au panier en cliquant sur le bouton correspondant. Cela apporte une alerte *Ajouté au panier* et  implémente la base de donnée **panier**.
 ![bubble](screen_panier.png)
 Malheureusement, je ne trouve actuellement pas la solution pour afficher le panier.
 

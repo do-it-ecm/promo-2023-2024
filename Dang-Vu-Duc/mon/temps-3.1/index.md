@@ -14,7 +14,7 @@ tags:
   - "PyPDF2"
   - "Python-Docx"
 
-résumé: "Ce MON expliquera l'utilisation des bibliothèques PyPDF2 et Python-Docx pour manipuler des fichiers Word et PDF."
+description: "Ce MON expliquera l'utilisation des bibliothèques PyPDF2 et Python-Docx pour manipuler des fichiers Word et PDF."
 ---
 {%prerequis 'Prérequis'%}
 Connaissance basique de la programmation objet avec Python.

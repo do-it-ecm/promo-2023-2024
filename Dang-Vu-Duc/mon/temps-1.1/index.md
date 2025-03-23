@@ -14,7 +14,7 @@ tags:
   - "Qt"
   - "Interfaces graphiques"
 
-résumé: "Ce MON aura pour objectif de s'initier à Qt avec Python. Cet outil permet de créer des interfaces graphiques avec Python, et sera utile pour mon POK du temps 1."
+description: "Ce MON aura pour objectif de s'initier à Qt avec Python. Cet outil permet de créer des interfaces graphiques avec Python, et sera utile pour mon POK du temps 1."
 ---
 
 {%prerequis 'Prérequis'%}

@@ -9,7 +9,7 @@ date: 2024-02-14
 temps: 3
 tags:
 
-résumé: "Découverte de Three.js et du creative programming."
+description: "Découverte de Three.js et du creative programming."
 ---
 
 ## Introduction
@@ -30,7 +30,7 @@ npm install --save three
 npm install --save-dev vite
 ```
 
-Pour lancer le code et visualiser votre site, il faut lancer vite : 
+Pour lancer le code et visualiser votre site, il faut lancer vite :
 
 ```bash
 npx vite
@@ -67,23 +67,23 @@ const camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.inner
 const renderer = new THREE.WebGLRenderer();
 renderer.setSize( window.innerWidth, window.innerHeight );
 document.body.appendChild( renderer.domElement );
-    
+
 const geometry = new THREE.BoxGeometry( 1, 1, 1 );
 const material = new THREE.MeshBasicMaterial( { color: 0x00ff00 } );
 const cube = new THREE.Mesh( geometry, material );
 scene.add( cube );
-    
+
 camera.position.z = 5;
-    
+
 function animate() {
     requestAnimationFrame( animate );
-    
+
     cube.rotation.x += 0.01;
     cube.rotation.y += 0.01;
-    
+
     renderer.render( scene, camera );
 }
-    
+
 animate();
 ```
 

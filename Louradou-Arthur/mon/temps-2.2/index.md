@@ -12,7 +12,7 @@ tags:
   - "kubernetes"
   - "devops"
 
-résumé: "Ce MON a pour objectif de se former à l'orchestrateur Kunbernetes pour continuer la montée en compétences DevOps de ce temps."
+description: "Ce MON a pour objectif de se former à l'orchestrateur Kunbernetes pour continuer la montée en compétences DevOps de ce temps."
 ---
 
 <br />
@@ -132,7 +132,7 @@ Enfin, j'ai pu à la suite de ce MON, mettre en pratique les compétences acquis
 [2] Vidéo de référence pour débuter sur Kubernetes (1h) :
 
 [YouTube - Kubernetes Crash Course for Absolute Beginners -](https://www.youtube.com/watch?v=s_o8dwzRlu4) [TechWorld with Nana](https://www.youtube.com/@TechWorldwithNana)
-    
+
 [3] Vidéo de référence pour débuter sur Kubernetes (3h) :
 
 [YouTube - Kubernetes Tutorial for Beginners [FULL COURSE in 3 Hours] -](https://www.youtube.com/watch?v=X48VuDVv0do) [TechWorld with Nana](https://www.youtube.com/@TechWorldwithNana)

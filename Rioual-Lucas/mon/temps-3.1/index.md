@@ -13,7 +13,7 @@ tags:
   - "php"
 
 
-résumé: "Découverte du framework Symfony 6"
+description: "Découverte du framework Symfony 6"
 ---
 
 
@@ -46,14 +46,14 @@ J’ai mis beaucoup de temps à installer tous les outils nécessaires pour lanc
 
 ### PHP
 
-Tout d’abord il faut installer PHP. Il faut aller sur le ce site [https://windows.php.net/download#php-8.3](https://windows.php.net/download#php-8.3), et télécharger le zip x64 Thread Safe. 
+Tout d’abord il faut installer PHP. Il faut aller sur le ce site [https://windows.php.net/download#php-8.3](https://windows.php.net/download#php-8.3), et télécharger le zip x64 Thread Safe.
 
 Ensuite, il faut ajouter le contenu zip dans sa variable d’environnement PATH. Voilà comment faire : [https://www.architectryan.com/2018/03/17/add-to-the-path-on-windows-10/](https://www.architectryan.com/2018/03/17/add-to-the-path-on-windows-10/)
 
 Ensuite, dans le dossier PHP, il faut dupliquer le fichier php.ini-development et renommer le nouveau fichier php.ini. C’est ce fichier qui indiquera les extensions nécessaires au projet. Pour ajouter une dépendance, il faut décommenter la ligne associée.
 Voici les extension à décommenter :
 
- 
+
 
 ```bash
 extension=curl
@@ -71,7 +71,7 @@ extension=xsl
 extension=zip
 ```
 
-On peut vérifier l’installation de php avec la commande 
+On peut vérifier l’installation de php avec la commande
 
 ```bash
 php --version
@@ -134,15 +134,15 @@ C:\Users\utilisateur>symfony book:check-requirements
 [OK] Docker Compose installed
 [OK] npm installed
 
-                                                                                                                        
- [OK] Congrats! You are ready to start reading the book.                                                                
-                                                                                                                        
+
+ [OK] Congrats! You are ready to start reading the book.
+
 
 ```
 
 ## Mon retour sur le livre
 
-Je ne vais pas détaillé les autres chapitres du livre car je ne vais pas mieux expliquer que l’auteur, qui est le créateur de Symfony.  J’ai eu le temps de faire les 14 premiers chapitres du livre. 
+Je ne vais pas détaillé les autres chapitres du livre car je ne vais pas mieux expliquer que l’auteur, qui est le créateur de Symfony.  J’ai eu le temps de faire les 14 premiers chapitres du livre.
 
 Durant ces chapitres, on voit comment créer des controleurs, des entity et des repository, comment faire une page admin CRUD qui communique avec la base de donnée ou comment utiliser twig pour des templates HTML.
 

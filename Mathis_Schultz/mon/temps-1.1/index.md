@@ -13,7 +13,7 @@ tags:
   - "Tailwind"
   - "HTML"
 
-résumé: "Premier pas dans le langage HTML/tailwindcss"
+description: "Premier pas dans le langage HTML/tailwindcss"
 ---
 
 <a href="https://tailwindcss.com/" target="_blank">

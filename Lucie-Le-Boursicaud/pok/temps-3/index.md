@@ -15,20 +15,20 @@ tags:
   - "Matter.js"
   - "Gravité"
 
-résumé: Dans ce POK je vais utiliser Matter.js pour recréer le "Jeu de la pastèque" devenu viral grace à TikTok.
+description: Dans ce POK je vais utiliser Matter.js pour recréer le "Jeu de la pastèque" devenu viral grace à TikTok.
 ---
-{%prerequis 'Niveau intermédiare'%} 
-Etre à l'aise avec JavaScript.  
+{%prerequis 'Niveau intermédiare'%}
+Etre à l'aise avec JavaScript.
 {%endprerequis%}
 
 ### Introduction
-Le "Jeu de la pastèque" ou *Suika Game* est un jeu vidéo japonais qui est sorti en décembre 2021 au Japon. Il est diffusé au reste du monde en octobre 2023 et devient un véritable phénomène très relié par les réseaux sociaux notamment par TikTok. 
+Le "Jeu de la pastèque" ou *Suika Game* est un jeu vidéo japonais qui est sorti en décembre 2021 au Japon. Il est diffusé au reste du monde en octobre 2023 et devient un véritable phénomène très relié par les réseaux sociaux notamment par TikTok.
 
-##### But du jeu 
+##### But du jeu
 
-Le joueur doit remplir une jarre avec des fruits, à chaque fois qu'il en jette un, il gagne des point. L'objectif est de déverser un maximum de fruits afin d'obtenir un meilleur score. Mais lorsque deux fruits identiques entrent en contact, ils fusionnent pour donner un fruit plus gros. Le plus petit fuits est une myrtille et le plus gros une pastèque (d'où le nom du jeu). Dès lors qu'un fruit dépasse de la jarre alors la partie est terminé. 
+Le joueur doit remplir une jarre avec des fruits, à chaque fois qu'il en jette un, il gagne des point. L'objectif est de déverser un maximum de fruits afin d'obtenir un meilleur score. Mais lorsque deux fruits identiques entrent en contact, ils fusionnent pour donner un fruit plus gros. Le plus petit fuits est une myrtille et le plus gros une pastèque (d'où le nom du jeu). Dès lors qu'un fruit dépasse de la jarre alors la partie est terminé.
 Ce jeu s'est beaucoup inspiré du mécanisme de 2048 qui a été un gros succès il y a déjà quelques années.
-Voici une capture d'écran du jeu qui est disponible sur téléphone : 
+Voici une capture d'écran du jeu qui est disponible sur téléphone :
 
 <div style="display:flex">
 <div><img src="jeu_de_pasteque.png"></div>
@@ -37,9 +37,9 @@ Voici une capture d'écran du jeu qui est disponible sur téléphone :
 ##### Objectif du POK
 L'objectif ici est de reproduire ce jeu sur un navigateur en déplaçant le fruit avec les flèche de l'ordinateur et en le lachant avec la barre espace.
 
-# Sprint 1 
+# Sprint 1
 ###### Objectifs du premier sprint
-+ [x] Découvrir rapidement Matter.js (1H) 
++ [x] Découvrir rapidement Matter.js (1H)
 + [x] Créer l'environnement de code avec les différents modules utiles (1H)
 + [x] Créer la boite du jeu (2H)
 + [x] Créer un rond qui tombe (1H)
@@ -53,24 +53,24 @@ L'objectif ici est de reproduire ce jeu sur un navigateur en déplaçant le frui
 [Matter.js](https://brm.io/matter-js/) est une bibliothèque JavaScript open-source qui permet la création de simulations physiques en 2D. Il s'agit d'une bibliothèque assez populaire dans le domaine du développement de jeux car elle est facile à utiliser et est très performante. Elle permet de simuler des objets, des collisions, des forces et la gravité, ce qui va être utile dans la création du jeu.
 Je me suis rendue sur une [documentation](https://brm.io/matter-js/) pour comprendre comment fonctionne cette bibliothèque. J'ai donc regardé une première vidéo [Introduction to Matter.js](https://www.youtube.com/watch?v=urR596FsU68&list=PLRqwX-V7Uu6akvoNKE4GAxf6ZeBYoJ4uh) et la deuxième [Introduction to Matter.js Continued](https://www.youtube.com/watch?v=uITcoKpbQq4&list=PLRqwX-V7Uu6akvoNKE4GAxf6ZeBYoJ4uh&index=21).
 
-### 2. Créer l'environnement de code 
+### 2. Créer l'environnement de code
 
 Je me crée un dossier *Pasteque* et j'initialise mon projet avec :
 
 ```html
-npm init 
+npm init
 ```
 
-J'ajoute la ligne "type" : "module", je crée un fichier index.js et index.html et j'installe Express et Matter via les commandes : 
+J'ajoute la ligne "type" : "module", je crée un fichier index.js et index.html et j'installe Express et Matter via les commandes :
 
 ```html
 npm add --save express
-npm install matter-js 
+npm install matter-js
 ```
 
 J'ajoute un fichier main.js dans lequel je vais coder les différentes fonctions pour le jeu.
 
-J'ai eu beaucoup de difficultés en suivant cette méthode dont une que j'ai pas réussi à corriger : 
+J'ai eu beaucoup de difficultés en suivant cette méthode dont une que j'ai pas réussi à corriger :
 
 <div style="display:flex">
 <div><img src="erreur_matter.png"></div>
@@ -78,10 +78,10 @@ J'ai eu beaucoup de difficultés en suivant cette méthode dont une que j'ai pas
 
 J'ai donc utilisé [Vite](https://vitejs.dev/) pour créer mon projet (ce qu'un des tutos Matter.js utilisé comme environnement) et cela à très bien marché en suivant la documentation.
 
-### 3. Créer la boite du jeu 
+### 3. Créer la boite du jeu
 
 Maintenant que j'ai mon environnement je peux commencer à coder le jeu.
-La première chose à créer est donc une boite, pour ça j'ai juste suivi la [documentation](https://brm.io/matter-js/) qui explique comment ajouter des corps aux mondes ce qui m'a donné cela : 
+La première chose à créer est donc une boite, pour ça j'ai juste suivi la [documentation](https://brm.io/matter-js/) qui explique comment ajouter des corps aux mondes ce qui m'a donné cela :
 
 <div style="display:flex">
 <div><img src="boite.png"></div>
@@ -137,7 +137,7 @@ Runner.run(engine);
 {% enddetails %}
 
 ## 4. Créer un rond qui tombe
-De la même façon j'ai juste suivi la [documentation](https://brm.io/matter-js/). Et j'ai obtenu cela : 
+De la même façon j'ai juste suivi la [documentation](https://brm.io/matter-js/). Et j'ai obtenu cela :
 <div style="display:flex">
 <div><img src="boitefruit.png"></div>
 </div>
@@ -264,7 +264,7 @@ ajouterFruit();
 
 {% enddetails %}
 
-## 6. Faire bouger le rond avec les flèches 
+## 6. Faire bouger le rond avec les flèches
 Maintenant que le rond reste endormi il faut pouvoir utiliser les flèches de notre clavier pour le faire bouger. Pour cela j'utilise des écouteurs d'évements <strong>onkeydown</strong> et en fonction du <strong> code </strong> de la touche sur laquelle j'appuie je ne vais pas faire la même action donc j'utilise un <strong>switch</strong> sur <strong>event.code</strong>. Afin de récupérer mon élement rond (qui sera un fruit par la suite) j'ajoute une ligne dans le code de la fonction *ajouterFruit()* qui affecte à la variable <strong>monFruit</strong> le body de l'élément en question. Voilà où j'en suis :
 
 ```html
@@ -282,14 +282,14 @@ function ajouterFruit(){
 window.onkeydown = (event) => {
   switch(event.code){
     case "ArrowLeft":
-      
+
     case "ArrowRight":
 
   }
   }
 ```
 
-Maintenant je veux pouvoir bouger mon élement. Pour ça on va devoir importer *Body* dans cette ligne ci : 
+Maintenant je veux pouvoir bouger mon élement. Pour ça on va devoir importer *Body* dans cette ligne ci :
 
 ```html
 import {Engine, Render, Runner, Bodies, World, Body} from 'matter-js';
@@ -360,21 +360,21 @@ Le problème c'est que je peux déplacer le fruit à l'extérieur des murs ce qu
 window.onkeydown = (event) => {
     switch (event.code) {
         case "ArrowDown":
-            if(interval) return ; 
+            if(interval) return ;
             interval = setInterval(() => {
                 if(monFruit.position.x - 20 > 25)
             Body.setPosition(monFruit, {
-                x: monFruit.position.x - 1, 
+                x: monFruit.position.x - 1,
                 y: monFruit.position.y,
             });
             }, 5);
             break;
         case "ArrowRight":
-            if(interval) return ; 
+            if(interval) return ;
             interval = setInterval(() => {
                 if(monFruit.position.x + 20 <400)
             Body.setPosition(monFruit, {
-                x: monFruit.position.x + 1, 
+                x: monFruit.position.x + 1,
                 y: monFruit.position.y,
             });
             }, 5);
@@ -393,7 +393,7 @@ window.onkeyup = (event) => {
 ```
 {% enddetails %}
 
-Alors notre fruit est bloqué sur les deux côté du mur : 
+Alors notre fruit est bloqué sur les deux côté du mur :
 <div style="display:flex">
 <div><img src="deplacementetmur.png"></div>
 <div><img src="deplacementetmur2.png"></div>
@@ -412,21 +412,21 @@ On va donc ajouter le cas où l'on appuie sur la touche espace dans notre écout
 window.onkeydown = (event) => {
     switch (event.code) {
         case "ArrowDown":
-            if(interval) return ; 
+            if(interval) return ;
             interval = setInterval(() => {
                 if(monFruit.position.x - 20 > 25)
             Body.setPosition(monFruit, {
-                x: monFruit.position.x - 1, 
+                x: monFruit.position.x - 1,
                 y: monFruit.position.y,
             });
             }, 5);
             break;
         case "ArrowRight":
-            if(interval) return ; 
+            if(interval) return ;
             interval = setInterval(() => {
                 if(monFruit.position.x + 20 <400)
             Body.setPosition(monFruit, {
-                x: monFruit.position.x + 1, 
+                x: monFruit.position.x + 1,
                 y: monFruit.position.y,
             });
             }, 5);
@@ -438,8 +438,8 @@ window.onkeydown = (event) => {
 
 ```
 
-Notre fruit tombe quand on appuie sur espace ! 
-Sauf que l'on a qu'un seul fruit... Il faudrait qu'un autre fruit apparaisse lorsque le premier fruit est tombé. J'ai donc rajouté l'appel à la fonction <strong>ajouterFruit()</strong> à la suite de mon cas. 
+Notre fruit tombe quand on appuie sur espace !
+Sauf que l'on a qu'un seul fruit... Il faudrait qu'un autre fruit apparaisse lorsque le premier fruit est tombé. J'ai donc rajouté l'appel à la fonction <strong>ajouterFruit()</strong> à la suite de mon cas.
 
 ```html
 case "Space":
@@ -452,21 +452,21 @@ Mais dans le jeu il y a un petit moment de latence entre le fruit qui est tombé
 window.onkeydown = (event) => {
     switch (event.code) {
         case "ArrowDown":
-            if(interval) return ; 
+            if(interval) return ;
             interval = setInterval(() => {
                 if(monFruit.position.x - 20 > 25)
             Body.setPosition(monFruit, {
-                x: monFruit.position.x - 1, 
+                x: monFruit.position.x - 1,
                 y: monFruit.position.y,
             });
             }, 5);
             break;
         case "ArrowRight":
-            if(interval) return ; 
+            if(interval) return ;
             interval = setInterval(() => {
                 if(monFruit.position.x + 20 <400)
             Body.setPosition(monFruit, {
-                x: monFruit.position.x + 1, 
+                x: monFruit.position.x + 1,
                 y: monFruit.position.y,
             });
             }, 5);
@@ -487,7 +487,7 @@ Mais ça ne suffit pas le problème persiste. Il faut donc empêcher le joueur d
 import {FRUITS} from "./fruits";
 ```
 
-Maintenant on va créer la fonction qui permet de générer un fruit aléatoire pour succéder à celui qu'on vient de lâcher. Pour ce faire on va générer un <strong>index</strong> aléatoire qu'on appliquera au tableau pour récupérer un fruit. On a la possibilité de tomber seulement sur les 5 premiers fruits sinon ça serait trop facile. Voilà ma fonction : 
+Maintenant on va créer la fonction qui permet de générer un fruit aléatoire pour succéder à celui qu'on vient de lâcher. Pour ce faire on va générer un <strong>index</strong> aléatoire qu'on appliquera au tableau pour récupérer un fruit. On a la possibilité de tomber seulement sur les 5 premiers fruits sinon ça serait trop facile. Voilà ma fonction :
 
 ```html
 function randomFruit(){
@@ -519,7 +519,7 @@ function ajouterFruit(){
 </div>
 
 
-# Sprint 2 
+# Sprint 2
 ###### Objectifs du second sprint
 + [x] Détecter une collision entre deux élements (1H)
 + [x] Supprimer les deux élements si ce sont les mêmes fruits (1H)
@@ -533,7 +533,7 @@ function ajouterFruit(){
 + [x] Rendre l'interface joli (2H)
 
 ## 1. Faire apparaitre le fruit suivant lors de la collision de deux fruits identiques
-Pour gérer la fusion des fruits, on va utiliser l'objet <strong>Events</strong> que l'on importe depuis la bibliothèque matter.js. 
+Pour gérer la fusion des fruits, on va utiliser l'objet <strong>Events</strong> que l'on importe depuis la bibliothèque matter.js.
 
 ```html
 import {Engine, Render, Runner, Bodies, World, Body, Sleeping, Events} from 'matter-js';
@@ -556,7 +556,7 @@ Events.on(engine, "collisionStart", (event) => {
 <div><img src="disparition2.png"></div>
 </div>
 
-Lorsque deux fruits identiques se touchent ils disparaisent. 
+Lorsque deux fruits identiques se touchent ils disparaisent.
 Maintenant il faut faire apparaitre le fruit d'après à l'endroit de la collision. Comment savoir le fruit prochain ? Et bien le tableau <strong>FRUITS</strong> doit être ordonné par croissance des fruits pour nous faciliter la tâche. On va donc récupérer l'<strong>index</strong> du fruit qui est rentré en collision et l'incrémenter de 1 pour obtenir l'index du nouveau fruit et extraire ses propriétés du tableau.
 
 ```html
@@ -589,7 +589,7 @@ Events.on(engine, "collisionStart", (event) => {
 <div><img src="colission2.png"></div>
 </div>
 
-Désormais quand deux fruits se rencontrent, le fruit suivant apparait ! 
+Désormais quand deux fruits se rencontrent, le fruit suivant apparait !
 Par contre il faut que l'on fasse attention au cas ou deux derniers fruits se rencontrent. Dans le jeu les deux pastèques disparaisent mais rien ne réapparait. On va donc rajouter cette règle dans notre fonction.
 
 ```html
@@ -619,8 +619,8 @@ Events.on(engine, "collisionStart", (event) => {
 })
 ```
 
-## 2. Gérer la fin de la partie 
-Pour ça on va rajouter une ligne en haut et si un fruit dépasse la ligne notre partie prendra fin. 
+## 2. Gérer la fin de la partie
+Pour ça on va rajouter une ligne en haut et si un fruit dépasse la ligne notre partie prendra fin.
 
 ```html
 const lignehaut = Bodies.rectangle(310,150,620,2, {
@@ -665,7 +665,7 @@ Events.on(engine, "collisionStart", (event) => {
 ```
 
 ## 3. Ajouter des images pour remplacer les ronds
-Pour ça je me suis rendue sur Canva et j'ai cherché des images de légumes/fruits qui iront bien dans le jeu, voici ceux que j'ai sélectioné : 
+Pour ça je me suis rendue sur Canva et j'ai cherché des images de légumes/fruits qui iront bien dans le jeu, voici ceux que j'ai sélectioné :
 
 <div style="display:flex">
 <div><img src="radish.png"></div>
@@ -710,7 +710,7 @@ Il faut faire la même modification lorsque deux fruits se rencontrent et que le
 <div><img src="avecfruit2.png"></div>
 </div>
 
-## 4. Ajout d'un score pour la partie 
+## 4. Ajout d'un score pour la partie
 
 On va rajouter un tableau de score pour notre jeu. D'abord j'ajoute une nouvelle variable <strong>score</strong> qui ajoutera les points à chaque fois que l'on ajout un fruit dans notre boite.
 
@@ -804,7 +804,7 @@ Ensuite je vais appeler la fonction <strong>updateScore</strong> lorsque je lâc
 case "Space":
             disableAction=true;
             const indexF = FRUITS.findIndex((fruit)=> fruit.label==fruitActuel.label);
-            const monFruit = FRUITS[indexF] ; 
+            const monFruit = FRUITS[indexF] ;
             Sleeping.set(fruitActuel, false);
             setTimeout(() => {
                 ajouterFruit();
@@ -822,7 +822,7 @@ Events.on(engine,"collisionStart",(event)=>{
             const index = FRUITS.findIndex((fruit )=> fruit.label==collision.bodyA.label);
 
             if(index == FRUITS.length - 1) return;
-            
+
             const newfruit = FRUITS[index + 1];
             const body = Bodies.circle(
                 collision.collision.supports[0].x,
@@ -840,11 +840,11 @@ Events.on(engine,"collisionStart",(event)=>{
         }
         if((collision.bodyA.label === "ligne" || collision.bodyB.label === "ligne")&&!disableAction){
             alert("Game over");
-          } 
+          }
     })
 });
 ```
-J'améliore un peu l'hmtl et j'obtiens ça : 
+J'améliore un peu l'hmtl et j'obtiens ça :
 <div style="display:flex">
 <div><img src="amelioration.png"></div>
 <div><img src="ameliorationavecscore.png"></div>
@@ -868,14 +868,14 @@ document.getElementById('newGameButton').addEventListener('click', () => {
 </div>
 
 
-### Conclusion et améliorations possibles 
+### Conclusion et améliorations possibles
 
 Le jeu final est très proche du jeu auquel on joue sur téléphone, néanmoins de nombreux choses peuvent être améliorés.
 
-Voici d'autres améliorations possibles : 
-- une interface plus jolie avec une chartre graphique précise 
+Voici d'autres améliorations possibles :
+- une interface plus jolie avec une chartre graphique précise
 - des images en SVG, rogner à la forme du fruit/légume, pour éviter de grands espaces entre les éléments
-- une possibilité d'enregistrement du meilleur score 
+- une possibilité d'enregistrement du meilleur score
 - correction de certains bugs inexpliqués (un oignon a réussi à traverser le sol...)
 
 [Cliquez ici](./pumpkin-main.zip) pour télécharger le fichier zip.

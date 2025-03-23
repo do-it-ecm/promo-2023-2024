@@ -13,29 +13,29 @@ tags:
   - "Frontend"
   - "WordPress"
 
-résumé: "Dans ce MON je vais apprendre comment prendre en main WordPress pour réaliser un site internet visant à vendre des sorties VTT."
+description: "Dans ce MON je vais apprendre comment prendre en main WordPress pour réaliser un site internet visant à vendre des sorties VTT."
 ---
-{%prerequis 'Niveau débutant'%} 
-Aucun prérequis !  
+{%prerequis 'Niveau débutant'%}
+Aucun prérequis !
 {%endprerequis%}
 
 ### Introduction
-WordPress est un système de gestion du contenu (CMS) open source qui permet de créer et de gérer facilement des sites web de manière flexible et personnalisable. Il permet autant de créer des blogs personnels que des sites d'entreprise ou des boutiques en ligne. Son architecture modulaire, ses thèmes personnalisables et ses plugins étendus font de lui une solution très populaire pour de nombreux utilisateurs internationaux. 
+WordPress est un système de gestion du contenu (CMS) open source qui permet de créer et de gérer facilement des sites web de manière flexible et personnalisable. Il permet autant de créer des blogs personnels que des sites d'entreprise ou des boutiques en ligne. Son architecture modulaire, ses thèmes personnalisables et ses plugins étendus font de lui une solution très populaire pour de nombreux utilisateurs internationaux.
 Différents plans tarifaires sont proposés en fonction du besoin de l'utilisateur, ici on se concentrera uniquement sur le plan gratuit, dont les fonctionalités bien que limités restent intéressantes pour l'objectif final : avoir un site professionnel permettant d'exposer les sorties VTT proposé par une entreprise et permette aux visiteurs de s'y inscrire.
 
 Pour ce faire je vais suivre la formation [OpenClassroom](https://openclassrooms.com/) intitulé [Créez un site moderne et professionnel avec WordPress 5](https://openclassrooms.com/fr/courses/5489551-creez-un-site-moderne-et-professionnel-avec-wordpress-5).
 
 ## 1. Découverte de WordPress
 
-Les <strong>CMS (systèmes de gestion de contenu)</strong> et le concept <strong> open source </strong> sont deux piliers fondamentaux de l'univers numérique contemporain, chacun apportant des avantages distincts et contribuant à façonner le paysage en ligne. 
+Les <strong>CMS (systèmes de gestion de contenu)</strong> et le concept <strong> open source </strong> sont deux piliers fondamentaux de l'univers numérique contemporain, chacun apportant des avantages distincts et contribuant à façonner le paysage en ligne.
 
-Un CMS, ou "Content Management System", est une <strong>plateforme logicielle</strong> conçue pour la création et la gestion dynamique de sites web ou d'applications multimédia. Plutôt que de coder manuellement chaque élément d'un site, un CMS offre une interface conviviale permettant de <strong>créer et de gérer les contenus plus efficacement.</strong> 
+Un CMS, ou "Content Management System", est une <strong>plateforme logicielle</strong> conçue pour la création et la gestion dynamique de sites web ou d'applications multimédia. Plutôt que de coder manuellement chaque élément d'un site, un CMS offre une interface conviviale permettant de <strong>créer et de gérer les contenus plus efficacement.</strong>
 
 D'autre part, le terme "open source", ou "code source ouvert", désigne des logiciels (et désormais des œuvres intellectuelles) dont la licence respecte des critères spécifiques établis par <strong>l'Open Source Initiative</strong>. Cela inclut des principes tels que la <strong>libre redistribution, l'accès au code source et la possibilité de créer des travaux dérivés. </strong>
 
-L'association du CMS et de l'open source est particulièrement exemplifiée par WordPress, un CMS open source qui a connu un succès phénoménal. Son code ouvert a encouragé <strong>la collaboration et l'innovation</strong>, attirant une communauté dévouée de développeurs et d'utilisateurs. Cette ouverture a permis à WordPress de devenir <strong>le leader incontesté du marché des CMS</strong>, propulsant près de 40 % des sites web dans le monde. 
+L'association du CMS et de l'open source est particulièrement exemplifiée par WordPress, un CMS open source qui a connu un succès phénoménal. Son code ouvert a encouragé <strong>la collaboration et l'innovation</strong>, attirant une communauté dévouée de développeurs et d'utilisateurs. Cette ouverture a permis à WordPress de devenir <strong>le leader incontesté du marché des CMS</strong>, propulsant près de 40 % des sites web dans le monde.
 
-L'histoire de WordPress est celle d'une évolution constante, marquée par des fonctionnalités innovantes telles que les <strong>extensions (plugins) et les thèmes</strong>, qui ont considérablement élargi ses possibilités. L'engagement envers la gratuité, la philosophie open source et la communauté a été crucial dans la croissance et le maintien de sa popularité. 
+L'histoire de WordPress est celle d'une évolution constante, marquée par des fonctionnalités innovantes telles que les <strong>extensions (plugins) et les thèmes</strong>, qui ont considérablement élargi ses possibilités. L'engagement envers la gratuité, la philosophie open source et la communauté a été crucial dans la croissance et le maintien de sa popularité.
 
 Plus récemment, WordPress a introduit <strong>Gutenberg</strong>, <strong>un éditeur de contenu basé sur des blocs</strong>, représentant une évolution majeure vers un web plus moderne et dynamique. Bien que cette transition ait suscité des débats au sein de la communauté, Gutenberg devrait finalement s'imposer comme une norme, illustrant la capacité de WordPress à s'adapter et à innover pour répondre aux besoins changeants du monde numérique.
 
@@ -65,26 +65,26 @@ Deux options principales sont disponibles pour disposer d'un tel serveur :
 
 En parallèle, <strong>un nom de domaine est nécessaire</strong> pour que le public puisse accéder facilement à votre site. Il est <strong>loué auprès de fournisseurs spécialisés</strong> appelés registrar et permet de remplacer l'adresse IP du serveur par un nom convivial. Ce nom de domaine peut être accompagné de <strong>sous-domaines</strong>, tels que blog.monsite.com ou shop.monsite.com, qui peuvent pointer vers des sites différents tout en étant <strong>liés au même nom de domaine principal.</strong>
 
-## 3. Choisir le bon hébergeur 
+## 3. Choisir le bon hébergeur
 
-Il existe différent types d'hébergements selon le besoin : 
+Il existe différent types d'hébergements selon le besoin :
 - <strong>hébergement mutualisé : </strong>
   Ce type d'hébergement permet de louez une portion d'un serveur qui est partagé avec d'autres utilisateurs. Cette solution est la plus économique mais à de nombreux désavantages (accès limité à la configuration du serveur, subir les effets de noisy neighbours, un support très réduit,...)
 
 - <strong>hébergement dédié : </strong>
-  Ce type d'hébergement permet de louez un serveur entier, ce qui est évidemment plus cher, mais permet d'avoir un contrôle total sur le serveur. Cependant il est primordiale d'avoir de bonnes connaissances techniques pour le gérer. 
+  Ce type d'hébergement permet de louez un serveur entier, ce qui est évidemment plus cher, mais permet d'avoir un contrôle total sur le serveur. Cependant il est primordiale d'avoir de bonnes connaissances techniques pour le gérer.
 
 - <strong>hébergement managé (ou infogéré) :</strong>
-  Ce type d'hébergement permet de louer un certain niveau de performance et de disponibilité pour un site sans avoir à se soucier de la partie serveur. C'est un prestataire qui s'occupe de tout à notre place. Le prix est plus cher que pour un hébergement mutualisé classique mais c'est une solution très idéal si on a pas le temps de s'occuper de cette partie là. 
+  Ce type d'hébergement permet de louer un certain niveau de performance et de disponibilité pour un site sans avoir à se soucier de la partie serveur. C'est un prestataire qui s'occupe de tout à notre place. Le prix est plus cher que pour un hébergement mutualisé classique mais c'est une solution très idéal si on a pas le temps de s'occuper de cette partie là.
 
-  Pour ce MON on va utiliser Themecloud qui est devenu [faaaster.](https://www.faaaster.io/) pour les raisons suivantes : 
+  Pour ce MON on va utiliser Themecloud qui est devenu [faaaster.](https://www.faaaster.io/) pour les raisons suivantes :
   + on a un site WordPress <strong>en ligne immédiatement</strong> et <strong>gratuit pour 30 jours </strong>
   + le site est <strong>rapide, sécurisé et sauvegardé tous les jours</strong>
   + on a un <strong>support réactif</strong>
 
 ## 4. Se connecter au bashboard WordPress
 
-Dans la formation ils nous dises d'ajouter */wp-admin* après l'adresse du site. Ca fonctionnait peut-être avec <strong>Themecloud</strong> mais pas avec <strong>faaaster</strong>. Il suffit de cliquer sur "Se connecter au site" lorsque l'on est sur la page de notre hébergeur pour le site en question. 
+Dans la formation ils nous dises d'ajouter */wp-admin* après l'adresse du site. Ca fonctionnait peut-être avec <strong>Themecloud</strong> mais pas avec <strong>faaaster</strong>. Il suffit de cliquer sur "Se connecter au site" lorsque l'on est sur la page de notre hébergeur pour le site en question.
 
 Voilà on est bien dans le mode admin ! On va pouvoir naviguer depuis le <strong>dashboard WordPress.</strong>
 
@@ -92,18 +92,18 @@ On survole le nom du site en haut à gauche et on clique sur "Dashboard" pour ac
 
 WordPress propose deux types de contenus de base : <strong>les articles et les pages.</strong> Les articles sont des <strong>contenus d'actualité, datés</strong>, et sont généralement présentés de manière antéchronologique sur une page spécifique, constituant ainsi un blog. Les pages, en revanche, sont des <strong>contenus statiques</strong> qui ne sont pas datés et conservent une valeur constante dans le temps. Elles sont utilisées pour <strong>présenter des informations permanentes</strong> telles que la société, les services ou les coordonnées de contact, et sont généralement accessibles via un menu de navigation sur le site web.
 
-On va créer notre premier article. 
+On va créer notre premier article.
 Pour cela on survole "Posts" puis on clique sur "Add new"
 <div style="display:flex">
 <div><img src="addnewpost.png"></div>
 </div>
 
-On arrive alors sur cette page : 
+On arrive alors sur cette page :
 <div style="display:flex">
 <div><img src="pageaddnew.png"></div>
 </div>
 
-Je créer mon premier post que j'ajoutes dans la <strong>Catégorie</strong> *Weekend* : 
+Je créer mon premier post que j'ajoutes dans la <strong>Catégorie</strong> *Weekend* :
 <div style="display:flex">
 <div><img src="firstpost.png"></div>
 </div>
@@ -147,7 +147,7 @@ Ensuite, on ajoute les pages que l'on a créées précédemment à ce menu en <s
 
 Une fois le menu créé et enregistré, on peut visiter à nouveau votre site pour voir le menu de navigation qui s'affiche.
 
-## 7. Type de site 
+## 7. Type de site
 
 Maintenant que nous avons exploré l'interface d'administration de WordPress, nous sommes prêts à nous lancer dans notre projet. WordPress tire sa force de <strong>sa variété de composants</strong>, tels que <strong>les thèmes et les plugins</strong>, qui permettent de <strong>personnaliser et d'enrichir les fonctionnalités de notre site.</strong>
 
@@ -193,11 +193,11 @@ Pour notre projet, nous optons pour le thème <strong>OceanWP</strong>, compatib
 
 En personnalisant un thème, il est recommandé d'utiliser <strong>un thème enfant </strong>pour éviter la perte de personnalisations lors des mises à jour.
 
-## 9. Installation et configuration du thème 
+## 9. Installation et configuration du thème
 
 Pour installer notre thème WordPress, on va dans <strong>Apparence >> Thèmes >> Ajouter</strong>. On <strong>recherche le thème OceanWP dans la bibliothèque WordPress.org</strong> et on clqiue sur <strong>"Installer"</strong>. Une fois installé, on <strong>l'active en un clic.</strong>
 
-Si on choisi un thème premium ou non disponible sur WordPress.org, on aurait dû téléverser l'archive (.zip) du thème. 
+Si on choisi un thème premium ou non disponible sur WordPress.org, on aurait dû téléverser l'archive (.zip) du thème.
 
 Après l'activation, on <strong>installe les extensions recommandées</strong> en cliquant sur "Commencez à installer les extensions" dans la notification du dashboard. On sélectionne toutes les extensions, on les installes et on les actives.
 
@@ -240,7 +240,7 @@ Le seul bémol pour la première palette est le rose qui je pense ne correspond 
 
 
 2. <strong>Choisir un master visuel :</strong> Nous sélectionnons une image ou une photo qui représente notre marque et son ambiance générale. Cette image sera utilisée comme élément visuel principal sur le site. J'ai trouvé différentes images inspirantes sur le site [unsplash.fr](https://unsplash.com/fr).
-   
+
 <div style="display:flex">
 <div><img src="v1.jpg"></div>
 <div><img src="v2.jpg"></div>
@@ -250,7 +250,7 @@ Le seul bémol pour la première palette est le rose qui je pense ne correspond 
 <div><img src="v6.jpg"></div>
 </div>
 
-3. <strong>Créer un logo :</strong> Si nous ne sommes pas graphistes, nous optons pour la simplicité en créant un logo avec le nom de la marque et éventuellement une icône simple. Des sites comme FreePik ou des outils en ligne comme Snappa ou Canva peuvent être utiles pour créer un logo professionnel. J'ai travaillé sur Canva pour obtenir ce logo : 
+3. <strong>Créer un logo :</strong> Si nous ne sommes pas graphistes, nous optons pour la simplicité en créant un logo avec le nom de la marque et éventuellement une icône simple. Des sites comme FreePik ou des outils en ligne comme Snappa ou Canva peuvent être utiles pour créer un logo professionnel. J'ai travaillé sur Canva pour obtenir ce logo :
 
 <div style="display:flex">
 <div><img src="Clapas_Bartas.png"></div>
@@ -293,7 +293,7 @@ Ce chapitre explique comment utiliser <strong>le page builder Elementor</strong>
 
 En suivant ces étapes et en explorant les fonctionnalités d'Elementor, on peut créer des pages personnalisées et attrayantes pour notre site WordPress.
 
-Voilà un aperçu de ce que j'ai fait : 
+Voilà un aperçu de ce que j'ai fait :
 
 <div style="display:flex">
 <div><img src="premiereavancee.png"></div>
@@ -380,14 +380,14 @@ Ce chapitre aborde les principaux <strong>axes d'optimisation SEO</strong>, en s
 
 En suivant ces conseils et en utilisant l'extension SEO Press, il est possible <strong>d'améliorer significativement le classement et la visibilité du site sur les moteurs de recherche.</strong>
 
-## 16. Temps de chargement 
+## 16. Temps de chargement
 
 Ce chapitre aborde l'importance de <strong>mesurer et d'optimiser le temps de chargement d'un site web.</strong>
 
 <strong>Vérification du temps de chargement</strong> :
    - Un temps de <strong>chargement lent</strong> peut entraîner une <strong>perte de revenus et affecter le classement SEO du site.</strong>
    - Des outils comme <strong>GT Metrix </strong> permettent de mesurer le temps de chargement et fournissent des <strong>indicateurs de performance</strong> importants tels que le Largest Contentful Paint, le Total Blocking Time et le Cumulative Layout Shift.
-   Voici ce que j'obtiens pour mon site. 
+   Voici ce que j'obtiens pour mon site.
    <div style="display:flex">
    <div><img src="GTmetrix.png"></div>
    <div><img src="GTmetrix_topissues.png"></div>
@@ -445,7 +445,7 @@ Ce chapitre énumère les vérifications essentielles à effectuer avant de lanc
 
 En suivant ces vérifications, on s'assure que notre site est prêt à être lancé tout en garantissant sa sécurité, son accessibilité et sa conformité aux réglementations en vigueur.
 
-## 18. Connexion nom de domaine 
+## 18. Connexion nom de domaine
 
 J'arrive un peu trop tôt, je n'aurais donc pas la méthode pour faaaster dans ce chapitre.
 <div style="display:flex">

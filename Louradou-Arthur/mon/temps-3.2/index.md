@@ -10,7 +10,7 @@ date: 2024-03-27
 temps: 3
 tags:
 
-résumé: "CSS, Scss, Sass, Animations dans le web. Après la lecture de ce MON, vous serez capable de créer des interfaces web modernes et dynamiques."
+description: "CSS, Scss, Sass, Animations dans le web. Après la lecture de ce MON, vous serez capable de créer des interfaces web modernes et dynamiques."
 ---
 
 <div style="display:flex;flex-direction:row;">

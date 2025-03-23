@@ -10,7 +10,7 @@ date: 1971-01-01
 temps: 2
 tags:
 
-résumé: Je vais essayer de découvrir Rust et coder un mini-jeu.
+description: Je vais essayer de découvrir Rust et coder un mini-jeu.
 ---
 
 {% prerequis "**Prérequis**" %}
@@ -128,12 +128,12 @@ On y découvre aussi le concept de "contexte", en gros les informations liées a
 
 La fin du sprint 1 a été un peu mouvementée pour moi, donc je ne sais pas dire exactement où j'en étais.
 
-Mais après avoir fini Flappy Dragon, voici le résumé des heures passées : 
+Mais après avoir fini Flappy Dragon, voici le résumé des heures passées :
 
 
 - Installation, familiarisation avec la syntaxe, défrichage des concepts **3h** REALISE comme prévu, la réalisation des petits exercices m'a emmenée à peu près vers 3 heures.
 
-- Comprendre les concepts de possession, de références et d'emprunt **4h**  X NON REALISE. 
+- Comprendre les concepts de possession, de références et d'emprunt **4h**  X NON REALISE.
 
         J'ai lu la documentation dans le cadre de la première partie, et même si j'avais des notions à ce moment, c'est tout au long du POK que j'ai commencé à mieux maîtriser les concepts. Cet objectif n'était pas assez concret du tout. Je pense tout de même que si on compte le temps de débogage et de lectures liés à l'apprentissage des concepts, l'estimation de 4h n'était pas abberante.
 
@@ -166,7 +166,7 @@ On commence par réaliser un map-builder, qui génère des rectangles adjacents,
 
  ### Monstres et arrivée des Components
 
- Un héros qui se balade dans des couloirs ne fait pas un jeu, il faut donc rajouter du challenge : des ennemis. On va créer un script spawner qui s'occupera aussi bien de spawn des monstres que notre joueur. On spawn 1 monstre au centre de chaque salle. Grâce à notre image qui associe caractère et sprites (une font en fait), on peut faire spawn des orcs et goblins avec les caractères o et O. 
+ Un héros qui se balade dans des couloirs ne fait pas un jeu, il faut donc rajouter du challenge : des ennemis. On va créer un script spawner qui s'occupera aussi bien de spawn des monstres que notre joueur. On spawn 1 monstre au centre de chaque salle. Grâce à notre image qui associe caractère et sprites (une font en fait), on peut faire spawn des orcs et goblins avec les caractères o et O.
 
  A ce moment là, la structure des scripts commence à se rapprocher de ce que j'ai pu faire dans Unity, on ajoute un script component, qui définira des components qu'on pourra ajouter à nos entités. Par exemple un nom, des points de vie, des intentions comme "veut se déplacer"...
 
@@ -188,7 +188,7 @@ On rend aussi les déplacements des montres non-randomisés mais avec un Dijkstr
 
 On a aussi maintenant la possibilité de régénérer des points de vie en restant sur place.
 
-Voilà donc à quoi ressemble le jeu finalement : 
+Voilà donc à quoi ressemble le jeu finalement :
 
 ![image](./goblins.png)
 

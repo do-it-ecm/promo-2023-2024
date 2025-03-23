@@ -9,7 +9,7 @@ date: 2023-11-22
 temps: 2
 tags:
 
-résumé: Cette page est conçue pour les débutants qui aspirez à maîtriser React Native. Ici, nous allons découvrir ensemble les bases de React Native, accompagnées d'exemples de code simples et de ressources utiles pour démarrer. J'ai choisi d'apprendre React Native pour développer la partie frontend de notre projet 3A "Killer".
+description: Cette page est conçue pour les débutants qui aspirez à maîtriser React Native. Ici, nous allons découvrir ensemble les bases de React Native, accompagnées d'exemples de code simples et de ressources utiles pour démarrer. J'ai choisi d'apprendre React Native pour développer la partie frontend de notre projet 3A "Killer".
 ---
 
 Avant de commencer React Native, vaut mieux avoir des bases sur React. Je vous propose de jeter un coup d'oeil sur [React.js et Tailwind CSS]({{ site.url }}/promos/2023-2024/Rioual-Lucas/mon/temps-2.1/) fait par [ Lucas Rioual]({{ site.url }}/promos/2023-2024/Rioual-Lucas/)

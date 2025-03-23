@@ -14,10 +14,10 @@ tags:
   - CSS
   - Coinche
 
-résumé: Le premier POK de l'année pour apprendre à programmer la partie front d'un site web.
+description: Le premier POK de l'année pour apprendre à programmer la partie front d'un site web.
 ---
 
-Je n'ai jamais pratiqué le developpement Web je cherche donc à travers ce POK à : 
+Je n'ai jamais pratiqué le developpement Web je cherche donc à travers ce POK à :
 - Apprendre les bases du HTML
 - Apprendre les base du CSS
 - Les mettre en pratique en codant mon premier site
@@ -37,17 +37,17 @@ IV. Conclusion
 
 ## I. Le Front pour les nuls
 
-Tout d'abord pourquoi deux langages séparés et pas un seul ? 
-Les deux fonctionnent de paire, le HTML permet de créer et de structurer le contenu tandis que le CSS s'occupe de la mise en forme visuelle. 
+Tout d'abord pourquoi deux langages séparés et pas un seul ?
+Les deux fonctionnent de paire, le HTML permet de créer et de structurer le contenu tandis que le CSS s'occupe de la mise en forme visuelle.
 
-Le développement Web est divisé en 2 parties : 
+Le développement Web est divisé en 2 parties :
 - Le **front** : c'est la partie apparente du site (l'interface, les boutons, les menus, ...), c'est le lien direct avec l'utilisateur
 - Le **back** : c'est les composantes cachées du site (les bases de données, les serveurs, l'infrastructure,...)
 
-### Le HTML 
+### Le HTML
 
-**Exemple de code HTML** 
-```html 
+**Exemple de code HTML**
+```html
 <!DOCTYPE html>  <!--Indispensable en début de code car indique qu'il s'agit d'une page HTML-->
 <html lang="fr">
 
@@ -63,7 +63,7 @@ Le développement Web est divisé en 2 parties :
 
 </html>
 ```
-Il existe ensuite de multiples **balises** pour organiser le texte et insérer des éléments comme par exemple : 
+Il existe ensuite de multiples **balises** pour organiser le texte et insérer des éléments comme par exemple :
 - `<p></p>`  pour les paragraphes
 - `<br>` pour les sauts de ligne
 - `<h1></h1>` jusqu'à 6 pour les niveaux de titres
@@ -81,7 +81,7 @@ Il existe ensuite de multiples **balises** pour organiser le texte et insérer d
 </head>
 ```
 
-Ce langage permet de rendre plus esthétique un code HTML en modifiant de multiples paramètres visuels des balises comme la couleur, la taille, la disposition, ... 
+Ce langage permet de rendre plus esthétique un code HTML en modifiant de multiples paramètres visuels des balises comme la couleur, la taille, la disposition, ...
 
 ``` css
 p,
@@ -98,7 +98,7 @@ Ici par exemple je modifie la taille et la couleur de la police, la marge infér
 
 ## II. Mon petit site Web à moi : Centrale Coinche
 
-Centrale est actuellement le lieu d'un tournoi déchainé de Coinche entre une cinquantaine d'étudiants, n'étant pas spécialement un grand fan du jeu j'ai tout de même décidé de profiter de ce POK pour réaliser un site servant à regrouper les informations utiles pour ce tournoi. 
+Centrale est actuellement le lieu d'un tournoi déchainé de Coinche entre une cinquantaine d'étudiants, n'étant pas spécialement un grand fan du jeu j'ai tout de même décidé de profiter de ce POK pour réaliser un site servant à regrouper les informations utiles pour ce tournoi.
 
 ### Fonctionnalités du site
 
@@ -108,14 +108,14 @@ En plus de l'objectif de paris sportifs, le site doit servir de référence pour
 
 ### Structure du site
 
-Mon site est organisé avec plusieurs onglets afin de classer les diverses informations. Le `<header> </header>` permet d'afficher les liens de navigation entre les différentes pages. 
+Mon site est organisé avec plusieurs onglets afin de classer les diverses informations. Le `<header> </header>` permet d'afficher les liens de navigation entre les différentes pages.
 
 
 {% details "Cliquez pour afficher le code **HTML** de **l'en-tête**" %}
 
 ``` html
-    <header> 
-        <nav> 
+    <header>
+        <nav>
             <img src="images/logo.png" alt="logo centrale coinche" width="90" height="90">
             <div>
                 <a href="index.html">Accueil</a>
@@ -199,18 +199,18 @@ a:hover {
 
 ![Header site](Header.png)
 
-Le pied de page quant à lui sert de zone de contact pour l'utilisateur. 
+Le pied de page quant à lui sert de zone de contact pour l'utilisateur.
 
 {% details "Cliquez pour afficher le code **HTML** du **pied de page**" %}
 ```html
     <footer>
-        <div class="footer-contenu"> 
+        <div class="footer-contenu">
             <div class="gauche">
                 <h3>Contact site : </h3>
                 <ul>
                     <li> Nicolas Ouzoulias</li>
                     <li> nicolas.ouzoulias@centrale-marseille.fr </li>
-                    <a href="https://www.facebook.com/nicolas.ouzoulias/"> 
+                    <a href="https://www.facebook.com/nicolas.ouzoulias/">
                             <img src="images/logo-fb.png" alt="logo messenger" width="50" height="50"></a>
                 </ul>
             </div>
@@ -220,7 +220,7 @@ Le pied de page quant à lui sert de zone de contact pour l'utilisateur.
                 <ul>
                     <li> Guillaume Villard</li>
                     <li> guillaume.villard@centrale-marseille.fr </li>
-                    <a href="https://www.facebook.com/guillaume.villard17"> 
+                    <a href="https://www.facebook.com/guillaume.villard17">
                             <img src="images/logo-fb.png" alt="logo messenger" width="50" height="50"></a>
             </div>
         </div>
@@ -318,9 +318,9 @@ Par exemple dans l'onglet "Règles" je présente tout d'abord quelques règles d
                         <td class="middle">8 - 7</td>
                         <td>0</td>
                     </tr>
-    
+
                 </table>
-    
+
                 <table>
                     <thead>
                         <th colspan="2">Sans atout</th>
@@ -409,7 +409,7 @@ table,th {
 {% details "Cliquez pour afficher le code **HTML** de **l'historique des parties**" %}
 ``` html
 <main>
-    <h1> Historique des parties</h1>    
+    <h1> Historique des parties</h1>
     <section class="results">
         <div>
             <div class="recap-match">
@@ -421,7 +421,7 @@ table,th {
                     <tr>
                         <td> </td>
                         <td class="def"> William - Zélie</td>
-                        <td> / </td>    
+                        <td> / </td>
                         <td class="vic"> Agathe - Jézabel</td>
                     </tr>
                     <tr>
@@ -538,9 +538,9 @@ table,th {
 
 ![Historique parties](histo-parties.png)
 
-Ces onglets m'ont permis de bien pratiquer l'utilisation des balises HTML ainsi que leurs paramètres CSS associées. J'ai notamment pu manipuler les *flexboxs* ainsi que les *tables* pour mieux positioner mes éléments sur la pages. 
+Ces onglets m'ont permis de bien pratiquer l'utilisation des balises HTML ainsi que leurs paramètres CSS associées. J'ai notamment pu manipuler les *flexboxs* ainsi que les *tables* pour mieux positioner mes éléments sur la pages.
 
-Ces 2 pages permettent de visualiser rapidement des informations pratiques sur le tournoi comme par exemple les dernières victoires et défaites pour savoir quel équipe est particulièrement bien préparée ou non. 
+Ces 2 pages permettent de visualiser rapidement des informations pratiques sur le tournoi comme par exemple les dernières victoires et défaites pour savoir quel équipe est particulièrement bien préparée ou non.
 
 (*Petit rappel*, le nombre de point nécessaire pour la victoire est de 1 000 points, cela permet de bien comprendre l'état de forme de l'équipe de William par exemple)
 
@@ -597,13 +597,13 @@ form {
     color: white;
     margin-bottom: 50px;
   }
-  
+
   .form-noms {
     display: flex;
     flex-direction: row;
     gap: 20px;
   }
-  
+
   .form-column {
     display: flex;
     flex-direction: column;
@@ -611,24 +611,24 @@ form {
     margin-bottom: 50px;
 
   }
-  
+
   input,
   textarea {
     padding: 15px;
     border-radius: 3px;
     border: none;
   }
-  
+
   label {
     margin-bottom: 10px;
   }
-  
+
   input[type='submit'] {
     width: 200px;
     margin: auto;
     margin-top: 30px;
   }
-  
+
   .cta {
     display: inline-block;
     background: linear-gradient(#8e86b5, #acaeed);
@@ -651,18 +651,18 @@ form {
 
 N'ayant initialement aucune connaissance en développement web je n'ai eu le temps de faire que du *front* lors de ce premier POK de l'année. En effet parmi les 20h de ce dernier, de nombreuses ont été utiles pour apprendre le fonctionnement des deux langages ainsi que la multitude de fonctionnalités.
 
-L'objectif principal de faire un site de paris de coinche n'a pas pu être abouti mais je pense me pencher dessus pour le prochain POK afin de manipuler le *back* du site. 
+L'objectif principal de faire un site de paris de coinche n'a pas pu être abouti mais je pense me pencher dessus pour le prochain POK afin de manipuler le *back* du site.
 
-Je souhaite également mettre en place un système de mise à jour automatique de l'historique des parties ainsi que de finir l'inscription et l'onglet pour récapituler les avancées des tournois. 
+Je souhaite également mettre en place un système de mise à jour automatique de l'historique des parties ainsi que de finir l'inscription et l'onglet pour récapituler les avancées des tournois.
 
 ## IV. Conclusion
 
-J'ai beaucoup aimé découvrir le développement Front à travers ce POK même si cela a été un peu chaotique et long au début car je n'avais vraiment aucune notion et j'étais donc très lent pour la prise en main des langages. 
+J'ai beaucoup aimé découvrir le développement Front à travers ce POK même si cela a été un peu chaotique et long au début car je n'avais vraiment aucune notion et j'étais donc très lent pour la prise en main des langages.
 
-Une fois ces derniers un peu plus maîtrisés, la réalisation de mon premier site Web s'est très bien passé et j'ai pu testé de nombreuses fonctionnalités HTML et CSS. 
+Une fois ces derniers un peu plus maîtrisés, la réalisation de mon premier site Web s'est très bien passé et j'ai pu testé de nombreuses fonctionnalités HTML et CSS.
 
-Je n'ai pas pu incorporer les fonctionnalités principales que je souhaitais au départ par manque de temps et car c'est finalement sur tout le Back du site qu'il faut travailler pour cela, mais je pense orienter mon deuxième POK pour effectuer cela. 
+Je n'ai pas pu incorporer les fonctionnalités principales que je souhaitais au départ par manque de temps et car c'est finalement sur tout le Back du site qu'il faut travailler pour cela, mais je pense orienter mon deuxième POK pour effectuer cela.
 
-### Sources 
+### Sources
 
 - *Créez votre site web avec HTML5 et CSS3.* OpenClassrooms. https://openclassrooms.com/fr/courses/1603881-creez-votre-site-web-avec-html5-et-css3

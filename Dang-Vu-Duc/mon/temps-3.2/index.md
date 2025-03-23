@@ -12,7 +12,7 @@ tags:
   - "Stratégie"
   - "Entreprises"
 
-résumé: "Ce MON explorera les différents enjeux de la stratégie Cloud dans le monde de l'entreprise"
+description: "Ce MON explorera les différents enjeux de la stratégie Cloud dans le monde de l'entreprise"
 ---
 
 ## Introduction

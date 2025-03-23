@@ -12,7 +12,7 @@ tags:
   - "HTML"
   - "CSS"
 
-résumé: POK pour apprendre à créer une page web de A à Z.
+description: POK pour apprendre à créer une page web de A à Z.
 ---
 
 ## Introduction

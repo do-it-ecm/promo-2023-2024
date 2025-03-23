@@ -12,7 +12,7 @@ tags:
   - "Backend"
   - "JavaScript"
 
-résumé: "Apprentissage des bases de Node.js"
+description: "Apprentissage des bases de Node.js"
 ---
 
 {% prerequis %}

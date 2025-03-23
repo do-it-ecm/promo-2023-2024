@@ -10,7 +10,7 @@ date: 2023-09-16
 temps: 1
 tags:
 
-résumé: Mon premier site web.
+description: Mon premier site web.
 ---
 {% chemin %}
 [Le Github du POK](https://github.com/Omar-Salame/football-fantasy)

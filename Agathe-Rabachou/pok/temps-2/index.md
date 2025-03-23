@@ -13,7 +13,7 @@ tags:
   - "analyse de données"
   - "planification"
 
-résumé: Un POK ayant pour objectif de découvrir le low-code et de l'appliquer à un exemple concret en analyse de données.
+description: Un POK ayant pour objectif de découvrir le low-code et de l'appliquer à un exemple concret en analyse de données.
 ---
 ## Introduction
 
@@ -90,25 +90,25 @@ Le problème est que les fonctionnalités Airtable (et notamment les possibilit�
 
 J'ai donc fait plusieurs recherches sur d'autres outils Low-Code depuis lesquels je pourrais récupérer ma base de données Airtable et automatiser certaines actions, mais je pense que mon objectif dépasse de loin les possibilités du Low-Code de manière générale, et cela n'a donc pas abouti.
 
-Afin d'essayer tout de même d'obtenir un résultat, j'ai converti ma base de données en csv pour l'importer dans Excel et essayer de faire du VBA (même si on sort du No-Code). Cette étape a été très laborieuse dû à mes faibles connaissances en VBA, mais j'ai réussi pour commencer à créer une fonction qui prend en paramètre les habilitations d'un salarié et les habilitations nécessaires pour réaliser une prestations et qui renvoie vrai si le salarié peut réaliser la prestation. Je l'ai testé en générant un tableau qui affiche les salariés habilités pour chaque prestation, et en voici le code et le résultat : 
+Afin d'essayer tout de même d'obtenir un résultat, j'ai converti ma base de données en csv pour l'importer dans Excel et essayer de faire du VBA (même si on sort du No-Code). Cette étape a été très laborieuse dû à mes faibles connaissances en VBA, mais j'ai réussi pour commencer à créer une fonction qui prend en paramètre les habilitations d'un salarié et les habilitations nécessaires pour réaliser une prestations et qui renvoie vrai si le salarié peut réaliser la prestation. Je l'ai testé en générant un tableau qui affiche les salariés habilités pour chaque prestation, et en voici le code et le résultat :
 
 ```vba
 Function Habilité(Habilitations As String, Habilitations_requises As String) As Boolean
     Dim Liste_habilitations() As String
     Dim Liste_habilitations_requises() As String
-    
+
     Liste_habilitations = Split(Habilitations, ",")
     Liste_habilitations_requises = Split(Habilitations_requises, ",")
-    
+
     Dim Habilitation_requise As Variant
-    
+
     For Each Habilitation_requise In Liste_habilitations_requises
         If InStr(1, Habilitations, Habilitation_requise) = 0 Then
             Habilité = False
             Exit Function
         End If
     Next Habilitation_requise
-    
+
     Habilité = True
 End Function
 
@@ -147,19 +147,19 @@ Cependant, même après de nombreux tests et modifications, je n'ai pas réussi 
 Function Habilité(Habilitations As String, Habilitations_requises As String) As Boolean
     Dim Liste_habilitations() As String
     Dim Liste_habilitations_requises() As String
-    
+
     Liste_habilitations = Split(Habilitations, ",")
     Liste_habilitations_requises = Split(Habilitations_requises, ",")
-    
+
     Dim Habilitation_requise As Variant
-    
+
     For Each Habilitation_requise In Liste_habilitations_requises
         If InStr(1, Habilitations, Habilitation_requise) = 0 Then
             Habilité = False
             Exit Function
         End If
     Next Habilitation_requise
-    
+
     Habilité = True
 End Function
 
@@ -181,7 +181,7 @@ Sub test()
 
     Nb_salariés = Tab_salariés.Cells(Tab_salariés.Rows.Count, "A").End(xlUp).Row
     Nb_prestations = Tab_prestations.Cells(Tab_prestations.Rows.Count, "A").End(xlUp).Row
-    
+
     'Cette partie de code trie les données de la table Prestations par ordre de priorité
     Tab_prestations.Sort.SortFields.Clear
     Tab_prestations.Sort.SortFields.Add2 Key:=Range("K2:K" & Nb_prestations), SortOn:=xlSortOnValues, Order:=xlAscending
@@ -195,18 +195,18 @@ Sub test()
     End With
 
     Tab_planning.Cells.Clear
-    
+
     Début_prestation = Date + 1
 
     For i = 2 To Nb_prestations
         Fin_prestation = 1 / 1 / 100
         Durée_prestation = Tab_prestations.Cells(i, "F").Value
-        
+
         For j = 2 To Nb_salariés
             If Habilité(Tab_salariés.Cells(j, "C").Value, Tab_prestations.Cells(i, "I").Value) Then
                 If Fin_prestation < Début_prestation Then
                     Tab_planning.Cells(j, i).Value = Tab_prestations.Cells(i, "A").Value
-                    
+
                     Fin_prestation = Début_prestation + Durée_prestation
                     Début_prestation = Fin_prestation + 1
                     Exit For

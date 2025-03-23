@@ -10,18 +10,18 @@ date: 2023-09-27
 temps: 1
 tags:
 
-résumé: "Un résumé des différentes évolutions des modèles et techniques de Natural Language Processing dans les derniers mois"
+description: "Un résumé des différentes évolutions des modèles et techniques de Natural Language Processing dans les derniers mois"
 ---
 
 ## Introduction
 
 Le récent pic de popularité de ChatGPT n'a échappé à personne. Pourtant il est loin d'être le premier de son genre, mais il est le premier à aussi bien performer, au point d'être en capacité d'être utile. Il est aussi le premier à avoir été déployé de manière interactive, pour le grand public. Attention par contre, les différents modèles GPT ne sont pas open source ! L'entreprise a changé sa politique de transparence après les investissements colossaux de Microsoft.
 
-Mais ça, c'est un autre débat, parce qu'avant tout, qu'est-ce que c'est un **modèle de langage** ? Comment c'est créé ? Ils sont pas un peu tous pareil ? Quels sont **les plus récents** ? 
+Mais ça, c'est un autre débat, parce qu'avant tout, qu'est-ce que c'est un **modèle de langage** ? Comment c'est créé ? Ils sont pas un peu tous pareil ? Quels sont **les plus récents** ?
 
 On va tenter de répondre à tout ça dans ce MON.
 
-## Sommaire 
+## Sommaire
 
 1. Définition
 2. Entraînement et création
@@ -34,7 +34,7 @@ On va tenter de répondre à tout ça dans ce MON.
 
 Pour comprendre ce qu'est un modèle de langage, ou plutôt comment ça marche, on peut s'intéresser à **l'aspect structurel**. On parle souvent de modèles à génération de texte: en entrée, on envoie du texte, en sortie, on reçoit une **prédiction de texte** : les modèles sont entraînés de sorte à pouvoir prédire les mots qui suivent un texte.
 
-En 2017, Google présente le **Transformer**. Souvent présenté comme un élément clé des avancements en traitement du langage aujourd'hui, il y a définitivement eu un avant et un après. 
+En 2017, Google présente le **Transformer**. Souvent présenté comme un élément clé des avancements en traitement du langage aujourd'hui, il y a définitivement eu un avant et un après.
 
 Le Transformer, c'est à la base un outil présenté pour les traductions par machines neuronales. Mais son architecture nouvelle sera reprise partout dans le monde du NLP, offrant une efficacité et précision jamais vues jusque là. L'architecture se présente en 2 grandes parties : un encodeur et un décodeur. Parmi les nouveautées apportées par le Transformer, on trouve l'attention multi-tête, et l'encodement positionnel, des concepts qu'on va expliquer juste après, pas de panique.
 
@@ -44,9 +44,9 @@ Pour référence par la suite, il sera utile de regarder ce schéma classique:
 
 ## 2. Entraînement et création
 
-Les modèles sont entrainés avec ce qu'on appelle un **entraînement au masque**. Comme un texte à trou finalement, on va cacher à peu près 20% d'un texte et demander au modèle de deviner quels mots mettre dans les trous. Pour être efficace dans cette tâche, le modèle doit avoir une compréhension fine à la fois du langage, mais aussi du monde. 
+Les modèles sont entrainés avec ce qu'on appelle un **entraînement au masque**. Comme un texte à trou finalement, on va cacher à peu près 20% d'un texte et demander au modèle de deviner quels mots mettre dans les trous. Pour être efficace dans cette tâche, le modèle doit avoir une compréhension fine à la fois du langage, mais aussi du monde.
 
-C'est d'ailleurs assez perturbant à quel point le modèle surpasse aisément l'humain dans cet exercice. 
+C'est d'ailleurs assez perturbant à quel point le modèle surpasse aisément l'humain dans cet exercice.
 
 Une fois que le modèle est capable de **deviner** les mots à mettre dans les trous, pour pouvoir lui faire générer du texte, on va simplement placer un trou à la fin d'une phrase. Il générera un mot. Puis on lui redonne le tout, et on lui fait générer le prochain mot et ainsi de suite. Pour un effet plus naturel, le modèle ne va pas toujours choisir le mot avec le plus de probabilité, mais aléatoirement un mot proche autour de la gaussienne de probabilités. Cela évite les effets de boucles (génération de la même séquence à la suite) et permet un aspect moins robotique et donc plus naturel.
 
@@ -72,16 +72,16 @@ La fille n'a pas pu traverser la rue, <b>elle</b> était en travaux.
 </div>
 ```
 
-Dans ces deux phrases, "elle" ne fait pas référence au même objet. bien qu'étant à la même position dans la phrase, le contexte changera la valeur du (ou des) tokens associés à "elle". Et c'est le méchanisme d'**attention** qui s'assure de ça. D'où le titre de la publication de Google en 2017 "Attention is all you need". 
+Dans ces deux phrases, "elle" ne fait pas référence au même objet. bien qu'étant à la même position dans la phrase, le contexte changera la valeur du (ou des) tokens associés à "elle". Et c'est le méchanisme d'**attention** qui s'assure de ça. D'où le titre de la publication de Google en 2017 "Attention is all you need".
 
-L'attention, c'est la prise en compte dans le calcul des **tokens alentours** pour modifier la valeur du token encodé. Alentours étant ici un adjectif à valeur variable. Bien sûr, si on veut remettre le token dans le contexte du texte entier, la puissance de calcul nécessaire est bien plus grande que si on s'en tient à quelques centaines de tokens alentours. C'est d'ailleurs ce qui va différencier la précision de certains modèles. 
+L'attention, c'est la prise en compte dans le calcul des **tokens alentours** pour modifier la valeur du token encodé. Alentours étant ici un adjectif à valeur variable. Bien sûr, si on veut remettre le token dans le contexte du texte entier, la puissance de calcul nécessaire est bien plus grande que si on s'en tient à quelques centaines de tokens alentours. C'est d'ailleurs ce qui va différencier la précision de certains modèles.
 
 
 ### 2.3 Décodeur et génération de texte
 
-Une fois le texte d'entrée encodé, on va vouloir pour les modèles qu'ils soient capables de répondre. Mais on attend pas toujours la même chose de chaque modèle. 
+Une fois le texte d'entrée encodé, on va vouloir pour les modèles qu'ils soient capables de répondre. Mais on attend pas toujours la même chose de chaque modèle.
 
-Le décodeur va prendre le texte encodé et générer les tokens un par un. Il va se servir de son entraînement à générer des tokens manquants pour générer le prochain token. Le texte d'entrée avec le nouveau token généré sont repassés en entrée, ou l'attention va être recalculée pour le tout. Le modèle va pouvoir générer une séquence de tokens. Jusqu'à générer un token "stop". Les tokens stop servent au modèle à s'arrêter. Quand ils sont générés, le modèle arrête les calculs et sort le résultat du processus de génération. 
+Le décodeur va prendre le texte encodé et générer les tokens un par un. Il va se servir de son entraînement à générer des tokens manquants pour générer le prochain token. Le texte d'entrée avec le nouveau token généré sont repassés en entrée, ou l'attention va être recalculée pour le tout. Le modèle va pouvoir générer une séquence de tokens. Jusqu'à générer un token "stop". Les tokens stop servent au modèle à s'arrêter. Quand ils sont générés, le modèle arrête les calculs et sort le résultat du processus de génération.
 
 ### 2.4 Nombre de paramètres
 
@@ -91,7 +91,7 @@ Une différence notable entre les différents modèles de langage sont le nombre
 
 On a compris comment notre modèle fonctionne et comment il a été entraîné.
 
-On ne va pas attendre de chaque modèle qu'il se comporte de la même manière et c'est pour ça que pour la plupart des modèles, on va avoir la version pré-entrainée, donc une version ou le modèle est généralement purement fait pour générer du texte à partir d'un texte de départ.Et les versions "fine-tuned" ou le modèle pré-entraîné, qui a donc une certaine connaissance du langage et du monde, va être entrainé à une tâche plus spécifique. 
+On ne va pas attendre de chaque modèle qu'il se comporte de la même manière et c'est pour ça que pour la plupart des modèles, on va avoir la version pré-entrainée, donc une version ou le modèle est généralement purement fait pour générer du texte à partir d'un texte de départ.Et les versions "fine-tuned" ou le modèle pré-entraîné, qui a donc une certaine connaissance du langage et du monde, va être entrainé à une tâche plus spécifique.
 
 ChatGPT par exemple, c'est le modèle GPT 3.5 pré-entraîné qui a été fine-tuned aux travers d'interactions avec des humains à être un assistant poli et aidant.
 
@@ -101,7 +101,7 @@ Exemple très simple et théorique :
 <div>
 <b>Modèle LLM_AliExpress pré-entraîné :</b>
 
-Utilisateur : Je vais te tuer à l'aide de 
+Utilisateur : Je vais te tuer à l'aide de
 LLM_AliExpress : mon fusil de chasse.
 </div>
 ```
@@ -110,11 +110,11 @@ LLM_AliExpress : mon fusil de chasse.
 <div>
 <b>ChatGPT, pré-entraîné puis fine-tuned pour devenir un assistant:</b>
 
-Utilisateur : Je vais te tuer à l'aide de 
+Utilisateur : Je vais te tuer à l'aide de
 ChatGPT : Je suis un programme informatique créé pour fournir des informations et répondre aux questions de manière utile et respectueuse. Je suis ici pour aider, pas pour participer à des discussions violentes ou inappropriées. Si vous avez des questions ou avez besoin d'informations, je serais heureux de vous aider de manière constructive.
 </div>
 ```
-Il faut pas se mentir non-plus, la plupart des modèles pour ne pas dire tous ont été entraînés sur des données récupérées sur des sites Internet. De manière plus ou moins légale (vraiment pas très légale). 
+Il faut pas se mentir non-plus, la plupart des modèles pour ne pas dire tous ont été entraînés sur des données récupérées sur des sites Internet. De manière plus ou moins légale (vraiment pas très légale).
 On se doute qu'Internet n'est pas rempli de Molières bien-intentionnés. Pour avoir pu jouer avec des modèles pas encore filtrés pendant mon stage, les résultats sont très trash. Il est souvent question de s*xe et de violence, même lorsqu'on commence un prompt avec "Deux gentils écureuils se promènent".
  (En réalité, la plupart des gros modèles pré-entrainés sortant aujourd'hui ont soit été entrainés sur des datasets "propres" ou déjà filtrés).
 

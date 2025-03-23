@@ -11,7 +11,7 @@ temps: 3
 tags:
   - "innovation"
 
-résumé: "Ce MON traite de la thématique du management de l'innovation. Il s'agit d'un premier abord général et théorique de la notion."
+description: "Ce MON traite de la thématique du management de l'innovation. Il s'agit d'un premier abord général et théorique de la notion."
 ---
 {% prerequis %}
 **Niveau** : débutant
@@ -28,7 +28,7 @@ résumé: "Ce MON traite de la thématique du management de l'innovation. Il s'a
 ## Cadrage de la notion
 ### Définitions
 #### L’innovation
-L’innovation intervient entre les phases de R&D et d’application industrielle. C’est un processus conduisant à la **mise en application d’une idée nouvelle** inexistante sur le marché. L’innovation peut concerner un produit, un service, un procédé, un savoir-faire, une méthode, un dispositif organisationnel ou la combinaison de plusieurs de ces éléments. Cette nouveauté permet d’obtenir un avantage compétitif en répondant ou en devançant des attentes implicites ou explicites. Ce processus permet ainsi à l'organisation d'améliorer sa position stratégique et/ou de renforcer ses compétences clés, ses savoirs et savoir-faire. 
+L’innovation intervient entre les phases de R&D et d’application industrielle. C’est un processus conduisant à la **mise en application d’une idée nouvelle** inexistante sur le marché. L’innovation peut concerner un produit, un service, un procédé, un savoir-faire, une méthode, un dispositif organisationnel ou la combinaison de plusieurs de ces éléments. Cette nouveauté permet d’obtenir un avantage compétitif en répondant ou en devançant des attentes implicites ou explicites. Ce processus permet ainsi à l'organisation d'améliorer sa position stratégique et/ou de renforcer ses compétences clés, ses savoirs et savoir-faire.
 
 #### Le management de l’innovation
 Les actions et les décisions de management de l’innovation se déploient à deux niveaux de responsabilité de l’organisation : le management **stratégique** de l’innovation et le management **opérationnel** des projets innovants. Il se conçoit donc comme une politique de gestion dynamique impliquant un questionnement concernant le développement de l’innovation, son financement, sa commercialisation et le business model à adopter.
@@ -36,13 +36,13 @@ Les actions et les décisions de management de l’innovation se déploient à d
 ### Enjeux
 Le management de l’innovation s’inscrit non seulement dans la recherche pérenne de compétitivité mais aussi dans un objectif de **survie**. En effet, des organisations qui disposaient pourtant de ressources considérables (aussi bien humaines que financières) pour dominer leur industrie se sont vues mises en échec à cause d’un manque d’innovation. Face à un marché en constante évolution, la recherche permanente d’innovation est donc bien souvent une question de survie, d’autant plus pour des entreprises technologiques. Ainsi, le management de l’innovation, comme celui des hommes, est un élément clé de la gestion d’une entreprise. Il est aussi l’assurance d’un **meilleur positionnement concurrentiel** et d’une image dynamique auprès des clients, mais aussi des collaborateurs, ce qui produit un cercle vertueux en termes de marque employeur et d‘expérience client.
 
-Lorsqu’une entreprise élabore sa stratégie d’innovation, celle-ci identifie l’organisation cible à mettre en place afin de répondre aux objectifs stratégiques fixés. Le management de l’innovation comprend donc les axes suivants : 
+Lorsqu’une entreprise élabore sa stratégie d’innovation, celle-ci identifie l’organisation cible à mettre en place afin de répondre aux objectifs stratégiques fixés. Le management de l’innovation comprend donc les axes suivants :
 - Bien sûr, les organisations ne peuvent pas confier leur survie au hasard, ou à l’émergence d’une nouvelle idée au détour d’une réunion. Le management de l’innovation permet de mettre en place une **culture et une structure** collaborative qui encouragent les collaborateurs à formuler et proposer de nouveaux concepts. Et surtout, à soutenir ces derniers pour qu’ils passent du statut de bonne idée à celui de bon produit.
-- **partager et communiquer** efficacement sur les nouvelles idées  
+- **partager et communiquer** efficacement sur les nouvelles idées
 - éviter de **perdre un temps et des fonds précieux** dans la commercialisation de solutions obsolètes. Des erreurs stratégiques qui, à leur tour, peuvent freiner leur capacité à innover et garder une longueur d’avance sur la concurrence.
 
 ## Caractéristiques de l’innovation
-### Les différents types d’innovation selon Schumpeter 
+### Les différents types d’innovation selon Schumpeter
 L’économiste Joseph A. Schumpeter en propose 5, jugeant qu’il s’agit de réussir à innover dans :
 - La fabrication de produits et biens
 - Les modes de production (procédés)
@@ -80,21 +80,21 @@ Le pétrole a créé une nouvelle industrie à partir de 1855. Il servait à cet
 L’innovation se retrouve également dans l’invention de nouvelles manières de vendre ou de promouvoir un produit.
 
 {% info %}
-On peut citer par exemple : 
+On peut citer par exemple :
 - la vente ou l'échange payant (location d'objets, maisons, véhicules particuliers)
 - l'échange ou la mise à disposition gratuite (Donnons.org)
 - la participation à des projets collectifs de type levée de fonds sur projet
 {% endinfo %}
 
 #### Les nouveaux types d’organisation
-Ce type d’innovation peut avoir pour origine une modification réglementaire mais aussi des modes d’organisation originaux de sociétés. 
+Ce type d’innovation peut avoir pour origine une modification réglementaire mais aussi des modes d’organisation originaux de sociétés.
 
 {% info %}
 L’invention de la société anonyme ou du trust
 {% endinfo %}
 
 ### Une autre classification des innovations
-D’autres types de classification peuvent être proposés. On peut notamment proposer celui-ci : 
+D’autres types de classification peuvent être proposés. On peut notamment proposer celui-ci :
 - L’innovation technologique
 - L’innovation de service
 - L’innovation de commercialisation
@@ -109,14 +109,14 @@ Ces innovations sont souvent brevetables.
 
 {% info %}
 Voici quelques exemples d’innovations technologiques :
-- La médecine génétique faisant appel à des technologies de séquençage rapide et de l’édition génétique 
-- La monnaie virtuelle supportée par la blockchain 
+- La médecine génétique faisant appel à des technologies de séquençage rapide et de l’édition génétique
+- La monnaie virtuelle supportée par la blockchain
 - L’intelligence artificielle rendue possible par l’accroissement des performances des microprocesseurs et l’IoT
 - Le “burger sans boeuf” avec la culture artificielle de plantes spécifiques
-- La séquestration du carbone par différentes technologies 
-- La pile à combustible 
-- La montre connectée qui parle en braille 
-- Les matériaux bio-sourcés et les procédés associés 
+- La séquestration du carbone par différentes technologies
+- La pile à combustible
+- La montre connectée qui parle en braille
+- Les matériaux bio-sourcés et les procédés associés
 {% endinfo %}
 
 ### L’innovation de service
@@ -155,15 +155,15 @@ Par exemple, on peut citer des projets d’innovation sociale qui auraient pour 
 - Finance : le surendettement est responsable de 3 suicides par jour
 - Mobilité : plus de 7 millions de français ont des difficultés de déplacement
 - Alimentation : 20 kg de produits alimentaires encore consommables sont jetés en moyenne par français et par an
-- Environnement : 22 millions de français changent de téléphone portable chaque année et moins de 15% d’entre eux finissent en filière de recyclage 
-- Habitat : 4 millions de mal-logés ou sans abri et 15 millions de personnes touchées par la crise du logement en France 
-- Chômage des jeunes : 19% des jeunes de moins de 25 ans sont au chômage en France (contre 8.5% de l’ensemble de la population active) 
+- Environnement : 22 millions de français changent de téléphone portable chaque année et moins de 15% d’entre eux finissent en filière de recyclage
+- Habitat : 4 millions de mal-logés ou sans abri et 15 millions de personnes touchées par la crise du logement en France
+- Chômage des jeunes : 19% des jeunes de moins de 25 ans sont au chômage en France (contre 8.5% de l’ensemble de la population active)
 - Énergie : près de 20% des ménages français sont en situation de précarité énergétique
 {% endinfo %}
 
 
 ### L’intensité de l’innovation
-L’intensité de l’innovation mesure son caractère impactant. On distingue 4 types d’innovations : l’innovation incrémentale, l’innovation adjacente, l’innovation disruptive et l’innovation radicale. 
+L’intensité de l’innovation mesure son caractère impactant. On distingue 4 types d’innovations : l’innovation incrémentale, l’innovation adjacente, l’innovation disruptive et l’innovation radicale.
   ![Cartographie des risques](./image-1.jpg) Image tirée de https://get.agorize.com/fr/resources/quels-sont-les-differents-types-dinnovation/
 
 #### L’innovation incrémentale
@@ -258,7 +258,7 @@ Un exemple d'application : https://www.cairn.info/revue-entreprendre-et-innover-
 {% endinfo %}
 
 ### Les 3 horizons de croissance
-Le modèle des trois horizons de Mc Kinsey était à l’origine un moyen simple d’expliquer à la direction générale la **nécessité d’une organisation ambidextre, capable d’exploiter son business actuel tout en explorant de nouvelles voies**. Au départ, ce modèle présentait les projets d’innovation d’une entreprise selon 3 horizons temporels (court, moyen et long-terme). Aujourd’hui, l’on se rend compte qu’en réalité, chaque horizon nécessite une approche et une gestion différentes, des outils et des objectifs différents. L’idée de base du modèle est assez simple. Pour qu’une entreprise maximise son potentiel de croissance et limite ses risques, elle doit travailler simultanément sur des projets sur trois horizons : 
+Le modèle des trois horizons de Mc Kinsey était à l’origine un moyen simple d’expliquer à la direction générale la **nécessité d’une organisation ambidextre, capable d’exploiter son business actuel tout en explorant de nouvelles voies**. Au départ, ce modèle présentait les projets d’innovation d’une entreprise selon 3 horizons temporels (court, moyen et long-terme). Aujourd’hui, l’on se rend compte qu’en réalité, chaque horizon nécessite une approche et une gestion différentes, des outils et des objectifs différents. L’idée de base du modèle est assez simple. Pour qu’une entreprise maximise son potentiel de croissance et limite ses risques, elle doit travailler simultanément sur des projets sur trois horizons :
 - L’horizon 1 correspond à la majorité des efforts d’innovation et concerne l’**amélioration de l’offre à court terme**. Il s’agit d’évolutions incrémentales et cela implique un style de leadership guidé par le principe d’amélioration continue. Dans ce cas, il est classique de travailler étape par étape avec des objectifs bien définis et de construire une prévision financière pour calculer la rentabilité.
 - L’horizon 2 ne vise pas à répondre au marché tel qu’il se présente aujourd’hui, mais plutôt de **comprendre les besoins latents** et d’utiliser la technologie de façon nouvelle. Cela implique de posséder des capacités d’innovation en conception, en développement, en prototypage, en création et sélection des idées et de maîtriser les cycles de développement court. Le leadership correspond ici davantage à un style entrepreneurial, remettant régulièrement en question le business model, en investissant dans de nouvelles activités prometteuses ou encore prenant soin de créer en interne un terreau fertile à l’innovation. En menant des tests de validation à chaque étape, il est possible d’obtenir, au fur et à mesure, des informations plus précises sur le business model de la nouvelle activité.
 - L’horizon 3 vise à **explorer de nouveaux territoires, à identifier des domaines en rupture**. Les besoins sont étudiés à un niveau plus profond. Le partage de connaissances externes, l’innovation ouverte et la cocréation jouent ici un rôle clé. Les projets de cette catégorie ne peuvent être évalués financièrement par des méthodes traditionnelles car la part d’incertitude est trop grande.
@@ -304,7 +304,7 @@ L’organisation de l'entreprise est telle qu’elle permet le **suivi structur�
 
 ### Créer une direction de l’innovation
 Dans les grandes entreprises qui doivent se transformer en profondeur et réinventer leurs pratiques liées à la conception de nouveaux produits et services, l’innovation doit être **incarnée par une équipe** voire une fonction dédiée, la direction de l’innovation. Celle-ci a pour mission de diffuser de nouvelles modalités de travail.
-Les directeurs de l’innovation sont de plus en plus présents dans les comités exécutifs. 
+Les directeurs de l’innovation sont de plus en plus présents dans les comités exécutifs.
 Les directions de l’innovation se structurent parfois comme des services internes de conseil pour aider et accompagner les business units dans leur démarche d’innovation. Les directions de l’innovation deviennent en quelque sorte les chefs d’orchestre de l’innovation plutôt qu’un service qui centralise toutes les compétences pour innover. Elles animent à travers une variété d’initiatives le changement culturel indispensable à la gestion d’un environnement plus complexe.
 Les facteurs clés de succès des missions de la direction de l’innovation doivent être en partie différenciés par type d’entreprises.
 - pour les entreprises **intensives en technologies**, l’enjeu est de dissocier la fonction innovation de la fonction de recherche et développement (R&D). En effet, la R&D est une fonction centralisée qui concerne une catégorie d’employés : les ingénieurs de R&D et les chercheurs. Cette fonction tend donc à exclure les autres salariés. À l’inverse, la direction de l’innovation se doit d’être inclusive et de mobiliser l’ensemble des collaborateurs dans le processus d’innovation. L’enjeu pour ces entreprises est finalement de distinguer, tout en jouant sur leurs complémentarités, le management de l’innovation du management de la technologie.
@@ -317,7 +317,7 @@ Cette difficulté s’explique aisément car elle implique un changement fondame
 Le recours systématique à des ateliers participatifs permet d’adopter à **chaque étape** une démarche d’innovation. L'expérimentation, entendue comme la réalisation rapide et fréquente de tests de prototypes permet en premier lieu de vérifier l'innovation. Elle relève aussi d'une démarche qui renvoie au rapport au risque, à la sérendipité et au mode projet qui font partie du management de l’innovation.
 
 ### L’écoute du marché
-L’innovation **répond ou devance un besoin client**. Encore faut-il l’écouter et étudier les tendances du marché. En matière d’innovation, il est essentiel de miser sur une veille technologique active afin de se tenir au courant des tendances de pointe, se confronter aux pratiques d’autres pays et ainsi orienter les projets. 
+L’innovation **répond ou devance un besoin client**. Encore faut-il l’écouter et étudier les tendances du marché. En matière d’innovation, il est essentiel de miser sur une veille technologique active afin de se tenir au courant des tendances de pointe, se confronter aux pratiques d’autres pays et ainsi orienter les projets.
 
 ### Anticiper le financement de l’innovation
 Compte tenu de la durée de vie de plus en plus courte des solutions techniques et des produits innovants sur le marché, la **gestion des projets innovants** se réfléchit désormais à court ou moyen terme, de manière agile et évolutive. Il est primordial de savoir gérer l’allocation de ses ressources et de son budget entre plusieurs projets innovants. La plupart des industries ont ainsi augmenté leurs cadences de développements avec souvent plusieurs projets en **parallèle**. La maîtrise des processus garantissant un bon contrôle des coûts d’innovation.

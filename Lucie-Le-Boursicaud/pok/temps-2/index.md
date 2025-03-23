@@ -7,20 +7,20 @@ authors:
 
 date: 1971-01-01
 
-tags: 
+tags:
   - "Figma"
   - "Design"
   - "Interface utilisateur"
   - "Maquettage"
 
-résumé: Ce POK a pour but de développer mes compétences sur Figma afin de créer des maquettes de qualités illustrant le site web d'un concept store sur le thème de l'art et du brunch.
+description: Ce POK a pour but de développer mes compétences sur Figma afin de créer des maquettes de qualités illustrant le site web d'un concept store sur le thème de l'art et du brunch.
 ---
-{%prerequis 'Niveau débutant'%} 
-Connaitre les bases de Figma.  
+{%prerequis 'Niveau débutant'%}
+Connaitre les bases de Figma.
 {%endprerequis%}
 
 
-# Sprint 1 
+# Sprint 1
 ###### Objectifs du premier sprint
 + [x] Réaliser le brief graphique - 1H
 + [x] Choisir la charte graphique (typographie et couleur) - 1H
@@ -67,15 +67,15 @@ Figma garde un historique des modifications, permettant ainsi aux utilisateurs d
 Figma propose sa version payante gratuite pour tous les étudiants. Je me suis donc créer un compte à l'aide de mon adresse mail de Centrale afin d'obtenir un accès totale à l'outil et explorer toutes les possibilités qu'il offre.
 
 ## 2. Charte graphique
-Pour ce POK j'ai décidé de réaliser le site web d'un concept store que j'aimerais ouvrir à l'avenir. L'idée est de pouvoir peindre entre amis autour d'un repas. C'est un concept très à la mode en ce moment et qui n'est pas encore développé à Marseille. 
-Afin d'avoir une charte graphique la plus adaptée possible j'ai réalisé un brief graphique. 
+Pour ce POK j'ai décidé de réaliser le site web d'un concept store que j'aimerais ouvrir à l'avenir. L'idée est de pouvoir peindre entre amis autour d'un repas. C'est un concept très à la mode en ce moment et qui n'est pas encore développé à Marseille.
+Afin d'avoir une charte graphique la plus adaptée possible j'ai réalisé un brief graphique.
 
 **Brief Graphique : VIBE Brunch & Art**
 
 **Utilisateurs :**
 
 + **Jeunes créatifs :** Personnes passionnées par l'art sous toutes ses formes, recherchant un endroit posé où elles peuvent utilisées leur créativité et manger de bons plats.
-  
+
 + **Expert du brunch :** Individus appréciant les brunchs, cherchant une expérience innovante associée à un environnement artistique.
 
 + **Événements Spéciaux :** Groupes ciblés pour des événements privés, réceptions et célébrations artistiques, recherchant un lieu unique et créatif pouvant servir à manger.
@@ -110,9 +110,9 @@ Le design doit incarner l'essence de la créativité, la fusion de deux mondes d
 
 + **Intégration du Logo :** Le logo doit s'intégrer naturellement dans tous les supports, en conservant son impact visuel.
 
-##### Logo 
-Pour créer le logo j'ai utilisé Canva que je maitrise plutôt bien. 
-J'ai essayé différents arrangements pour avoir le nom VIBE en harmonie avec l'information "Brunch & Art".Choisir la disposition parfaite pour intégrer ces éléments a été mon point de départ, je voulais refléter l'atmosphère artistique tout en assurant une lisibilité claire et immédiate. Au début j'ai essayé des arrangements très simples ce qui est efficace mais qui reflète peu le côté créatif que je voulais exprimé. 
+##### Logo
+Pour créer le logo j'ai utilisé Canva que je maitrise plutôt bien.
+J'ai essayé différents arrangements pour avoir le nom VIBE en harmonie avec l'information "Brunch & Art".Choisir la disposition parfaite pour intégrer ces éléments a été mon point de départ, je voulais refléter l'atmosphère artistique tout en assurant une lisibilité claire et immédiate. Au début j'ai essayé des arrangements très simples ce qui est efficace mais qui reflète peu le côté créatif que je voulais exprimé.
 
 <div style="display:flex">
 <div><img src="logoVIBE.png"></div>
@@ -128,7 +128,7 @@ J'ai ajouté des formes un peu artistiques et de la couleur pour former des vers
 <div><img src="vibe3Cv.png"></div>
 </div>
 
-#### Typographie 
+#### Typographie
 
 La sélection de typographie que j'ai opérée pour ce site repose sur la recherche d'un équilibre entre la lisibilité, l'esthétique et la cohérence visuelle. Pour les titres, j'ai opté pour Montserrat en raison de son caractère moderne et élégant. Cette police apporte une forte présence tout en restant facile à lire, ce qui la rend idéale pour attirer l'attention sur les éléments clés de l'interface.
 
@@ -151,19 +151,19 @@ Dans l'ensemble, cette combinaison de Montserrat, Kokoro et Koulen vise à crée
 </div>
 
 ## 3. Réalisation d'une maquette simplifiée
-Pour cette partie j'ai essayé déjà de voir les sites proposant des brunchs classiques ou un peu plus innovants pour me donner des idées et m'inspirer. 
+Pour cette partie j'ai essayé déjà de voir les sites proposant des brunchs classiques ou un peu plus innovants pour me donner des idées et m'inspirer.
 
 + [Kozy](https://www.kozy.fr/)
 
 + [Parenthèse](https://www.parenthesebrunch.com/menu)
 
 + [Sookie](https://www.hotelsookie.com/fr/page/coffee-shop-petit-dejeuner-marais.10175.html)
-  
-+ [Galerie Wawi](https://www.galeriewawi.com/brunch-paint)
-  
 
-La première étape est donc d'avoir une idée globale de la structure du site nottament le placement des différents éléments, les boutons de navigations ect. Pour ce faire j'ai d'abord fait des croquis à la main puis je les ai reproduit sur Figma pour avoir un résultat plus précis et de meilleur qualité. 
-La réflexion principale pour ces maquettes simplifiées c'est que le parcours utilisateur soit le plus fluide possible lors que celui-ci cherche une information précise. Je veux donc quelque chose d'assez original mais qui reste intuitif : tout le défi de ce POK réside dans ce travail. 
++ [Galerie Wawi](https://www.galeriewawi.com/brunch-paint)
+
+
+La première étape est donc d'avoir une idée globale de la structure du site nottament le placement des différents éléments, les boutons de navigations ect. Pour ce faire j'ai d'abord fait des croquis à la main puis je les ai reproduit sur Figma pour avoir un résultat plus précis et de meilleur qualité.
+La réflexion principale pour ces maquettes simplifiées c'est que le parcours utilisateur soit le plus fluide possible lors que celui-ci cherche une information précise. Je veux donc quelque chose d'assez original mais qui reste intuitif : tout le défi de ce POK réside dans ce travail.
 
 <div style="display:flex">
 <div><img src="homeMS.png"></div>
@@ -173,7 +173,7 @@ La réflexion principale pour ces maquettes simplifiées c'est que le parcours u
 </div>
 
 ## 4. Ebauche des différentes pages et création de premiers composants
-À partir d'une maquette simplifiée, j'ai élaboré des ébauches de pages toujours à l'aide de l'outil Figma. 
+À partir d'une maquette simplifiée, j'ai élaboré des ébauches de pages toujours à l'aide de l'outil Figma.
 <div style="display:flex">
 <div><img src="homeME.png"></div>
 <div><img src="carteME.png"></div>
@@ -181,7 +181,7 @@ La réflexion principale pour ces maquettes simplifiées c'est que le parcours u
 <div><img src="resaME.png"></div>
 </div>
 
-Et les premiers composants : 
+Et les premiers composants :
 <div style="display:flex">
 <div><img src="compo1.png"></div>
 <div><img src="compo2.png"></div>
@@ -214,7 +214,7 @@ En utilisant les outils de Figma, j'ai créé une structure de base pour l'en-t�
 <div><img src="entete.png"></div>
 </div>
 
-J'ai aussi fait différents prototypes pour les catégories de plats et j'en ai gardé un assez sobre. 
+J'ai aussi fait différents prototypes pour les catégories de plats et j'en ai gardé un assez sobre.
 
 <div style="display:flex">
 <div><img src="nomcat.png"></div>
@@ -223,17 +223,17 @@ J'ai aussi fait différents prototypes pour les catégories de plats et j'en ai 
 </div>
 
 ### Réservation bien prise en compte
-Pour ce composant je me suis inspirée de ce que j'ai trouve en me baladant sur les templates de site pour essayer de recréer quelque chose de similaire et dans l'esprit du mien. 
+Pour ce composant je me suis inspirée de ce que j'ai trouve en me baladant sur les templates de site pour essayer de recréer quelque chose de similaire et dans l'esprit du mien.
 
 <div style="display:flex">
 <div><img src="enr.png"></div>
 </div>
 
-### Ajouter les couleurs aux différentes pages 
+### Ajouter les couleurs aux différentes pages
 Cette partie là était pas vraiment évidente parce que j'ai testé plusieurs teintes et sur plusieurs éléments pour voir ce qui ressortait le mieux. Au final mettre la couleur sur les boutons de navigation et en bas de page m'a semblé être le choix le plus judicieu. En rajoutant trop de couleurs un peu partout j'avais peur de perdre l'utilisateur.
 
-### Réaliser les animations 
-Je voulais qu'il y ait des animations sur les boutons lors du survol et lors du clic et aussi ajouter des animations sur les en-tête de page lors de l'arrivée sur une page. Pour la page principale j'ai aussi des animations sur les boutons qui apparaissent à l'écran. 
+### Réaliser les animations
+Je voulais qu'il y ait des animations sur les boutons lors du survol et lors du clic et aussi ajouter des animations sur les en-tête de page lors de l'arrivée sur une page. Pour la page principale j'ai aussi des animations sur les boutons qui apparaissent à l'écran.
 
 <div style="display:flex">
 <div><img src="boutonhme.png"></div>
@@ -242,9 +242,9 @@ Je voulais qu'il y ait des animations sur les boutons lors du survol et lors du 
 A l'arrivée sur la page le bouton n'est qu'un simple trait, puis il s'élargit jusqu'à devenir le bouton, et lors de son survol il grossit. J'ai bien toutes les animations que je voulais et je me suis servie de mon MON pour un peu mieux gérer les transitions et les temps d'animations optimaux.
 
 ### Retravail de la structure de certaines pages
-La page principale ne me plaisait pas. J'ai donc essayé d'autres structures jusqu'à trouver celle qui me plaisait le plus. C'est aussi celle que l'on retrouve sur beaucoup de site web, elle n'est donc pas très originale mais elle fonctionne bien avec l'esprit du site. Le fait de l'avoir autant simplifié permet à l'utilisateur de se concecentrer sur l'essentiel de ce qu'il a envie de voir. 
+La page principale ne me plaisait pas. J'ai donc essayé d'autres structures jusqu'à trouver celle qui me plaisait le plus. C'est aussi celle que l'on retrouve sur beaucoup de site web, elle n'est donc pas très originale mais elle fonctionne bien avec l'esprit du site. Le fait de l'avoir autant simplifié permet à l'utilisateur de se concecentrer sur l'essentiel de ce qu'il a envie de voir.
 
-Exemples : 
+Exemples :
 <div style="display:flex">
 <div><img src="lafourchette.png"></div>
 <div><img src="cafeoneleventh.png"></div>
@@ -255,7 +255,7 @@ Exemples :
 <div><img src="homecouleurs.png"></div>
 </div>
 
-#### Réalisation finale 
+#### Réalisation finale
 <div style="display:flex">
 <div><img src="homecouleurs.png"></div>
 </div>

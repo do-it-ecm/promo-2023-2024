@@ -14,7 +14,7 @@ tags:
   - "CSS"
   - "JavaScript"
 
-résumé: Un POK ayant pour objectif de créer mon premier site web sous la forme d'un CV en ligne interactif.
+description: Un POK ayant pour objectif de créer mon premier site web sous la forme d'un CV en ligne interactif.
 ---
 ## Introduction
 

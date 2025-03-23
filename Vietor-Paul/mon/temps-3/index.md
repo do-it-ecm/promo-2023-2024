@@ -12,7 +12,7 @@ tags:
   - "LLVM"
   - "C++"
 
-résumé: "Comment écrire un compilateur pour son langage de programmation utilisant LLVM."
+description: "Comment écrire un compilateur pour son langage de programmation utilisant LLVM."
 ---
 
 Pour ce MON, je vais suivre le tutoriel de [LLVM](https://llvm.org/docs/tutorial/) afin d'implémenter un langage de programmation.
@@ -23,7 +23,7 @@ Je n'ai pas fini le tutoriel dans ces 10 premières heures, je vais donc profite
 
 Ce tutoriel nous guide dans les différentes étapes nécessaires pour réaliser un compilateur : le *lexer*, le *parser* puis la génération de langage machine.
 
-Le *lexer* nous permet de décomposer le code source en un ensemble de "jetons" (*tokens* en anglais) : c'est lui qui sépare les mots, les nombres, les mots-clefs...  
+Le *lexer* nous permet de décomposer le code source en un ensemble de "jetons" (*tokens* en anglais) : c'est lui qui sépare les mots, les nombres, les mots-clefs...
 Le *parser* quant à lui va prendre le flux de *tokens* généré par le *lexer* et le transformer en ce que l'on appelle un arbre de la syntaxe abstraite (ou *abstract syntax tree*, AST, en anglais). C'est lui qui fait l'analyse syntaxique du langage, et détermine à quoi correspond chaque mot, s'il s'agit d'une variable, d'une fonction, ou encore d'une expression binaire (par exemple "a+b").
 Enfin, la génération de langage machine traduit cet arbre en quelque chose que le processeur peut comprendre et exécuter.
 
@@ -34,17 +34,17 @@ Le langage crée lors de ce tutoriel est assez simple, notamment parce qu'il ne 
 
 ## Le *lexer*
 
-Le lexer est somme tout assez simple : il se contente de lire les caractères en entrée en séparant les mots, les signes de ponctuation et les nombres, et s'il rencontre ce que l'on appelle un mot-clef, une chaîne de caractère spéciale dans le langage, il renvoie une valeur spéciale, sinon il renvoie le mot/signe de ponctuation/nombre directement. 
+Le lexer est somme tout assez simple : il se contente de lire les caractères en entrée en séparant les mots, les signes de ponctuation et les nombres, et s'il rencontre ce que l'on appelle un mot-clef, une chaîne de caractère spéciale dans le langage, il renvoie une valeur spéciale, sinon il renvoie le mot/signe de ponctuation/nombre directement.
 
 ## Le *parser*
 
-C'est à ce moment-là que les choses deviennent réellement intéressantes : nous avons des *tokens*, mais nous devons encore leur donner un sens.  
+C'est à ce moment-là que les choses deviennent réellement intéressantes : nous avons des *tokens*, mais nous devons encore leur donner un sens.
 Nous allons donc créer un *AST*, qui va stocker sous la forme d'un arbre les différentes expressions du langage : calculs, définitions et appels de fonctions, structures de contrôle du flot...
 
 Je ne vais pas rentrer dans les détails de l'analyse syntaxique, puisqu'elle est déjà détaillée dans le tutoriel et n'est pas très intéressante dans certains cas, tels que les nombres, les déclarations de variables et les appels de fonctions.
 
-Cependant, pour les calculs, il est important de bien prendre en compte la priorité des opérations : on s'attend à ce que les calculs entre parenthèses soient faits avant les multiplications, qui sont elles-mêmes faites avant les additions. On utilise pour cela ce que l'on appelle un analyseur syntaxique ascendant : une suite de calculs est décomposé en sa première expression puis une suite de paires (opérateur, expression). Par exemple, le calcul `1 + 2 * (3+4) - 5` sera décomposé en 1, (+, 2), (*, (3+4)), (-, 5). On peut voir que `(3+4)` est gardé tel quel : c'est parce que les parenthèses font que cela est traité comme une unique expression à ce stade, mais l'addition à l'intérieure sera analysée récursivement.  
-On définit également pour chaque opérateur une priorité, qui va servir à déterminer comment grouper les opérations.  
+Cependant, pour les calculs, il est important de bien prendre en compte la priorité des opérations : on s'attend à ce que les calculs entre parenthèses soient faits avant les multiplications, qui sont elles-mêmes faites avant les additions. On utilise pour cela ce que l'on appelle un analyseur syntaxique ascendant : une suite de calculs est décomposé en sa première expression puis une suite de paires (opérateur, expression). Par exemple, le calcul `1 + 2 * (3+4) - 5` sera décomposé en 1, (+, 2), (*, (3+4)), (-, 5). On peut voir que `(3+4)` est gardé tel quel : c'est parce que les parenthèses font que cela est traité comme une unique expression à ce stade, mais l'addition à l'intérieure sera analysée récursivement.
+On définit également pour chaque opérateur une priorité, qui va servir à déterminer comment grouper les opérations.
 Enfin, on va parcourir la liste des paires (opérateur, expression), et tant que l'on rencontre des opérateurs d'une priorité inférieure ou égale à celle de l'opérateur précédent, on sait qu'il faut prendre en compte l'opérateur précédent d'abord, et donc insérer le noeud d'AST correspondant. Si l'on rencontre un opérateur d'un priorité plus grande, cependant, c'est qu'il faut traiter cet opérateur en priorité. On fait alors un appel récursif afin de faire l'analyse de l'expression qui suit avant de créer le noeud d'AST.
 
 En ce qui concerne les fonctions, il est important également de les définir avant des les utiliser. Cela est annoncé dans le langage avec le mot-clef `def` ou le mot-clef `extern`. Ce dernier permet de donner un nom de fonction, ainsi que sa liste d'arguments, et indique que cette fonction est définie à l'extérieur du langage : ce n'est pas particulièrement intéressant à ce stade, on fait essentiellement la même chose que pour un appel de fonction. Par contre, quand on définit une fonction avec `def`, il faut également stocker ce que l'on appelle le corps de la fonction, les instructions à exécuter pour calculer sa valeur, que l'on va simplement analyser récursivement.

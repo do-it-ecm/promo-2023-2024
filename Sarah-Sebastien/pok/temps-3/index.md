@@ -12,12 +12,12 @@ tags:
   - "Google Apps Script"
   - "Google Sheet"
 
-résumé: "Ce MON traitera de l'apprentissage de Google Sheet et d'Apps Script et de leur application au travers d'un mini projet qui impliquera, une gestion d'une BDD, des liens entre les différentes applications Google (Forms, Sheets) et un traitement des données."
+description: "Ce MON traitera de l'apprentissage de Google Sheet et d'Apps Script et de leur application au travers d'un mini projet qui impliquera, une gestion d'une BDD, des liens entre les différentes applications Google (Forms, Sheets) et un traitement des données."
 
 ---
 ---
 
-{%prerequis 'Niveau débutant'%} 
+{%prerequis 'Niveau débutant'%}
 Prérequis : Aucun
 {%endprerequis%}
 
@@ -40,11 +40,11 @@ Prérequis : Aucun
 
 <h2 id=introduction> Introduction</h2>
 
-J'ai déjà utilisé VBA à maintes reprises au cours de mon alternance et dans mon [premier POK](../temps-1/). Mais j'ai remarqué que si VBA était, jusque là, l'incontournable outil quand il s'agissait de créer des macros, le nom d'"Apps Script" commençait à s'entendre de plus en plus souvent. Alors je me suis dit, *pourquoi ne pas découvrir un peu de quoi il en retourne ??* Et puis comme ça je pourrai comparer les 2 langages, et me faire mon propre avis. 
+J'ai déjà utilisé VBA à maintes reprises au cours de mon alternance et dans mon [premier POK](../temps-1/). Mais j'ai remarqué que si VBA était, jusque là, l'incontournable outil quand il s'agissait de créer des macros, le nom d'"Apps Script" commençait à s'entendre de plus en plus souvent. Alors je me suis dit, *pourquoi ne pas découvrir un peu de quoi il en retourne ??* Et puis comme ça je pourrai comparer les 2 langages, et me faire mon propre avis.
 
 <h2 id=backlog> Backlog</h2>
 
-Voici mon backlog pour le sprint 1 : 
+Voici mon backlog pour le sprint 1 :
 
 |Intitulé|Temps estimé|
 |---|---|
@@ -59,7 +59,7 @@ Voici mon backlog pour le sprint 1 :
 
 <h2 id=ressources> Recherches des ressources</h2>
 
-En ayant épluché tout le site de Do-It sur le sujet, voici un petit guide sur ce qui a déjà été traité et comment : 
+En ayant épluché tout le site de Do-It sur le sujet, voici un petit guide sur ce qui a déjà été traité et comment :
 
 |Numéro|Nom|Résumé|
 |---|---|---|
@@ -74,30 +74,30 @@ En ayant épluché tout le site de Do-It sur le sujet, voici un petit guide sur 
 
 <h2 id=googlesheet> Focus sur Google Sheet</h2>
 
-Pour m'entrainer, je me suis appuyée sur ce [fichier csv](olympics.zip) envoyé gracieusement par un  gentil collègue de IAM. 
+Pour m'entrainer, je me suis appuyée sur ce [fichier csv](olympics.zip) envoyé gracieusement par un  gentil collègue de IAM.
 
-Ce fichier traite de certaines caractéristiques de chaque vainqueur des JO *(l'athlète, son sexe, sa nationalité, la couleur de sa médaille, la catégorie dans laquelle il a gagné, etc...)*. 
+Ce fichier traite de certaines caractéristiques de chaque vainqueur des JO *(l'athlète, son sexe, sa nationalité, la couleur de sa médaille, la catégorie dans laquelle il a gagné, etc...)*.
 
-### Ressources 
-Je me suis dit que ça ferait une base parfaite pour m'entraîner sur Sheet. Pour cela j'ai étudié et appliqué les différentes parties du **cours sur Google Sheet** de [ce site](https://www.sheets-pratique.com/) qu'Henri avait conseillé, j'ai aussi utilisé [cette page](https://support.google.com/docs/table/25273?hl=f) de Google qui répertoriait un grand nombre de formules pour Sheet, et qui m'a été, ma foi, très utile. 
+### Ressources
+Je me suis dit que ça ferait une base parfaite pour m'entraîner sur Sheet. Pour cela j'ai étudié et appliqué les différentes parties du **cours sur Google Sheet** de [ce site](https://www.sheets-pratique.com/) qu'Henri avait conseillé, j'ai aussi utilisé [cette page](https://support.google.com/docs/table/25273?hl=f) de Google qui répertoriait un grand nombre de formules pour Sheet, et qui m'a été, ma foi, très utile.
 
 ### Entrainement sur Sheet
 
-Vous retrouverez [ici](https://docs.google.com/spreadsheets/d/1zAQRbf99pT2mR93Ry3i1bm-QLbhTylIE4CK-WcgO86I/edit?usp=sharing) un lien vers le Sheet que j'ai créé. 
+Vous retrouverez [ici](https://docs.google.com/spreadsheets/d/1zAQRbf99pT2mR93Ry3i1bm-QLbhTylIE4CK-WcgO86I/edit?usp=sharing) un lien vers le Sheet que j'ai créé.
 
 - **onglet "olympics"** : base de données brut avec mise en forme conditionnelle de la couleur de chaque cellule de la colonne *"Medal"*, en fonction de la couleur de la médaille correspondante.
 - **onglet "test formules"** : test de plusieurs formules pour mettre en valeur certaines données.
 - **onglet "graphique"** : récupération des données de tous les pays *(via la formule UNIQUE())* pour venir chercher le nombre de médailles gagnées, de chaque couleur. Puis mise en forme de ces données sous la forme d'un graphique adapté
 - **onglet "Tableau croisé dynamique"** : création d'un tableau croisé dynamique avec la gestion des *segments*.
 
-Finalement, contente d'en être arrivée jusque là, j'ai voulu continuer, en essayant d'appliquer mon [MON 2.1](../../mon/temps-2.1/), en créant un tableau de bord sur Sheet. Mais là... je me suis heurtée à un mur : dès que j'ai commencé à avoir plusieurs graphiques et à manipuler les données, Sheet ne parvenait plus à actualiser correctement et le temps de réponse devenait parfois inquiétant. 
-J'ai alors compris que Sheet n'était pas **DU TOUT** fait pour ça. Mais je suis restée sur ma faim. Alors j'ai fait mes petites recherches et j'ai découvert **Looker Studio**, le Power BI de Google. 
+Finalement, contente d'en être arrivée jusque là, j'ai voulu continuer, en essayant d'appliquer mon [MON 2.1](../../mon/temps-2.1/), en créant un tableau de bord sur Sheet. Mais là... je me suis heurtée à un mur : dès que j'ai commencé à avoir plusieurs graphiques et à manipuler les données, Sheet ne parvenait plus à actualiser correctement et le temps de réponse devenait parfois inquiétant.
+J'ai alors compris que Sheet n'était pas **DU TOUT** fait pour ça. Mais je suis restée sur ma faim. Alors j'ai fait mes petites recherches et j'ai découvert **Looker Studio**, le Power BI de Google.
 
 ### A la découverte de Looker Studio
 
-N'ayant jamais utilisé Power BI, je partais ici avec un oeil innocent. Pour savoir un peu dans quelle direction partir en ouvrant le logiciel, j'ai regardé [cette vidéo Youtube](https://www.youtube.com/watch?v=BVBvo9eKK40) qui expliquait très bien comment prendre en main l'outil. 
-Il est assez intuitif et simple à utiliser alors 12mins47 étaient largement suffisantes pour savoir comment procéder. 
-Je ne suis pas extrêmement rentrée dans les détails des options qu'offraient Looker Studio, car ce n'était pas le but ici, mais il a l'air assez complet *(ex: possibilité de créer des champs personnalisés calculés très pointus)*. 
+N'ayant jamais utilisé Power BI, je partais ici avec un oeil innocent. Pour savoir un peu dans quelle direction partir en ouvrant le logiciel, j'ai regardé [cette vidéo Youtube](https://www.youtube.com/watch?v=BVBvo9eKK40) qui expliquait très bien comment prendre en main l'outil.
+Il est assez intuitif et simple à utiliser alors 12mins47 étaient largement suffisantes pour savoir comment procéder.
+Je ne suis pas extrêmement rentrée dans les détails des options qu'offraient Looker Studio, car ce n'était pas le but ici, mais il a l'air assez complet *(ex: possibilité de créer des champs personnalisés calculés très pointus)*.
 
 Alors finalement, après 1h30 de dur labeur, je vous présente mon tableau de bord, avec lequel vous pouvez jouer [ici](https://lookerstudio.google.com/reporting/3a53aba0-98ac-4a1d-aa94-3af36f8d6195)
 
@@ -105,13 +105,13 @@ Alors finalement, après 1h30 de dur labeur, je vous présente mon tableau de bo
 
 <h2 id=googleAppscript> Focus sur Google Apps Scripts</h2>
 
-### Ressources 
+### Ressources
 
 Après avoir lu autant d’encensements des vidéos youtube de [cette playlist youtube](https://www.youtube.com/playlist?list=PLozmtcO5OqdqZZ6sP6faU18jIdyCiiYvS), j'ai regardé toutes les vidéos. Et je dois dire qu'elle méritait les éloges, les vidéos étaient très complètes et très bien expliquées. *Je la recommande, moi aussi !* Mais je la complèterai quand même avec les explications de [sheets-pratique.com](https://www.sheets-pratique.com/) qui abordent des points cruciaux qui n'apparaissent pas dans les vidéos *(ex : comment créer un bouton sur Sheet et y affecter une macro, ou comment enregistrer un script directement depuis Sheet,...)*
 
 ### Entraînement sur Apps Script
 
-Cependant, quand j'ai voulu passer à un exercice applicatif, ça a été compliqué... J'ai voulu utilisé [ce site](https://developers.googleblog.com/2022/04/getting-started-is-hardest-part-find.html), conseillé par Antoine qui répertorie des applications simples pour débutant à refaire pour se familiariser avec le langage. Mais j'ai été déçue du peu de quantité d'exercices qu'il y avait, et du fait que les exercices ne soient pas guidés dans leur réalisation, mais seule la correction est indiquée. 
+Cependant, quand j'ai voulu passer à un exercice applicatif, ça a été compliqué... J'ai voulu utilisé [ce site](https://developers.googleblog.com/2022/04/getting-started-is-hardest-part-find.html), conseillé par Antoine qui répertorie des applications simples pour débutant à refaire pour se familiariser avec le langage. Mais j'ai été déçue du peu de quantité d'exercices qu'il y avait, et du fait que les exercices ne soient pas guidés dans leur réalisation, mais seule la correction est indiquée.
 
 J'ai donc voulu créer mon propre entraînement, pour cela il me fallait trouver l'inspiration. Je voulais trouver le moyen de parvenir à interagir avec l'utilisateur:
 
@@ -142,7 +142,7 @@ Je savais qu'il y avait la possibilité d'utiliser **Power Query** pour importer
 
 L'outil idéal pour trouver le nom d'une recette facilement à partir de l'origine de la recette et de ses ingrédients était évident : **ChatGPT**. Mais lui poser la question pour chaque ligne était trop fastidieux. Après quelques recherches, j'ai vu qu'il était possible de connecter facilement **l'API de ChatGPT** à **Sheet**. *Processus très bien expliqué dans [cette vidéo](https://www.youtube.com/watch?v=2OukmKPCW1I)*
 
-Ni une ni deux, je m'y atèle. 
+Ni une ni deux, je m'y atèle.
 - **première étape** : traduire tous les textes *(origine et ingrédients)* en français. Facile avec la formule de *Google Translate*. (Mais qui laisse à désirer parfois quand même)
 
 ```
@@ -160,7 +160,7 @@ Ni une ni deux, je m'y atèle.
 =GPT("peux tu me donner le nom de la recette seulement dont ";F2)
 ```
 
-On obtient alors en résultat : 
+On obtient alors en résultat :
 <img src=nom_recette.png>
 
 {%info "REMARQUES"%}
@@ -170,15 +170,15 @@ On obtient alors en résultat :
 
 #### Mise en forme du sheet
 
-Après adaptation des données obtenues *(ex: suppression des lignes que ChatGPT ne trouvait pas)*. J'ai tout mis proprement dans un onglet **BDD recettes**. 
+Après adaptation des données obtenues *(ex: suppression des lignes que ChatGPT ne trouvait pas)*. J'ai tout mis proprement dans un onglet **BDD recettes**.
 
 J'ai créé un onglet **CHOIX** où je suis venue placer la liste de **tous les ingrédients disponibles** *(obtenue en réalisant une fonction UNIQUE sur la colonne "ingrédients" du fichier généré avec l'étape "étendre sur plusieurs ligne" d'Excel, expliqué plus haut)* et de **tous les types de cuisine disponibles** *(même process)*.
 
-On rajoute ensuite des **case à cocher** (Menu *Insertion*>*Case à cocher*). Et hop, le tour est joué ! 
+On rajoute ensuite des **case à cocher** (Menu *Insertion*>*Case à cocher*). Et hop, le tour est joué !
 
 #### Réalisation du script
 
-Besoin de 2 fonctions : 
+Besoin de 2 fonctions :
 
 - une fonction **contientElement** qui va venir tester si un élément est dans un tableau *(car le cas se présente plusieurs fois dans la fonction principale)*
 
@@ -195,7 +195,7 @@ function contientElement(array, element) {
 {% details "getRecipe" %}
 ```javascript
 function getRecipe() {
-  //Definition des paramètres des pages 
+  //Definition des paramètres des pages
   let mainSheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName('CHOIX');
   let mainLastRow = mainSheet.getLastRow();
   let mainRange = mainSheet.getDataRange();
@@ -224,7 +224,7 @@ function getRecipe() {
     for (let k=2; k<= backLastRow;k++){
       var ingredientTest = backRange.getCell(k,5).getValue()
       var typeTest = backRange.getCell(k,3).getValue();
-      
+
       //Un élement correspond aux 2 conditions, on garde en mémoire la recette correspondante
       if (contientElement(ingredients,ingredientTest) && contientElement(typeCuisine,typeTest)){
         recetteRetenue = backRange.getCell(k,6).getValue();
@@ -238,8 +238,8 @@ function getRecipe() {
       recetteIngredients.push(backRange.getCell(l,5).getValue());
     }
   }
-  
-  //on affiche le message finale 
+
+  //on affiche le message finale
   var ui = SpreadsheetApp.getUi();
   if (recetteRetenue==='aucune'){
     var message = "Aucune recette n'a été trouvée... Ressayez avec d'autres ingrédients, ou de voyagez ailleurs?"
@@ -253,7 +253,7 @@ function getRecipe() {
 
 #### Test du script
 
-Aujourd'hui, j'avais envie de manger **italien**. Mais je n'avais chez moi que des **cacahuètes grillées** et de la **canneberge séchée**. 
+Aujourd'hui, j'avais envie de manger **italien**. Mais je n'avais chez moi que des **cacahuètes grillées** et de la **canneberge séchée**.
 *Qu'est ce que j'allais bien pouvoir cuisiner?*
 
 <img width=350 src=resultat_recette.png>
@@ -266,9 +266,9 @@ Aujourd'hui, j'avais envie de manger **italien**. Mais je n'avais chez moi que d
 - certaines traductions de Google sont très approximatives *(ex: Il traduit "bifteck de flanc" un "flank steak", qui signifie "bavette")*
 {%endinfo%}
 
---- 
+---
 
-{%prerequis 'Lien vers le projet'%} 
+{%prerequis 'Lien vers le projet'%}
 - [Lien vers le Sheet](https://docs.google.com/spreadsheets/d/1KGEUPpCguz-CgjBRoZtw-efDRjphKRTtqgmCwERGkHs/edit?usp=sharing)
 - [Lien vers le script](https://script.google.com/u/0/home/projects/16E4KcCd9lwJmOOt_XYX1SBhEZnGqHfAb8tCSZGMxqZN0VCO6gRwqTxmR/edit)
 {%endprerequis%}
@@ -329,11 +329,11 @@ d'un utilisateur. Il se base sur les réponses d'un **Form** rempli par l'utilis
 
 <h2 id=BDD> Construction de la base de données Google Sheet du projet </h2>
 
-J'ai construit ma BDD avec le jeu de données trouvé sur le site de data.gouv, [ici](https://www.data.gouv.fr/fr/datasets/liste-des-complements-alimentaires-declares/). 
+J'ai construit ma BDD avec le jeu de données trouvé sur le site de data.gouv, [ici](https://www.data.gouv.fr/fr/datasets/liste-des-complements-alimentaires-declares/).
 
 > Cette liste répertorie tous les compléments alimentaires ayant fait l’objet d’une déclaration auprès des services de la DGCCRF depuis le 26 avril 2016, et ayant obtenu une attestation de déclaration de commercialisation sur le territoire français.
 
-On y retrouve **plus de 85 000** compléments alimentaires répertoriés avec certaines de leurs **caractéristiques**, comme notamment : 
+On y retrouve **plus de 85 000** compléments alimentaires répertoriés avec certaines de leurs **caractéristiques**, comme notamment :
 - leur nom commercial
 - la marque qui les a déposés
 - leur forme galénique
@@ -368,7 +368,7 @@ Pour ce faire, il me fallait **récupérer le contenu de chaque cellule** des co
 **Petit problème :** vu comment s'était déroulé la première partie de ce POK sur le traitement de données avec Sheet, réaliser toutes ces actions sur ce logiciel allait être compliqué.
 Je me suis alors tournée vers mon ancien ami Excel, et plus particulièrement **Power Query**.
 
-J'ai alors réalisé les actions suivantes pour parvenir au résultat : 
+J'ai alors réalisé les actions suivantes pour parvenir au résultat :
 
 - **Split column** by **Delimiters** : qui permet de séparer le contenu des cellules de la colonne en fonction des *virgules*
 
@@ -378,10 +378,10 @@ J'ai alors réalisé les actions suivantes pour parvenir au résultat :
 
 <img width=250 src=extraction_donnees_3.png>
 
-Ensuite, il suffit de **Supprimer les doublons** sur Excel, et puis le tour est joué. 
+Ensuite, il suffit de **Supprimer les doublons** sur Excel, et puis le tour est joué.
 
 {%faire%}
-Pour les données concernant la composition totale des médicaments, l'opération ne s'est pas terminé là. Il était un peu compliqué d'obtenir une liste exhaustive des aliments allergènes que pouvait contenir un médicament, alors je me suis juste aidée de ces données traitées pour établir certaines règles dont je parlerai plus tard. 
+Pour les données concernant la composition totale des médicaments, l'opération ne s'est pas terminé là. Il était un peu compliqué d'obtenir une liste exhaustive des aliments allergènes que pouvait contenir un médicament, alors je me suis juste aidée de ces données traitées pour établir certaines règles dont je parlerai plus tard.
 {%endfaire%}
 
 <h2 id=Form> Création du Google Form </h2>
@@ -390,10 +390,10 @@ Je pensais au début, créer une question dans laquelle l'utilisateur viendrait 
 
 ### Problème d'allergies/régimes alimentaires non traités
 
-Il fallait d'abord se renseigner sur **son régime alimentaire**. 
+Il fallait d'abord se renseigner sur **son régime alimentaire**.
 
 - certains ingrédients possédaient de *"la gélatine de porc"*, *"des protéines ou des cartilages de poulet"*, *"des membranes ou des jaunes d'oeufs"*, "*des extraits de poissons ou de crustacés* : **ne convenaient pas aux végétariens**
-- en plus de ces ingrédients, on retrouvait parfois *"du lactose"*, *"du miel"*, ou de la *"cire d'abeille"* : **ne convenaient pas aux végétaliens** 
+- en plus de ces ingrédients, on retrouvait parfois *"du lactose"*, *"du miel"*, ou de la *"cire d'abeille"* : **ne convenaient pas aux végétaliens**
 - apparaissaient également dans certains compléments : de l'"*avoine"*, *"amidon"*, *"blé"*, *"lin"*, *"gluten"*, *"malt"* : **ne convenaient pas aux régimes sans gluten**
 
 Par ailleurs certaines allergies étaient **plus délicates à traiter**:
@@ -405,17 +405,17 @@ Par ailleurs certaines allergies étaient **plus délicates à traiter**:
 
 <img align="right" width=138 src=pop_a_risques_ex.png>
 
-Si on reprend les données bruts de **toutes les populations à risques**, on distingue 2 catégories: 
+Si on reprend les données bruts de **toutes les populations à risques**, on distingue 2 catégories:
 - les **catégories de population**
 - les **antécédents**
 
 Par ailleurs, pour les catégories de populations, il fallait rajouter les catégories qui avaient été exclues. Et je me suis permise de renommer :
-- **allaitement** par **femme allaitante** 
+- **allaitement** par **femme allaitante**
 - **grossesse** par **femme enceinte**
 Ca faisait  un peu moins sauvage je trouvais..
 
 {%faire%}
-Important de noter aussi que les catégories n'étaient pas **exclusives**. 
+Important de noter aussi que les catégories n'étaient pas **exclusives**.
 Ex : un **enfant (de moins de 6 ans)** c'est aussi un **enfant (de moins de 10 ans)**, mais aussi un **enfant (de moins de 12 ans)**. Il fallait donc faire attention à prendre en compte dans le code, ces possibilités.
 {%endfaire%}
 
@@ -441,7 +441,7 @@ On pourrait découper mon code Apps Script en **3 parties** :
 
 Le plan du code de ma fonction **main** est le suivant :
 
-- on collecte les **données de réponse** de l'utilisateur 
+- on collecte les **données de réponse** de l'utilisateur
 - on **adapte les données** en fonction des critères que j'ai énoncés plus haut
 - on définit des **paramètres de la page de BDD**
 - on boucle sur **toutes les lignes de la BDD** en ajoutant dans un array toutes les lignes qui remplissent l'objectif recherché par l'utilisateur
@@ -460,7 +460,7 @@ Après avoir lu plusieurs articles sur les triggers dans Apps Script et notammen
 
 Pour ce qui est ensuite d'écrire le code qui permettait d'envoyer le mail avec les données adaptées, je me suis d'abord penchée sur les MON que j'avais vus qui traitaient de ce sujet. Dont notamment celui de Thomas Pont, qui correspondant le plus à ce que je voulais faire. En parallèle, je suis tombée sur cette vidéo [Automate emails with Google Forms and Google Apps Script](https://www.youtube.com/watch?v=8VXSXQ-RMI0). Une vidéo incroyable, qui correspondait parfaitement à mon besoin. J'ai donc basé ma méthode sur la démarche que suivait cette vidéo, pour des questions de simplicité:
 
-- on définit d'abord les variables qui vont contenir les données de l'utilisateur récupérées : **prénom** (pour personnaliser le mail) et **e-mail** (pour envoyer le message). 
+- on définit d'abord les variables qui vont contenir les données de l'utilisateur récupérées : **prénom** (pour personnaliser le mail) et **e-mail** (pour envoyer le message).
 - on vient créer un template pour construire le code **html**
 
 ```javascript
@@ -520,7 +520,7 @@ Ces fonctions regroupent des tests qui devaient être réalisés à plusieurs re
 
 - une fonction permettant de vérifier si un un array **contient un élément**. *Fonction déjà utilisée au cours du sprint 1*.
 - une fonction qui **teste si une chaine de caractère est présente dans une cellule**
-- 
+-
 {% details "fonction testPresence" %}
 ```javascript
 function testPresence(valeurCellule, chaineRecherche) {
@@ -541,7 +541,7 @@ function testPresence(valeurCellule, chaineRecherche) {
 function getArray(array, cell) {
   //on regarde s'il y a plusieurs items sélectionnés, en comptant le nombre virgules
   //(recherche toutes les apparitions du motif /,/ (ie virgules) de manière "globale" et les ajoute dans un array )
-  // par défaut, si ne trouve rien, renvoie un tableau vide 
+  // par défaut, si ne trouve rien, renvoie un tableau vide
   var nbVirgules = (cell.getValue().match(/,/g) || []).length;
   if (nbVirgules > 0) {
     // Séparer les valeurs en utilisant la virgule comme délimiteur
@@ -567,7 +567,7 @@ function removeNonValid (value,array,item){
       if(testPresence(value.toLowerCase(),array[i].toLowerCase())){
         array.splice(item,1);
       }
-    } 
+    }
 }
 ```
 {% enddetails %}
@@ -580,13 +580,13 @@ Vous pourrez trouver le code complet de mon projet en accédant à l'Apps Script
 
 <h2 id=final> Résultat final</h2>
 
-Je m'appelle Raphaël. Je suis en 3/2 et je passe mes concours le mois prochain. Alors je me dit qu'un petit complément alimentaire pour booster ma **mémoire** ne serait pas de refus. 
-Il faut faire attention parce que je suis **végétarien**, et allergique à **l'arachide** et aux **crustacés**. Et également, sinon c'est pas drôle, j'ai quelques **problèmes de foie** et **problèmes cardiaques**... 
+Je m'appelle Raphaël. Je suis en 3/2 et je passe mes concours le mois prochain. Alors je me dit qu'un petit complément alimentaire pour booster ma **mémoire** ne serait pas de refus.
+Il faut faire attention parce que je suis **végétarien**, et allergique à **l'arachide** et aux **crustacés**. Et également, sinon c'est pas drôle, j'ai quelques **problèmes de foie** et **problèmes cardiaques**...
 Je fais le test pour savoir quel complément alimentaire je peux prendre :
 
 <img src=mail1.png>
 
-Ah zut, c'est vrai que j'oubliais que je suis sous anti-coagulants. Je refais le test : 
+Ah zut, c'est vrai que j'oubliais que je suis sous anti-coagulants. Je refais le test :
 
 <img src=mail2.png>
 
@@ -624,13 +624,13 @@ AU niveau du backlog produit :
 |Intégrer une base de données de compléments alimentaires contenant des informations sur les ingrédients, les avantages pour la santé, les posologies recommandées, et les mises en garde|1|Must|✅|
 |Envoyer un e-mail personnalisé à l'utilisateur avec une proposition de complément alimentaire adapté à son besoin contenant le nom du complément, sa marque, sa posologie, ses ingrédients, ses mises en gardes |3|Must|✅|
 
-Seules 2 fonctionnalités n'ont pas pû être implémentées. Mais elles ne sont pas primordiales : 
+Seules 2 fonctionnalités n'ont pas pû être implémentées. Mais elles ne sont pas primordiales :
 
 - Si l'utilisateur veut un complément alimentaire qui remplisse un autre objectif, il lui suffit de remplir le formulaire à nouveau
-- Si l'utilisateur est *végétarien* et *sans gluten*, il lui suffit sélectionner *végétarien* en régime et de cocher *gluten* dans les intolérances  
+- Si l'utilisateur est *végétarien* et *sans gluten*, il lui suffit sélectionner *végétarien* en régime et de cocher *gluten* dans les intolérances
 
 Et pour finir, un petit comparatif des avantages que j'ai notés pour **Google** (Sheet et Apps Script) et **Microsoft** (Excel et VBA):
 
 |Avantages **Google**|Avantages **Microsoft**|
 |---|---|
-|- Gratuit <br> - Sheet : Certaines fonctionnalités simplifiées et plus facile à utiliser <br> - Apps Script : utilisation plus intuitive et simplifiée <br> - Apps Script : tests de code plus faciles à réaliser (avec l'utilisation du Logger.log(), notamment) <br> - Apps Script : mise en couleur du code qui permet visualisation plus rapide <br> - Pas besoin d'installation locale + Apps Script exécute les codes même dans le cloud | - Excel : permet de traiter beaucoup plus de quantités de données et de manière plus poussé <br> - VBA : plus grande quantités de fonctionnalités disponibles + plus de capacités de programmation <br> - large base d'utilisateurs et de ressources <br> - exécution des macros en local permet le respect de certaines contraintes de sécurité au sein des entreprises | 
+|- Gratuit <br> - Sheet : Certaines fonctionnalités simplifiées et plus facile à utiliser <br> - Apps Script : utilisation plus intuitive et simplifiée <br> - Apps Script : tests de code plus faciles à réaliser (avec l'utilisation du Logger.log(), notamment) <br> - Apps Script : mise en couleur du code qui permet visualisation plus rapide <br> - Pas besoin d'installation locale + Apps Script exécute les codes même dans le cloud | - Excel : permet de traiter beaucoup plus de quantités de données et de manière plus poussé <br> - VBA : plus grande quantités de fonctionnalités disponibles + plus de capacités de programmation <br> - large base d'utilisateurs et de ressources <br> - exécution des macros en local permet le respect de certaines contraintes de sécurité au sein des entreprises |

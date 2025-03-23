@@ -11,7 +11,7 @@ temps: 1
 tags:
   - "gestion de crise"
 
-résumé: Ce POK est une étude de cas d’une situation de crise.
+description: Ce POK est une étude de cas d’une situation de crise.
 ---
 ## Objectifs
 1. Avoir un **exemple concret** d’un cas d’application de mes MON
@@ -23,8 +23,8 @@ résumé: Ce POK est une étude de cas d’une situation de crise.
 Un **entretien** avec un manager ayant connu une situation de crise m’a paru un bon moyen d’atteindre mes objectifs 1 et 2. J’ai alors pensé à mon tuteur de stage 2A. Grâce à une **feuille de route** préparée pour les entretiens, j’ai pu obtenir les informations que je recherchais. Pour atteindre mon objectif 3, j’ai eu besoin d’avoir des **exemples supplémentaires** pour comparer ce qui se fait dans son association avec ce qui est conseillé (cf MON 1.1 et 1.2) et ce qui est fait dans d’autres entreprises. Pour cela, j’ai donc **étudié des extraits d’un plan** de prévention des risques, d’un plan d’urgence et de continuité d’activité et d’un compte-rendu d’un exercice de simulation de situation de crise. Ainsi, j’ai pu remettre un retour constructif à mon tuteur de stage.
 
 ## Rendus
-Mon rendu principal est un document remis à mon tuteur de stage récapitulant nos entretiens et incluant aussi mon retour d’expérience ainsi que des propositions d’améliorations. Etant donné la confidentialité des données récoltées, je tairai une partie des renseignements obtenus. Il en est de même concernant l’étude de documents provenant d’une autre entreprise. 
-Ce POK se divisera donc en 2 grandes parties  : 
+Mon rendu principal est un document remis à mon tuteur de stage récapitulant nos entretiens et incluant aussi mon retour d’expérience ainsi que des propositions d’améliorations. Etant donné la confidentialité des données récoltées, je tairai une partie des renseignements obtenus. Il en est de même concernant l’étude de documents provenant d’une autre entreprise.
+Ce POK se divisera donc en 2 grandes parties  :
 - étude de cas de la gestion d’une situation de crise sur une manifestation
 - étude de documents produits par une direction des risques opérationnels et du contrôle permanent
 
@@ -35,7 +35,7 @@ Dans cette partie on trouvera les questions qui ont guidé ma discussion avec l�
 
 #### Les enjeux de la crise
 {% exercice %}
-Qu'est-ce qui est mis en jeu lors de cette crise ? Quelles en ont été les répercussions ? Sur quelle durée ? Toutes ces conséquences avaient-elles été anticipées ? 
+Qu'est-ce qui est mis en jeu lors de cette crise ? Quelles en ont été les répercussions ? Sur quelle durée ? Toutes ces conséquences avaient-elles été anticipées ?
 {% endexercice %}
 {% details "objectif et pistes de réponse" %}
 On remarque que les conséquences sont plus ou moins directes : certaines sont étroitement liées aux intempéries (ex : infrastructures abîmées) alors que d'autres sont de l'ordre de la répercussion (ex : image)
@@ -114,11 +114,11 @@ Cette communication avait-elle été anticipée ?
 {% endexercice %}
 
 ### Pistes d'amélioration pour l'association
-D’après l’étude menée, un plan de prévention des risques et un plan de gestion de crise ne sont pas une condition sine qua non d’une résolution de crise satisfaisante. On notera cependant qu’un plan anticipant une telle situation aurait peut-être pu permettre d’en améliorer la gestion et d’en tirer davantage profit. Nous pourrions notamment citer : 
+D’après l’étude menée, un plan de prévention des risques et un plan de gestion de crise ne sont pas une condition sine qua non d’une résolution de crise satisfaisante. On notera cependant qu’un plan anticipant une telle situation aurait peut-être pu permettre d’en améliorer la gestion et d’en tirer davantage profit. Nous pourrions notamment citer :
 - une **collecte plus rapide** des renseignements nécessaires : une liste préétablie des éléments à récolter en fonction de la situation ainsi que la manière de les obtenir permettrait de réunir en peu de temps les éléments pertinents.
-- une **communication plus organisée** en interne et en externe : l’établissement préalable une stratégie de communication en fonction des situations de crise possible aurait permis de gagner du temps et de mieux diffuser l’information, que ce soit dans les équipes ou auprès des diverses parties prenantes. Une transmission planifiée permettrait de garder un contact avec les équipes tout en mesurant les messages qui leur sont transmis. 
+- une **communication plus organisée** en interne et en externe : l’établissement préalable une stratégie de communication en fonction des situations de crise possible aurait permis de gagner du temps et de mieux diffuser l’information, que ce soit dans les équipes ou auprès des diverses parties prenantes. Une transmission planifiée permettrait de garder un contact avec les équipes tout en mesurant les messages qui leur sont transmis.
 - être à l’**écoute des équipes** : dans cette gestion de crise, on observe que les managers n’ont pas été préparés à assumer leur rôle de chef de pôle en même temps que celui de décisionnaire stratégique. Du fait aussi de l’absence d’une personne chargée de le leur rappeler et de le prendre en compte tout au long du processus, la gestion des équipes n’a été que secondaire. Un plan de gestion de crise aurait sans doute permis ici de guider les managers sur cette voie en leur donnant des outils pour leur faciliter cette tâche leur permettant de jouer le double rôle qu’ils endossent en cas de crise.
-- une **culture de crise** : les collaborateurs ne sont pas sensibilisés à tous les risques sur le festival. Ils le sont pour les situations de VHSS et les risques dont ils ont eu connaissance dans la préparation. Avoir connaissance et prendre conscience de tous les risques augmente les chances de détecter le risque le plus tôt possible. Cela permettrait aussi de mieux comprendre ce qu’implique un basculement en “mode” gestion de crise. 
+- une **culture de crise** : les collaborateurs ne sont pas sensibilisés à tous les risques sur le festival. Ils le sont pour les situations de VHSS et les risques dont ils ont eu connaissance dans la préparation. Avoir connaissance et prendre conscience de tous les risques augmente les chances de détecter le risque le plus tôt possible. Cela permettrait aussi de mieux comprendre ce qu’implique un basculement en “mode” gestion de crise.
 - une stratégie encore plus tournée vers la **recherche d’avantages** : la priorité étant de trouver une solution viable, l’association n’a pas eu le temps de rechercher comment tourner la situation à son avantage. Un plan de prévention des risques aurait ainsi pu proposer des actions de communication montrant l’implication du festival en matière de protection de ses participants ou de réactivité face à une situation imprévue.
 - de la **formation et de l'entraînement** : pour réagir rapidement et connaître la réaction des équipes dans ce genre de situations, des activités de mises en situation peuvent être révélatrices.
 
@@ -127,23 +127,23 @@ Dans le cadre d’une manifestation, il faut aussi prendre en compte le travail 
 
 ## Etude de documents produits par une direction des risques opérationnels et du contrôle permanent
 ### Etude d’un plan d’urgence et de continuité d’activité (PUPA)
-Un tel plan s’articule autour de 3 dispositif : 
+Un tel plan s’articule autour de 3 dispositif :
 - le plan de poursuite d’activité fonctionnel
 - un plan de secours informatique
 - le dispositif de gestion de crise
 
-Ce plan fait aussi l’objet d’exercices : 
+Ce plan fait aussi l’objet d’exercices :
 - internes par des simulations de situation de crise
 - externes comme REMPAR22 qui réunit plus de 200 participants, issus de 100 organisations sur tout le territoire national autour d’un exercice cyber commun. La mise en place de cet exercice au sein du Campus Cyber, s’inscrit dans une stratégie d’entraînement cyber globale au profit d’acteurs publics, d’entreprises et d’associations, de niveau décisionnel et opérationnel. Cet exercice a été mis en place par l’Agence Nationale de la Sécurité des Systèmes d'Information (ANSSI) et le Club de la Continuité d’Activité (CCA)
 
-Ce plan est mis en place et tenu à jour selon un cycle à 5 étapes : 
+Ce plan est mis en place et tenu à jour selon un cycle à 5 étapes :
 1. l’identification des activités vitales et critiques
 2. l’analyse des risques
 3. une stratégie de poursuite d’activité
 4. la mise en oeuvre des solutions
 5. le maintien en conditions opérationnelles du dispositif
 
-Ce plan identifie ensuite : 
+Ce plan identifie ensuite :
 - les types de crises
 - les conséquences à gérer
 - les solutions de poursuite d’activité

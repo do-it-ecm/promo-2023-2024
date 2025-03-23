@@ -10,7 +10,7 @@ date: 2023-09-25
 temps: 1
 tags:
 
-résumé: "Un site web statique me servant de mini-documentation d'OpenGL, GLSL et autres bibliothèques, utilisant eleventy pour générer ses pages."
+description: "Un site web statique me servant de mini-documentation d'OpenGL, GLSL et autres bibliothèques, utilisant eleventy pour générer ses pages."
 ---
 
 Pour ce MON, j'ai décidé de faire un site web avec eleventy, et ai décidé d'y mettre un sorte de mini-documentation de ce que j'ai appris en OpenGL, GLSL et quelques bibliothèques en faisant mon premier POK.
@@ -25,7 +25,7 @@ Pour ce site, il m'a semblé pertinent de créer une page pour chaque fonction, 
 
 Pour cela, j'ai créé, pour chaque catégorie, une page dans laquelle je liste les fonctions et les types de cette catégorie.
 
-Pour les fonctions, j'ai créé un template qui me permet d'écrire les arguments, leur type et le type renvoyé de chaque fonction dans le *front matter* de eleventy de la page qui lui et dédiée (ce bout de texte entre --- en haut des fichiers .md) et de les récupérer au moment de créer le lien afin de les afficher directement sans avoir à aller sur la page :  
+Pour les fonctions, j'ai créé un template qui me permet d'écrire les arguments, leur type et le type renvoyé de chaque fonction dans le *front matter* de eleventy de la page qui lui et dédiée (ce bout de texte entre --- en haut des fichiers .md) et de les récupérer au moment de créer le lien afin de les afficher directement sans avoir à aller sur la page :
 
 Par exemple, dans `glAttachShader.md` :
 ```yaml

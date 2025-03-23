@@ -14,7 +14,7 @@ tags:
   - "Python"
 
 
-résumé: Ce POK a pour but de réaliser ma première connexion à une API pour y récupérer des données. L'entreprise Riot Games donne accès aux données de son jeu vidéo en ligne League of Legends à travers une API.L'objectif final est de développer une petite application web permettant d'afficher des données à partir du pseudo d'un joueur
+description: Ce POK a pour but de réaliser ma première connexion à une API pour y récupérer des données. L'entreprise Riot Games donne accès aux données de son jeu vidéo en ligne League of Legends à travers une API.L'objectif final est de développer une petite application web permettant d'afficher des données à partir du pseudo d'un joueur
 ---
 
 
@@ -221,7 +221,7 @@ Par la suite, j'ai créé des fonctions me permettant de faire des requêtes dan
 # Cette fonction permet de récupérer le puuid d'un joueur à partir du nom d'invocateur, de la région, et d'une clef api
 def get_puuid(summoner_name, region, api_key):
     api_url = (
-        "https://" + 
+        "https://" +
         region +
         ".api.riotgames.com/lol/summoner/v4/summoners/by-name/" +
         summoner_name +
@@ -231,7 +231,7 @@ def get_puuid(summoner_name, region, api_key):
     resp = requests.get(api_url)
     player_info = resp.json()
     puuid = player_info['puuid']
-    return puuid  
+    return puuid
 
 
 
@@ -241,53 +241,53 @@ def get_match_ids(puuid, mass_region, api_key):
         "https://" +
         mass_region +
         ".api.riotgames.com/lol/match/v5/matches/by-puuid/" +
-        puuid + 
-        "/ids?start=0&count=20" + 
-        "&api_key=" + 
+        puuid +
+        "/ids?start=0&count=20" +
+        "&api_key=" +
         api_key
-    )   
+    )
     # we need to add this "while" statement so that we continuously loop until it's successful
     while True:
         resp = requests.get(api_url)
-        
+
         # whenever we see a 429, we sleep for 10 seconds and then restart from the top of the "while" loop
         if resp.status_code == 429:
             print("Rate Limit hit, sleeping for 10 seconds")
             time.sleep(10)
             # continue means start the loop again
             continue
-            
+
         # if resp.status_code isn't 429, then we carry on to the end of the function and return the data
         resp = requests.get(api_url)
         match_ids = resp.json()
-        return match_ids 
+        return match_ids
 
 
 # Cette fonction permet de récupérer les données d'une partie
 def get_match_data(match_id, mass_region, api_key):
     api_url = (
-        "https://" + 
-        mass_region + 
+        "https://" +
+        mass_region +
         ".api.riotgames.com/lol/match/v5/matches/" +
-        match_id + 
-        "?api_key=" + 
+        match_id +
+        "?api_key=" +
         api_key
-    )   
+    )
     # we need to add this "while" statement so that we continuously loop until it's successful
     while True:
         resp = requests.get(api_url)
-        
+
         # whenever we see a 429, we sleep for 10 seconds and then restart from the top of the "while" loop
         if resp.status_code == 429:
             print("Rate Limit hit, sleeping for 10 seconds")
             time.sleep(10)
             # continue means start the loop again
             continue
-            
+
         # if resp.status_code isn't 429, then we carry on to the end of the function and return the data
         resp = requests.get(api_url)
         match_data = resp.json()
-        return match_data 
+        return match_data
 ```
 {% enddetails %}
 
@@ -318,7 +318,7 @@ print('Les identifiants des 20 dernières parties de',pseudo,'sont',id_matches)
 ```
 
     Les identifiants des 20 dernières parties de Yomm sont ['EUW1_6620612418', 'EUW1_6620591242', 'EUW1_6620117730', 'EUW1_6616569027', 'EUW1_6616516559', 'EUW1_6615412808', 'EUW1_6611335474', 'EUW1_6611256844', 'EUW1_6610248381', 'EUW1_6610147341', 'EUW1_6609656368', 'EUW1_6607254752', 'EUW1_6607085859', 'EUW1_6606463762', 'EUW1_6603360397', 'EUW1_6603288425', 'EUW1_6603210097', 'EUW1_6601582307', 'EUW1_6601554856', 'EUW1_6600766557']
-    
+
 
 
 
@@ -333,7 +333,7 @@ def find_player_data(match_data, puuid):
 ```
 
 
-    
+
 
 Si l'on veut regarder uniquement une info
 
@@ -344,7 +344,7 @@ data['kda']
 ```
 
     {'champion': ['TwistedFate', 'TwistedFate', 'TwistedFate', 'Talon', 'Taliyah', 'Taliyah', 'Taliyah', 'Taliyah', 'KSante', 'Taliyah', 'Taliyah', 'Gangplank', 'Gangplank', 'Taliyah', 'Taliyah', 'Taliyah', 'Gangplank', 'Gangplank', 'Gangplank', 'Gangplank'], 'kills': [4, 7, 6, 3, 2, 1, 4, 18, 1, 8, 4, 3, 5, 2, 5, 15, 14, 9, 5, 14], 'deaths': [11, 6, 11, 19, 11, 14, 10, 10, 9, 12, 4, 14, 13, 13, 9, 13, 12, 17, 16, 8], 'assists': [11, 8, 7, 10, 6, 4, 8, 10, 4, 9, 7, 3, 8, 7, 7, 14, 9, 7, 5, 3], 'kda': [5.0, 8.333333333333334, 6.636363636363637, 3.526315789473684, 2.5454545454545454, 1.2857142857142856, 4.8, 19.0, 1.4444444444444444, 8.75, 5.75, 3.2142857142857144, 5.615384615384615, 2.5384615384615383, 5.777777777777778, 16.076923076923077, 14.75, 9.411764705882353, 5.3125, 14.375], 'win': ['Défaite', 'Défaite', 'Défaite', 'Victoire', 'Défaite', 'Défaite', 'Victoire', 'Victoire', 'Défaite', 'Défaite', 'Victoire', 'Défaite', 'Défaite', 'Défaite', 'Victoire', 'Défaite', 'Victoire', 'Défaite', 'Défaite', 'Victoire']}
-    
+
 
 
 
@@ -388,7 +388,7 @@ app = Flask(__name__)
 @app.route("/home")
 def home():
     return render_template("homepage.html")
- 
+
 @app.route("/league")
 def search():
     return render_template("league.html")
@@ -425,13 +425,13 @@ def submit():
             rank_flex_icon = change_rank(data_player['rank_flex'])
             rank_solo_icon = change_rank(data_player['rank_solo'])
             summoner_level = data_player['summoner_level'][0]
-                
+
             champ_solo = data_player_ranked['solo']['Champion_solo']
             champ_flex =data_player_ranked['flex']['Champion_flex']
             winrate_solo = round(data_player_ranked['solo']['Winrate_solo'] * 100)
             winrate_flex = round(data_player_ranked['flex']['Winrate_flex'] * 100)
-            
-            
+
+
             print(champ_solo,champ_flex,winrate_solo,winrate_flex)
             print('pseudo=',pseudo)
             print('lvl=',summoner_level)
@@ -444,8 +444,8 @@ def submit():
             return render_template("datapage.html",pseudo=pseudo,summoner_level=summoner_level,icone=icone,rank_flex=rank_flex,rank_solo=rank_solo,rank_flex_icon=rank_flex_icon,rank_solo_icon=rank_solo_icon,champ_solo=champ_solo,champ_flex=champ_flex,winrate_solo=winrate_solo,winrate_flex=winrate_flex)
         else:
             return "Aucun pseudo n'a été spécifié dans la demande GET."
-   
-if __name__ =="__main__":  
+
+if __name__ =="__main__":
     app.run()
 ```
 
@@ -454,7 +454,7 @@ if __name__ =="__main__":
        WARNING: This is a development server. Do not use it in a production deployment.
        Use a production WSGI server instead.
      * Debug mode: off
-    
+
 
      * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
     127.0.0.1 - - [16/Oct/2023 18:02:09] "[37mGET / HTTP/1.1[0m" 200 -
@@ -463,7 +463,7 @@ if __name__ =="__main__":
     127.0.0.1 - - [16/Oct/2023 18:02:10] "[37mGET /league HTTP/1.1[0m" 200 -
     127.0.0.1 - - [16/Oct/2023 18:02:10] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
     127.0.0.1 - - [16/Oct/2023 18:02:10] "[37mGET /league HTTP/1.1[0m" 200 -
-    
+
 
     je rentre dans submit
     Récupération des statistiques en classés
@@ -489,11 +489,11 @@ if __name__ =="__main__":
     Rate Limit hit, sleeping for 10 seconds
     Rate Limit hit, sleeping for 10 seconds
     Rate Limit hit, sleeping for 10 seconds
-    
+
 
     127.0.0.1 - - [16/Oct/2023 18:06:41] "[37mGET /submit?nm=nicpsy HTTP/1.1[0m" 200 -
     127.0.0.1 - - [16/Oct/2023 18:06:41] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
-    
+
 
     le pseudo du site
     nicpsy
@@ -509,10 +509,10 @@ if __name__ =="__main__":
     {'solo': {'Champion_solo': 'Sylas', 'Winrate_solo': 0.515625}, 'flex': {'Champion_flex': 'Sylas', 'Winrate_flex': 0.6056338028169014}}
     je rentre dans submit
     Récupération des statistiques en classés
-    
+
 
     127.0.0.1 - - [16/Oct/2023 18:06:41] "[37mGET /static/Sylas.png HTTP/1.1[0m" 200 -
-    
+
 
     Récupération des parties classés
     Rate Limit hit, sleeping for 10 seconds
@@ -536,10 +536,10 @@ if __name__ =="__main__":
     Rate Limit hit, sleeping for 10 seconds
     Rate Limit hit, sleeping for 10 seconds
     Rate Limit hit, sleeping for 10 seconds
-    
+
 
     127.0.0.1 - - [16/Oct/2023 18:11:06] "[37mGET /submit?nm=nicpsy HTTP/1.1[0m" 200 -
-    
+
 
     le pseudo du site
     nicpsy
@@ -575,7 +575,7 @@ Voici ce que l'on obtient
 
 - Ajout d'illustration (icone choisie dans le jeu, icone des champions...)
 
-- Correction des bugs faisant planter l'application 
+- Correction des bugs faisant planter l'application
 
 
 
@@ -650,10 +650,10 @@ En revanche, cela m'a permis d'aller plus loin que prévu donc je ne pense pas c
 
 
 
-{%prerequis "<u>Ressources</u>"%} 
+{%prerequis "<u>Ressources</u>"%}
 - [Playlist de iTero Gaming à propos de l'API](https://www.youtube.com/watch?v=jkzq9j5yeT8&list=PL3vL1pnMCbUERqllcwhcvEJbKum-M9zT5).
 - [Guide pour utiliser Flask](https://www.youtube.com/watch?v=Yh23ZtfYOSs)
 - [Illustrations](https://www.artstation.com/artwork/vD2bwv)
 - [Le lien vers mon github](https://github.com/SamyDiafat/API-Riot-Games)
 - [RiotGames data (icones...)](https://developer.riotgames.com/docs/lol#data-dragon)
-{%endprerequis%} 
+{%endprerequis%}

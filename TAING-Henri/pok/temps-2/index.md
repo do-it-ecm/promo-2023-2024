@@ -12,7 +12,7 @@ tags:
   - Renpy
   - Python
 
-résumé: Ce POK a pour but de créer un visual novel - un roman avec des images dans lequel on peut faire des choix pour orienter l'histoire - à l'aide de Renpy. Il reprendra un roman que j'ai écrit, mais que je n'ai pas fini. Ce sera l'occasion pour moi de finir de l'écrire et de coder un petit jeu.
+description: Ce POK a pour but de créer un visual novel - un roman avec des images dans lequel on peut faire des choix pour orienter l'histoire - à l'aide de Renpy. Il reprendra un roman que j'ai écrit, mais que je n'ai pas fini. Ce sera l'occasion pour moi de finir de l'écrire et de coder un petit jeu.
 ---
 
 {%prerequis 'POK débutant+'%}
@@ -116,9 +116,9 @@ On prendra comme user-stories à faire :
 
 J'ai sous-estimé le temps à prendre pour adapter mon texte à la fenêtre de dialogue et au code en général, sans compter les nombreux bugs que j'ai eus au début pendant la prise en main, et les problèmes d'images.
 
-Mais, maintenant que la partie d'adaptation est passée, j'irai beaucoup plus vite. Pour autant, le backlog ne pourra pas être effectué en entier réalistiquement dans la limite des 20h. Il faudra aussi compter le temps de déploiement/mise en ligne du jeu que j'avais oublié initialement. 
+Mais, maintenant que la partie d'adaptation est passée, j'irai beaucoup plus vite. Pour autant, le backlog ne pourra pas être effectué en entier réalistiquement dans la limite des 20h. Il faudra aussi compter le temps de déploiement/mise en ligne du jeu que j'avais oublié initialement.
 
-Une chose qui est sûre, maintenant, je comprends pourquoi les jeux sont généralement fait par des studios et non des personnes toutes seules. Scénariste, graphiste et développeur, ça commence à faire beaucoup. 
+Une chose qui est sûre, maintenant, je comprends pourquoi les jeux sont généralement fait par des studios et non des personnes toutes seules. Scénariste, graphiste et développeur, ça commence à faire beaucoup.
 
 # Quelques images
 
@@ -201,18 +201,18 @@ On prendra comme user-stories à faire :
 
 ## Sprint 2 Review <a id="section-5"></a>
 
-J'ai oublié l'importance de tester et retester au fur et à mesure. Pour preuve, ça m'a beaucoup ralenti sur la deuxième moitié de la partie 1, car j'ai dû tout reprendre petit à petit. 
+J'ai oublié l'importance de tester et retester au fur et à mesure. Pour preuve, ça m'a beaucoup ralenti sur la deuxième moitié de la partie 1, car j'ai dû tout reprendre petit à petit.
 Le déploiement s'est effectué beaucoup plus facilement que prévu grâce au build fourni par Renpy.
 
 
 ## Conclusion <a id="section-6"></a>
 
-Je conseille Renpy pour faire un visual novel. C'est simple. Barbant. Efficace. Un vrai outil de débutant. 
+Je conseille Renpy pour faire un visual novel. C'est simple. Barbant. Efficace. Un vrai outil de débutant.
 J'aurais néanmoins voulu avoir plus (beaucoup plus) de temps pour vraiment finir de coder **tout mon roman** et ne pas simplement livrer la première partie, et également pour nettoyer et organiser mieux le code.
 
-Enfin, tant mieux que ce soit fini, j'allais devenir fou. 
+Enfin, tant mieux que ce soit fini, j'allais devenir fou.
 
-Voici le lien pour essayer mon jeu ! 
+Voici le lien pour essayer mon jeu !
 [Le jeu !](https://henritaing.itch.io/merrychristmas)
 
 ## Sources <a id="section-7"></a>

@@ -12,7 +12,7 @@ tags:
   - "Excel"
   - "VBA"
 
-résumé: "Ce MON a pour objectif de revoir et d’approfondir mes connaissances en Excel et de découvrir le fonctionnement de VBA."
+description: "Ce MON a pour objectif de revoir et d’approfondir mes connaissances en Excel et de découvrir le fonctionnement de VBA."
 ---
 {%prerequis 'Prérequis' %}
   - Bases du fonctionnement d'Excel

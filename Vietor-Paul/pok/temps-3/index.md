@@ -11,7 +11,7 @@ temps: 3
 tags:
   - "génération procédurale"
 
-résumé: Dans ce POK, je m'intéresse à la génération procédurale de mondes.
+description: Dans ce POK, je m'intéresse à la génération procédurale de mondes.
 ---
 
 ## Objectif du projet
@@ -34,7 +34,7 @@ Réalisé au premier sprint :
 - Recherche, choix et implémentation des algorithmes de base : (temps estimé 2h, temps réel 2h)
   - Wave function collapse (temps estimé 3h, temps réel 3h)
   - Fonctions de bruits (temps estimé 1h, temps réel 1h)
-  
+
 Pas réalisé par manque de temps :
 - Affichage d'une carte prédéfinie
 

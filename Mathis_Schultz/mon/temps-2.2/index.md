@@ -10,7 +10,7 @@ temps: 2
 tags:
   - "data"
 
-résumé: "L'objectif de ce MON est de s'intéresser aux tableaux de bord et à la représentation de données"
+description: "L'objectif de ce MON est de s'intéresser aux tableaux de bord et à la représentation de données"
 ---
 <h2 id="h1"> Introduction </h2>
 
@@ -36,7 +36,7 @@ Le but de ce MON est donc de répondre à la question : *Comment construire un t
 
 Pour réaliser ce MON, j'ai voulu m'intéresser aux enjeux de la représentation de données et étudier le processus pour élaborer un tableau de bord.
 
-Parmi les ressources utilisés, Chacune m'a apporté des informations concrètes sur les enjeux de la données. Celle qui m'a apporté le plus est le cours d'**Open Classroom**, en effet, il détail les enjeux et les risques, donne des exemples pertinents et rajoute un peu de manipulation de Power BI. 
+Parmi les ressources utilisés, Chacune m'a apporté des informations concrètes sur les enjeux de la données. Celle qui m'a apporté le plus est le cours d'**Open Classroom**, en effet, il détail les enjeux et les risques, donne des exemples pertinents et rajoute un peu de manipulation de Power BI.
 
 <h2 id="toc"> Table des matières </h2>
 
@@ -53,7 +53,7 @@ Parmi les ressources utilisés, Chacune m'a apporté des informations concrètes
 
 Dans ce paragraphe je vais vous présenter les risques associés au management de données ainsi que les méthode à mettre en oeuvre afin de les minimiser.
 
-Régulièrement des cyberattaques ont lieu sur des entreprises de toutes tailles et de tout secteur : finance, distribution, service internet, site de rencontre...  
+Régulièrement des cyberattaques ont lieu sur des entreprises de toutes tailles et de tout secteur : finance, distribution, service internet, site de rencontre...
 
 Le but de toutes ces attaques est souvent le même (hors conflit internationaux) : obtenir de l'information et l'échanger contre de l'argent. Pour cela le but de l'attaque va être d'accéder aux données et d'être capable de les exploiter. Cependant, il existe des moyens de limiter les risques :
 

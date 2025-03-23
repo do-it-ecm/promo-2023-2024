@@ -9,7 +9,7 @@ date: 2023-12-13
 temps: 2
 tags:
 
-résumé: "React.js est l'une des bibliothèques JavaScript front-end les plus populaires pour la création d'interfaces utilisateur. Après avoir acquis les bases du HTML, du CSS et de JavaScript dans mon dernier MON, j'ai constaté que j'avais besoin de quelque chose de plus avancé pour travailler sur mon projet de football fantastique. C'est pourquoi j'ai choisi React.js pour développer la partie front-end."
+description: "React.js est l'une des bibliothèques JavaScript front-end les plus populaires pour la création d'interfaces utilisateur. Après avoir acquis les bases du HTML, du CSS et de JavaScript dans mon dernier MON, j'ai constaté que j'avais besoin de quelque chose de plus avancé pour travailler sur mon projet de football fantastique. C'est pourquoi j'ai choisi React.js pour développer la partie front-end."
 ---
 {% prerequis %}
 **Niveau** : Intermédiaire
@@ -96,7 +96,7 @@ export default function Joueurs(props){
                 <img src={Euro} alt="prix" className="icon--img"/>
                 <p>{props.prix}</p>
             </div>
-        </div>      
+        </div>
     )
 }
 ```

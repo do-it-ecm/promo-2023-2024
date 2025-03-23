@@ -13,10 +13,10 @@ tags:
   - Python
   - Application web
 
-résumé: "Initiation à la création d'application web en Python "
+description: "Initiation à la création d'application web en Python "
 ---
 
-{%prerequis 'MON débutant'%} 
+{%prerequis 'MON débutant'%}
 Ce MON nécessite quelques prérequis :
 - savoir utiliser une invitation de commande
 - savoir utiliser github
@@ -139,7 +139,7 @@ Une fois cela fait, on peut maintenant passer à la création d'une application 
 
 Après avoir appris comment créer un environnement virtuel, il est enfin temps de créer une application !
 
-Le but de la formation d'OpenClassroom web est d'apprendre à développer une application web, appelée "Le test ultime", permettant aux utilisateurs de découvrir une description de leur personnalité en se connectant via Facebook, générant ainsi des résultats personnalisés et offrant la possibilité de partager ces résultats sur les réseaux sociaux. 
+Le but de la formation d'OpenClassroom web est d'apprendre à développer une application web, appelée "Le test ultime", permettant aux utilisateurs de découvrir une description de leur personnalité en se connectant via Facebook, générant ainsi des résultats personnalisés et offrant la possibilité de partager ces résultats sur les réseaux sociaux.
 
 
 La première étape est donc de créer un compte développeur sur le site de facebook, de créer une application qui servira pour récupérer les informations d'un compte Facebook.
@@ -158,7 +158,7 @@ Après cela, j'ai suivi le tutoriel et j'ai réussi à avoir une application bas
 C'est au moment d'interagir avec la console Flask, pour ajouter/modifier/supprimer des données qui rien ne fonctionnait.
 
 
-Pour lancer la console Flask : 
+Pour lancer la console Flask :
 
 ```bash
 $ set FLASK_APP=run.py
@@ -172,7 +172,7 @@ Python 3.6.1 (default, Mar 23 2017, 16:49:06)
 [GCC 4.2.1 Compatible Apple LLVM 8.0.0 (clang-800.0.42.1)] on darwin
 App: fbapp.views
 Instance: /Users/celinems/sites/oc/exercices_exemples/flask_example/instance
->>> 
+>>>
 ```
 
 
@@ -184,7 +184,7 @@ Après avoir perdu beaucoup de temps à tenter de lancer la console, j'ai décid
 
 Ce deuxième tutoriel reprend les mêmes bases que le précedent, à savoir la création d'un environnement virtuel.
 
-Il permet ensuite de déployer un application de base 
+Il permet ensuite de déployer un application de base
 
 ```python
 from flask import Flask
@@ -247,8 +247,8 @@ La vidéo youtube est un peu longue mais avec elle on est sûr d'avoir un résul
 
 
 
-{%prerequis "<u>Sources</u>"%} 
+{%prerequis "<u>Sources</u>"%}
 - Formation OpenClassroom : https://openclassrooms.com/fr/courses/4425066-concevez-un-site-avec-flask et https://openclassrooms.com/fr/courses/6951236-mettez-en-place-votre-environnement-python
-- Formation DigitalOcean : https://www.digitalocean.com/community/tutorials/how-to-make-a-web-application-using-flask-in-python-3-fr#etape-1-installation-de-flask 
+- Formation DigitalOcean : https://www.digitalocean.com/community/tutorials/how-to-make-a-web-application-using-flask-in-python-3-fr#etape-1-installation-de-flask
 - Vidéo Youtube : https://www.youtube.com/watch?v=Yh23ZtfYOSs
-{%endprerequis%} 
+{%endprerequis%}

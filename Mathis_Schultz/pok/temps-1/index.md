@@ -11,7 +11,7 @@ temps: 1
 tags:
   - "système d'information"
 
-résumé: Le but de ce POK est de faire l'étude du système d'information d'une multinationale.
+description: Le but de ce POK est de faire l'étude du système d'information d'une multinationale.
 ---
 
 <h2 id="h1"> Introduction </h2>
@@ -66,7 +66,7 @@ Le rôle du système est de rassembler l'ensemble des outils informatiques qu'ut
 
 Le but de l'application est de faire le lien entre tous les outils de chaque acteurs.
 
-<img src="structure.png">  
+<img src="structure.png">
 
 *Différents acteurs au sein d'un groupe de travaux public*
 
@@ -96,9 +96,9 @@ Cela ne représente que 3 des 17 acteurs en jeux dans le fonctionnement de l'app
 
 <h2 id="h2"> Un outil habilitant </h2>
 
-Dans ce paragraphe nous allons nous intéresser aux différents bénéfices qu'apporte cette plateforme.  
-Tout d'abord d'un point de vue globale cette application permet aux différents managers à différentes échelles de suivre les projets, leur avancement ainsi que leurs résultats.  
-Cet outil favorise la reproductibilité, en effet, aujourd'hui lorsque le groupe souhaite ouvrir une nouvelle agence il suffit de faire venir des collaborateurs qui sont déjà formé sur les outils, il y a une facilité pour changer de secteur puisque ces outils sont commun dans tout le groupe.  
+Dans ce paragraphe nous allons nous intéresser aux différents bénéfices qu'apporte cette plateforme.
+Tout d'abord d'un point de vue globale cette application permet aux différents managers à différentes échelles de suivre les projets, leur avancement ainsi que leurs résultats.
+Cet outil favorise la reproductibilité, en effet, aujourd'hui lorsque le groupe souhaite ouvrir une nouvelle agence il suffit de faire venir des collaborateurs qui sont déjà formé sur les outils, il y a une facilité pour changer de secteur puisque ces outils sont commun dans tout le groupe.
 Il y a une simplification de certain processus avec l'automation de certaines tâches : les bons de commandes qui sont directement transmis aux comptables des différents organisme avec une nomenclature uniformisé qui permet de faire le lien d'un organe à un autre.
 
 <h2 id="h3"> Un outil coercitif </h2>
@@ -107,27 +107,27 @@ Le but de ce paragraphe est de mettre en lumière les aspects négatifs de cet o
 
 **Un enjeu social**
 
-Une transition difficile, en effet, cet outil a demandé un effort complémentaire pour prendre la main sur le système et être capable de réaliser les missions nécessaire. Ce service présenté comme étant une révolution pour faciliter le travail permet effectivement une gestion d'une grosse structure facilement avec beaucoup d'indicateur de performance afin de prendre des décision stratégique efficace, cependant ce genre d'application n'a pas tendance à faciliter la gestion à petite échelle. Traditionnellement, le manager récoltait les informations afin de faire des rapports qui étaient donc très échelonner. Actuellement, il est possible d'outre-passer chaque rapport puisque le haut de la pyramide à donc accès à l'ensemble de l'information sans avoir tout l'aspect social. Si une équipe sous-performe pour une raison qui est indépendante de leur volonté, cela n'est pas forcément visible au travers des données des rapports. A l'inverse un rapport traditionnel permet de transmettre les raisons des échecs : une météo instable, une grève d'un fournisseur... Tout ces facteurs ne sont pas visible pour celui qui traite la data sans avoir de lien humain avec les échelons qu'il dirige.  
+Une transition difficile, en effet, cet outil a demandé un effort complémentaire pour prendre la main sur le système et être capable de réaliser les missions nécessaire. Ce service présenté comme étant une révolution pour faciliter le travail permet effectivement une gestion d'une grosse structure facilement avec beaucoup d'indicateur de performance afin de prendre des décision stratégique efficace, cependant ce genre d'application n'a pas tendance à faciliter la gestion à petite échelle. Traditionnellement, le manager récoltait les informations afin de faire des rapports qui étaient donc très échelonner. Actuellement, il est possible d'outre-passer chaque rapport puisque le haut de la pyramide à donc accès à l'ensemble de l'information sans avoir tout l'aspect social. Si une équipe sous-performe pour une raison qui est indépendante de leur volonté, cela n'est pas forcément visible au travers des données des rapports. A l'inverse un rapport traditionnel permet de transmettre les raisons des échecs : une météo instable, une grève d'un fournisseur... Tout ces facteurs ne sont pas visible pour celui qui traite la data sans avoir de lien humain avec les échelons qu'il dirige.
 
-Une perte de lien entre les collaborateurs; l'efficacité qu'apporte ce système en transmettant automatiquement les documents vient réduire le nombre d’interactions. Par exemple les comptables ne devrons plus aller collecter les bons auprès des collaborateurs. Les échanges se limiteront aux cas où un problème surviendrait.  
+Une perte de lien entre les collaborateurs; l'efficacité qu'apporte ce système en transmettant automatiquement les documents vient réduire le nombre d’interactions. Par exemple les comptables ne devrons plus aller collecter les bons auprès des collaborateurs. Les échanges se limiteront aux cas où un problème surviendrait.
 
 La segmentation et l'automation de processus à tendance à réduire l'étendu de compétence de l'employé qui remplit le formulaire. En effet face à un choix limité, l'appel aux connaissances est plus restreinte.
 
 Une place fixe, n'ayant que des accès limités à la plate-forme, il n'y a que trop peu de recul sur l'outil, chacun a accès à des données qui lui sont ciblés : des formations ou document n’explicitant que sa part du travail. Ce qui permet d'éviter que n'importe qui puisse compromettre l'entreprise, qu'il y ait des doubles contrôles et faciliter l'accès vers les données pertinentes des utilisateurs. Cependant, ce cadre très restreint empêche que les utilisateurs comprennent pourquoi il réalise tel ou tel action. En effet, un chef qui ne comprend pas l'intérêt de remplir un rapport va avoir tendance à le bâcler, ce qui va compromettre le travail des comptables et créer des tensions.
 
-**Un enjeu environnemental** 
+**Un enjeu environnemental**
 
 La digitalisation et la dématérialisation des processus. L'utilisation de Cloud, de tablette ou autre support informatique en vue de dématérialiser à tendance à augmenter l'impact environnemental : en effet, ce type d'outil à pour objectif de maximiser les traces de chaque opérations, et ces traces sont conservés sur des durées infiniment trop longue. Il est possible de retrouver le bon de commande de l'utilisation d'un camion il y a plusieurs années sur un chantier achevé depuis longtemps.
 
-**Un enjeu de design** 
+**Un enjeu de design**
 
-Un design en constante évolution, en effet, tout d'abord il faut prendre en considération les évolutions du travail. Les équipes et matériels évoluent régulièrement. Cela impose au manager de mettre à jour les bases de données afin que chaque partie ait accès à des informations fiable. Cependant un enjeu plus complexe est celui de la mise à jour des techniques. En effet, dans le cas d'une évolution de procédé il faut faire évoluer la structure de l'application. Cela est donc fait par un sous-traitant qui va reprendre les procédés. Cette dépendance a un coût élevé mais permet de continuer d'utiliser l'outil. Tout l'enjeu est donc d'avoir une application qui permette de réduire les coûts en optimisant les procédés tout en restant moins cher que le coût d'exploitation de l'application. Ce service a donc pour vocation d'avoir la plus grosse structure possible. En effet lorsque l'on recherche des optimisations sur les procédés via l'utilisation de ce genre de ressource de management cela a pour but de permettre de la gestion uniforme de grande masse.  
+Un design en constante évolution, en effet, tout d'abord il faut prendre en considération les évolutions du travail. Les équipes et matériels évoluent régulièrement. Cela impose au manager de mettre à jour les bases de données afin que chaque partie ait accès à des informations fiable. Cependant un enjeu plus complexe est celui de la mise à jour des techniques. En effet, dans le cas d'une évolution de procédé il faut faire évoluer la structure de l'application. Cela est donc fait par un sous-traitant qui va reprendre les procédés. Cette dépendance a un coût élevé mais permet de continuer d'utiliser l'outil. Tout l'enjeu est donc d'avoir une application qui permette de réduire les coûts en optimisant les procédés tout en restant moins cher que le coût d'exploitation de l'application. Ce service a donc pour vocation d'avoir la plus grosse structure possible. En effet lorsque l'on recherche des optimisations sur les procédés via l'utilisation de ce genre de ressource de management cela a pour but de permettre de la gestion uniforme de grande masse.
 
 Cette application a pour but d'uniformiser la data, c'est à dire que si quelqu'un est affecté à un chantier, alors il va apparaîtra sur ce chantier pour les autres services : le service RH pourra identifier les activités de chacun, les mangers peuvent suivre les performance des chefs au cours du temps ou des chantiers. L'enjeu est donc la création de trace qui permet de retracer exactement les évènements et remettre la faute précisément sur un employé en cas de besoin managériale : il est facile de retrouver où une information à bloqué, ou alors qu'elle décision à compromis le projet.
 
 **Un enjeu économique**
 
-D'un point de vue économique le système a tendance à optimiser les performances d'entreprise, cependant ce système s'installe comme une dépense mensuelle indispensable et éternelle pour l'entreprise, en plus du coût des outils numériques.  
+D'un point de vue économique le système a tendance à optimiser les performances d'entreprise, cependant ce système s'installe comme une dépense mensuelle indispensable et éternelle pour l'entreprise, en plus du coût des outils numériques.
 Il est nécessaire d'acheter :
 
 - Une tablette par chefs de chantier pour rédiger le rapport

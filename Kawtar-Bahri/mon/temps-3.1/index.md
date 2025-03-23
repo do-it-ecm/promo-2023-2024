@@ -9,23 +9,23 @@ date: 1971-02-01
 temps: 3
 tags:
 
-résumé: "Ce MON a pour objectif de préparer mon stage et revoir un cours que j'ai pas suivi en temps 2 : Stratégie IT."
+description: "Ce MON a pour objectif de préparer mon stage et revoir un cours que j'ai pas suivi en temps 2 : Stratégie IT."
 ---
-## Horodatage 
-- Cours de Mme Piet + l'étude de cas : ***5hrs*** Le 18/02 
-- Les autres modèles de stratégie IT : ***3hrs*** Le 21/02 
-- La planification adoptée dans les cabinets de conseil (exemple de Gartner) : ***2hrs*** Le 24/02 
+## Horodatage
+- Cours de Mme Piet + l'étude de cas : ***5hrs*** Le 18/02
+- Les autres modèles de stratégie IT : ***3hrs*** Le 21/02
+- La planification adoptée dans les cabinets de conseil (exemple de Gartner) : ***2hrs*** Le 24/02
 
-## Résumé du cours Stratégie IT 
-### Modèles de stratégie IT 
+## Résumé du cours Stratégie IT
+### Modèles de stratégie IT
 <div style="display: flex;">
-    <div style="flex: 55%; padding: 10px;">        
+    <div style="flex: 55%; padding: 10px;">
         <p>
           <strong>Modèle des cinq forces</strong> : est un outil d'analyse qui évalue l'environnement concurrentiel dans lequel une entreprise opère. Il identifie cinq forces qui influencent la compétitivité d'une industrie : la menace de nouveaux entrants, le pouvoir de négociation des fournisseurs, le pouvoir de négociation des clients, la menace des produits de substitution et l'intensité de la rivalité concurrentielle. Dans le contexte de la stratégie IT, ce modèle peut aider à évaluer les forces qui façonnent le paysage concurrentiel des solutions technologiques, permettant ainsi aux entreprises de développer des stratégies pour se positionner avantageusement sur le marché. <br>
           <strong>Modèle de la chaîne de valeur</strong> : est un outil qui analyse les activités spécifiques au sein d'une organisation et les divise en deux catégories : les activités principales et les activités de soutien. Les activités principales sont directement liées à la création, à la production, à la commercialisation et à la livraison d'un produit ou service, tandis que les activités de soutien fournissent le soutien nécessaire aux activités principales. Dans le contexte de la stratégie IT, ce modèle permet aux entreprises d'identifier les processus et les technologies qui ajoutent de la valeur à leurs opérations, ainsi que ceux qui pourraient être optimisés ou externalisés pour améliorer l'efficacité et réduire les coûts.
         </p>
     </div>
-    <div style="flex: 45%; padding: 10px;">        
+    <div style="flex: 45%; padding: 10px;">
         <div style="display: flex; flex-direction: column;">
             <img src="1.png" alt="Image 1" style="max-width: 100%; margin-bottom: 10px;">
             <br>
@@ -34,16 +34,16 @@ résumé: "Ce MON a pour objectif de préparer mon stage et revoir un cours que 
     </div>
 </div>
 
-### Outils de gestion en stratégie IT 
+### Outils de gestion en stratégie IT
 ***Tableau de Bord Stratégique (Balanced Scorecard)***: permet d'aligner les objectifs stratégiques à long terme avec les actions opérationnelles quotidiennes en prenant en compte quatre perspectives principales : Finance, Apprentissage organisationnel, Processus internes et Client.
-***Matrice de Gestion de Portefeuille des Projets*** : permet d'évaluer et prioriser les projets au sein d'une organisation en fonction de leur alignement stratégique, de leur rentabilité potentielle et des ressources disponibles. Elle se compose de : 
+***Matrice de Gestion de Portefeuille des Projets*** : permet d'évaluer et prioriser les projets au sein d'une organisation en fonction de leur alignement stratégique, de leur rentabilité potentielle et des ressources disponibles. Elle se compose de :
 - L'axe horizontal représente l'importance stratégique du projet pour l'organisation.
 - L'axe vertical représente la faisabilité ou la complexité du projet.
 
-## Autres modèles : 
+## Autres modèles :
 
 ***Modèle de gouvernance des technologies de l'information*** vise à garantir que les investissements en TI sont alignés sur les besoins de l'entreprise, qu'ils sont gérés de manière efficace et qu'ils génèrent de la valeur ajoutée. Ce modèle s'interesse également aux enjeux suivant : l’alignement stratégique, la création de valeur, la gestion du risque informatique, la mesure de performance, et la gestion des ressources
-***Modèle de maturité en gestion des services*** évalue le niveau de maturité d'une organisation dans la mise en œuvre des pratiques ITSM et fournit une feuille de route pour améliorer progressivement ces pratiques. 
+***Modèle de maturité en gestion des services*** évalue le niveau de maturité d'une organisation dans la mise en œuvre des pratiques ITSM et fournit une feuille de route pour améliorer progressivement ces pratiques.
 Il dérive du modèle de maturité des capacités intégré (CMMI) qui a été développé par le Software Engineering Institute (SEI) de la Carnegie Mellon University en 1999, et vise à fournir un cadre pour évaluer et améliorer les processus organisationnels dans divers domaines, notamment dans la gestion des services informatiques.
 
 ## Planification stratégique - Gartner

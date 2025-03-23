@@ -10,7 +10,7 @@ date: 1970-09-01
 temps: 2
 tags:
 
-résumé: "Business Model"
+description: "Business Model"
 ---
 
 
@@ -64,7 +64,7 @@ Il existe différents types de segments de clients : marché de masse, marché d
 
 Pour mon projet, je pense que je peux viser deux types de clients. Soit je choisis de toucher le maximum de personnes en proposant un produit avec un prix attractif et accessible au plus grand nombre, soit je choisis de me concentrer plus sur les amateurs de ce type de jeux ( collectionneurs, joueurs fréquents) en proposant un produit plus complexe et donc plus cher.
 
-Etant donné que mon produit existe déjà et que je peux difficilement le modifier, je vais m’adresser à un **marché de niche** en me concentrant sur les amateurs de ce style de jeux. En effet, je pourrai difficilement baisser le prix du produit pour toucher le maximum de personne. 
+Etant donné que mon produit existe déjà et que je peux difficilement le modifier, je vais m’adresser à un **marché de niche** en me concentrant sur les amateurs de ce style de jeux. En effet, je pourrai difficilement baisser le prix du produit pour toucher le maximum de personne.
 
 Ensuite, je souhaite aussi vendre mon produit à des **bar à jeux**, qui peuvent être un bon moyen de me faire connaître.
 
@@ -79,11 +79,11 @@ Les canaux peuvent être définis en  5 phases distinctes :
 *Business Model Generation_ A Handbook for Visionaries, Game Changers, and Challengers*
 
 Je me suis posé beaucoup de questions sur la façon dont j’allais vendre mon produit. Je cherchais un moyen simple à mettre en place sans m’engager dans des démarches administratives lourdes.
-Au début je me suis dit que j’allais vendre mon produit grâce à mon site internet que j’allais créer. 
+Au début je me suis dit que j’allais vendre mon produit grâce à mon site internet que j’allais créer.
 
-Mais le plus compliqué est de savoir comment faire connaître mon site internet pour que les gens achète mon produit. De plus, pour acheter sur un site internet, il faut que ce site inspire confiance. Cela me semble compliqué de mettre tout ça en place. 
+Mais le plus compliqué est de savoir comment faire connaître mon site internet pour que les gens achète mon produit. De plus, pour acheter sur un site internet, il faut que ce site inspire confiance. Cela me semble compliqué de mettre tout ça en place.
 
-C’est pourquoi j’ai réfléchi à d’autres moyens de vendre mon produit. En discutant autour de moi  notamment avec une personne qui a crée son entreprise (que j’ai rencontré au fablab de l’école), je me suis intéressé à [Etsy](https://www.etsy.com/fr/). 
+C’est pourquoi j’ai réfléchi à d’autres moyens de vendre mon produit. En discutant autour de moi  notamment avec une personne qui a crée son entreprise (que j’ai rencontré au fablab de l’école), je me suis intéressé à [Etsy](https://www.etsy.com/fr/).
 **Etsy** est une plateforme en ligne qui se concentre principalement sur la vente d’article fait main.
 Il existe déjà sur cette plateforme des produits comme le mien. Utiliser cette plateforme me permettrait de toucher plus facilement mes segments de clientèle. De plus, cela m’aidera à voir si il existe une attirance pour ce type de produit sans prendre de risques.
 
@@ -91,7 +91,7 @@ Il existe déjà sur cette plateforme des produits comme le mien. Utiliser cette
 
 *Le bloc “Relations clients” décrit les types de relations qu'une entreprise établit avec des segments de clientèle spécifiques*
 
-Cette section est compliqué pour mon cas car, pour l’instant, je vais vendre qu’un seul produit. Je ne peux donc pas fidéliser un client. 
+Cette section est compliqué pour mon cas car, pour l’instant, je vais vendre qu’un seul produit. Je ne peux donc pas fidéliser un client.
 Cependant pour les questions de services clients, **Etsy** met en place un moyen de contacter le créateur.
 
 ## Revenus
@@ -107,7 +107,7 @@ Ici c’est simple, mes revenus seront générés exclusivement par la vente de 
 
 Pour que mon entreprise fonctionne, j’ai besoin de plusieurs ressources.
 Tout d’abord, j’ai besoin de matière première pour fabriquer mes Escape Box. Cela comprends du contreplaqué et de la quincaillerie.
-Ensuite il me faut le savoir faire. Mon activité reposera essentiellement sur ma capacité à concevoir une Escape Box de qualité. Cela nécessite la connaissance d’un logiciel de conception 3d mais surtout des connaissances en Game Design.   
+Ensuite il me faut le savoir faire. Mon activité reposera essentiellement sur ma capacité à concevoir une Escape Box de qualité. Cela nécessite la connaissance d’un logiciel de conception 3d mais surtout des connaissances en Game Design.
 
 ## Les activités clés
 
@@ -121,7 +121,7 @@ J’ai distingué 4 activités clés pour le bon fonctionnement de mon entrepris
 - Gestion des commandes
 - Marketing
 
-Je suis encore à l’étape de conception du produit. Je suis en train de réaliser mon premier prototype en bois au Fablab de l’école. Cela prend plus de temps que prévu car il faut faire pleins de tests sur la découpe laser pour avoir la bonne pièce. 
+Je suis encore à l’étape de conception du produit. Je suis en train de réaliser mon premier prototype en bois au Fablab de l’école. Cela prend plus de temps que prévu car il faut faire pleins de tests sur la découpe laser pour avoir la bonne pièce.
 
 Pour la fabrication du produit, comme je n’aurai pas de découpe laser, je souhaite trouver un prestataire français qui fera les découpe pour moi. Cela me fournira des pièces de meilleurs qualités et le prestataires s’occupera également de l’approvisionnement en contreplaqué. Cela aura forcément un impact sur le prix du produit mais c’est la seule solution possible à mettre en place pour l’instant. Si jamais mon projet fonctionne, je pourrai internaliser ce process de fabrication.
 

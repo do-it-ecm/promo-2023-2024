@@ -13,7 +13,7 @@ tags:
   - "stratégie"
   - "entreprenariat"
 
-résumé: "Business plan"
+description: "Business plan"
 ---
 <h2 id="h1"> Introduction </h2>
 
@@ -76,7 +76,7 @@ Aucune entreprise ne peut perdurer sans évoluer. Tout d'abord parce que les tec
 
 <h2 id="h8"> Étudier la rentabilité </h2>
 
-On peut construire des entreprises dans n'importe quel but : pour protéger l'environnement ? Les animaux ? Pour faciliter l'inclusion sociale ? Parce qu'on aime un sport ?  
+On peut construire des entreprises dans n'importe quel but : pour protéger l'environnement ? Les animaux ? Pour faciliter l'inclusion sociale ? Parce qu'on aime un sport ?
 Peut importe la raison, il y a toujours un critère financier qui revient : suis-je rentable ? Il n'est pas nécessaire de faire des millions si ce n'est pas l'objectif, mais travailler à perte ne permet pas de survivre. Il est indispensable de faire des prévisions financières avec différents scénarios.
 Quelques estimations sont nécessaires :
 
@@ -93,7 +93,7 @@ Une fois qu'une étude complète avec des prévisions est faite, il est intéres
 
 <h2 id="h9"> Financement </h2>
 
-Le financement est une partie intéressante du projet, car il n'est pas réaliste de se lancer sans en avoir les moyens. Il est donc nécessaire de convaincre les banquiers ou investisseurs. Pour cela, certains critères peuvent jouer en notre faveur pour convaincre : 
+Le financement est une partie intéressante du projet, car il n'est pas réaliste de se lancer sans en avoir les moyens. Il est donc nécessaire de convaincre les banquiers ou investisseurs. Pour cela, certains critères peuvent jouer en notre faveur pour convaincre :
 
 - Avoir une expérience d'entrepreneur
 - Monter un type de business qui marche ailleurs

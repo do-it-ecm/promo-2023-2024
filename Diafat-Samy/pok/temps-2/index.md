@@ -15,7 +15,7 @@ tags:
 
 
 
-résumé: "Initiation au développement mobile à l'aide de Flutter"
+description: "Initiation au développement mobile à l'aide de Flutter"
 
 ---
 

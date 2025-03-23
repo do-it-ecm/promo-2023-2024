@@ -15,7 +15,7 @@ tags:
   - "Poker"
   - "Probabilités"
 
-résumé: Ce POK traitera de l'implémentation sur Python d'un programme qui permettra de calculer des statistiques autour du jeu de Poker. Ce POK implémentera également une interface qui aidera le joueur à jouer en fonction de la situation.
+description: Ce POK traitera de l'implémentation sur Python d'un programme qui permettra de calculer des statistiques autour du jeu de Poker. Ce POK implémentera également une interface qui aidera le joueur à jouer en fonction de la situation.
 ---
 
 {%prerequis 'Prérequis'%}

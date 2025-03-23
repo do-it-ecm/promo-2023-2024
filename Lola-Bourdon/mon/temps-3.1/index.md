@@ -12,7 +12,7 @@ tags:
   - "google form"
   - "sciences sociales"
 
-résumé: "Sciences sociales pour élaborer un questionnaire "
+description: "Sciences sociales pour élaborer un questionnaire "
 
 ---
 {%prerequis 'Aucun prérequis'%}

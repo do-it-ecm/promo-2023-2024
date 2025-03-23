@@ -10,7 +10,7 @@ date: 2023-12-01
 temps: 2
 tags:
 
-résumé: Une application mobile pour savoir quelle machine à café marche à Centrale pour passer la meilleure pause possible
+description: Une application mobile pour savoir quelle machine à café marche à Centrale pour passer la meilleure pause possible
 ---
 
 ## Introduction
@@ -56,7 +56,7 @@ J'ai aussi fait générer un logo par Bing Image Creator. Cela m'a permis d'avoi
 ![Logo généré par Bing Image Creator](./CupCare.jpg)
 
 ### Comment je vais m'y prendre ?
-J'ai prévu d'utiliser Flutter et Firebase pour développer cette application. 
+J'ai prévu d'utiliser Flutter et Firebase pour développer cette application.
 
 Flutter est un framework Dart de développement multiplateforme développé par Google. Pas de panique : j'explique la phrase. Dart est un langage développé par Google pour concurrencer javascript à l'origine - ça n'a pas fonctionné. En revanche, Google a tout de même décidé de développer Flutter en se basant dessus. Flutter est multiplateforme, car il permet de cibler plusieurs plateformes "en même temps" : mobile (Android et iOS), web et desktop (Windows, Mac et Linux).
 

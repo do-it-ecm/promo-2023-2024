@@ -9,5 +9,5 @@ date: 1971-01-01
 temps: 2
 tags:
 
-résumé: "Un MON traitant d'un sujet."
+description: "Un MON traitant d'un sujet."
 ---

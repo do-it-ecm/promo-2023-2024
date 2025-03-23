@@ -9,7 +9,7 @@ date: 1971-03-01
 temps: 3
 tags:
 
-résumé: "Schématisation d'un process entreprise et création d'un cahier des charges pour ERP"
+description: "Schématisation d'un process entreprise et création d'un cahier des charges pour ERP"
 ---
 
 ## Introduction

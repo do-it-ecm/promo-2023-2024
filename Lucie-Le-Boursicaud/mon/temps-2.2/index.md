@@ -6,24 +6,24 @@ authors:
   - Lucie Le Boursicaud
 
 date: 1971-01-01
-tags: 
+tags:
   - "CSS"
   - "Animations"
   - "Frontend"
   - "Dev Web"
 
-résumé: "Ce MON a pour but de se famliariser avec les animations CSS qui sont essentiels pour dynamiser un site web et attirer l'attention d'un visiteur."
+description: "Ce MON a pour but de se famliariser avec les animations CSS qui sont essentiels pour dynamiser un site web et attirer l'attention d'un visiteur."
 ---
-{%prerequis 'Niveau débutant'%} 
-Connaitre les bases du HTML et du CSS.   
+{%prerequis 'Niveau débutant'%}
+Connaitre les bases du HTML et du CSS.
 {%endprerequis%}
 
 ### Introduction
 Dans le but de m'méliorer dans le développement web je voulais m'intéresser à l'utilisation des animations sur les sites web pour les rendre plus dynamiques et attractifs pour l'utilisateur.
-Pour ce MON j'ai suivi le cours d'OpenClassroom [Créer des animaton CSS modernes](https://openclassrooms.com/fr/courses/5919246-creez-des-animations-css-modernes) d'une durée estimée à 15h. 
+Pour ce MON j'ai suivi le cours d'OpenClassroom [Créer des animaton CSS modernes](https://openclassrooms.com/fr/courses/5919246-creez-des-animations-css-modernes) d'une durée estimée à 15h.
 
-### Créer des animations avec des transitions 
-Il existe deux moyens de créer des animations en CSS : 
+### Créer des animations avec des transitions
+Il existe deux moyens de créer des animations en CSS :
 - les <strong>transitions </strong>
 - les <strong>keyframes </strong>
 
@@ -40,10 +40,10 @@ On applique la valeur initiale à l’élément qu’on veut modifier, et la val
 
 ```css
 transition: transform ;
-transition-duration: 400ms ; 
+transition-duration: 400ms ;
 ```
 ```css
-transition: transform 400ms ; 
+transition: transform 400ms ;
 ```
 
 ### Pseudos-classes pour déclencher une transition
@@ -67,7 +67,7 @@ Les pseudoclasses sont essentielles pour déclencher des transitions en CSS, les
 
 - <strong>:disabled</strong>, qui correspond à un élément dont l'interaction a été bloquée.
 
-### Appliquez les 12 principes de l'animation web 
+### Appliquez les 12 principes de l'animation web
 Maintenant, il est opportun de réfléchir à la manière de créer des animations plus <strong>naturelles et engageantes</strong>. Bien que les animations déjà élaborées soient fonctionnelles, elles se limitent aux propriétés de transition de base, en laissant de côté la plupart des valeurs par défaut. Ces dernières produisent des effets excessivement lisses, parfois artificiels, en contraste avec la nature, où les mouvements sont caractérisés par <strong>l'irrégularité</strong>, les oscillations et les changements de direction. L'objectif d'intégrer des animations sur un site web est de procurer <strong>une expérience immersive</strong> en infusant une dynamique organique dans les mouvements, <strong>harmonisant</strong> ainsi l'expérience utilisateur avec notre perception naturelle.
 
 ### Créer des transitions css à propriétés multiples
@@ -78,13 +78,13 @@ L’utilisation du mot-clé <strong>all</strong> permet de déclencher plusieurs
 On peut aussi faire une <strong>liste des animations</strong> de chaque propriété à laquelle nous voulons ajouter une transition, séparées par des virgules.
 
 ```css
-transition: transform 450ms, background-color 450ms ; 
+transition: transform 450ms, background-color 450ms ;
 ```
 
-On peut donner une <strong>durée différente</strong> pour chaque changements. C’est très utile pour obtenir un rendu <strong> moins uniforme</strong>, et ainsi créer quelque chose de plus intéressant visuellement et de plus engageant pour l’utilisateur. 
+On peut donner une <strong>durée différente</strong> pour chaque changements. C’est très utile pour obtenir un rendu <strong> moins uniforme</strong>, et ainsi créer quelque chose de plus intéressant visuellement et de plus engageant pour l’utilisateur.
 
 ```css
-transition: transform 450ms, background-color 300ms ; 
+transition: transform 450ms, background-color 300ms ;
 ```
 
 La différence ne se voit qu'à peine, mais ces quelques fractions de secondes permettent de rendre l’animation un peu <strong>moins parfaite</strong> et lui apportent un peu de <strong>texture</strong>.
@@ -101,7 +101,7 @@ Pour que les animations soient encore <strong>plus réaliste</strong> il faut pe
 
 En CSS on utilise la propriété <strong>transition-timing-function</strong> pour régler la courbe d’accélération d’une transition.
 
-#### Principales fonctions de timing 
+#### Principales fonctions de timing
 - la fonction <strong>linear</strong> : elle ne connaît pas d'accentuation à l'accélération ou à la décélération. Sa courbe est totalement droite du point A au point B.
 ```css
 transition: transform 1000ms;
@@ -130,7 +130,7 @@ Un FPS plus élevé garantit une animation <strong>plus fluide</strong>, et l'id
 Pour assurer <strong>la fluidité</strong> des animations, il est recommandé de se limiter à animer des propriétés lors de l'étape de composition. Les plus utiles à cet effet sont les propriétés <strong>"transform" et "opacity"</strong>.
 
 ### Créez des animations fluides avec la propriété CSS transform
-Pour nous assurer que nos animations soient aussi fluides que possibles, nos deux propriétés alliées sont  <strong>transform  et  opacity</strong>. Cela peut paraitre limité mais en fait ces deux propriétés ont une multitude de fonctions à elles seules. 
+Pour nous assurer que nos animations soient aussi fluides que possibles, nos deux propriétés alliées sont  <strong>transform  et  opacity</strong>. Cela peut paraitre limité mais en fait ces deux propriétés ont une multitude de fonctions à elles seules.
 
 La propriété "transform" offre une <strong>flexibilité</strong> exceptionnelle pour manipuler et animer les sites de manière variée. Étant donné que toutes ces manipulations se produisent pendant l'étape de <strong>composition</strong>, les animations sont fluides sur tous les supports.
 
@@ -233,15 +233,15 @@ Le panneau Animations de DevTools offre la possibilité d'affiner rapidement les
 
 Le panneau Changes (Modifications) permet de visualiser les propriétés que nous avons modifiées ainsi que leurs nouvelles valeurs, facilitant ainsi la mise à jour du code source en conséquence.
 
-## Conclusion sur la formation 
-J'ai trouvé cette formation très intéressante et elle m'a permi d'en apprendre beaucoup sur les bonnes techniques à utiliser si l'on veut que nos animations web soient performantes sur n'mporte quel ordinateur. 
-Les chapitres sont assez court et centré sur l'apprentissage de peu de fonctionnalité en même temps pour ne pas s'éparpiller. Il n'y a pas que du code d'animations ! On parle aussi de l'utilisation de DevTools pour apprendre à analyser nos animations afin de les améliorer. 
+## Conclusion sur la formation
+J'ai trouvé cette formation très intéressante et elle m'a permi d'en apprendre beaucoup sur les bonnes techniques à utiliser si l'on veut que nos animations web soient performantes sur n'mporte quel ordinateur.
+Les chapitres sont assez court et centré sur l'apprentissage de peu de fonctionnalité en même temps pour ne pas s'éparpiller. Il n'y a pas que du code d'animations ! On parle aussi de l'utilisation de DevTools pour apprendre à analyser nos animations afin de les améliorer.
 Si vous aimez le développement web et particulièrement le front-end c'est une bonne formation à faire :).
 
 Voilà des animations que j'ai pu recréer lors de la formation : [Télécharger le dossier ](AnimationCSS.zip)
 
 ### Horodateur
-| Date | Heures passées | Indications | 
+| Date | Heures passées | Indications |
 | -------- | -------- |-------- |
 | Lundi 8/01  | 1H  | Créer des animations simples avec des transitions |
 | Lundi 8/01 | 1H | Déclencher les transistions avec les pseudos-classes |

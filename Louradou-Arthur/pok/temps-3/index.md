@@ -10,7 +10,7 @@ date: 2024-03-27
 temps: 3
 tags:
 
-résumé: Cette seconde partie du projet SérénaDo_It a pour objectif de définir les bases d'un projet pérenne. Elle abordera la mise en place d'une architecture logicielle robuste, la définition des processus de déploiement continu et la mise en place d'une stratégie de tests unitaires.
+description: Cette seconde partie du projet SérénaDo_It a pour objectif de définir les bases d'un projet pérenne. Elle abordera la mise en place d'une architecture logicielle robuste, la définition des processus de déploiement continu et la mise en place d'une stratégie de tests unitaires.
 ---
 
 ## Rappels { #rappels }
