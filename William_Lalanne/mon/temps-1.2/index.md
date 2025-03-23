@@ -9,7 +9,7 @@ date: 2023-18-10
 temps: 1
 tags:
 
-résumé: "JavaScript"
+description: "JavaScript"
 ---
 
 {% prerequis %}
@@ -19,7 +19,7 @@ résumé: "JavaScript"
 
 ## Sommaire
 
-1. Switch 
+1. Switch
 2. Objets
 3. Fonctions anonymes
 4. Classes
@@ -27,14 +27,14 @@ résumé: "JavaScript"
 
 ## Switch
 En JavaScript, comme dans de nombreux langages de programmation, lorsqu'on a une variable qui prend des valeurs différentes et que pour chacune de ses valeurs on veut afficher un message différent, on peut utiliser un switch. Pour mieux comprendre, prenons un exemple.
-Imaginons que j'ai une fonction qui prend un paramètre un prénom et qui renvoie en sortie un chanteur qui possède le même prénom cela donnerait : 
-```javascript 
+Imaginons que j'ai une fonction qui prend un paramètre un prénom et qui renvoie en sortie un chanteur qui possède le même prénom cela donnerait :
+```javascript
 function famousSinger(firstName) {
   let familyName = "";
 
   if (firstName=="Bob") {
     familyName = "Marley";
-  } 
+  }
   else if (firstName=="Micheal") {
     familyName = "Jackson";
   }
@@ -57,8 +57,8 @@ function famousSinger(firstName) {
   return familyName;
 }
 ```
-On voit que si on a de nombreuses conditions, il est très long d'écrire à chaque fois le else if et cela manque de clarté. C'est pourquoi les switch ont été inventés, voilà ce que ça donne : 
-```javascript 
+On voit que si on a de nombreuses conditions, il est très long d'écrire à chaque fois le else if et cela manque de clarté. C'est pourquoi les switch ont été inventés, voilà ce que ça donne :
+```javascript
 function famousSinger(firstName) {
   let familyName = "";
   switch(firstName) {
@@ -90,9 +90,9 @@ function famousSinger(firstName) {
 On gagne en clarté avec le switch.
 
 
-## Objets 
+## Objets
 Il est possible de créer des objets en JavaScript et d'accéder aux différentes propriétés qui constituent l'objet. Prenons un exemple pour mieux comprendre :
-```javascript 
+```javascript
 const dog = {
   "name": "Nicolas",
   "legs": 4,
@@ -103,30 +103,30 @@ const dog = {
 Ici, nous avons créé l'objet **cat** qui possède 4 propriétés :
 - *name*
 - *legs*
-- *tails number* 
-- *enemies* 
+- *tails number*
+- *enemies*
 
 On peut accéder aux propriétés de l'objet et même les modifier, pour cela on peut faire :
-```javascript 
+```javascript
 const enemiesValue = cat.enemies;
 enemiesValue = ["Mouses"];
 ```
-si on connait le nom de la propriété à laquelle on veut accéder. 
+si on connait le nom de la propriété à laquelle on veut accéder.
 
-Ou alors si le nom de la propriété possède un espace : 
-```javascript 
+Ou alors si le nom de la propriété possède un espace :
+```javascript
 const tailsNumberValue = cat["tails number"];
 tailsNumberValue = 2;
 ```
 Il est également possible de supprimer des propriétés, par exemple avec notre objet *dog* :
-```javascript 
+```javascript
 delete dog.enemies;
 delete dog["tails number"];
 ```
 
 Pour savoir si un objet possède une certaine propriété, la méthode ***.hasOwnProperty(proprietes)*** existe. Si l'object possède la propriété, la fonction retourne true, sinon elle retourne false :
 
-```javascript 
+```javascript
 dog.hasOwnProperty("name");
 dog.hasOwnProperty("gender");
 ```
@@ -134,15 +134,15 @@ dog.hasOwnProperty("gender");
 ## Fonctions anonymes
 
 Parfois en JavaScript il n'y pas besoin de nommer des fonctions, surtout lorsqu'elles sont utilisés comme argument par d'autres fonctions. On dit alors que c'est une fonction anonymé.
-Par exemple au lieu d'écrire ça : 
-```javascript 
+Par exemple au lieu d'écrire ça :
+```javascript
 const myFunc = function() {
   const myVar = "value";
   return myVar;
-} 
+}
 ```
-On écrira plutôt : 
-```javascript 
+On écrira plutôt :
+```javascript
 const myFunc = () => {
   const myVar = "value";
   return myVar;
@@ -151,15 +151,15 @@ const myFunc = () => {
 
 ## Les classes
 
-Il est possible de créer des objets plus facilement qu'avec la méthode que nous avons utilisé précedemment, ce qui peut être très pratique quand on crée de nombreux objets. Pour cela on utilise des classes qui agissent en quelques sortes comme des plans pour les objets. 
+Il est possible de créer des objets plus facilement qu'avec la méthode que nous avons utilisé précedemment, ce qui peut être très pratique quand on crée de nombreux objets. Pour cela on utilise des classes qui agissent en quelques sortes comme des plans pour les objets.
 Par exemple pour créer une classe livre :
-```javascript 
+```javascript
 class Book {
 
 }
 ```
 Pour cette classe, on voudra que tous les livres aient certaines propriétés comme un titre, un auteur, un nombre de pages. Pour cela on utilise un constructeur :
-```javascript 
+```javascript
 class Book {
   constructor(title, author, pages) {
     this.title = title;
@@ -171,12 +171,12 @@ class Book {
 
 Une fois que cela est fait on peut facilement créer des livres :
 
-```javascript 
+```javascript
 let harryPotter = new Book("Chamber of secrets", "J.K Rowling", 1200);
 ```
 
 On peut aussi ajouter après le constructeur des méthodes, ce sont des fonctions qui seront applicables à tous les objets appartenant à la classe dans laquelle la méthode est écrite :
-```javascript 
+```javascript
 class BankAccount {
     constructor(owner, balance) {
         this.owner = owner;
@@ -198,76 +198,76 @@ Nous allons voir comment intéragir avec le DOM avec JavaScript.
 
 ### Trouver des éléments dans la page
 Pour trouver les éléments du DOM avec lesquels on souhaite intéragir, il existe de nombreuse méthodes :
-- .getElementsByTagName() ---> permet de sélectionner tous les éléments d'une même famille (body, h3, div...). 
+- .getElementsByTagName() ---> permet de sélectionner tous les éléments d'une même famille (body, h3, div...).
 - .getElementsByClassName() ---> permet de sélectionner les éléments d'une même classe.
 - .getElementById() ---> permet de sélectionner l'élément ayant l'Id demandé.
 - .querySelector() ---> un mélange de toutes les autres méthodes, on peut même combiner les sélecteurs (classe, Id, tag).
 
-```javascript 
+```javascript
 document.getElementById("myID");
 ```
 
 
 
 ### Modifier les éléments
-Pour modifier le contenu d'un élément, il y a deux méthodes principales à connaître : 
+Pour modifier le contenu d'un élément, il y a deux méthodes principales à connaître :
 - innerHTML ---> permet d'avoir accès au contenu de l'élément HTML sélectionné.
 - textContent ---> permet d'avoir accès au texte du noeud choisi mais aussi celui de tous ses descendants
 
-```javascript 
+```javascript
 var htmlElement = document.getElementById("myID");
 htmlElement.innerHTML = ("je remplace l'élément");
 ```
 
-Après avoir modifier le contenu de l'élément, on peut aussi modifier son style notamment en changeant sa classe : 
+Après avoir modifier le contenu de l'élément, on peut aussi modifier son style notamment en changeant sa classe :
 - .style.color
 - classList.add()
 - classList.remove()
 
-```javascript 
+```javascript
 var htmlElement = document.getElementById("myID");
 htmlElement.innerHTML = ("je remplace l'élément");
 htmlElement.style.color=('red');
 ```
 
-### Ajouter des éléments 
-On peut ajouter de nouveaux éléments au DOM grâce à plusieurs méthodes : 
+### Ajouter des éléments
+On peut ajouter de nouveaux éléments au DOM grâce à plusieurs méthodes :
 
 - .createElement()
 
-```javascript 
+```javascript
 let newDiv = document.createElement('div');
 ```
 
-### Les event listeners 
+### Les event listeners
 
-Pouvoir modifier les éléments de la page web par l'intermédiaire du DOM c'est bien, mais comment faire pour que ces modifications se fassent à la suite d'une action d'un utilisateur ? 
+Pouvoir modifier les éléments de la page web par l'intermédiaire du DOM c'est bien, mais comment faire pour que ces modifications se fassent à la suite d'une action d'un utilisateur ?
 C'est là qu'intervienne les event listeners.
 Des évènements peuvent avoir lieu sur la page web :
 - Des cliques sur des éléments
-- Des mouvements de souris 
+- Des mouvements de souris
 - Appuis sur le clavier
 ...
-On peut savoir à quel moment ont lieux ces évènements. 
-Pour cela on place des event listeners sur les éléments qui avec lesquels l'utilisateur est susceptible d'intéragir. 
+On peut savoir à quel moment ont lieux ces évènements.
+Pour cela on place des event listeners sur les éléments qui avec lesquels l'utilisateur est susceptible d'intéragir.
 
 Prenons l'exemple d'un bouton, l'utilisateur peut cliquer dessus, cela déclenchera une action. Pour cela :
 
-```javascript 
+```javascript
 var button = document.getElementById("button");
 button.addEventListener('click', do an action);
 ```
 L'action peut être un changement de page ou une modification, il faut préciser à l'event listener quel action on attend (clique, mouvement de souris...)
 
-### Conclusion 
-De nombreuses autres choses peuvent être faites avec JavaScript en web, mais pour l'instant nous nous limiterons à ce que nous avons déjà vu. La suite viendra éventuellement dans un autre MON. 
+### Conclusion
+De nombreuses autres choses peuvent être faites avec JavaScript en web, mais pour l'instant nous nous limiterons à ce que nous avons déjà vu. La suite viendra éventuellement dans un autre MON.
 
 
-## Conclusion 
-Dans ce MON nous avons vu comment JavaScript pouvait être utilisé comment langage orienté objet, notamment avec les classes. Mais nous avons également vu l'apport de JavaScript d'un point de vue web. 
+## Conclusion
+Dans ce MON nous avons vu comment JavaScript pouvait être utilisé comment langage orienté objet, notamment avec les classes. Mais nous avons également vu l'apport de JavaScript d'un point de vue web.
 
-## Bibliographie 
-[OpenClassRoom](https://openclassrooms.com/fr/courses/5493201-write-javascript-for-the-web) : vraiment très bien fait pour l'aspect web, il faut néanmoins quelques connaissances en JavaScript pour se lancer. 
+## Bibliographie
+[OpenClassRoom](https://openclassrooms.com/fr/courses/5493201-write-javascript-for-the-web) : vraiment très bien fait pour l'aspect web, il faut néanmoins quelques connaissances en JavaScript pour se lancer.
 
 [freeCodeCamp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/) : pas mal pour revoir les bases.
 

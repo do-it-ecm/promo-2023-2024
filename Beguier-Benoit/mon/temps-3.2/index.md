@@ -9,7 +9,7 @@ date: 2024-02-14
 temps: 3
 tags:
 
-résumé: "Ce MON va rendre compte de l'organisation du barbecue de fin d'année Do-It"
+description: "Ce MON va rendre compte de l'organisation du barbecue de fin d'année Do-It"
 ---
 
 {% prerequis %}

@@ -9,7 +9,7 @@ date: 2024-02-14
 temps: 3
 tags:
 
-résumé: "Pendant ce MON nous découvrirons Rust pour le back-end avec Actix-Web."
+description: "Pendant ce MON nous découvrirons Rust pour le back-end avec Actix-Web."
 ---
 
 ## Introduction

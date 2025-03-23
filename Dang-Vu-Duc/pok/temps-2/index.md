@@ -13,7 +13,7 @@ tags:
   - "Jeux"
   - "Échecs"
 
-résumé: "Ce POK a pour objectif d'implémenter un jeu d'échecs sur Python et de créer un code qui peut résoudre des problèmes simples."
+description: "Ce POK a pour objectif d'implémenter un jeu d'échecs sur Python et de créer un code qui peut résoudre des problèmes simples."
 ---
 
 {%prerequis 'Prérequis'%}

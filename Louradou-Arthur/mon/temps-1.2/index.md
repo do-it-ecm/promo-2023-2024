@@ -15,7 +15,7 @@ tags:
   - "web"
   - "sql"
 
-résumé: "Ce MON s’inscrit dans la continuité du précédent, où nous étudions la cybersécurité sous le prisme des tests d’intrusion (pentest). En particulier, nous détaillerons les bonnes pratiques en matière de sécurité dans les bases de données."
+description: "Ce MON s’inscrit dans la continuité du précédent, où nous étudions la cybersécurité sous le prisme des tests d’intrusion (pentest). En particulier, nous détaillerons les bonnes pratiques en matière de sécurité dans les bases de données."
 ---
 
 ## Prérequis

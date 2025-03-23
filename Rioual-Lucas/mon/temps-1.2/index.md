@@ -12,7 +12,7 @@ tags:
   - "Node.js"
   - "backend"
 
-résumé: "Introduction au Back-end avec Node.js et Express"
+description: "Introduction au Back-end avec Node.js et Express"
 ---
 
 
@@ -30,7 +30,7 @@ Voici le lien de [mon repo Github](https://github.com/LucasRioual/Back) correspo
 Pour ce MON, j'ai utilisé :
 * Le [cours](https://francoisbrucker.github.io/cours_informatique/cours/web/) de Mr Brucker
 * Cette [formation OpenClassRoom](https://openclassrooms.com/fr/courses/6390246-passez-au-full-stack-avec-node-js-express-et-mongodb)
-* Ce [site internet](https://fullstackopen.com/fr/) 
+* Ce [site internet](https://fullstackopen.com/fr/)
 
 ## Sommaire
 
@@ -40,16 +40,16 @@ Pour ce MON, j'ai utilisé :
 
 ## Qu’est ce que le backend ?
 
-Pour comprendre ce qu’est le backend d'une application web, il faut bien saisir comment une application web fonctionne. 
+Pour comprendre ce qu’est le backend d'une application web, il faut bien saisir comment une application web fonctionne.
 
-On peut séparer une application web en 2 parties : 
+On peut séparer une application web en 2 parties :
 
 - Le coté client (navigateur internet) : **frontend**
 - Le coté serveur : **backend**
 
 Lorsqu’on développe une application web, il faut bien comprendre qu'il y a une partie du code qui va s’exécuter sur le navigateur internet du client (HTML, CSS, JavaScript) et une autre partie qui va s’exécuter sur un serveur distant.
 
-Le backend s’occupe de nombreuses tâches cruciales comme : 
+Le backend s’occupe de nombreuses tâches cruciales comme :
 
 - **La gestion des données** : Créer, lire, modifier ou supprimer des données (CRUD en anglais)
 - **La logique métier**
@@ -60,7 +60,7 @@ Le backend s’occupe de nombreuses tâches cruciales comme :
 
 La communication entre le front et le back se gère à l'aide de **requête HTTP**. On peut résumer un backend comme un programme qui écoute les requêtes HTTP et qui renvoie la bonne réponse.
 
-Lorsque l’utilisateur interagit avec l’application web (si il appuie sur un bouton par exemple), le frontend envoie une requête HTTP au serveur. Le backend reçoit cette requête et commence à la traiter. Il examine la demande et effectue les opérations nécessaires. Ensuite le backend renvoie la réponse voulue (généralement en JSON). 
+Lorsque l’utilisateur interagit avec l’application web (si il appuie sur un bouton par exemple), le frontend envoie une requête HTTP au serveur. Le backend reçoit cette requête et commence à la traiter. Il examine la demande et effectue les opérations nécessaires. Ensuite le backend renvoie la réponse voulue (généralement en JSON).
 
 Plus précisément, cette communication se fait au travers d’**API** (interface de programmation d'application) qui définissent les différentes routes.
 
@@ -68,7 +68,7 @@ Plus précisément, cette communication se fait au travers d’**API** (interfac
 Une route est une déclaration qui associe une URL spécifique à un ensemble d'instructions qui doivent être exécutées lorsque cette URL est accédée par un client.
 {% endprerequis %}
 
-Voici un exemple de configuration de route avec express :  
+Voici un exemple de configuration de route avec express :
 
 ```jsx
 app.use('/api/stuff', (req, res, next) => {
@@ -80,14 +80,14 @@ Ici, lorsqu’une requête HTTP est envoyé à la route  **http://localhost:8000
 
 ## Construire son backend avec Node.js et Express
 
-Pour apprendre concrètement comment mettre en place un serveur avec [Node.js](https://nodejs.org/fr). J'ai suivi le [tuto d'OpenClassRoom](https://openclassrooms.com/fr/courses/6390246-passez-au-full-stack-avec-node-js-express-et-mongodb). Si comme moi, vous n'avez aucune connaissance en backend, je ne vous conseille pas de suivre ce tuto. On ne comprend pas bien comment le frontend interagit avec le backend et je trouve que certaines notions ne sont pas claires pour les débutants. 
+Pour apprendre concrètement comment mettre en place un serveur avec [Node.js](https://nodejs.org/fr). J'ai suivi le [tuto d'OpenClassRoom](https://openclassrooms.com/fr/courses/6390246-passez-au-full-stack-avec-node-js-express-et-mongodb). Si comme moi, vous n'avez aucune connaissance en backend, je ne vous conseille pas de suivre ce tuto. On ne comprend pas bien comment le frontend interagit avec le backend et je trouve que certaines notions ne sont pas claires pour les débutants.
 
 J’ai donc trouvé [un autre tuto](https://fullstackopen.com/fr/) qui, je trouve, est beaucoup plus claire. En plus, il repart vraiment des bases pour bien appréhender le développement web. Après avoir lu  [la partie 3](https://fullstackopen.com/fr/part3), j’ai pu mieux appréhender le tuto d’openclassroom. Je conseille aussi de lire [la partie 0](https://fullstackopen.com/fr/part0) qui explique comment fonctionne une application web traditionnelle.
 
 Revenons au tutoriel d’Openclassroom. On y apprend comment créer un serveur avec Node.js et Express.
 
 {% prerequis %}
-**Node.js** est un environnement d'exécution qui permet d'exécuter du code JavaScript côté serveur. 
+**Node.js** est un environnement d'exécution qui permet d'exécuter du code JavaScript côté serveur.
 
 **Express** est un framework web pour Node.js. Il simplifie le processus de création d'applications web coté serveur et d'API.
 {% endprerequis %}
@@ -99,7 +99,7 @@ Cependant, j’ai eu un problème lors de l’installation de nodemon (outil qui
 Si vous avez cette erreur :
 
 ```jsx
-nodemon : Impossible de charger le fichier C:\Users\utilisateur\AppData\Roaming\npm\nodemon.ps1, car l’exécution de scripts est désactivée sur ce système. Pour plus 
+nodemon : Impossible de charger le fichier C:\Users\utilisateur\AppData\Roaming\npm\nodemon.ps1, car l’exécution de scripts est désactivée sur ce système. Pour plus
 d’informations, consultez about_Execution_Policies à l’adresse https://go.microsoft.com/fwlink/?LinkID=135170.
 Au caractère Ligne:1 : 1
 + nodemon server

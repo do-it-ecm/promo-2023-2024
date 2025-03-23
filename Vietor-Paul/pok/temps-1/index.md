@@ -14,7 +14,7 @@ tags:
   - "C++"
   - "Bruit simplexe"
 
-résumé: Génération et affichage d'un monde composé de voxels.
+description: Génération et affichage d'un monde composé de voxels.
 ---
 
 [Dépôt Github](https://github.com/lauravietor/POK1_Not_Minecraft)
@@ -23,8 +23,8 @@ Mon objectif pour ce POK est de créer un programme qui génère un monde compos
 
 ## Techologies, bibliothèques et ressources
 
-J'ai décidé de l'écrire en C++, en utilisant OpenGL pour l'affichage.  
-De plus, j'utilise quelques bibliothèques supplémentaires pour gérer la fenêtre ([GLFW3](https://www.glfw.org/)), charger des images ([stb_images](https://github.com/nothings/stb/blob/master/stb_image.h)), créer certains objets mathématiques tels que des matrices ([glm](https://github.com/g-truc/glm)), et accéder au fonctions OpenGL ([glad](https://glad.dav1d.de/)).  
+J'ai décidé de l'écrire en C++, en utilisant OpenGL pour l'affichage.
+De plus, j'utilise quelques bibliothèques supplémentaires pour gérer la fenêtre ([GLFW3](https://www.glfw.org/)), charger des images ([stb_images](https://github.com/nothings/stb/blob/master/stb_image.h)), créer certains objets mathématiques tels que des matrices ([glm](https://github.com/g-truc/glm)), et accéder au fonctions OpenGL ([glad](https://glad.dav1d.de/)).
 Enfin, pour apprendre OpenGL, j'utilise le site [LearnOpenGL](https://learnopengl.com), j'utilise également [cppreference](https://en.cppreference.com/w/).
 
 ## Objectifs pour le premier point POK
@@ -78,7 +78,7 @@ Votre navigateur ne supporte pas les vidéos au format webm.
 </video>
 
 
-Pour l'implémentation du bruit simplexe, je me suis principalement basé sur la description de l'algorithme présente sur [Wikipédia](https://en.wikipedia.org/wiki/Simplex_noise) et sur l'implémentation en GLSL donnée sur [The Book of Shaders](https://thebookofshaders.com/11/?lan=fr) ([implémentation](https://thebookofshaders.com/edit.php#11/2d-snoise-clear.frag)). 
+Pour l'implémentation du bruit simplexe, je me suis principalement basé sur la description de l'algorithme présente sur [Wikipédia](https://en.wikipedia.org/wiki/Simplex_noise) et sur l'implémentation en GLSL donnée sur [The Book of Shaders](https://thebookofshaders.com/11/?lan=fr) ([implémentation](https://thebookofshaders.com/edit.php#11/2d-snoise-clear.frag)).
 
 J'ai d'abord fait une [implémentation en python](simplexnoise.zip), dont voici un exemple de résultat, avec 3 octaves :
 

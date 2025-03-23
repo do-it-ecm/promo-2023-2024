@@ -10,7 +10,7 @@ date: 2024-02-14
 temps: 3
 tags:
 
-résumé: Etude de cas sur l'optimisation de l'organisation interne d'une entreprise
+description: Etude de cas sur l'optimisation de l'organisation interne d'une entreprise
 ---
 
 ## Table des matières
@@ -45,7 +45,7 @@ Total estimé : 11 heures
 ## Étude préliminaire<a id="section-3"></a>
 ### Choix du modèle
 **Deloitte Digital Maturity Model**
-Mon choix s'est porté vers le modèle de Deloitte, qui me semble être le plus pertinent pour les raisons suivantes : 
+Mon choix s'est porté vers le modèle de Deloitte, qui me semble être le plus pertinent pour les raisons suivantes :
 
 <img src="ddm.png" width="700" height="550">
 
@@ -207,6 +207,6 @@ L'un des risques majeurs est la **résistance au changement** de la part des emp
 
 De plus, il est crucial de reconnaître que tous les employés peuvent ne pas être à l'aise avec les technologies ou les **interfaces informatiques complexes**. Si la nouvelle solution de SIRH n'est pas conviviale ou si elle nécessite une courbe d'apprentissage importante, certains employés peuvent rencontrer des difficultés à l'utiliser correctement, ce qui entraînera des retards et des inefficacités supplémentaires.
 
-Pour surmonter ces défis, il est essentiel d'adopter une **approche proactive** et inclusive. Il est nécessaire d'**impliquer les employés** dès le début du processus de mise en œuvre, en leur fournissant une formation adéquate et en les consultant sur leurs besoins et préoccupations. De plus, il est important de communiquer de manière transparente sur les raisons du changement et les avantages attendus pour les employés et l'entreprise dans son ensemble. 
+Pour surmonter ces défis, il est essentiel d'adopter une **approche proactive** et inclusive. Il est nécessaire d'**impliquer les employés** dès le début du processus de mise en œuvre, en leur fournissant une formation adéquate et en les consultant sur leurs besoins et préoccupations. De plus, il est important de communiquer de manière transparente sur les raisons du changement et les avantages attendus pour les employés et l'entreprise dans son ensemble.
 
 [Drive de mon travail](https://drive.google.com/drive/folders/1UxRs99Mpo37_-gLLmpO96G_sKGVlFZNP?usp=drive_link)

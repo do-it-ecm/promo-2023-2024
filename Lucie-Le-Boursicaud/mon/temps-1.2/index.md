@@ -11,10 +11,10 @@ tags:
   - "Excel"
   - "Analyse des données"
 
-résumé: "Dans ce MON l'objectif est d'apprendre à utiliser Excel dans le but d'analyser des données."
+description: "Dans ce MON l'objectif est d'apprendre à utiliser Excel dans le but d'analyser des données."
 ---
-{%prerequis 'Niveau débutant'%} 
-Aucun prérequis si ce n'est avoir Excel ! 
+{%prerequis 'Niveau débutant'%}
+Aucun prérequis si ce n'est avoir Excel !
 {%endprerequis%}
 
 ## Introduction
@@ -56,7 +56,7 @@ Une autre caractéristique importante de Microsoft Excel est la possibilité de 
 Les fichiers générés par Excel sont généralement enregistrés aux formats .xls ou .xlsx pour les feuilles de calcul, et .csv ou .txt pour les fichiers contenant du texte.
 
 ## 2. Création d'une base de données sur Excel
-Le plus souvent la base de données est <strong>le fichier Excel</strong> que les équipes utilisent pour <strong>suivre leurs données de programme</strong> mais elle peut aussi être sur papier, sous un format texte ou un format plus complexe. 
+Le plus souvent la base de données est <strong>le fichier Excel</strong> que les équipes utilisent pour <strong>suivre leurs données de programme</strong> mais elle peut aussi être sur papier, sous un format texte ou un format plus complexe.
 Une base de donnée est un élément indispensable pour trouver facilement et rapidement les données que l'on souhaite.
 
 #### Comment créer une BDD sur Excel ?
@@ -94,21 +94,21 @@ Le nettoyage de données permet d'avoir une base de données à jour sans risque
 
 Il y a trois grand principes aux nettoyages des données :
 + Vérification de la cohérence logique
-+ Vérification de la fiabilité 
-+ Correction des erreurs 
++ Vérification de la fiabilité
++ Correction des erreurs
 Alors, le but est de déceler : *les valeurs manquantes* , *celulles vides* , *fautes de frappes* , *doublons* , *valeurs extrêmes* , *textes en chiffres et inversement* , ...
 
 <strong>Erreurs courantes faciles à rectifier</strong>
-+ Nombres enregistrés sous forme de texte : 
++ Nombres enregistrés sous forme de texte :
   Il faut sélectionner toute la plage de données concernée faire un clic droit et choisir "Convertir en nombre"
 + Trouver un point au lieu d'une virgule pour les nombres :
   Il faut utiliser la fonction "Rechercher et remplacer" pour modifier les points par des virgules.
 + Les espaces inutiles :
   On utilise la formule <strong>SUPPRESPACE()</strong> qui permet de supprimeer les espaces du texte à l'exception des espaces simples entre les mots.
-+ Doublons et valeurs extrêmes : 
++ Doublons et valeurs extrêmes :
 Une valeur extrême est une valeur <strong>aberrante</strong> anormalement différente de la distribution d'une variable. Comme les doublons il est important de trouver ce type d'anomalie afin de ne pas induire d'erreur dans l'analyse.
 Pour cela on peut utiliser l'outil de <strong>Mise en forme conditionelle</strong> dans l'onglet *Acceuil*.
-On trouve alors facilement les valeur extrême en utilisant *Supérieur à ...* ou *Inférieur à...* et les doublons à l'aide de *Valeurs en double...*. 
+On trouve alors facilement les valeur extrême en utilisant *Supérieur à ...* ou *Inférieur à...* et les doublons à l'aide de *Valeurs en double...*.
 
 Exemples : Nettoyage de la mini-BDD peintures avec des erreurs et des doublons intégrés exprès
 <div stype="display:flex"><img src="nettoyage.png"></div>
@@ -119,16 +119,16 @@ Ces méthodes mettent en exerbe des comportements étrange sur les données néa
 Pour en savoir plus sur les outils disponibles pour le nettoyage des données : [Nettoyer ses données](https://cartong.pages.gitlab.cartong.org/learning-corner/fr/3_nettoyage_page).
 
 ## 4. Analyse de données sur Excel
-#### Introduction 
+#### Introduction
 L'analyse des données permet de donner une interprétation aux données que l'on a relevé.
 Beaucoup de calculs sont possibles pour les variables de type nombre (*effectif*, *minimum et maximum*, *moyenne et médiane*, *écartype et variance*, *somme*,...) mais il faut choisir celles qui auront le plus de sens en fonction du cas que l'on étudie.
 
 #### Statistique descriptives
-On peut s'y pencher selon 3 axes : 
+On peut s'y pencher selon 3 axes :
 + La *distribution* qui concerne la <strong>fréquence</strong> de chaque valeur.
 + La *tendance centrale* qui concerne les valeurs <strong>moyennes</strong>.
 + La *variabilité* qui concerne la <strong>distribution</strong> des valeurs.
-  
+
 #### Dénombrement, maximum et minimum
 + Dénombrement
 L'objectif est de pouvoir compter l'effectif d'une donnée au sein d'une série statistique. La fonction *NB.SI* permet de compter le nombre de cellules qui répondent à un critère donné.
@@ -157,7 +157,7 @@ Afin d'utiliser une représentation adéquate il faut se poser deux questions:
 #### Comment représenter des données quantitatives?
 Il existe une variété de représentations statistiques mais toutes ne sont pas adaptés à nos données. Voici les trois grandes catégories :
 
-+ Modèle de comparaison 
++ Modèle de comparaison
 + Modèle de composition
 + Modèle de distribution
 
@@ -172,15 +172,15 @@ Pour déterminer si il y'a une corrélation entre les deux données on peut trac
 Afin d'appliquer les différentes notions vu précédemment j'ai décidé de télécharger une base de données à partir du site [M DATA](https://data.ampmetropole.fr). Je me suis penchée sur une BDD sur la fréquentation des musées : [Fréquentation des musées](https://data.ampmetropole.fr/explore/dataset/mod-frequentation-des-musees-metropolitains/export/) que j'ai téléchargé en format Excel.
 
 #### Etape 1 : Mise en forme des données
-Lorsqu'on ouvre le fichier voici ce que l'on obtient : 
+Lorsqu'on ouvre le fichier voici ce que l'on obtient :
 
 <div stype="display:flex"><img src="bddmusee.png"></div>
 
 [Télécharger le fichier Excel](frequentationsmusees.zip)
 
 
-#### Etape 2 : Analyse des données 
-J'ai travaillé sur plusieurs thématiques pour répondre aux questions suivantes : 
+#### Etape 2 : Analyse des données
+J'ai travaillé sur plusieurs thématiques pour répondre aux questions suivantes :
 | Questions | Intitulé |
 | -------- | -----|
 | Q1 | Quelle est la plus grande fréquentation tout compris, le musée associé et l'année ? |
@@ -192,16 +192,16 @@ J'ai travaillé sur plusieurs thématiques pour répondre aux questions suivante
 | Q7 | Quels musées ont enregistré une baisse de la fréquentation totale de l'année 2015 à 2016 ? |
 
 On va utiliser les formules vues plus tôt afin d'analyser nos données.
-La première chose que je trouve intéressante est de chercher l'enregistrement possédant la plus grande fréquentation toutes années comprises. Pour celà je savais déterminer le maximum mais comment récupérer l'ID du musée correspondant ainsi que son nom et l'année de l'enregistrement ? Je me suis donc renseigné pour trouver la formule <strong>=RECHERCHERV</strong>. Seulement cette formule ne fonctionne que si la valeur rechercher se trouve dans la première colonne ce qui n'est pas le cas ici. J'ai donc du utilisé deux formules pour séquencer mon travail : 
+La première chose que je trouve intéressante est de chercher l'enregistrement possédant la plus grande fréquentation toutes années comprises. Pour celà je savais déterminer le maximum mais comment récupérer l'ID du musée correspondant ainsi que son nom et l'année de l'enregistrement ? Je me suis donc renseigné pour trouver la formule <strong>=RECHERCHERV</strong>. Seulement cette formule ne fonctionne que si la valeur rechercher se trouve dans la première colonne ce qui n'est pas le cas ici. J'ai donc du utilisé deux formules pour séquencer mon travail :
 + Trouver la ligne correspondante à la valeur cherchée
   J'utilise alors la formule <strong>=EQUIV</strong>
-+ Trouver les informations d'une ligne 
++ Trouver les informations d'une ligne
   J'utilise alors la formule <strong>=INDEX</strong>
 
-On obtient alors ce type de données pour les premières réponses : 
+On obtient alors ce type de données pour les premières réponses :
 <div stype="display:flex"><img src="analyse.png"></div>
 
-Pour les quatres questions j'ai utilisé des feuilles de calculs à part car il s'agit de renvoyer plusieurs lignes et non pas une seule. 
+Pour les quatres questions j'ai utilisé des feuilles de calculs à part car il s'agit de renvoyer plusieurs lignes et non pas une seule.
 
 ##### Q5 : Quel est le pourcentage de la fréquentation totale attribuable aux visiteurs payants pour chaque musée ?
 
@@ -212,19 +212,19 @@ Pour les quatres questions j'ai utilisé des feuilles de calculs à part car il 
 
 <div stype="display:flex"><img src="qgplusquep.png"></div>
 
-On peut visualiser l'évolution de cette variable au fil des années : 
+On peut visualiser l'évolution de cette variable au fil des années :
 <div stype="display:flex"><img src="qgplusquepvisu.png"></div>
 
 ##### Q7 : Quels musées ont enregistré une baisse de la fréquentation totale de l'année 2015 à 2016 ?
 
 <div stype="display:flex"><img src="qbaisse.png"></div>
 
-Je me suis demandé si on pouvait trouver les musées gratuits de la région en filtrant la colonne *PAYANT* sur la valeur 0. Et voici ce que j'ai obtenu : 
+Je me suis demandé si on pouvait trouver les musées gratuits de la région en filtrant la colonne *PAYANT* sur la valeur 0. Et voici ce que j'ai obtenu :
 <div stype="display:flex"><img src="museegratuit.png"></div>
 
 
-#### Etape 3 : Visualisation des données 
-Maintenant j'ai envie de rendre mes données plus interprétables pour des personnes n'ayant pas travaillé sur la BDD. 
+#### Etape 3 : Visualisation des données
+Maintenant j'ai envie de rendre mes données plus interprétables pour des personnes n'ayant pas travaillé sur la BDD.
 <div><div stype="display:flex"><img src="fglobale.png"></div><div stype="display:flex"><img src="fannees.png"></div></div>
 <div stype="display:flex"><img src="fparannees.png"></div>
 
@@ -236,13 +236,13 @@ On peut aussi constater l'impact de la crise du COVID qui a engendré une brutal
 
 J'ai aussi voulu comprendre le pic de 2006. Et voilà le graphique de cette année là :
 <div stype="display:flex"><img src="f2006.png"></div>
-Le <strong>Musée Granet</strong> a été réouvert cette année là après sa rénovation et son agrandissement ce qui a engendré une hausse significative des fréquentations. 
+Le <strong>Musée Granet</strong> a été réouvert cette année là après sa rénovation et son agrandissement ce qui a engendré une hausse significative des fréquentations.
 
 ## 7. Pour aller plus loin
 Après avoir réaliser l'application sur la fréquentation des musées j'ai voulu voir ce qui était possible de réaliser en allant plus loin dans l'utilisation d'Excel. Pour ce faire je me suis appuyée sur la ressource de [Zeste de savoir](https://zestedesavoir.com/tutoriels/pdf/601/analysez-des-donnees-avec-excel.pdf) et plus particulièrement sur la partie <strong>Analyse des données et dynamisme du classeur</strong>. Je suis repassée très rapidement sur tout ce que j'avais déjà vu pour m'attarder sur une nouveauté : *les tableaux dynamiques croisés*.
 
-### Horodateur 
-| Date | Heures passées | Indications | 
+### Horodateur
+| Date | Heures passées | Indications |
 | -------- | -------- |-------- |
 | Mercredi 27/09  | 1H  | Choix des sources/cours à suivre et début de l'apprentissage |
 | Jeudi 28/09  | 2H  | Création d'une BDD et nettoyage |

@@ -6,27 +6,27 @@ authors:
   - Samy Diafat
 
 date: 2023-11-22
-tags: 
+tags:
   - "Cisco"
   - "Formation Réseaux"
   - "Protocoles"
 
 
-résumé: "Ce MON a pour but d'obtenir les bases en réseaux à l'aide de l'une des formations développées par l'entreprise Cisco sur la plateforme Networking Academy. "
+description: "Ce MON a pour but d'obtenir les bases en réseaux à l'aide de l'une des formations développées par l'entreprise Cisco sur la plateforme Networking Academy. "
 ---
-{%prerequis 'Niveau débutant'%} 
+{%prerequis 'Niveau débutant'%}
 Aucun prérequis.
 {%endprerequis%}
 
-### Sommaire 
+### Sommaire
 1. Présentation de la formation
-1.1 Pourquoi suivre un cours de réseaux  ? 
-1.2 A quoi ressemble une formation  ? 
+1.1 Pourquoi suivre un cours de réseaux  ?
+1.2 A quoi ressemble une formation  ?
 1.3 Comment est-on évalué ?
 1.4 Quelles sont les thèmes abordés ?
 2. Points positifs & Points négatifs
 3. Recommandation
-  
+
 ## Présentation de la formation
 
 
@@ -52,13 +52,13 @@ Sur la plateforme Networking Academy, nous pouvons retrouver **deux parcours pro
 
 Chaque formation donne accès à une certification suite à un petit examen de 50 questions. Il est cependant possible d'obtenir une certification payante à l'issu de chaque parcours professinels.
 
-J'ai donc décidé de commencer le parcours "Network Technician" ! 
+J'ai donc décidé de commencer le parcours "Network Technician" !
 
 ![Openclassroom_accueil](./networkpath.png)
 
 La première formation s'intitule "Networking Basics", est destinée aux débutants, et a une durée estimée de 22h.
 
-### Pourquoi suivre ce cours ? 
+### Pourquoi suivre ce cours ?
 
 
 Afin de comprendre pourquoi ce cours est interessant, je vais simplement citer l'aperçu de la formation rédigée sur la plateforme.
@@ -73,7 +73,7 @@ Ce cours couvre les bases de la mise en réseau et des périphériques, supports
 
 
 
-### A quoi ressemble un cours ? 
+### A quoi ressemble un cours ?
 
 
 
@@ -82,8 +82,8 @@ Celles-ci sont  decoupées en module traitant chacun d'une thématique.
  Ces modules sont eux aussi segmentés en chapitre.
 
  ![Openclassroom_accueil](./exemplemodule1.png)
- 
- Au sein de chaque chapitre, il y a plusieurs ressources différentes : 
+
+ Au sein de chaque chapitre, il y a plusieurs ressources différentes :
 
  ![Openclassroom_accueil](./exemplechapitre.png)
 
@@ -102,7 +102,7 @@ Des activités guidées permettent de s'amuser à configurer des réseaux de A �
 
  ![Openclassroom_accueil](./packetracer2.png)
 
->Le logiciel est très complet et gratuit ! 
+>Le logiciel est très complet et gratuit !
 ### Comment est-on évalué ?
 
 
@@ -139,7 +139,7 @@ Voici les différentes modules de la formation :
 
 Quelles sont les points négatifs selon moi ?
 
-- Étant donné que le site est traduit en plusieurs langues, la traduction française n'est parfois pas très pertinente en raison du vocabulaire technique, en particulier lors des tests. 
+- Étant donné que le site est traduit en plusieurs langues, la traduction française n'est parfois pas très pertinente en raison du vocabulaire technique, en particulier lors des tests.
 - Le cours est parfois lourd car les informations sont répétées trop de fois à mon sens. Par exemple, une vidéo explicative de quelques minutes suivie d'un texte réexpliquant le même concept.
 
 Quelles sont les points positifs selon moi ?
@@ -148,7 +148,7 @@ Quelles sont les points positifs selon moi ?
 - Les vidéos peuvent être accélérées et sous-titrées.
 - Il y a beaucoup de tests et d'activités.
 - Le site est ergonomique.
-- Le contenu de la formation a été mis à jour. 
+- Le contenu de la formation a été mis à jour.
 - Les parcours sont bien définis et donc  motivants !
 
 
@@ -162,12 +162,12 @@ Quelles sont les points positifs selon moi ?
 ##  Recommandation
 
 Je recommande évidemment cette formation pour tout le monde, et surtout aux étudiants souhaitant travailler dans le monde de l'informatique.
-En particulier, je pense qu'il serait intéressant de suivre la formation avant le cours du temps 1 "OPS/ Unix" afin d'être beaucoup plus au clair sur les notions liées au réseau. 
+En particulier, je pense qu'il serait intéressant de suivre la formation avant le cours du temps 1 "OPS/ Unix" afin d'être beaucoup plus au clair sur les notions liées au réseau.
 
 
 
 ## Horodateur
-| Date | Heures passées | Indications | 
+| Date | Heures passées | Indications |
 | -------- | -------- |-------- |
 | 24/11 | 3H  | Formation logiciel Cisco Packet Tracer et Intro, Module 1 et 2|
 | 25/11 | 1H  | Module 3|
@@ -181,8 +181,8 @@ En particulier, je pense qu'il serait intéressant de suivre la formation avant 
 | Total | 13H  | Formation Notions de base sur les réseaux|
 
 
-{%prerequis "<u>Sources</u>"%} 
+{%prerequis "<u>Sources</u>"%}
 - Le parcours Network Technician : https://skillsforall.com/career-path/network-technician?courseLang=en-US
 - Logo Cisco Network : https://www.betterinternetforkids.eu/web/cisco-networking-academy
 - Illustration Cisco : https://le-guide-du-secops.fr/2022/02/14/ok-finale-prenez-garde-a-vos-anciens-equipements-cisco-politique-des-mots-de-passe/
-{%endprerequis%} 
+{%endprerequis%}

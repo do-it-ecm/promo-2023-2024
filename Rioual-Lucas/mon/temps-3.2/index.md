@@ -13,7 +13,7 @@ tags:
   - "jest"
   - "Express"
 
-résumé: "Test"
+description: "Test"
 ---
 
 
@@ -25,13 +25,13 @@ résumé: "Test"
 
 ## Introduction
 
-L’objectif de ce MON est de me former sur les tests javascript.  Je souhaite me concentrer sur cette thématique car c’est quelque chose qui est primordial pour faire du code professionnel. 
+L’objectif de ce MON est de me former sur les tests javascript.  Je souhaite me concentrer sur cette thématique car c’est quelque chose qui est primordial pour faire du code professionnel.
 
 Je vais m’attarder sur la biblothèque Jest qui permet de tester du code Javascript. Je vais utiliser le backend du projet Killer pour m’entrainer.
 
 ## Tester du code Javascript
 
-Je voulais savoir comment tester l’API du projet Killer car pour l’instant, pour tester les différentes fonctionnalités, j’utilise l’interface de l’application. C’est long à tester une fonctionnalité mais surtout, il est difficile de tester une seule fonctionnalité à la fois. 
+Je voulais savoir comment tester l’API du projet Killer car pour l’instant, pour tester les différentes fonctionnalités, j’utilise l’interface de l’application. C’est long à tester une fonctionnalité mais surtout, il est difficile de tester une seule fonctionnalité à la fois.
 L’objectif est donc de pouvoir tester les différentes routes de l’API et s’assurer que le résultat renvoyé est bien celui attendu.
 
 J’ai utilisé ces deux tuto :
@@ -43,10 +43,10 @@ Cela permet de tester une application Express qui communique avec une base de do
 
 Voici comment installer les dépendances nécessaire :
 
- 
+
 
 ```bash
-npm install --save-dev jest supertest 
+npm install --save-dev jest supertest
 npm install mongoose
 ```
 
@@ -76,7 +76,7 @@ Ensuite on rajoute un script dans package.json :
 
 Maintenant, je souhaite tester la route **POST** `/api/user/testUser`  qui permet d’ajouter un nouvel utilisateur dans la base de donnée avec le nom ‘testUser’.
 
-Voici le code que j’ai qui permet de tester cette route : 
+Voici le code que j’ai qui permet de tester cette route :
 
 ```jsx
 
@@ -160,7 +160,7 @@ describe("User API", () => {
           user1Id,
           user2Id,
           user3Id,
-          
+
         ],
       },
     })

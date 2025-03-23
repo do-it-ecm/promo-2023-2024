@@ -9,36 +9,36 @@ date: 2023-09-17
 temps: 2
 tags:
 
-résumé: "Un MON pour découvrir le back d'un site web : partie 1"
+description: "Un MON pour découvrir le back d'un site web : partie 1"
 ---
 
 ## Objectifs
 
 
-Ce premier MON du temps 2 a pour objectif de m'initinier à la partie back d'un site Web pour m'aider dans la réalisation des sites web de mon POK et du projet 3A. 
+Ce premier MON du temps 2 a pour objectif de m'initinier à la partie back d'un site Web pour m'aider dans la réalisation des sites web de mon POK et du projet 3A.
 
-Pour cela je vais suivre les cours de monsieur Brucker sur son site internet ainsi que les  sources qu'il recommande. 
+Pour cela je vais suivre les cours de monsieur Brucker sur son site internet ainsi que les  sources qu'il recommande.
 
 ## I. Initiation théorique à JavaScript
 
 
-Pour bien utiliser Node.js je dois me mettre à niveau en JavaScript. Grâce au projet 3A et aux cours d'info de Do_It j'ai pu expérimenter quelques fois ce langage mais j'ai encore beaucoup trop de lacunes et trop peu de connaissances. Je vais donc tout d'abord revoir les bases de ce langage pour mieux appréhender Node.js et toute la partie back. 
+Pour bien utiliser Node.js je dois me mettre à niveau en JavaScript. Grâce au projet 3A et aux cours d'info de Do_It j'ai pu expérimenter quelques fois ce langage mais j'ai encore beaucoup trop de lacunes et trop peu de connaissances. Je vais donc tout d'abord revoir les bases de ce langage pour mieux appréhender Node.js et toute la partie back.
 
-JavaScript peut être utilisé en *front* et en *back* : 
+JavaScript peut être utilisé en *front* et en *back* :
 - *front* : c'est le côté **client**, JS permet de rendre la page plus dynamique et de permettre à ce dernier d'interagir plus profondément avec le site
-- *back* : c'est le côté **serveur**, JS permet de travailler avec des environnements comme Node.js afin de gérer tout ce qui est base de données par exemple. 
+- *back* : c'est le côté **serveur**, JS permet de travailler avec des environnements comme Node.js afin de gérer tout ce qui est base de données par exemple.
 
 Tout comme Python, JS est un langage interprété et le code va donc s'exécuter de haut en bas en renvoyant le résultat immédiatement. Contrairement par exemple au C et au C++ qui sont compilés en langage assembleur pour ensuite être exécuté par l'ordinateur.
 
-Le script JS se lie avec le code HTML grâce à cette ligne de code : 
+Le script JS se lie avec le code HTML grâce à cette ligne de code :
 ``` html
 <script src="script.js"></script>
 ```
 
-Le fonctionnement et la syntaxe de JS sont globalement assez semblables à Python et c'est donc assez facile de prendre en main ces aspects du langage. On y retrouve de multiples similitudes : 
+Le fonctionnement et la syntaxe de JS sont globalement assez semblables à Python et c'est donc assez facile de prendre en main ces aspects du langage. On y retrouve de multiples similitudes :
 
 - l'utilisation de variables
-```js 
+```js
 let myVariable = 12 //déclaration de la variable
 my variable = 14 //modification de la variable
 
@@ -72,12 +72,12 @@ while(i<5){
   ...}
 ```
 
-Le grand intérêt du JS est le lien avec les langages HTML et CSS. Il permet : 
+Le grand intérêt du JS est le lien avec les langages HTML et CSS. Il permet :
 - **d'ajouter des balises**
 - **d'en supprimer**
 - **de les modifier**
 
-Pour cela il faut tout d'abord récupérer les éléments d'une page Web grâce aux diverses méthodes 
+Pour cela il faut tout d'abord récupérer les éléments d'une page Web grâce aux diverses méthodes
 
 ``` js
 let baliseZone = document.getElementById("zone"); //pour récupérer un élément particulier
@@ -88,7 +88,7 @@ let listeInputRadio = document.querySelectorAll(".zoneChoix input"); //pour réc
 ```
 
 
-Afin d'avoir une page plus dynamique il faut programmer de **manière événementielle**. Les événements peuvent être : un clic de la souris, une frappe d'un clavier, un bouton coché, ... 
+Afin d'avoir une page plus dynamique il faut programmer de **manière événementielle**. Les événements peuvent être : un clic de la souris, une frappe d'un clavier, un bouton coché, ...
 Ces derniers sont écoutés grâce à *addEventListener* puis utilisés à l'aide d'une fonction *=>*
 
 ```js
@@ -99,19 +99,19 @@ monBouton.addEventListener("click", () => {
 
 ## II. La pratique
 
-Afin de mettre en pratique ces différents aspects principaux du code, j'ai suivi l'exercice d'un cours OpenClassRoom pour mettre en place une application en ligne pour apprendre à taper des mots plus vite. 
+Afin de mettre en pratique ces différents aspects principaux du code, j'ai suivi l'exercice d'un cours OpenClassRoom pour mettre en place une application en ligne pour apprendre à taper des mots plus vite.
 
 ![Appli](./images/appli1.png)
 
 Le cours proposait cette mise en page avec les codes HTML/CSS correspondant. J'ai décidé de le recréer moi-même afin de pratiquer ces langages et de m'améliorer.
 
-Les objectifs principaux du script JS étaient de : 
+Les objectifs principaux du script JS étaient de :
 - vérifier que le mot écrit est le bon et de faire augmenter le score
 - faire fonctionner le bouton "Valider" pour changer de mot proposé et effacer la zone d'input
 - changer entre une phrase et un mot proposé grâce aux boutons radio
 - afficher un popup pour partager notre score
 
-Début de la fonction pour lancer le jeu : 
+Début de la fonction pour lancer le jeu :
 ```js
 function lancerJeu() {
   initAddEventListenerPopup()
@@ -142,7 +142,7 @@ function lancerJeu() {
 ```
 
 
-En plus de cela j'ai effectué des exercices en ligne pour continuer d'améliorer mes réflexes en JS et apprendre plus de fonctionnalités. Les sites utilisés sont dans les sources après la conclusion. 
+En plus de cela j'ai effectué des exercices en ligne pour continuer d'améliorer mes réflexes en JS et apprendre plus de fonctionnalités. Les sites utilisés sont dans les sources après la conclusion.
 
 ## III. Quelques principes importants pour le back
 
@@ -152,11 +152,11 @@ En plus de cela j'ai effectué des exercices en ligne pour continuer d'améliore
 
 Pour la manipulation de données et l'échange entre un serveur et un site web le **JSON** est le format le plus fréquemment utilisé. Il permet de représenter textuellement des objets, des tableaux ou encore des scalaires JS.
 
-Les données en format texte sous JSON sont dites **sérialisées**. La fonction `JSON.stringify()` permet de sérialiser une donnée en chaine de caractère. 
+Les données en format texte sous JSON sont dites **sérialisées**. La fonction `JSON.stringify()` permet de sérialiser une donnée en chaine de caractère.
 
 ### Le DOM
 
-Les éléments HTML qui peuvent être récupérés par les méthodes vues précédemment représentent le **DOM** *(Document Object Model)*. L'arbre DOM est composé de **noeuds** reliés entre eux par des **branches**. Ce schéma provenant du cours sur OpenClassRoom résumer relativement bien la structure DOM : 
+Les éléments HTML qui peuvent être récupérés par les méthodes vues précédemment représentent le **DOM** *(Document Object Model)*. L'arbre DOM est composé de **noeuds** reliés entre eux par des **branches**. Ce schéma provenant du cours sur OpenClassRoom résumer relativement bien la structure DOM :
 
 ![DOM](./images/ArbreDOM.png)
 
@@ -164,21 +164,21 @@ Les éléments HTML qui peuvent être récupérés par les méthodes vues préc�
 
 ### Les API
 
-Les API *(Application Programming Interface)* sont des interfaces qui permettent de **récupérer** et **d'échanger** des données entre deux applications. 
+Les API *(Application Programming Interface)* sont des interfaces qui permettent de **récupérer** et **d'échanger** des données entre deux applications.
 
 ### Le JavaScript asynchrone
 
 Des fonctions longues et coûteuses en ressources de calcul peut totalement bloquer l'exécution du reste du site. Pour contrer cela la programmation asynchrone a été développée permettant d'**exécuter du code en parallèle.**
 
-Les **fonctions de rappel** (ou *callback*) ont initié la mise en place de fonctions asynchrone en JS. Ces dernières représentent simplement *l'imbrication de fonctions*, c'est à dire quand une fonction est en argument d'une autre. Cette méthode rend cependant le code difficile à lire et facilement compréhensible. 
+Les **fonctions de rappel** (ou *callback*) ont initié la mise en place de fonctions asynchrone en JS. Ces dernières représentent simplement *l'imbrication de fonctions*, c'est à dire quand une fonction est en argument d'une autre. Cette méthode rend cependant le code difficile à lire et facilement compréhensible.
 
-Les API asynchrones se basent donc désormais sur le système de ***promesse*** . 
+Les API asynchrones se basent donc désormais sur le système de ***promesse*** .
 
-Une **promesse** représente l'état de l'opération d'une fonction asynchrone. Il existe trois états différents : 
+Une **promesse** représente l'état de l'opération d'une fonction asynchrone. Il existe trois états différents :
 
 - *pending* : la fonction a été initiée mais pas encore terminée : la promesse est **en cours**
 - *fulfilled* : la fonction a été terminée et s'est bien exécutée : la promesse est donc **validée**
-- *rejected* : contrairement à *fulfilled*, cette fois-ci la fonction a échouée : la promesse est **rompue**. 
+- *rejected* : contrairement à *fulfilled*, cette fois-ci la fonction a échouée : la promesse est **rompue**.
 
 ### L'API ``fetch()``
 
@@ -186,13 +186,13 @@ La fonction `fetch()` permet d'envoyer des **requêtes HTTP** et de **récupére
 
 ### Les réponses d'une promesse
 
-Une fois une promesse faite il faut pouvoir l'interpréter. Pour cela on utilise deux méthodes : `then()` et `catch()`. 
+Une fois une promesse faite il faut pouvoir l'interpréter. Pour cela on utilise deux méthodes : `then()` et `catch()`.
 
 La première permet de traiter les **promesses validées** tandis que la seconde est utilisées pour les **promesses rompues**.
 
-## Conclusion 
+## Conclusion
 
-Ce MON était initialement prévu pour faire du Node.js et du Express mais je me suis vite rendu compte que j'avais trop de lacunes sur de nombreux points majeurs de dev web et notamment en JavaScript. Je suis désormais bien plus à l'aise avec ce langage et avec les points précédemment présentés. Je n'ai pas pu énormément pratiquer ces derniers mais je compte le faire au début de mon prochain MON. 
+Ce MON était initialement prévu pour faire du Node.js et du Express mais je me suis vite rendu compte que j'avais trop de lacunes sur de nombreux points majeurs de dev web et notamment en JavaScript. Je suis désormais bien plus à l'aise avec ce langage et avec les points précédemment présentés. Je n'ai pas pu énormément pratiquer ces derniers mais je compte le faire au début de mon prochain MON.
 
 ### Sources
 
@@ -204,4 +204,4 @@ Ce MON était initialement prévu pour faire du Node.js et du Express mais je me
 
 *Les exercices pratiqués pour le JS :*
 - https://www.gchagnon.fr/cours/dhtml/exercices.html#t2
-- https://aymeric-auberton.fr/academie/js/exercices 
+- https://aymeric-auberton.fr/academie/js/exercices

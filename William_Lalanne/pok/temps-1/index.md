@@ -10,19 +10,19 @@ date: 2023-09-01
 temps: 1
 tags:
 
-résumé: Création d'un site web avec HTML, CSS et JS pour jouer au memory. 
+description: Création d'un site web avec HTML, CSS et JS pour jouer au memory.
 ---
 
 ## Objectif de ce POK
 
-L'objectif de ce POK est de créer un site web permettant de jouer au memory. Ce genre de site existe déjà le but est seulement de s'entraîner à utiliser HTML, CSS et JavaScript. 
+L'objectif de ce POK est de créer un site web permettant de jouer au memory. Ce genre de site existe déjà le but est seulement de s'entraîner à utiliser HTML, CSS et JavaScript.
 
 ## Les étapes à réaliser pendant le Sprint 1
-Comme je n'avais pas encore fini mon MON pour le premier sprint j'ai choisi de dédier mon temps au projet sur le Sprint 2. 
+Comme je n'avais pas encore fini mon MON pour le premier sprint j'ai choisi de dédier mon temps au projet sur le Sprint 2.
 
 ## Les étapes à réaliser pendant le Sprint 2
-Pour le sprint 2, voici les différentes étapes : 
-- [X] Trouver une idée de site web à implémenter 
+Pour le sprint 2, voici les différentes étapes :
+- [X] Trouver une idée de site web à implémenter
 - [X] Réfléchir au design des différentes pages
 - [X] Permettre au joueur de configurer sa partie sur la page d'accueil
 - [X] Faire en sorte que les cartes se retournent quand on clique dessus
@@ -32,48 +32,48 @@ Pour le sprint 2, voici les différentes étapes :
 - [X] Permettre au joueur de faire une nouvelle partie
 
 
-## Fonctionnalités du site 
+## Fonctionnalités du site
 
-Pour ce qui est des fonctionnalités, lorsqu'on arrive sur la première page du jeu, il sera possible de paramétrer sa partie (nombre de joueurs, nombres de carte...). Ensuite il faut que l'utilisateur puisse retourner les cartes et qu'un signal visuel lui indique si les cartes sont identiques ou différentes. Une fois que toutes les cartes ont été trouvées, un message indique que la partie est finie et un bouton permet de retourner sur la page d'accueil. 
+Pour ce qui est des fonctionnalités, lorsqu'on arrive sur la première page du jeu, il sera possible de paramétrer sa partie (nombre de joueurs, nombres de carte...). Ensuite il faut que l'utilisateur puisse retourner les cartes et qu'un signal visuel lui indique si les cartes sont identiques ou différentes. Une fois que toutes les cartes ont été trouvées, un message indique que la partie est finie et un bouton permet de retourner sur la page d'accueil.
 
 
-## Les différentes étapes 
+## Les différentes étapes
 
-Pour réaliser ce site il fallait que je code 3 pages web différentes : 
+Pour réaliser ce site il fallait que je code 3 pages web différentes :
 - La page d'accueil où l'on définit les paramètres de la partie
 - La page où se déroule une partie avec 16 cartes à retourner
 - La page où se déroule une partie avec 36 cartes à retourner
 
-Le plus dur étant de coder l'une des deux dernières pages car lorsque l'une et faite, il suffit de la modifier légèrement pour avoir l'autre. 
+Le plus dur étant de coder l'une des deux dernières pages car lorsque l'une et faite, il suffit de la modifier légèrement pour avoir l'autre.
 
-Pour la page d'accueil, j'ai distingué 4 parties à faire : 
+Pour la page d'accueil, j'ai distingué 4 parties à faire :
 - Une partie où l'on choisit si les cartes sont des numéros ou des formes
 - Une autre où l'on choisit si on joue à 1 ou 2 joueurs
 - Une partie où l'on choisit 16 ou 36 cartes
 - Enfin le bouton pour commencer la partie
 
-Pour les pages de jeux, la mécanique sera la suivante : 
-- Les cartes sont des ronds noirs lorsqu'elles sont face cachée. 
-- Lorsque le joueur appuie sur une carte, son style change et le numéro ou la forme apparaît. 
-- Lorsqu'il clique sur une deuxième carte, si elle est identique à la première, elles deviennent vertes, si elles sont différentes elles deviennent rouges puis se retourne à nouveau. 
-- Quand toutes les cartes sont vertes, la partie est terminée. 
-- Un bouton permet au joueur de revenir à la page d'accueil. 
+Pour les pages de jeux, la mécanique sera la suivante :
+- Les cartes sont des ronds noirs lorsqu'elles sont face cachée.
+- Lorsque le joueur appuie sur une carte, son style change et le numéro ou la forme apparaît.
+- Lorsqu'il clique sur une deuxième carte, si elle est identique à la première, elles deviennent vertes, si elles sont différentes elles deviennent rouges puis se retourne à nouveau.
+- Quand toutes les cartes sont vertes, la partie est terminée.
+- Un bouton permet au joueur de revenir à la page d'accueil.
 
 
 ## Création de la page d'accueil
 
-La page d'accueil est la suivante : 
+La page d'accueil est la suivante :
 
 ![Page d'accueil](pageAccueilPOK1.png)
 
-Pour faire ça, je me suis servi des connaissances acquises avec mon premier MON sur les grid et le flexbox. 
-J'ai aussi du apprendre ce qu'était les radio button et comment les modifier pour créer les petites cases à cocher. 
-Sur cette page on peut paramétrer la partie, d'abord on choisit si on veut des numéros ou des images sur les cartes. Ensuite on choisit si on veut jouer seul ou à deux et enfin la taille du jeu, 4x4 ou 6x6. 
-Pour l'instant on ne peut pas choisir si l'on veut des numéros ou des images, seuls les numéros sont disponibles. De plus on ne peut pour l'instant jouer qu'à deux. Ainsi l'utilisateur doit seulement choisir le nombre de cartes. S'il ne choisit pas, un message d'erreur apparaît et il ne peut pas démarrer la partie. 
+Pour faire ça, je me suis servi des connaissances acquises avec mon premier MON sur les grid et le flexbox.
+J'ai aussi du apprendre ce qu'était les radio button et comment les modifier pour créer les petites cases à cocher.
+Sur cette page on peut paramétrer la partie, d'abord on choisit si on veut des numéros ou des images sur les cartes. Ensuite on choisit si on veut jouer seul ou à deux et enfin la taille du jeu, 4x4 ou 6x6.
+Pour l'instant on ne peut pas choisir si l'on veut des numéros ou des images, seuls les numéros sont disponibles. De plus on ne peut pour l'instant jouer qu'à deux. Ainsi l'utilisateur doit seulement choisir le nombre de cartes. S'il ne choisit pas, un message d'erreur apparaît et il ne peut pas démarrer la partie.
 
 ![message d'erreur](memoryErrorMessage.png)
 
-```javascript 
+```javascript
 newGameButton.addEventListener("click", function () {
     location.href = "http://127.0.0.1:5501/index.html";
 })
@@ -112,7 +112,7 @@ Voici tout le code qui a permis de construire la page d'accueil :
           <label for="iconsButton">Icons</label>
         </div>
       </section>
-      
+
       <div class="playerSelection">
          <p>Number of Players</p>
         </div>
@@ -170,7 +170,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: auto;
-    
+
 }
 
 div.themeSelection {
@@ -273,7 +273,7 @@ div.gridSelection p {
     border: 3px white;
 }
 
-.selected {    
+.selected {
     display: none;
 }
 
@@ -374,7 +374,7 @@ x4.addEventListener("click", function () {
     x4.classList.remove("gridButton");
 })
 
-    
+
 x6.addEventListener("click", function () {
     x6.classList.add("selected");
     x6.classList.remove("gridButton");
@@ -406,36 +406,36 @@ startGame.addEventListener("click", function () {
 ## Création de la page de jeu
 La page de jeu est la plus difficile à coder. Toutes les actions sont basées sur des cliques :
 - Quand on clique sur une carte pas retournée, cela déclenche le retournement de la carte
-- Quand on clique sur une deuxième carte une autre action se déclenche 
-Pour faire cela, on se sert de la méthode addEventListener. Elle permet de déclencher une fonction suite à une action de l'utilisateur qui peut être un clique ou un mouvement de souris. 
-Il suffit d'indiquer sur quel bouton ou élément on veut utiliser addEventListener. 
+- Quand on clique sur une deuxième carte une autre action se déclenche
+Pour faire cela, on se sert de la méthode addEventListener. Elle permet de déclencher une fonction suite à une action de l'utilisateur qui peut être un clique ou un mouvement de souris.
+Il suffit d'indiquer sur quel bouton ou élément on veut utiliser addEventListener.
 
-Par exemple, chaque carte du jeu est un bouton avec un identifiant. On ajoute à chacun des boutons un addEventListener qui déclenche la fonction returnCard() à chaque clique. 
+Par exemple, chaque carte du jeu est un bouton avec un identifiant. On ajoute à chacun des boutons un addEventListener qui déclenche la fonction returnCard() à chaque clique.
 
-```javascript 
+```javascript
 card.addEventListener("click", returnCard(card));
 ```
 ![carte retournée](memoryCardReturn.png)
 
-On ajoute aussi un addEventListener qui permet quand deux cartes sont retournés de comparer leur valeur. 
+On ajoute aussi un addEventListener qui permet quand deux cartes sont retournés de comparer leur valeur.
 
-```javascript 
+```javascript
 card.addEventListener("click", checkCardPair());
 ```
 
-Puis si les cartes sont les mêmes ont les ajoutes dans une liste et on leur attribut la class "found" pour signifier que la paire est trouvée. Un fond vert apparaît sur les cartes pour montrer au joueur qu'elles sont identiques. 
+Puis si les cartes sont les mêmes ont les ajoutes dans une liste et on leur attribut la class "found" pour signifier que la paire est trouvée. Un fond vert apparaît sur les cartes pour montrer au joueur qu'elles sont identiques.
 
 ![cartes identiques](memoryCardFound.png)
 
-Si les cartes sont différentes, on leur attribut la class "notFound" qui affiche un fond rouge sur les cartes pour montrer au joueur qu'elles sont différentes. Après 2 secondes, les cartes se retournent. 
+Si les cartes sont différentes, on leur attribut la class "notFound" qui affiche un fond rouge sur les cartes pour montrer au joueur qu'elles sont différentes. Après 2 secondes, les cartes se retournent.
 
 ![cartes differentes](memoryCardNotFound.png)
 
-Lorsque toutes les cartes ont été trouvées, un message s'affiche pour dire au joueur qu'il a gagné la partie. 
+Lorsque toutes les cartes ont été trouvées, un message s'affiche pour dire au joueur qu'il a gagné la partie.
 
 ![partie gagnee](gameWon.png)
 
-En cliquant sur le bouton **"new game"** en haut à droite, on retourne à la page d'accueil. 
+En cliquant sur le bouton **"new game"** en haut à droite, on retourne à la page d'accueil.
 
 {% details "Cliquez pour afficher le code **HTML** de la **page d'accueil**" %}
 
@@ -515,7 +515,7 @@ h1 {
     display: inline;
     margin-left: 30px;
     margin-right: 700px;
-    
+
 }
 
 .gameButton {
@@ -526,7 +526,7 @@ h1 {
     font-size: 20px;
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
-    border-top-left-radius: 10px; 
+    border-top-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
 
@@ -645,10 +645,10 @@ function checkCardsPair () {
             secondCard.children[0].classList.add('found');
             secondCard.style.backgroundColor=COLOR_GREEN;
             secondCard.children[0].classList.remove('hidden');
-            secondCard.children[0].classList.remove('visible'); 
+            secondCard.children[0].classList.remove('visible');
             greenCards+=2;
             console.log(greenCards);
-               
+
        }
 
        else {
@@ -682,7 +682,7 @@ for (const card of cardButtons) {
             document.getElementById("victory").style.visibility="visible";
         }
     });
-    
+
 }
 
 newGameButton.addEventListener("click", function () {

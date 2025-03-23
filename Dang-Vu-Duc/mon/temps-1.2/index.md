@@ -14,7 +14,7 @@ tags:
   - "Openpyxl"
   - "Programmation Objet"
 
-résumé: "Ce MON aura pour objectif de s'initier à l'utilisation de la bibliothèque openpyxl de Python, pour lire et modifier des fichiers Excel."
+description: "Ce MON aura pour objectif de s'initier à l'utilisation de la bibliothèque openpyxl de Python, pour lire et modifier des fichiers Excel."
 ---
 
 {%prerequis 'Prérequis'%}

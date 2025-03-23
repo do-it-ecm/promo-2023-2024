@@ -13,7 +13,7 @@ tags:
   - "Python"
   - "débutant"
 
-résumé: "Ce MON a pour but de m'initier aux bases de la programmation orientée objet et de l'appliquer à des exemples simples en Python"
+description: "Ce MON a pour but de m'initier aux bases de la programmation orientée objet et de l'appliquer à des exemples simples en Python"
 ---
 ## 1. Introduction
 

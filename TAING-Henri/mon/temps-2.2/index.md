@@ -12,7 +12,7 @@ tags:
   - SQL
   - Python
 
-résumé: "Un vieux qui reprend ce qu'il a appris dans l'espoir de faire des jolis graphes"
+description: "Un vieux qui reprend ce qu'il a appris dans l'espoir de faire des jolis graphes"
 ---
 
 {%prerequis 'MON débutant'%}
@@ -28,16 +28,16 @@ Avoir un cerveau à moitié allumé et quelques connaissances en Python
 3. [SQL intermédiaire](#section-3)
 4. [Quelques résultats et représentations à partir d'une base de données sur le Speed Dating](#section-4)
 5. [Conclusion](#section-5)
-6. [Sources](#section-6) 
+6. [Sources](#section-6)
 
 ## 1. Introduction <a id="section-1"></a>
 
 En finissant mon MON 2-1, je me suis dit "Quand même, pas de jointure sur Google Sheets, c'est audacieux, en SQL, on en faisait à l'époque. Attends. Comment on fait déjà ?!"
-Puis étant dans ma phase "J'adore jouer avec des données", SQL s'est imposé comme une nécessité, ne serait-ce que pour réapparendre la logique. Puis, je suis passé sur Python avec ses bibliothèques Pandas, Numpy, Matplotlib et Plotly. 
+Puis étant dans ma phase "J'adore jouer avec des données", SQL s'est imposé comme une nécessité, ne serait-ce que pour réapparendre la logique. Puis, je suis passé sur Python avec ses bibliothèques Pandas, Numpy, Matplotlib et Plotly.
 
 Ce MON sera donc une fiche mémo vers laquelle je me tournerai à chaque fois que j'aurai un trou de mémoire.
 
-Il est donc temps de dépoussiérer tout ça. 
+Il est donc temps de dépoussiérer tout ça.
 
 ## 2. SQL débutant <a id="section-2"></a>
 
@@ -216,15 +216,15 @@ INSERT INTO commande_category (descriptif)
 
 ## 4. Un cas pour reprendre l'analyse de données avec Python <a id="section-4"></a>
 
-Pour reprendre mes connaissances en analyse de données avec Python, j'ai fait le choix de reprendre à zéro un début d'étude de cas que j'avais fait l'an dernier. Le but étant de réapprendre, explorer et améliorer. 
+Pour reprendre mes connaissances en analyse de données avec Python, j'ai fait le choix de reprendre à zéro un début d'étude de cas que j'avais fait l'an dernier. Le but étant de réapprendre, explorer et améliorer.
 
-La base de données provient de Kaggle et s'appelle [Speed Dating Experiment](https://www.kaggle.com/datasets/annavictoria/speed-dating-experiment) et a été faite à partir d'une expérience conduite par Columbia Business School entre 2002 et 2004. Durant ces événements de "Speed Dating", chaque participant a quatre minutes avec chaque personne du sexe opposé, les participants étant tous soit un homme soit une femme, et hétérosexuels. 
+La base de données provient de Kaggle et s'appelle [Speed Dating Experiment](https://www.kaggle.com/datasets/annavictoria/speed-dating-experiment) et a été faite à partir d'une expérience conduite par Columbia Business School entre 2002 et 2004. Durant ces événements de "Speed Dating", chaque participant a quatre minutes avec chaque personne du sexe opposé, les participants étant tous soit un homme soit une femme, et hétérosexuels.
 L'idée de cette base de données est de comprendre quels facteurs influencent l'amour au premier regard.
 
-De mon côté, j'ai décidé d'utiliser cette base de données pour répondre aux questions qui m'intéressaient. 
+De mon côté, j'ai décidé d'utiliser cette base de données pour répondre aux questions qui m'intéressaient.
 Je vous laisse les images, le code étant organisé et détaillé dans le jupyter notebook ! Il ne faut pas cependant oublier qu'une analyse de données est toujours biaisée, que ce soit par la qualité des données et par la façon de l'analyser et de la faire visualiser.
 
-### Qui a participé à l'événement ? 
+### Qui a participé à l'événement ?
 
 **Genre des participants**
 <img src="gender_distrib.PNG" width="350" height="350">
@@ -237,7 +237,7 @@ Je vous laisse les images, le code étant organisé et détaillé dans le jupyte
 
 ### Avant l'événement
 
-On a posé des questions aux participants avant l'événement. 
+On a posé des questions aux participants avant l'événement.
 
 **1ère question : Que cherchent les hommes et les femmes chez leurs partenaires ?**
 <img src="m_w_look_for.PNG" width="500" height="500">
@@ -271,7 +271,7 @@ D'autres questions ont été posées au milieu et après l'événement.
 
 ## 5. Conclusion <a id="section-5"></a>
 
-J'ai passé un peu plus que 10h sur le MON, mais c'était un pur plaisir. Les graphes parlent d'eux-mêmes. Ce n'est pas tous les jours qu'on a une démonstration empirique de la superficialité de notre espèce en quelques graphes super jolis. 
+J'ai passé un peu plus que 10h sur le MON, mais c'était un pur plaisir. Les graphes parlent d'eux-mêmes. Ce n'est pas tous les jours qu'on a une démonstration empirique de la superficialité de notre espèce en quelques graphes super jolis.
 
 ## 6. Sources <a id="section-6"></a>
 

@@ -13,7 +13,7 @@ tags:
   - "CSS"
   - "débutant"
 
-résumé: "MON traitant de HTML et CSS."
+description: "MON traitant de HTML et CSS."
 ---
 
 {%prerequis 'Niveau débutant'%}
@@ -22,7 +22,7 @@ Prérequis : Aucun
 
 ## Introduction
 
-Via ce MON, j'ai souhaité apprendre comment développer une page web. Le but initial était d'apprendre les lagages que sont le HTML et le CSS dans l'idée que celà me permettrait de savoir développer un site web de A à Z. Certes, celà permet de développer un site web mais ce dernier ne sera pas encore très complexe. J'ai découvert tou cela en suivant le cours de la plateforme Openclassrooms, [Créez votre site web avec HTML5 et CSS3](https://openclassrooms.com/fr/courses/1603881-creez-votre-site-web-avec-html5-et-css3). 
+Via ce MON, j'ai souhaité apprendre comment développer une page web. Le but initial était d'apprendre les lagages que sont le HTML et le CSS dans l'idée que celà me permettrait de savoir développer un site web de A à Z. Certes, celà permet de développer un site web mais ce dernier ne sera pas encore très complexe. J'ai découvert tou cela en suivant le cours de la plateforme Openclassrooms, [Créez votre site web avec HTML5 et CSS3](https://openclassrooms.com/fr/courses/1603881-creez-votre-site-web-avec-html5-et-css3).
 
 ## Sommaire
 
@@ -32,7 +32,7 @@ Via ce MON, j'ai souhaité apprendre comment développer une page web. Le but in
 
 ## 1. Pourquoi apprendre le HTML et le CSS via Openclassrooms
 
-Aujourd'hui, dès que l'on a besoin de quelque chose, on essaye de trouver la réponse sur internet. Ainsi, comprendre le web et savoir y mettre des informations me semble crucial. C'est ce qui m'a motivé à suivre un MOOC pour apprendre le langage HTML et le CSS. Ensuite, j'ai été assez naturellemnt poussé vers le site [Openclassrooms](https://openclassrooms.com/fr/) car j'ai déjà eu l'occasion de suivre certains de leurs cours et je les trouve toujours très vivant et très didactifs. 
+Aujourd'hui, dès que l'on a besoin de quelque chose, on essaye de trouver la réponse sur internet. Ainsi, comprendre le web et savoir y mettre des informations me semble crucial. C'est ce qui m'a motivé à suivre un MOOC pour apprendre le langage HTML et le CSS. Ensuite, j'ai été assez naturellemnt poussé vers le site [Openclassrooms](https://openclassrooms.com/fr/) car j'ai déjà eu l'occasion de suivre certains de leurs cours et je les trouve toujours très vivant et très didactifs.
 
 ## 2. Le rendu et mes points de difficultés
 
@@ -41,4 +41,4 @@ Le cours en lui-même est très bien fait mais l'apprentissage de deux langages 
 
 ## 3. A retenir
 
-Les notions importantes qui ont été vues et travaillées pendant ce cours, au-delà de l'aspect technique en tant que tel (que vous pouvez retrouvé bien expliqué dans le MON de Vladimir Jeantroux [Bases d'HTML et CSS](../../../../2023-2024/Vladimir-Jeantroux/mon/temps-1.1/index.md)), c'est l'importance de la co-habitation de HTML et de CSS. L'un, HTML, servant à hierarchiser et à structurer le contenu d'une page web. Et l'autre, CSS, permettant d'agencer à sa guise le contenu du site. Et une dernière chose, c'est que ces langages sont des langages dit *Front End*, c'est à dire qu'ils servent uniquement à l'affichage du site et ne permettent aucunement la transmission de données avec l'utilisateur. Pour cela il faut aller plus loin, par exemple en apprenant le JavaScript. 
+Les notions importantes qui ont été vues et travaillées pendant ce cours, au-delà de l'aspect technique en tant que tel (que vous pouvez retrouvé bien expliqué dans le MON de Vladimir Jeantroux [Bases d'HTML et CSS](../../../../2023-2024/Vladimir-Jeantroux/mon/temps-1.1/index.md)), c'est l'importance de la co-habitation de HTML et de CSS. L'un, HTML, servant à hierarchiser et à structurer le contenu d'une page web. Et l'autre, CSS, permettant d'agencer à sa guise le contenu du site. Et une dernière chose, c'est que ces langages sont des langages dit *Front End*, c'est à dire qu'ils servent uniquement à l'affichage du site et ne permettent aucunement la transmission de données avec l'utilisateur. Pour cela il faut aller plus loin, par exemple en apprenant le JavaScript.

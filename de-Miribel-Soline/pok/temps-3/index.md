@@ -12,7 +12,7 @@ tags:
   - "passage à l'échelle"
   - "scaling"
 
-résumé: "Ce POK s'intéresse à la notion de passage à l'échelle d'une petite entreprise. Le thème est abordé au travers une première partie plus théorique puis grâce à l'exemple de Doctolib"
+description: "Ce POK s'intéresse à la notion de passage à l'échelle d'une petite entreprise. Le thème est abordé au travers une première partie plus théorique puis grâce à l'exemple de Doctolib"
 ---
 ## Objectifs
 1. Comprendre ce que signifie le scaling
@@ -32,7 +32,7 @@ Son sens économique veut dire être capable de rester performant malgré une au
 On distingue le scale-in du scale-out. Dans le scale-in, la croissance se fait en interne alors que dans le scale-out, la croissance se fait par la création d'éxtension externe à l'entreprise.
 
 #### Critères pour être une scale-up
-Une scale-up est une entreprise qui s'organise pour scaler, se mettre à l'échelle rapidement. Les critères de définition d'une scale-up sont : 
+Une scale-up est une entreprise qui s'organise pour scaler, se mettre à l'échelle rapidement. Les critères de définition d'une scale-up sont :
 - compter plus de 10 salariés
 - avoir un chiffre d'affaires annuel supérieur à 10 millions d'euros
 - afficher une croissance annuelle de plus de 20% pendant 2 ans
@@ -140,14 +140,14 @@ Le code de Doctolib est un monolithe avec quelques applications tierces construi
 
 #### L’organisation
 De 3 personnes en tech and product en 2015, l’équipe est passée à plus de 500 personnes en moins de 10 ans. Le service se divise en équipes ou **“feature team”** qui regroupent 10 expertises différentes selon la répartition suivante : 3 à 6 développeurs (5 idéalement) + 1 data + 1 design + 1-2 product manager + autres (RSSI). Les équipes sont stables et regroupées dans les bureaux. Chaque équipe reçoit un sujet et 1 KPI pour 9 mois environ. Le temps de chaque développeur est ainsi réparti 50% de codage de nouvelles fonctionnalités, 10% de sécurité, 15% de débogage, 10% d’entretien et d’amélioration des anciennes lignes qui ne correspondent plus à la nouvelle échelle.
-Au sein de chaque expertise, il y a une **hiérarchie**, sauf pour la sécurité qui est centrale et fait partie de tous les métiers. A cause du temps demandé par le recrutement puis l’intégration des nouveaux collaborateurs, la pyramide de management a trop tardé à être mise en place. Certaines personnes en géraient parfois plus d’une vingtaine au lieu de se limiter à 7. Dans toute cette pyramide, s’applique le principe de déléguer pour responsabiliser : ils n’y a pas que les sachant qui portent les responsabilités. Par exemple, les développeurs font des mises en prod et voient l’impact de leurs erreurs. 
+Au sein de chaque expertise, il y a une **hiérarchie**, sauf pour la sécurité qui est centrale et fait partie de tous les métiers. A cause du temps demandé par le recrutement puis l’intégration des nouveaux collaborateurs, la pyramide de management a trop tardé à être mise en place. Certaines personnes en géraient parfois plus d’une vingtaine au lieu de se limiter à 7. Dans toute cette pyramide, s’applique le principe de déléguer pour responsabiliser : ils n’y a pas que les sachant qui portent les responsabilités. Par exemple, les développeurs font des mises en prod et voient l’impact de leurs erreurs.
 
 #### Culture de l’entreprise
-Les valeurs de l’entreprise orientent à chaque étape du scaling les décisions à prendre. Chez Doctolib ce sont : 
+Les valeurs de l’entreprise orientent à chaque étape du scaling les décisions à prendre. Chez Doctolib ce sont :
 - User first : les développeurs doivent comprendre pourquoi on lui demande telle fonctionnalité pour être eux-mêmes capables de challenger le produit
 - Keep the stack simple : cf code
 - Ownership : tour à tour, tous les développeurs prennent le lead d’un projet. Chacun à l’opportunité de cadrer un projet et le suit jusqu’à sa mise en production
-- Security et reliability : beaucoup d’investissement en temps (15% du temps de travail) et en argent dans la sécurité. 
+- Security et reliability : beaucoup d’investissement en temps (15% du temps de travail) et en argent dans la sécurité.
 - Reliability : le serveur doit être incassable et fiable
 - Learn and grow : la question “est-ce que tu t’ennuies” est souvent posée pour permettre à tous les développeurs d’apprendre tous les jours grâce à la croissance et au développement de l’activité
 
@@ -161,7 +161,7 @@ La **qualité** étant aussi essentielle, tous les bouts de codes subissent des 
 
 ### RH et scaling
 #### Enjeu de la DRH
-Alors que certaines start-up, comme Uber, ont des principes aujourd’hui remis en cause, Doctolib se veut une société d’un autre genre : ils sont une **entreprise à mission**. Leur croissance leur vient d’une création de valeur d’utilité publique. En effet, en libérant du temps aux praticiens, ils améliorent leur santé mentale et physique et par là celle de tous leurs patients. Pour les en convaincre, il faut d’abord convaincre les collaborateurs de Doctolib. C’est pourquoi la start-up dispose de 3 documents fondateurs : 
+Alors que certaines start-up, comme Uber, ont des principes aujourd’hui remis en cause, Doctolib se veut une société d’un autre genre : ils sont une **entreprise à mission**. Leur croissance leur vient d’une création de valeur d’utilité publique. En effet, en libérant du temps aux praticiens, ils améliorent leur santé mentale et physique et par là celle de tous leurs patients. Pour les en convaincre, il faut d’abord convaincre les collaborateurs de Doctolib. C’est pourquoi la start-up dispose de 3 documents fondateurs :
 - Manifesto : raison d’être
 - Playbook : quelles sont les qualités d’un Doctolibeur ?
 - Vision produit : quelles sont les qualités d’un produit de Doctolib ?
@@ -191,9 +191,9 @@ La formation concerne aussi celle des **managers** car les personnes qui se voie
 
 ### Finances et scaling
 Pour réussir son scaling, une entreprise doit compter sur un apport financier considérable.
-Deux **outils** sont à sa disposition pour y parvenir : 
+Deux **outils** sont à sa disposition pour y parvenir :
 - dans un premier temps, un business plan mûrement réfléchi et bien construit s'impose pour choisir la direction à prendre et les moyens à employer
-- pour la suite, le reporting permettent de faire le point sur la situation de l’entreprise. Il donne des indicateurs clés : marges, coûts opérationnels, rentabilité… afin de mieux anticiper les réussites et les obstacles que pourra rencontrer l’entreprise et d’adapter un plan d’action en conséquence. 
+- pour la suite, le reporting permettent de faire le point sur la situation de l’entreprise. Il donne des indicateurs clés : marges, coûts opérationnels, rentabilité… afin de mieux anticiper les réussites et les obstacles que pourra rencontrer l’entreprise et d’adapter un plan d’action en conséquence.
 
 Ces outils sont de bons supports pour gagner la confiance des investisseurs. Pour cette étape, il faut faire preuve de **persuasion, de persévérance et de relationnel**. C'est grâce à un réseau large et fidélisé que Doctolib a réussi avec succès ses différentes levées de fonds.
 

@@ -3,19 +3,19 @@ layout: layout/projet.njk
 
 title: "Mobilité"
 authors:
-  - Le Boursicaud Lucie 
+  - Le Boursicaud Lucie
   - Rabachou Agathe
   - Kawtar Bahri
   - Le Bihan Paul
-  - Schultz Mathis 
+  - Schultz Mathis
 
 date: 2024-03-28
 
-tags: 
+tags:
   - "projets"
   - "mobilité"
 
-résumé: L'objectif est de pouvoir centraliser les informations sur les mobilités afin que les étudiants puissent les filtrer à leur guise et obtenir les contacts nécessaires.
+description: L'objectif est de pouvoir centraliser les informations sur les mobilités afin que les étudiants puissent les filtrer à leur guise et obtenir les contacts nécessaires.
 
 ---
 
@@ -68,8 +68,8 @@ Nous avons donc établit une <strong>trame de question</strong> afin d'entamer l
 - Une FAQ regroupant les questions récurrentes des étudiants serait-elle intéressante ? Irais-tu sur le site pour avoir réponse à ta question ou enverrais-tu quand même un mail "pour être sûr"?
 - Quelles données as-tu besoin d'avoir pour gérer les possibles bugs ? A quel degré de liberté ? (Lecture seule, modification sous certaines conditions , modification totale , suppression …)
 - Aimerais-tu avoir les contacts des anciens élèves ayant effectué une mobilité qui t'intéresse ?
-- Aimerais-tu avoir accès aux sites des écoles pour les SMA ? 
-- As-tu des suggestions de fonctionnalités ? 
+- Aimerais-tu avoir accès aux sites des écoles pour les SMA ?
+- As-tu des suggestions de fonctionnalités ?
 - A quel point le fait de devoir prendre l’avion pour aller en SMA t'a-t-il fermé des destinations ?
 
 ### Rencontre avec l'administration
@@ -85,7 +85,7 @@ Voici quelques questions que nous avons pu leur poser et sujets dont nous avons 
 
 - Quelles sont les données que vous pouvez extraire de MobilityOnline ou autre site ?
 - Quelles sont les tâches les plus pénibles que vous êtes amenés à effectuer en tant que RI ? Quel travail effectuez vous avec ces datas ?
-- Comment imaginez-vous l’utilisation du site par les personnes des RI ? 
+- Comment imaginez-vous l’utilisation du site par les personnes des RI ?
 - Quelles sont les données dont vous avez besoin ?
 - Comment travaillez-vous ?
 - Quelles fonctionnalités vous intéressent ?
@@ -113,16 +113,16 @@ Le 5 octobre 2023, nous sommes allés rencontrer <strong>Monsieur Olivier Boiron
 - Pour Monsieur Boiron, il faut : identifier les responsables des zones (référent géographique et référent scientifique) et faciliter la prise de contact pour s’assurer de la pertinence de son dossier de mobilité (c’est le référent qui valide les choix des cours)
 - Obligatoire : <strong>avoir une FAQ et demander des retours d’expériences</strong>
 
-**Gestionnaire des SSE & TFE : Muriel Roche**  
+**Gestionnaire des SSE & TFE : Muriel Roche**
 Les <strong>SSE et TFE sont gérés comme des stages</strong>, donc via le site des stages, les informations liées à ces mobilités ne sont pas rassemblées et ne peuvent être partagées. De plus, le service ne souhaitant pas modifier ses méthodes, il est nécessaire que cette plateforme ne rajoute pas de travail, et que les informations sur la plateforme soient exactes et à jour. Donc il est nécessaire que <strong>le site renvoie vers le moodle.</strong>
 
-**Gestionnaire des Alternants entreprise : Guillaume Graton**  
+**Gestionnaire des Alternants entreprise : Guillaume Graton**
 Les <strong>mobilités des alternants</strong> sont gérées via d'autres services hors école, notamment le CFA, qui collecte les données à part et qui ne partage qu'un mail avec le BIP.
 
-**Gestionnaire des mobilité recherche : Daniel Mazzoni**  
+**Gestionnaire des mobilité recherche : Daniel Mazzoni**
 Aucune information notable n'a été partagée.
 
-**Vincent Merval**  
+**Vincent Merval**
 Nous avons rencontré <strong>Monsieur Merval</strong> en vue d'échanger à propos des <strong>enjeux RGPD associés au projet</strong>. Ce qui est ressorti de cette réunion est qu'il n'est <strong>pas possible d'engager l'image de l'école sur un projet étudiant.</strong> En terme de sécurité si le projet est réalisé, il faut que les données soient protégées. La connexion CAS est une bonne idée et il sera nécessaire de faire <strong>une revue de code avec les services informatiques de l'école.</strong> De plus, il a insisté sur la nécessité d'avoir une <strong>pérennité</strong> dans le projet pour autoriser son déploiement.
 
 ### Conclusion des rencontres
@@ -217,7 +217,7 @@ Fonctionnalités :
     ○ Confidentialité
 - Connexion CAS
 - Hébergement
-  
+
 <strong>Critères de validation :</strong>
 
 - Facilité d'utilisation
@@ -255,20 +255,20 @@ Voici par exemple le parcours utilisateur d'un élève :
 
 **Deuxième maquette - Figma**
 
-Suite à cette première maquette, nous l'avions révisé pendant le cours d'UI. Cela nous a donc mené à ce design général sur lequel on s'appuiera lors du développement : 
+Suite à cette première maquette, nous l'avions révisé pendant le cours d'UI. Cela nous a donc mené à ce design général sur lequel on s'appuiera lors du développement :
 
 <img src="canva2.png">
 <img src="canva2-1.png">
 
 ## Développement
 
-Une fois que nous avons assez d'éléments pour guider notre projet nous avons <strong>commencé le développement du site en local.</strong> 
+Une fois que nous avons assez d'éléments pour guider notre projet nous avons <strong>commencé le développement du site en local.</strong>
 Pour ce faire nous avons créer un <strong>GitHub</strong> dédié afin de pouvoir tous travailler sur le même projet.
 
 <strong>Comment ça marche ? </strong>
 
-Supposons qu'un utilisateur possède un compte et décide de se connecter au site. Il va d'abord s'identifier sur la page d'authentification à l'aide de son nom d'utilisateur et son mot de passe. Une fois connecté il arrive sur la page <strong>Carte des mobilités</strong> dans laquelle il peut naviguer sur la carte, filtrer et se renseigner sur chaque mobilité. Il peut ensuite se rendre sur l'onglet <strong>FAQ</strong> pour obtenir des réponses aux questions qu'il peut se poser lors de sa recherche de mobilité. 
-Si l'étudiant veut partager son expérience de mobilité il se rend sur l'onglet <strong>Mon espace</strong>. Il peut alors remplir le formulaire dédié à l'aide de ses informations. Une fois soumis sa mobilité apparaîtra à condition qu'il ait bien accepté le partage de celle-ci. 
+Supposons qu'un utilisateur possède un compte et décide de se connecter au site. Il va d'abord s'identifier sur la page d'authentification à l'aide de son nom d'utilisateur et son mot de passe. Une fois connecté il arrive sur la page <strong>Carte des mobilités</strong> dans laquelle il peut naviguer sur la carte, filtrer et se renseigner sur chaque mobilité. Il peut ensuite se rendre sur l'onglet <strong>FAQ</strong> pour obtenir des réponses aux questions qu'il peut se poser lors de sa recherche de mobilité.
+Si l'étudiant veut partager son expérience de mobilité il se rend sur l'onglet <strong>Mon espace</strong>. Il peut alors remplir le formulaire dédié à l'aide de ses informations. Une fois soumis sa mobilité apparaîtra à condition qu'il ait bien accepté le partage de celle-ci.
 Si il se rend de nouveau sur <strong>Mon espace</strong> il aura accès à ses informations et pourra les modifier. Il peut aussi décider à tout moment de ne plus partager sa mobilité.
 
 ### Points techniques
@@ -277,18 +277,18 @@ Le site a été codé en JavaScript à l'aide de Node.JS, Express, Sequelize et 
 
 Pour réaliser notre site le point assez important résidait dans la carte interactive, sans celle-ci le site perd un gros atout. Pour ce faire nous avons utilisé <strong>Leaflet</strong>, une bibliothèque JavaScript spécialisées dans les cartes interactives.
 
-Dans notre BDD SQLite on retrouve 3 tables : 
+Dans notre BDD SQLite on retrouve 3 tables :
 - Users
 - Mobilites
 - Locations
 
-Chaque mobilité est rattaché à un <strong>user</strong> et un user ne peut avoir <strong>qu'une mobilité</strong>. 
+Chaque mobilité est rattaché à un <strong>user</strong> et un user ne peut avoir <strong>qu'une mobilité</strong>.
 La table <strong>Locations</strong> permet d'avoir notre propre BDD des localisations des villes que l'on souhaite afficher sur la map.
 Lorsqu'un utilisateur ajoute sa mobilité, si la ville n'existe pas dans la table alors on l'ajoute en récupérant sa localisation à l'aide d'une <strong> API d'OpenStreetMap.</strong>
 On va ensuite chercher la localisation des villes via cette table là pour afficher les mobilités.
 De cette façon on utilise <strong>que les données nécessaires et rien de superflus</strong>, d'autant plus que les gros fichiers CSV que nous avions utilisé au départ n'étaient jamais traduits en Français mais étaient dans la langue du pays (en gros si on voulait afficher Pékin il fallait avoir le nom de la ville en Chinois...).
 
-On a au total 5 fichier HTML : 
+On a au total 5 fichier HTML :
 - Page d'authentification
 - Carte interactive
 - FAQ
@@ -301,7 +301,7 @@ A chaque fichier se rattache un fichier JavaScript et nous avons un fichier CSS 
 
 Nous avons un site qui fonctionne en <strong>local</strong> avec un système d'authentification simple, une carte interactive où l'on peut filtrer les mobilités par <strong>type</strong>,<strong>pays</strong>,et <strong>domaine</strong>, une <strong>FAQ</strong> contenant les réponses aux questions récurrentes et les liens vers les informations officielles de l'administration et un <strong>formulaire</strong> de fin de mobilité à remplir par les étudiants.
 
-Voici les différentes pages : 
+Voici les différentes pages :
 
 <img src="auth.png">
 <img src="carte.png">
@@ -320,7 +320,7 @@ Voici les différentes pages :
 
 <img src="infomodif.png">
 
-### Ecarts 
+### Ecarts
 
 1. <strong>Design </strong>
    Le design n'est pas exactement comme la maquette Figma que nous avons élaboré bien que notre site s'en approche très fortement. Nous avons privilégié un apport de fonctionnalités à la place de rendre une copie conforme de nos maquettes.
@@ -329,7 +329,7 @@ Voici les différentes pages :
    Le site n'a pas pu être hébergé comme nous l'aurions voulu. L'administration nous a fait comprendre qu'ils ne souhaitaient pas s'impliquer dans notre projet par manque de moyens mais aussi vu la complexité de la mise en place de la politique de RGPD.
 
 3. <strong>Connexion CAS</strong>
-   Comme notre site n'allait pas être hébergé, l'utilité de la connexion CAS n'était plus présente. Nous avons donc préféré faire l'impasse dessus et la remplacer par un système d'authentification simple indépendant. 
+   Comme notre site n'allait pas être hébergé, l'utilité de la connexion CAS n'était plus présente. Nous avons donc préféré faire l'impasse dessus et la remplacer par un système d'authentification simple indépendant.
 
 4. <strong>Promotion du site</strong>
    Nous aurions voulu promouvoir notre site aux élèves de l'Ecole notamment avec une vidéo qui aurait mis en avant les fonctionnalités du site, néanmoins en l'absence d'un site disponible pour tous nous n'avons pas effectué cette démarche.
@@ -345,7 +345,7 @@ Voici tout d'abord les défis à relever pour aller plus loin :
 - Héberger le site indépendamment de Centrale
 
 Ces différentes étapes n'ont pas été mises en œuvre <strong>dû à des restrictions administratives</strong> pour publier le site publiquement sur les serveurs de centrale pour des raisons de <strong>sécurité des données</strong> et de maintient du code dans le temps. Cependant, il est possible de publier le site pour des durées d'un an reconductible à condition d'effectuer les mises à jours de sécurité annuelles.
-Pour réaliser la connexion CAS, la première étape est de <strong>se renseigner auprès de Monsieur Brucker ou du Ginfo</strong> afin d'avoir un script pour implémenter la connexion CAS. 
+Pour réaliser la connexion CAS, la première étape est de <strong>se renseigner auprès de Monsieur Brucker ou du Ginfo</strong> afin d'avoir un script pour implémenter la connexion CAS.
 
 ### Héritage du code
 
@@ -363,4 +363,3 @@ De plus, pour réaliser ce projet nous avons choisit les outils suivants :
 - [Maquette Canva](https://www.canva.com/design/DAFvptH5m2c/gqgP8YRc3GiXS5b69VPgcg/edit?utm_content=DAFvptH5m2c&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 - [Formulaire de retours de mobilités](https://docs.google.com/forms/d/e/1FAIpQLSeIoCivfvWPjLD-TudeHL9b3HjVbGLAArKJkqyT0_V0_DV8-A/viewform?usp=sf_link)
 - [Télécharger la présentation](presentation.pdf)
-  

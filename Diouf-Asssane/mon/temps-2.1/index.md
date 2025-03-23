@@ -9,7 +9,7 @@ date: 2023-12-01
 temps: 2
 tags:
 
-résumé: "Apprendre C# et en particulier le développement web avec C#"
+description: "Apprendre C# et en particulier le développement web avec C#"
 ---
 
 ## Pourquoi ?
@@ -84,7 +84,7 @@ namespace JeuPendu
     {
         private IWordProvider _wordProvider;
         private string _secret = "";
-        
+
         // D'autres champs
 
         public Pendu(IWordProvider provider)
@@ -157,9 +157,9 @@ while(Jeu.IsGoingOn())
     else
     {
         Console.WriteLine("Et non, essaie autre chose...");
-        
+
         if(Jeu.Lost) continue;
-        
+
         Console.WriteLine("Il te reste {0} essais", Jeu.NbAllowedMistakes - Jeu.Mistakes);
     }
     Console.WriteLine(Jeu.KnownLetters);
@@ -170,7 +170,7 @@ if(Jeu.Won)
 {
     Console.WriteLine("Bravo ! Le mot est bien {0}, tu as gagné !", Jeu.SecretWord);
 }
-else 
+else
 {
     Console.WriteLine("Le mot était {0}...", Jeu.SecretWord);
 }
@@ -182,7 +182,7 @@ Pour la suite, j'ai demandé à chatGPT de générer une liste de 100 mots en ra
 Ensuite j'ai créé une nouvelle classe de fournisseur de mots pour lire dans le fichier en question et renvoyer un mot aléatoirement :
 ```c#
 // JeuPendu/WordProviders/WordFromFileProvider.cs
-namespace JeuPendu	
+namespace JeuPendu
 {
     namespace WordProviders
     {

@@ -9,7 +9,7 @@ date: 2024-02-28
 temps: 3
 tags:
 
-résumé: "L'objectif de ce MON est l'étude des enjeux des composants électroniques"
+description: "L'objectif de ce MON est l'étude des enjeux des composants électroniques"
 ---
 <h2 id="h1"> Introduction </h2>
 
@@ -44,7 +44,7 @@ Un processeur classique utilise des bits pour effectuer ses opérations. Un ordi
 Votre ordinateur de bureau utilise probablement un ventilateur afin d'être suffisamment froid pour pouvoir fonctionner. Nos processeurs quantiques doivent être très froids – environ un centième de degré au-dessus du zéro absolu. Pour y parvenir, nous utilisons des superfluides surfondus pour créer des supraconducteurs.
 
 **Supraconducteurs**
-À ces températures ultrabasses, certains matériaux de nos processeurs présentent un autre effet de mécanique quantique important : les électrons se déplacent sans résistance. Cela en fait des "supraconducteurs". 
+À ces températures ultrabasses, certains matériaux de nos processeurs présentent un autre effet de mécanique quantique important : les électrons se déplacent sans résistance. Cela en fait des "supraconducteurs".
 
 Lorsque les électrons traversent les supraconducteurs, ils s'apparient, formant des « paires de Cooper ». Ces paires peuvent transporter une charge à travers des barrières, ou isolants, grâce à un processus connu sous le nom de tunnellisation quantique. Deux supraconducteurs placés de part et d'autre d'un isolant forment une jonction Josephson.
 
@@ -85,7 +85,7 @@ Les chercheurs ont également découvert que les propriétés conductrices du ma
 
 <h2 id="h6"> Enjeux écologiques </h2>
 
-Les nouvelles technologies proposes toujours plus, les systèmes tendent tous vers la numérisation et le cloud, pour dématérialiser et pour réduire l'utilisation des feuilles de papiers. Cependant, depuis l’essor de l'électronique, les émissions liés à ces technologies n'ont pas réduit d'une quelconque manière les émissions de CO2. En effet, les gains d'efficacité dans tous les domaines accélèrent trop le développement pour réduire les émissions. Aujourd'hui internet représente entre 2 et 4% des émissions directe de CO2eq selon les sources. le problème réside dans ces évolutions, en effet, stratégique aujourd'hui les investissement sont massifs dans ce secteur, et sa consommation double tous les 4ans. Les nouvelles technologie comme la 5G, les réseaux fibres 8Gb annoncé par Free ou Google consomme encore plus en temps qu'infrastructure mais ouvre surtout la porte à de nouvelles possibilité : le streaming 8K, qui nous parait inutile aujourd'hui comme l'était le HD 1080p il y a encore peu.  
+Les nouvelles technologies proposes toujours plus, les systèmes tendent tous vers la numérisation et le cloud, pour dématérialiser et pour réduire l'utilisation des feuilles de papiers. Cependant, depuis l’essor de l'électronique, les émissions liés à ces technologies n'ont pas réduit d'une quelconque manière les émissions de CO2. En effet, les gains d'efficacité dans tous les domaines accélèrent trop le développement pour réduire les émissions. Aujourd'hui internet représente entre 2 et 4% des émissions directe de CO2eq selon les sources. le problème réside dans ces évolutions, en effet, stratégique aujourd'hui les investissement sont massifs dans ce secteur, et sa consommation double tous les 4ans. Les nouvelles technologie comme la 5G, les réseaux fibres 8Gb annoncé par Free ou Google consomme encore plus en temps qu'infrastructure mais ouvre surtout la porte à de nouvelles possibilité : le streaming 8K, qui nous parait inutile aujourd'hui comme l'était le HD 1080p il y a encore peu.
 
 - Consommation d'énergie : Les microprocesseurs nécessitent une quantité considérable d'électricité pour fonctionner. Cette demande énergétique peut contribuer à l'augmentation de la consommation globale d'énergie, ce qui peut avoir un impact sur les émissions de gaz à effet de serre et la disponibilité des ressources énergétiques.
 - Épuisement des ressources : La fabrication des microprocesseurs nécessite l'utilisation de matériaux rares et précieux tels que le silicium, le cuivre, le gallium et le germanium. L'extraction et le traitement de ces matériaux peuvent entraîner une pression supplémentaire sur les écosystèmes locaux et contribuer à l'épuisement des ressources naturelles.

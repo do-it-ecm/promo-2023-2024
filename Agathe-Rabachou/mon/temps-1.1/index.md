@@ -13,7 +13,7 @@ tags:
   - "CSS"
   - "débutant"
 
-résumé: "Ce MON a pour objectif de découvrir les bases des langages HTML et CSS afin d'être capable de coder des sites web simples."
+description: "Ce MON a pour objectif de découvrir les bases des langages HTML et CSS afin d'être capable de coder des sites web simples."
 ---
 ## 1. Introduction
 

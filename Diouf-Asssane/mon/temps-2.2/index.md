@@ -9,7 +9,7 @@ date: 2024-01-17
 temps: 2
 tags:
 
-résumé: "Ce MON est la suite de mon MON sur C#, l'objectif est de découvrir ASP.NET Core et de faire un petit pendu web"
+description: "Ce MON est la suite de mon MON sur C#, l'objectif est de découvrir ASP.NET Core et de faire un petit pendu web"
 ---
 
 ## Introduction
@@ -35,9 +35,9 @@ Inconvénients : Un peu plus long à prendre en main pour les débutants par rap
 
 ## Organisation d'un projet d'application Web ASP.NET Core
 
-Lorsqu'on crée un projet par défaut d'application Web, on a un peu de code généré automatiquement pour aider les développeurs. Le projet de base utilise des Razor Pages et intègre Bootstrap par exemple. 
+Lorsqu'on crée un projet par défaut d'application Web, on a un peu de code généré automatiquement pour aider les développeurs. Le projet de base utilise des Razor Pages et intègre Bootstrap par exemple.
 
-Le dossier wwwroot contient les fichiers js, css  et autres. 
+Le dossier wwwroot contient les fichiers js, css  et autres.
 
 Le dossier Pages contient toutes les pages et définis aussi les différents url accessibles depuis notre site; par exemple si vous avez un fichiers Pages/About.cshtml, alors cette page s'affiche lorsque le client va sur l'url /about. Il est rempli de fichiers .cshtml qui permettent de faire de templates html avec C# et d'utiliser Razor. C'est fichiers sont en fait comme des dossiers comme le montre l'image ci-dessous.
 <img src="./penduExempleRazorPage.png" alt="Exemple Razor Page"/>

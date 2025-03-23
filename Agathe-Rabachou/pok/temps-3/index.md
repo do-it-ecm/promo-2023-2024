@@ -13,7 +13,7 @@ tags:
   - "interface"
   - "statistiques"
 
-résumé: Un POK ayant pour objectif de réaliser en Python une interface qui convertit les données brutes d'un match de basket-ball en statistiques sous différents formats.
+description: Un POK ayant pour objectif de réaliser en Python une interface qui convertit les données brutes d'un match de basket-ball en statistiques sous différents formats.
 ---
 ## Introduction
 
@@ -103,7 +103,7 @@ Pour finir, j'ai commencé à développer les fonctions pour récupérer le rest
 
 ### Retours
 
-Pour conclure ce sprint, j'ai largement sous-estimé le temps passé à corriger des bugs et à créer et mettre en forme un document propre et fonctionnel pour le rendu de la feuille de match. Je n'ai donc pas eu le temps de me pencher sur les autres fonctionnalités de mon backlog, et seule la partie principale, sans les statistiques et la personnalisation des équipes est utilisable. 
+Pour conclure ce sprint, j'ai largement sous-estimé le temps passé à corriger des bugs et à créer et mettre en forme un document propre et fonctionnel pour le rendu de la feuille de match. Je n'ai donc pas eu le temps de me pencher sur les autres fonctionnalités de mon backlog, et seule la partie principale, sans les statistiques et la personnalisation des équipes est utilisable.
 Cependant, j'ai beaucoup appris sur les méthodes de génération de PDF à partir d'un programme ou de données quelconques.
 Mention honorable également à la documentation officielle de la bibliothèque *reportlab* ainsi qu'à ChatGPT (parfois utile, parfois moins...) pour les situations débloquées.
 

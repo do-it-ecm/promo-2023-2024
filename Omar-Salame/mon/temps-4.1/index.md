@@ -10,7 +10,7 @@ date: 2024-02-14
 temps: 3
 tags:
 
-résumé: L'IA générative est de plus en plus palpable dans le paysage technologique actuel. Les grands modèles de langage ont ouvert de nouvelles perspectives et suscité un vif intérêt dans divers domaines professionnels.
+description: L'IA générative est de plus en plus palpable dans le paysage technologique actuel. Les grands modèles de langage ont ouvert de nouvelles perspectives et suscité un vif intérêt dans divers domaines professionnels.
 ---
 
 ## Table des matières

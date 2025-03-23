@@ -11,7 +11,7 @@ tags:
   - "langage vba"
   - "excel pratique"
 
-résumé: "Un MON sur l'apprentissage du langage VBA"
+description: "Un MON sur l'apprentissage du langage VBA"
 ---
 
 {%prerequis 'Bases du VBA'%}

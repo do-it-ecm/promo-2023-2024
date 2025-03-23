@@ -11,7 +11,7 @@ temps: 2
 tags:
   - "transformation digitale"
 
-résumé: Ce POK est une étude de cas d’une transformation digitale dans l'entreprise Sfil.
+description: Ce POK est une étude de cas d’une transformation digitale dans l'entreprise Sfil.
 ---
 ## Objectifs
 1. Mieux comprendre en quoi consiste une transformation digitale
@@ -77,7 +77,7 @@ Qui veille à l’intégration de nouvelles technologies dans le SI de l’entre
 Il est probable que la plateforme adaptée aux objectifs de l’entreprise soit un patchwork hautement virtualisé et distribué de solutions de différents fournisseurs. À des fins d’exécution pratique, les entreprises choisissent parmi une myriade d’options leur permettant d’optimiser l’infrastructure et de simplifier la gestion tout en gardant un œil sur l’expérience utilisateur et la transformation des services métier. Indéniablement, pour réussir, la transformation digitale doit être itérative, réactive et flexible.
 
 {% exercice %}
-Est-ce le cas dans l’entreprise étudiée ? Comment les nouvelles technologies sont proposées aux collaborateurs ? Quel est leur niveau d’acceptabilité, d’acceptation et d’appropriation ? 
+Est-ce le cas dans l’entreprise étudiée ? Comment les nouvelles technologies sont proposées aux collaborateurs ? Quel est leur niveau d’acceptabilité, d’acceptation et d’appropriation ?
 {% endexercice %}
 
 ## L'entreprise étudiée : Sfil
@@ -101,7 +101,7 @@ Qu’est-ce qui motive une transformation digitale dans une entreprise ?
 {% details "réponse" %}
 C’est avant tout la compétition qui motive une transformation pour ensuite entretenir et accroître la capacité d’innover de la société. Si l’on prend l’exemple des banques qui prêtent à des particuliers (BNP, La Banque Postale, les néo-banques,...) elles se doivent d’être à la pointe dans les domaines technologiques pour proposer de nouveaux service, de nouvelles fonctionnalités sur leurs applications tout en garantissant l’entière sécurité des transactions et données. Dans ces cas, une transformation digitale en profondeur de l’entreprise est motivée par la concurrence.
 Dans le cas de Sfil, il n’y a pas de concurrence. La transformation et l’innovation se font donc à un autre rythme. A sa création en 2013, la réglementation a commandé au SI de Sfil d’être un duplicata de celui de Dexia. Ce grand groupe comptait 30 000 collaborateurs alors que Sfil n’en compte que 400. Le SI de Sfil était donc surdimensionné comparé à la taille de l’entreprise, ce qui engendrait des coûts superflus importants. Pendant 3 ans, la priorité de l’entreprise a donc été de simplifier ce SI et ses processus.
-En parallèle, le monde de l’entreprise connaît une évolution avec le déploiement des méthodes agiles, l’importance grandissante des réseaux sociaux et l’arrivée d’outils collaboratifs de partage. En sortant de son redimensionnement de SI, Sfil se retrouve face à de nouveaux enjeux. Sa transformation digitale a donc été motivée par le besoin mais aussi par la nécessité de rester attractif sur le marché du travail et celle d’acquérir de nouvelles méthodes favorisant l’innovation et l’agilité. 
+En parallèle, le monde de l’entreprise connaît une évolution avec le déploiement des méthodes agiles, l’importance grandissante des réseaux sociaux et l’arrivée d’outils collaboratifs de partage. En sortant de son redimensionnement de SI, Sfil se retrouve face à de nouveaux enjeux. Sa transformation digitale a donc été motivée par le besoin mais aussi par la nécessité de rester attractif sur le marché du travail et celle d’acquérir de nouvelles méthodes favorisant l’innovation et l’agilité.
 {% enddetails %}
 
 ### Mise en oeuvre de la transformation
@@ -117,7 +117,7 @@ Une transformation digitale s’accompagne aussi d’une intense communication (
 Plus précisément, comment passe-t-on d’une idée à un tel projet ?
 {% endexercice %}
 {% details "réponse" %}
-Tout collaborateur détectant un besoin peut en faire part à un comité en le lui présentant sous forme de pitch. La prise en compte du risque est primordiale. Le comité tranche ensuite : soit on adapte un outil existant, soit il n’est même pas utile de le faire, soit on se penche davantage sur le sujet. Lors de la phase suivante, la DSI réfléchit à comment répondre à ce besoin. La solution trouvée est ensuite présentée au COMEX qui tranche si on lance finalement le projet ou non. 
+Tout collaborateur détectant un besoin peut en faire part à un comité en le lui présentant sous forme de pitch. La prise en compte du risque est primordiale. Le comité tranche ensuite : soit on adapte un outil existant, soit il n’est même pas utile de le faire, soit on se penche davantage sur le sujet. Lors de la phase suivante, la DSI réfléchit à comment répondre à ce besoin. La solution trouvée est ensuite présentée au COMEX qui tranche si on lance finalement le projet ou non.
 {% enddetails %}
 
 ### Périmètre de la transformation
@@ -136,7 +136,7 @@ Quels sont les éléments de la transformation digitale de Sfil ?
 Quel est votre rôle et votre part de participation à cette transformation digitale ?
 {% endexercice %}
 {% details "réponse"  %}
-RL est responsable de la cohérence du SI et de l’innovation. Cette double casquette peut sembler un peu contradictoire. 
+RL est responsable de la cohérence du SI et de l’innovation. Cette double casquette peut sembler un peu contradictoire.
 En tant qu’architecte fonctionnel, il est chargé de cartographier la DSI. Il est aussi responsable de la conformité en termes de technique : les solutions mises en place sont  des solutions connues et maîtrisées que l’on peut catégoriser. A ce titre, il valide aussi les projets soumis en comité.
 En tant que responsable de l’innovation, RL est chargé d’aller voir ce qui se fait ailleurs (dans des salons notamment) en matière d’innovation technologique (VR ou IA par exemple). Il organise aussi des Proof Of Concept (POC), des ateliers avec les collaborateurs pour qu’ils participent à l’évolution des technologies de l’entreprise. Pour la VR, par exemple, la technologie est présentée puis les participants l’expérimentent. Ensuite, ils réfléchissent ensemble à de potentielles applications dans le cadre du travail. Pour la VR cela a notamment abouti à la visite des nouveaux locaux en VR pour une trentaine de collaborateurs. Concernant l’IA de très nombreuses questions de sécurité se posent à cause de la sensibilité des données manipulées. Le no-code/low-code est aussi arrivé par un POC qui a aboutit à une plateforme le rendant accessible à tous. Ce travail s’accompagne d’une démarche d’écoute et de lobbying pour faire connaître ces idées.
 Finalement, le métier de RL est de faire la balance entre ces 2 aspects : explorer les nouvelles tendances pour les intégrer chez Sfil. Il s’occupe aussi de les présenter et expliquer au COMEX pour les éclairer dans leur prise de décision.
@@ -184,7 +184,7 @@ Quelles sont les transformations que vous avez observées et qui vous semblent l
 {% endexercice %}
 {% details "réponse" %}
 SM est dans l'entreprise depuis sa création en 2013, elle a donc été témoin de nombreuses évolutions :
-- lors de la création de l'entreprise, il y a eu une première vague de transformation au cours de laquelle SM a vu les outils qu'elle utilisait être grandemenent **simplifiés**.  De nombreuses fonctionnalités nécessaires à l'activité de Dexia mais devenues désuètes pour pour Sfil ont été retirées. 
+- lors de la création de l'entreprise, il y a eu une première vague de transformation au cours de laquelle SM a vu les outils qu'elle utilisait être grandemenent **simplifiés**.  De nombreuses fonctionnalités nécessaires à l'activité de Dexia mais devenues désuètes pour pour Sfil ont été retirées.
 - de plus, Sfil agissant en tant que prestataire de la Banque Postale, ces outils ont dû être **mis au service de cette banque**. Par exemple, lorsque la Banque Postaele négocie un prêt qui sera cédé à Sfil, elle en remplit les termes dans un outil créé par Sfil. Aujourd'hui, la question de la signature éléctronique est au coeur des échanges. SM a participé à la création de ces outils en dialoguant de ses besoins avec les services informatiques.
 - l'entreprise Sfil n'ayant par de commerciaux et s'adressant uniquement à des collectivités locales, sa **plateforme** dédiée à ses emprunteurs, DigiSfil, reste assez succinte. Elle a cepenant fait l'objet d'un vaste chantier.
 - tous les collaborateurs sont impliqués dans les processus d'idéation. Ils participent à des réunions transversales en interne pour faire émerger des besoins et des idées de solution. Des POC avaient par exemple été lancés pour que chaque service parvienne à se débarasser de tâches récurrentes et **automatisables**. Grâce à cela, des tableaux Excel formatés, des envois de mails automatiques ou des missions de numérisation ont vu le jour. Grâce à ce recul sur leur activité et celles de leurs collègues, les collaborateurs se sont davantage impliqués, ont gagné du temps et ont échangé entre eux sur leurs missions.
@@ -211,7 +211,7 @@ Dans quelle mesure cette transformation digitale transforme votre métier ?
 Les tâches récurrentes étant automatisées et simplifiées du temps est libéré pour de nouvelles missions. De nouvelles tâches apparaissent donc et le métier de SM évolue vers plus de contrôle. Néanmoins, au global, sa charge de travail s'alourdit mais ce n'est pas le cas de tous les métiers. Au back office par exemple, leur charge de travail diminue. Dans sa politique de mobilité interne, l'entreprise incite ces collaborateurs à évoluer vers d'autres métiers au sein même de l'entreprise. Le nombre d'assistantes de direction a aussi beaucoup diminué.
 {% enddetails %}
 
-### La transformation digitale en quelques mots 
+### La transformation digitale en quelques mots
 {% exercice %}
 Finalement, comment définiriez-vous la transformation digitale dans votre entreprise ?
 {% endexercice %}

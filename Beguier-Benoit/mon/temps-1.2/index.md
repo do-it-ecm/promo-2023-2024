@@ -12,7 +12,7 @@ tags:
   - "CSS"
   - "mon"
 
-résumé: "Apprentissage d'HTML5 et CSS3."
+description: "Apprentissage d'HTML5 et CSS3."
 ---
 
 {% prerequis %}

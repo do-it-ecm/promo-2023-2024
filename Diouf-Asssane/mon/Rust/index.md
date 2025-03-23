@@ -10,13 +10,13 @@ date: 2023-09-27
 temps: 1
 tags:
 
-résumé: "Découvrons ensemble le langage Rust. Il est de plus en plus adopté dans l'industrie pour ses performances et ses idées nouvelles, comme l'ownership."
+description: "Découvrons ensemble le langage Rust. Il est de plus en plus adopté dans l'industrie pour ses performances et ses idées nouvelles, comme l'ownership."
 ---
 
-{%prerequis 'MON débutant'%} 
-Il faut connaître : 
-- des bases en C/C++ 
-- l'utilisation d'un CLI (un terminal de commande) 
+{%prerequis 'MON débutant'%}
+Il faut connaître :
+- des bases en C/C++
+- l'utilisation d'un CLI (un terminal de commande)
 {%endprerequis%}
 
 Pour faire mes débuts en Rust j'ai d'abord consulté le [site officiel](https://www.rust-lang.org/fr) du langage. On peut y trouver un livre (gratuit) pour apprendre le langage : [https://doc.rust-lang.org/book/](https://doc.rust-lang.org/book/).
@@ -37,9 +37,9 @@ Cette vidéo Youtube est aussi une présentation (très) rapide à Rust : [Rust]
 ## Comment faire du Rust ?
 Rust étant un langage compilé, il faut commencer par installer le compilateur rustc. Ensuite, pour éditer du code en Rust, il faut un IDE comme Visual Studio Code ou CLIon (et bientôt RustRover). Enfin, pour exécuter son premier programme Rust, il faut créer l'exécutable avec la commande :
 ```bash
-rustc main.rs 
+rustc main.rs
 ```
-et exécuter ce dernier avec : 
+et exécuter ce dernier avec :
 ```bash
 ./main
 ```

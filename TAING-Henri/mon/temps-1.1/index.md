@@ -12,7 +12,7 @@ tags:
   - Marketing
   - Communication
 
-résumé: "Introduction au marketing digital pour les vieux"
+description: "Introduction au marketing digital pour les vieux"
 ---
 
 {%prerequis 'MON débutant'%}

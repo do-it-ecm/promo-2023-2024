@@ -11,12 +11,12 @@ tags:
   - "Data Art"
   - "Processing"
 
-résumé: "Ce MON traitera du data art, ou de l'art de la visualisation de données. Je tenterai d'abord de comprendre le concept, son histoire et ses enjeux. Puis je me pencherai sur l'utilisation de Processing, un environnement de programmation graphique."
+description: "Ce MON traitera du data art, ou de l'art de la visualisation de données. Je tenterai d'abord de comprendre le concept, son histoire et ses enjeux. Puis je me pencherai sur l'utilisation de Processing, un environnement de programmation graphique."
 
 ---
 ---
 
-{%prerequis 'Niveau intermédiaire'%} 
+{%prerequis 'Niveau intermédiaire'%}
 Prérequis : Avoir quelques bases en Java.
 Télécharger le logiciel Processing *(gratuit)*
 {%endprerequis%}
@@ -29,7 +29,7 @@ Télécharger le logiciel Processing *(gratuit)*
 
 <h2 id=idefinition> Le data art : qu'est ce que c'est? </h2>
 
-### Une définition du concept 
+### Une définition du concept
 
 > Quand d'autres peignent avec des pinceaux, moi je peins avec des données"
 
@@ -38,7 +38,7 @@ Il définit ce concept comme un *"processus artistique qui repose sur l'usage d'
 
 Donc en résumé, c’est l’idée de **visualiser des données de manière artistique**, de sorte à **donner de l’émotion** aux gens tout en faisant **comprendre** ce qu’il y a derrière ces données. Le Data Art permet de créer des œuvres captivantes tout en transmettant des informations complexes de manière esthétique.
 
-### Data art ? Data visualisation ? Art génératif ? 
+### Data art ? Data visualisation ? Art génératif ?
 
 Selon Kirelli Benzi, le **data art** se trouve entre la **data visualisation**, et **l'art génératif**.
 
@@ -71,7 +71,7 @@ https://www.ibm.com/fr-fr/analytics/big-data-analytics
 
 <h2 id=exemples> Présentation de quelques oeuvres de Data Art </h2>
 
-### Love Will Tear Us Apart Again - Peter Crnokrak - 2007 
+### Love Will Tear Us Apart Again - Peter Crnokrak - 2007
 
 <img src="exemple1.png">
 
@@ -97,53 +97,53 @@ Dans cette oeuvre, l'artiste propose de visualiser, le trafic aérien américain
 David McCandless explique dans [ce TEDx Talks](https://www.youtube.com/watch?v=5Zg-C8AAIGg) très intéressant le data art, et se penche plus particulièrement sur cette oeuvre.
 C'est une chronologie des plus grandes peurs du monde, telles qu'elles sont attisées par les médias *(où l'ordonnée représente l'intensité de la couverture médiatique (nombre de mentions))*
 
-Il y explique d'ailleurs des constats très intéressant : 
+Il y explique d'ailleurs des constats très intéressant :
 Si on regarde la "montagne" des peurs des jeux vidéos violents, on observe 2 pics:
 
 - novembre : sortie des jeux vidéos de Noël, on observe alors une peur chez les parents de la violence de certains jeux
 - avril : avril 1999, fusillade de Colombine, qui est commémorée par les médias, et attisent cette peur des jeux vidéos violents.
 
 {%info "REMARQUE"%}
-Si certains sont intéressés d'ailleurs, [ce site](https://weartdata.fr/boutique/page/3/?orderby=popularity) vend des oeuvres de data art, en offrant même la possibilité aux consommateurs de créer leur oeuvre de Data Art sur-mesure. 
+Si certains sont intéressés d'ailleurs, [ce site](https://weartdata.fr/boutique/page/3/?orderby=popularity) vend des oeuvres de data art, en offrant même la possibilité aux consommateurs de créer leur oeuvre de Data Art sur-mesure.
 {%endinfo%}
 
 <h2 id=processing> Découverte du logiciel Processing </h2>
 
-### Qu'est ce que Processing ? 
+### Qu'est ce que Processing ?
 
 **Processing** est un **langage de programmation** et un **environnement de développement intégré**(IDE), **gratuit** et **open source**, mis au point par 2 artistes (Casey Reas et Benjamin Fry). Processing est principalement utilisé par les artistes, les designers, les chercheurs et les éducateurs. Il permet de créer des **œuvres artistiques numériques visuelles et interactives**
 
 Processing est basé sur **Java**, et proche du **langage C**, mais avec une syntaxe simplifiée (*réclame moins d'efforts que Java pour effectuer des tâches simples telles que la modification d'une animation à intervalle régulier (qui permet des créations animées)*) et une bibliothèque graphique très large et accessible facilement.
 
 Processing a avant tout une vocation pédagogique : il a été conçu dès son origine pour servir à enseigner les bases de la programmation informatique dans un contexte visuel.
-C'est donc un excellent outil **d'apprentissage de la programmation** pour les non-programmeurs ou débutants. 
+C'est donc un excellent outil **d'apprentissage de la programmation** pour les non-programmeurs ou débutants.
 
 De nombreux enseignants l'utilisent pour initier leurs élèves et leurs étudiants aux concepts et aux bonnes pratiques de la programmation *(ex: [ce cours de processing donné à des lycéens STI2D](http://sti.ac-orleans-tours.fr/spip2/IMG/pdf/10_Processing_Initiation_Ver1_ABr.pdf))*
 
-{%info 'Remarques'%} 
+{%info 'Remarques'%}
 
 - Processing est souvent utilisé avec Arduino pour créer des projets impliquant des interactions physiques avec des capteurs, des moteurs et d'autres dispositifs matériels.
 - Ses fonctionnalités sont limitées aux besoins des créateurs d'images 2D et 3D générées par programmation mais peuvent être étendues, avec des modules externes, à d'autres fonctionnalités plus poussées *(ex: comme la capture d'un flux vidéo, à la génération et à la manipulation de son, à l'interfaçage des ports d'entrées-sorties, etc)*
-- On peut désormais utiliser plusieurs langages avec l'environnement Processing : Javascript, avec Processing.js, et p5.js2, exécutables dans un environnement HTML 5 ou via node.js., REPL, Python ou encore R. 
-{%endinfo%} 
+- On peut désormais utiliser plusieurs langages avec l'environnement Processing : Javascript, avec Processing.js, et p5.js2, exécutables dans un environnement HTML 5 ou via node.js., REPL, Python ou encore R.
+{%endinfo%}
 
 [Lien pour télécharger le logiciel](https://processing.org/download)
 
-{%prerequis "<u>Sources</u>"%} 
+{%prerequis "<u>Sources</u>"%}
 - [*Processing, Flossmanuals*](https://www.flossmanualsfr.net/media/files/processing/processing.web.pdf) : très bon ouvrage qui montre même des exemples d'oeuvres créées avec Processing, assez impressionantes.
-{%endprerequis%} 
+{%endprerequis%}
 
 ### Pourquoi ce choix ?
 
 En cherchant quel outil utiliser pour faire du data art, je suis tombée sur [cette vidéo](https://www.youtube.com/watch?v=x3KJf4EpnXo) du grand Kirell Benzi qui présentait les _**outils les plus populaires pour faire du data art**_. Je me suis dit que c'était une source fiable. Parmi tous les outils qu'il proposait, certains étaient payants, d'autres étaient vraiment tournés vers la *visualisation scientifique* des données (ex: JupyterLab). Puis il a parlé de l'un des *"logiciels les plus répandus dans le monde pour faire du data art"* : un logiciel créé par des artistes, facile à prendre en main, et se basant sur du Java (tient, tient, pile le sujet de mon [POK 2](../../pok/temps-2/index.md))
-Le choix du logiciel à utiliser m'a alors paru évident. 
+Le choix du logiciel à utiliser m'a alors paru évident.
 
-### Prise en main du logiciel 
+### Prise en main du logiciel
 
-#### Les bases 
+#### Les bases
 
 Si j'ai retenu une chose c'est que les méthodes **setup()** et **draw()** sont les 2 plus importantes dans Processing:
-- **setup()**, est exécutée une seule fois au lancement du programme (*elle permet notamment de définir les dimensions de la fenêtre de visualisation de dessin*) 
+- **setup()**, est exécutée une seule fois au lancement du programme (*elle permet notamment de définir les dimensions de la fenêtre de visualisation de dessin*)
 - **draw()** est lancée à intervalle régulier (*par défaut 60 fois par seconde*)
 
 Voici un exemple présenté par Processing lors du lancement de l'application, qui permet de voir ce que l'on peut réaliser facilement :
@@ -169,14 +169,14 @@ void draw() {
 
 #### Quelques tutos pour bien commencer
 
-Pour aller un peu plus loin, j'ai voulu commencer mon apprentissage par suivre quelques tutos. Parmi ceux que j'ai trouvés, je conseille vivement ceux-ci : 
+Pour aller un peu plus loin, j'ai voulu commencer mon apprentissage par suivre quelques tutos. Parmi ceux que j'ai trouvés, je conseille vivement ceux-ci :
 - [Cette vidéo de Mr Park](https://www.youtube.com/watch?v=pJthD0t6k1U) : très très bien expliquée pas à pas. L'application dont je parlerai juste en dessous se base sur ses explications.
-- [Ce tutoriel écrit par un designer graphique](https://geojournalism.org/2013/08/portugues-as-cidades-mais-populosas-do-mundo/) : pour ceux qui préfèrent lire plutôt que visionner, ce tuto reprend les mêmes points que la vidéo précédente. 
+- [Ce tutoriel écrit par un designer graphique](https://geojournalism.org/2013/08/portugues-as-cidades-mais-populosas-do-mundo/) : pour ceux qui préfèrent lire plutôt que visionner, ce tuto reprend les mêmes points que la vidéo précédente.
 - [Cette vidéo d'une "artiste numérique"](https://www.youtube.com/watch?v=Aqwpxl5LUFI): permet d'aborder d'autres aspects plus poussés que la 1ère vidéo. Mais elle va très vite. *A regarder plutôt en complément que en première approche.*
 
 ##### Cas d'application
 
-Dans sa vidéo Youtube, John park explique comment visualiser des données importées depuis Excel, sur Processing. Avec un cas d'application, il explique ses paroles. Sa BDD représentait des noms de personnes qu'il associait avec différentes caractéristiques, dont leur âge. Il essayait de représenter ensuite de manière plus parlante cette donnée au travers de cercles de tailles proportionnelles à la donnée. 
+Dans sa vidéo Youtube, John park explique comment visualiser des données importées depuis Excel, sur Processing. Avec un cas d'application, il explique ses paroles. Sa BDD représentait des noms de personnes qu'il associait avec différentes caractéristiques, dont leur âge. Il essayait de représenter ensuite de manière plus parlante cette donnée au travers de cercles de tailles proportionnelles à la donnée.
 
 De mon côté, j'ai construit une BDD qui répertoriait 11 espèces d'oiseaux, la taille de l'oiseau, la taille de leurs oeufs, et la fréquence de ponte. *(informations trouvées principalement [ici](https://www.mnhn.fr/fr/actualites/tout-savoir-sur-les-oeufs) [là](https://www.oiseaux.net/oiseaux/goeland.argente.html) et [un petit peu là](https://fr.wikipedia.org/wiki/Wikip%C3%A9dia:Accueil_principal))*.
 
@@ -185,14 +185,14 @@ Voici ce que représente l'application de son exercice à ma base de données :
 <img src="birds.png">
 
 - La taille de la police d'écriture de l'espèce d'oiseau est proportionnelle à la taille de l'oiseau : *plus l'oiseau est grand, plus la police est épaisse*.
-- La taille de l'ellipse est proportionnelle, quant à elle, a la taille de l'oeuf pondu par l'oiseau. 
+- La taille de l'ellipse est proportionnelle, quant à elle, a la taille de l'oeuf pondu par l'oiseau.
 - La couleur et la transparence de l'ellipse dépend de la fréquence de ponte de l'oiseau. *pour une fréquence de ponte inférieure ou égale à 1 portée /an, l'ellipse est coloriée en rouge, sinon, elle est coloriée en bleu, et l'opacité de l'ellipse dépend du nombre d'oeufs pondus sur l'année*.
 
 {%info 'Remarques & constats (peut être) intéressants'%}
 
 - il n'existe aucune corrélation entre la taille de l'oiseau et la taille de son oeuf. *Ce constat est particulièrement vrai pour le kiwi.*
-- La poule et le cygne pondent beaucoup, alors que d'autres espèces comme le grand pingouin, le kiwi ou le goéland, pondent peu. *Ce constat m'a beaucoup intrigué: sur [ce site](https://mffp.gouv.qc.ca/jeunesse/oeufs-taille-ponte-oiseaux/) du gouvernement du Québec, on peut lire plusieurs facteurs qui déterminent ces chiffres : comme la répartition géographique, la disponibilité de la nourriture, ou encore la prédation par exemple.*   
-{%endinfo%} 
+- La poule et le cygne pondent beaucoup, alors que d'autres espèces comme le grand pingouin, le kiwi ou le goéland, pondent peu. *Ce constat m'a beaucoup intrigué: sur [ce site](https://mffp.gouv.qc.ca/jeunesse/oeufs-taille-ponte-oiseaux/) du gouvernement du Québec, on peut lire plusieurs facteurs qui déterminent ces chiffres : comme la répartition géographique, la disponibilité de la nourriture, ou encore la prédation par exemple.*
+{%endinfo%}
 
 ---
 
@@ -216,7 +216,7 @@ void draw (){
     fill(0);
     //1 correspond à la colonne contenant la taille de l'oiseau (en cm)
     if (table.getFloat(i,1)<80){
-      textSize(10);  
+      textSize(10);
     }else if (table.getFloat(i,1)<140){
       textSize(20);
     }else{
@@ -243,22 +243,22 @@ void draw (){
 
 Après tout cet apprentissage, il était temps pour moi de mettre à profit tout ce que j'avais vu pour créer ma première oeuvre.
 
-Je vous présente donc le premier chef d'oeuvre de Sarah Sebastien, intitulé 
+Je vous présente donc le premier chef d'oeuvre de Sarah Sebastien, intitulé
 **"Une année toute en couleur"**
 
 <img src="TheColorsOfTheYear.png">
 
 {% details "Mais qu'est ce que c'est que ce truc?" %}
-Cette oeuvre représente l'évolution de la température sur l'année 2023 dans les villes respectives de Marseille, Lille et Toulouse. 
+Cette oeuvre représente l'évolution de la température sur l'année 2023 dans les villes respectives de Marseille, Lille et Toulouse.
 *Pour faire concorder les couleurs, j'ai pris comme référentiels d'extremas le maximum de température observé à Toulouse (43°) et le minimum observé à Lille (-5°).*
 {% enddetails %}
 
-### Démarche 
+### Démarche
 #### Etape 1: Recherche du sujet
 
-L'inspiration m'est venue en cherchant des bdd qui pourraient être intéressantes à exploiter. Je suis tombée sur [ce site](https://public.opendatasoft.com/explore/dataset/donnees-synop-essentielles-omm/export/?flg=fr-fr), qui recensait un tas d'informations météorologiques sur un large panel de villes de France et un large panel de périodes. 
+L'inspiration m'est venue en cherchant des bdd qui pourraient être intéressantes à exploiter. Je suis tombée sur [ce site](https://public.opendatasoft.com/explore/dataset/donnees-synop-essentielles-omm/export/?flg=fr-fr), qui recensait un tas d'informations météorologiques sur un large panel de villes de France et un large panel de périodes.
 
-Je me suis dit qu'il y avait alors quelque chose à faire sur la représentation de l'évolution de la température sur une année qui n'était pas trop compliqué. 
+Je me suis dit qu'il y avait alors quelque chose à faire sur la représentation de l'évolution de la température sur une année qui n'était pas trop compliqué.
 
 **SPOILER ALERT:** Cela s'est avéré un tout petit plus compliqué que prévu...
 
@@ -267,7 +267,7 @@ Je me suis dit qu'il y avait alors quelque chose à faire sur la représentation
 Une fois les données recueillies, il a fallu les exploiter:
 
 - J'ai d'abord trié les données pour les classer par ordre chronologique.
-- Ensuite, je savais que je voulais un dégradé de couleurs qui serait proportionnel au degré de température. Pour ça, j'ai utilisé une *"mise en forme conditionnelle"*, avec un dégradé à 3 couleurs (bleu - pour les températures les plus froides - jaune, et rouge - pour les températures les plus chaudes) en indiquant le min et le max selon les valeurs déterminées plus haut. 
+- Ensuite, je savais que je voulais un dégradé de couleurs qui serait proportionnel au degré de température. Pour ça, j'ai utilisé une *"mise en forme conditionnelle"*, avec un dégradé à 3 couleurs (bleu - pour les températures les plus froides - jaune, et rouge - pour les températures les plus chaudes) en indiquant le min et le max selon les valeurs déterminées plus haut.
 
 <img width=350 src="exploitation_donnees_1.png">
 
@@ -287,31 +287,31 @@ Sub getColor()
 
     For i = NoLigDebut To NoLigFin
         couleur = Cells(i, 4).DisplayFormat.Interior.Color
-        
+
         R = Int(couleur Mod 256)
         G = Int((couleur Mod 65536) / 256)
         B = Int(couleur / 65536)
-        
+
         Cells(i, 5).Value = R
         Cells(i, 6).Value = G
         Cells(i, 7).Value = B
-        
+
     Next
 End Sub
 ```
 {% enddetails %}
 
 - On vient récupérer le code couleur de la cellule avec la méthode **DisplayFormat** *(cela a d'ailleurs été le point bloquant dans la création de la macro : comme la couleur de la cellule a été générée avec une mfc, et pas remplie à la main, la méthode traditionnelle seule du **Interior.Color** ne fonctionnait pas ici. Et ça j'ai mis du temps à le comprendre...)*
-- Puis on vient utiliser ce code couleur que l'on divise selon les formules expliquées [ici](https://excel-downloads.com/threads/resolu-obtenir-code-couleur-rgb-ou-hexadecimal.20022616/) pour obtenir le **code RGB** de la couleur de la ligne. 
+- Puis on vient utiliser ce code couleur que l'on divise selon les formules expliquées [ici](https://excel-downloads.com/threads/resolu-obtenir-code-couleur-rgb-ou-hexadecimal.20022616/) pour obtenir le **code RGB** de la couleur de la ligne.
 - On inscrit ces 3 composantes dans **3 colonnes distinctes** et le tour est joué.
 
 <img width=350 src="exploitation_donnees_2.png">
 
-### Etape 3 : Mise en forme des données 
+### Etape 3 : Mise en forme des données
 
 Le fichier CSV enregistré ne consiste alors plus qu'en 365 lignes, correspondant aux jours de l'année, et 3 colonnes,correspondant au composantes RGB de la température du jour en question.
 
-Le codage de la mise en forme sur processing devenait alors très simple : 
+Le codage de la mise en forme sur processing devenait alors très simple :
 
 - on créer une fenêtre de la taille des 3 bandes
 - on initialise les tables
@@ -351,11 +351,11 @@ void draw() {
 ```
 {% enddetails %}
 
-## Conclusion et retour d'expérience 
+## Conclusion et retour d'expérience
 
-Finalement, je trouve ça assez incroyable ce qu'on peut produire avec quelques lignes de codes. Et seulement quelques fonctions basiques et quelques structures de contrôle simples. J'avais dédié mon POK 2 sur l'apprentissage du Java en grande partie pour réaliser ce MON. Mais finalement, les créateurs de Processing ne mentent pas quand ils disent que le logiciel est un très bon outil pour les débutants. Finalement, il n'y a pas forcément besoin de savoir dessiner pour faire de l'art ! 
+Finalement, je trouve ça assez incroyable ce qu'on peut produire avec quelques lignes de codes. Et seulement quelques fonctions basiques et quelques structures de contrôle simples. J'avais dédié mon POK 2 sur l'apprentissage du Java en grande partie pour réaliser ce MON. Mais finalement, les créateurs de Processing ne mentent pas quand ils disent que le logiciel est un très bon outil pour les débutants. Finalement, il n'y a pas forcément besoin de savoir dessiner pour faire de l'art !
 
-> **Horodateur** : 
+> **Horodateur** :
 > Vendredi 26/01 : 30 mins (Recherche de ressources et définition d'un plan)
 > Samedi 27/01 : 1h (Definition des termes, visionnages de TedTalks, recherches d'oeuvres)
 > Dimanche 28/01 : 1h45 (Installation de Processing, prise en main, et visionnage de tutoriels sur le logiciels)

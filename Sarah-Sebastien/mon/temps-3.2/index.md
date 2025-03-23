@@ -13,12 +13,12 @@ tags:
   - "ciblage publicitaire"
 
 
-résumé: "Ce MON traitera du concept de Cookies, comment il a vu le jour, son utilisation par les entreprises, et les réglementations qui vont avec."
+description: "Ce MON traitera du concept de Cookies, comment il a vu le jour, son utilisation par les entreprises, et les réglementations qui vont avec."
 
 ---
 ---
 
-{%prerequis 'Niveau débutant'%} 
+{%prerequis 'Niveau débutant'%}
 Prérequis : Aucun
 {%endprerequis%}
 
@@ -33,8 +33,8 @@ Prérequis : Aucun
 
 <h2 id=introduction> Introduction</h2>
 
-Après avoir lu le MON de Kawtar sur le **Data Collection** et le POK de Victor sur **l'AIPD**, que j'ai trouvés très intéressants, j'ai voulu explorer un peu plus ce sujet. Et je me suis dit : *"C'est bien beau tout ça, mais finalement, c'est quoi un cookie ? Et à quoi ça sert ?"*. 
-Voilà donc comment ce MON a vu le jour. 
+Après avoir lu le MON de Kawtar sur le **Data Collection** et le POK de Victor sur **l'AIPD**, que j'ai trouvés très intéressants, j'ai voulu explorer un peu plus ce sujet. Et je me suis dit : *"C'est bien beau tout ça, mais finalement, c'est quoi un cookie ? Et à quoi ça sert ?"*.
+Voilà donc comment ce MON a vu le jour.
 
 <h2 id=definition> Qu'est ce qu'un cookie?</h2>
 
@@ -60,18 +60,18 @@ Le protocole http est **sans état**, ie : il ne conserve ni ne stocke les sessi
 
 [Source](https://blog.larapulse.com/web/protect-cookies)
 
-### Les attributs d'un cookie 
+### Les attributs d'un cookie
 
 <img width=400 src=info_cookie.png>
 
 - **ID de session** : un **long** string **aléatoire** utilisé for la gestion d'une session, qui sert à identifier de manière **unique** un client qui essaie d'accéder à un serveur
-- **date d'expiratiion** : plus ou moins longue 
-  - *réseaux sociaux* comme Facebook : sessions avec des durées de vie très longues *(pas beaucoup besoin de se connecter)* 
+- **date d'expiratiion** : plus ou moins longue
+  - *réseaux sociaux* comme Facebook : sessions avec des durées de vie très longues *(pas beaucoup besoin de se connecter)*
   - *site d'une banque* : sessions avec des durées de vie très courtes, pour sécuriser les données *(5 minutes ou moins, sans interaction de l'utilisateur avec le serveur)*
 - **domaine** : qui spécifie le domaine dans lequel le cookie peut être utilisé
 - **chemin** : utilisé pour spécifier la ressource ou le chemin où ce cookie est valide (URL)
 - **HttpOnly** : protection définie dans les entêtes http : si *true*, permet d'éviter d'accéder au cookie via JavaScript du côté client
- 
+
 ### Pourquoi on se sert d'un cookie ?
 
 Les cookies ont de multiples usages : ils peuvent servir à...
@@ -79,7 +79,7 @@ Les cookies ont de multiples usages : ils peuvent servir à...
 - la gestion de sessions utilisateur (*ex: mémoriser un identifiant client auprès d'un site marchand)*
 -  le suivi de l'activité de l'utilisateur sur le site *(ex: le contenu courant d'un panier d'achat)*
 - les préférences d'un utilisateur *(ex: sa langue d’affichage)*
-- un identifiant permettant de tracer notre navigation à des fins statistiques ou publicitaires, etc. 
+- un identifiant permettant de tracer notre navigation à des fins statistiques ou publicitaires, etc.
 - réseaux sociaux, notamment générés par leurs boutons de partage.
 
 Certains de ces usages sont strictement nécessaires aux fonctionnalités expressément demandées par l’utilisateur ou bien à l’établissement de la communication et donc **impossibles à refuser**. D’autres, qui ne correspondent pas à ces critères, nécessitent un consentement de l’utilisateur avant lecture ou écriture.
@@ -103,12 +103,12 @@ La CNIL observe l'émergence plusieurs alternatives aux cookies tiers, voici cel
 - **Fingerprinting** : Identifie de manière unique un utilisateur en utilisant les caractéristiques techniques de son navigateur pour créer une *empreinte numérique*, plutôt que de stocker des cookies.
 - **Authentification unique (SSO)** : Permet la connexion à plusieurs sites avec un seul compte utilisateur, ce qui peut être utilisé pour suivre l'utilisateur sur différents sites.
 - **Ciblage publicitaire par cohorte** : consiste à regrouper les utilisateurs en "cohortes"basées sur des caractéristiques similaires *(intérêts ou les comportements en ligne)*, plutôt que des individus spécifiques : permet de réduire le suivi individuel
-  
+
 {%prerequis "<u>Sources</u>"%}
 Ressources de la CNIL :
 https://www.cnil.fr/fr/cookies-et-autres-traceurs/regles/alternatives-aux-cookies-tiers
 https://www.cnil.fr/fr/cookies-et-autres-traceurs/definitions/glossaire
-Wikipédia : 
+Wikipédia :
 https://fr.wikipedia.org/wiki/Cookie_(informatique) *(permet d'avoir une vision globale des thèmes et notions du sujet)*
 Youtube :
 https://www.youtube.com/watch?v=GhrvZ5nUWNg
@@ -120,17 +120,17 @@ https://www.youtube.com/watch?v=ZHvwVsoQx3o *(quelques précisions sur les cooki
 
 ### Le premier cookie
 
-Les cookies furent inventés au milieu des **années 1990** par les **Américains**. Leur but était améliorer **l’expérience de l’utilisateur**, pour permettre aux sites web de se souvenir du passage d'une personne. Les cookies ont ainsi joué un rôle important dans le développement d’internet tel qu’on le connaît aujourd’hui. 
+Les cookies furent inventés au milieu des **années 1990** par les **Américains**. Leur but était améliorer **l’expérience de l’utilisateur**, pour permettre aux sites web de se souvenir du passage d'une personne. Les cookies ont ainsi joué un rôle important dans le développement d’internet tel qu’on le connaît aujourd’hui.
 
-À ses débuts, le **World Wide Web**, tel qu'imaginé par Tim Berners-Lee, était conçu comme **"sans état"**: chaque requête effectuée via le protocole HTTP était considérée comme **indépendante**. Pas de possibilité pour le serveur de lier deux requêtes successives provenant du même système et, donc de **stocker des informations sur un utilisateur**.  Cette fonctionnalité visait à renforcer les liens entre les personnes publiant sur le Web, en encourageant les sites à inclure des liens vers d'autres sites qui leur envoyaient des visiteurs. 
+À ses débuts, le **World Wide Web**, tel qu'imaginé par Tim Berners-Lee, était conçu comme **"sans état"**: chaque requête effectuée via le protocole HTTP était considérée comme **indépendante**. Pas de possibilité pour le serveur de lier deux requêtes successives provenant du même système et, donc de **stocker des informations sur un utilisateur**.  Cette fonctionnalité visait à renforcer les liens entre les personnes publiant sur le Web, en encourageant les sites à inclure des liens vers d'autres sites qui leur envoyaient des visiteurs.
 
 En 1994, deux ingénieurs *(John Giannandrea et Lou Montulli)* de chez Netscape créent le **cookie**. Ils travaillaient à ce moment là sur un projet de création de serveurs qui permettraient à leur clients d'avoir une solution de **commerce en ligne**. L'enjeu était de savoir : *comment garder la trace des différents éléments qu’un client qui navigue sur un site web ajoute à son panier ?*
-Le problème à l'époque, c'était que **sans état**, chaque navigation vers une nouvelle page provoque l’oubli de toutes les actions précédentes. 
+Le problème à l'époque, c'était que **sans état**, chaque navigation vers une nouvelle page provoque l’oubli de toutes les actions précédentes.
 
 Les deux ingénieurs proposent alors une solution permettant de stocker un **état** dans un nouvel objet qu'ils appellent ***Persistent Client State HTTP Cookies*** ou **cookie**.
 
 {%faire%}
-Des expérimentations testent le stockage de ces informations dans l’URL des pages, cependant elles ne sont pas très fructueuses. 
+Des expérimentations testent le stockage de ces informations dans l’URL des pages, cependant elles ne sont pas très fructueuses.
 {%endfaire%}
 
 ### La naissance de nouveaux problèmes qui deviennent vite préoccupants
@@ -141,11 +141,11 @@ Netscape voulait à cette époque, **être rapide** : dès qu'il a été trouvé
 Ce n'est qu'en 1996, que l’existence des cookies est pour la première fois révélée au grand public, dans un article du Financial Times.
 {%endfaire%}
 
-Très vite, Netscape commence à être **critiquée**, pour un problème : 
-Si le serveur du site peut *lire et écrire* des cookies sur l'ordinateur de l'utilisateur, alors lorsqu'il intègre des ressources tierces telles que des images, des scripts, etc., le serveur fournissant ces ressources tierces peut également lire et écrire des cookies sur le terminal de l'utilisateur, en identifiant le contexte dans lequel ces ressources ont été appelées (par exemple, l'URL). 
-Alors, si un éditeur de contenu en ligne intègre une bannière publicitaire sur son site, le **publicitaire** peut **accéder aux URL visitées par l'utilisateur**. Si ce même publicitaire est également présent sur le site d'un autre éditeur, il peut identifier le même utilisateur sur ce site également. 
+Très vite, Netscape commence à être **critiquée**, pour un problème :
+Si le serveur du site peut *lire et écrire* des cookies sur l'ordinateur de l'utilisateur, alors lorsqu'il intègre des ressources tierces telles que des images, des scripts, etc., le serveur fournissant ces ressources tierces peut également lire et écrire des cookies sur le terminal de l'utilisateur, en identifiant le contexte dans lequel ces ressources ont été appelées (par exemple, l'URL).
+Alors, si un éditeur de contenu en ligne intègre une bannière publicitaire sur son site, le **publicitaire** peut **accéder aux URL visitées par l'utilisateur**. Si ce même publicitaire est également présent sur le site d'un autre éditeur, il peut identifier le même utilisateur sur ce site également.
 
-**En 1997**, l’IAB (Interactive Advertising Bureau) annonce un chiffre d’affaire global du marché de la publicité en ligne de **906,5 millions de dollars**. Forte opisition qui amène à un constat sans appel : *il faut désactiver par défaut les cookies tiers*. En octobre **2000** la norme est publiée, RFC2965. Cette année-là, le chiffre d’affaire calculé par l’IAB est de **8,2 milliards de dollars** *(soit presque 1000% de croissance en trois ans)*. 
+**En 1997**, l’IAB (Interactive Advertising Bureau) annonce un chiffre d’affaire global du marché de la publicité en ligne de **906,5 millions de dollars**. Forte opisition qui amène à un constat sans appel : *il faut désactiver par défaut les cookies tiers*. En octobre **2000** la norme est publiée, RFC2965. Cette année-là, le chiffre d’affaire calculé par l’IAB est de **8,2 milliards de dollars** *(soit presque 1000% de croissance en trois ans)*.
 
 {%info "Remarque"%}
 En 1996, la société **DoubleClick** a été créée pour exploiter ces cookies tiers à des fins publicitaires. Cette entreprise est un succès : elle est rachetée pour **1,1 milliards de dollars** en **2005** par des investisseurs et fera ensuite l’objet d’un  rachat en **2007** pour **3,1 milliards de dollars** par Google.
@@ -153,7 +153,7 @@ En 1996, la société **DoubleClick** a été créée pour exploiter ces cookies
 
 ---
 
-{%prerequis "<u>Sources</u>"%} 
+{%prerequis "<u>Sources</u>"%}
 https://linc.cnil.fr/une-petite-histoire-du-cookie
 https://www.numerama.com/tech/701436-au-fait-pourquoi-les-cookies-sappellent-ils-des-cookies.html
 {%endprerequis %}
@@ -161,7 +161,7 @@ https://www.numerama.com/tech/701436-au-fait-pourquoi-les-cookies-sappellent-ils
 <h2 id=sécurité> Est-ce qu'un cookie c'est sécurisé?</h2>
 
 Les cookies contiennent des **données personnelles** de *notre compte*, de *notre ordinateur*. Les cookies sont donc des **données sensibles** d'un point de vue de la sécurité. *Particulièrement les **cookies de session** qui permettent de s'authentifier sur un site internet.*
-En théorie, un cookie associé à un site web **ne peut pas être envoyé à un autre site web**. Mais, un certain nombre de failles permettent de voler des cookies. 
+En théorie, un cookie associé à un site web **ne peut pas être envoyé à un autre site web**. Mais, un certain nombre de failles permettent de voler des cookies.
 
 En faisant mes recherches, je suis tombée sur [cette vidéo](https://www.youtube.com/watch?v=nHUswhLl-Bw) de ce fort sympathique québécois. Il y explique, avec un exemple concret **comment récupérer un ID de session**. J'ai donc essayé de réappliquer sa vidéo, pour mieux comprendre les enjeux.
 
@@ -203,19 +203,19 @@ En continuant mes recherches, je suis tombée sur la méthode du **Cross site sc
 Il existe normalement une politique qui empêche un site Web de lire ou d'écrire des données sur un autre site, c'est la **SOP** (same origin policy). Elle vérifie **3 conditions** dans l'origine du site web :
 - **le protocole**
 - **l'hôte**
-- **le port** 
-- 
+- **le port**
+-
 Alors seulement si ces 3 paramètres sont **identiques** pour 2 origines **différentes**, le navigateur autorise la lecture ou l'écriture d'origines croisées.
 
 {%faire%}
-Exemple : 
+Exemple :
 http//pwnfunction.com
 http//hackfunction.com
 Le protocole est le même, mais l'hôte est différent : la navigateur refuse la lecture.
 {%endfaire%}
 ---
 {%prerequis "<u>Sources</u>"%}
-Par manque de temps, et parce que ça devenait un peu compliqué pour moi vu mon faible niveau en JavaScript et en web, j'ai seulement visionné les vidéos suivantes. Mais elles restent très intéressantes, et très accessibles pour un sujet pas si facile ! 
+Par manque de temps, et parce que ça devenait un peu compliqué pour moi vu mon faible niveau en JavaScript et en web, j'ai seulement visionné les vidéos suivantes. Mais elles restent très intéressantes, et très accessibles pour un sujet pas si facile !
 https://www.youtube.com/watch?v=ZHvwVsoQx3o
 https://www.youtube.com/watch?v=UXtxfka2TuY
 https://www.youtube.com/watch?v=EoaDgUgS6QA
@@ -226,7 +226,7 @@ https://www.youtube.com/watch?v=EoaDgUgS6QA
 
 ### A quelle fin ?
 
-On considère qu’un consommateur doit obtenir l’information qu’il désire en **3 clics** (ie *maximum 3 pages après la page d'accueil*) : c'est ce qu'on appelle la **règle des trois clics**. Même si ce n'est qu'une simple règle, elle reflète bien **la frustration** d'un internaute lorsqu’il a des difficultés à trouver l’information souhaitée. 
+On considère qu’un consommateur doit obtenir l’information qu’il désire en **3 clics** (ie *maximum 3 pages après la page d'accueil*) : c'est ce qu'on appelle la **règle des trois clics**. Même si ce n'est qu'une simple règle, elle reflète bien **la frustration** d'un internaute lorsqu’il a des difficultés à trouver l’information souhaitée.
 
 Les cookies, qu'on appelle **cookies de pistage**, permettent sont alors un outil de :
 
@@ -241,14 +241,14 @@ https://www.definitions-marketing.com/definition/regle-des-3-clics/
 
 #### Qu'est ce que c'est ?
 
-**CookieViz** est le premier logiciel à destination du grand public développé en interne par la **CNIL**. Il est disponible sur Windows, Linux et Mac OS. C'est un **logiciel open source** qui analyse les interactions entre notre ordinateur, notre navigateur et des sites et serveurs distants. Il permet de savoir à quels autres acteurs le site qu'on visite envoie des informations. 
+**CookieViz** est le premier logiciel à destination du grand public développé en interne par la **CNIL**. Il est disponible sur Windows, Linux et Mac OS. C'est un **logiciel open source** qui analyse les interactions entre notre ordinateur, notre navigateur et des sites et serveurs distants. Il permet de savoir à quels autres acteurs le site qu'on visite envoie des informations.
 
 Vous pouvez retrouver [ici](https://linc.cnil.fr/cookieviz-une-dataviz-en-temps-reel-du-tracking-de-votre-navigation) le support de présentation de l'application avec les liens utiles pour télécharger le logiciel.
 
 #### Utilisation du logiciel
 
 J'ai voulu faire le test : j'ai navigué sur un grand nombre de sites en **2 étapes** pour voir l'influence des cookies et de mon consentement. Dans la première étape, *j'acceptais tous les cookies*, dans la 2e *je les refusais tous*.
-Pour mon chemin de navigation, j'ai varié les plaisirs : 
+Pour mon chemin de navigation, j'ai varié les plaisirs :
 
 - je suis allée faire du shopping sur **Asos**
 - j'ai cherché un cadeau d'anniversaire pour ma soeur sur **Amazon**
@@ -261,7 +261,7 @@ Au final j'ai navigué sur près de **9 sites**, en revenant sur *Google* entre 
 
 ### Expérience 1 : on accepte tous les cookies
 
-#### Résultats au global 
+#### Résultats au global
 
 <img width=350 src=diagramme_cookie_1.png>
 
@@ -270,7 +270,7 @@ Si on regarde les statistiques annoncées par le logiciel sur **ma navigation** 
 - Sur les **9 sites visités**, **76%** d'entre eux ont déposé au moins un cookie.
 - Ces cookies échangent potentiellement des informations avec **28 domaines tiers**
 
-Si on se penche maintenant sur **l'usage des cookies**: 
+Si on se penche maintenant sur **l'usage des cookies**:
 <img width=350 src=diagramme_usage_cookies_1.png>
 
 {%info%}
@@ -283,11 +283,11 @@ On peut voir qu'il y a quand même beaucoup plus de violet que de orange dans ce
 #### Résultats au détails
 
 - la pieuvre avec le plus de tentacules c'est **reverso**. Et les tentacules mènent à des domaines tiers très ciblés : *casalemedia*, *adnxs*, *smartadserver*, tous des domaines publicitaires. On retrouve également une tentacule liée à Amazon par le biais du domaine *amazon-adsystem*
-- la seconde pieuvre avec le plus de tentacule c'est **asos**, étonnement ses tentacules mènent à de nombreux autres réseaux sociaux : on retrouve *facebook, instagram, snapchat, tiktok, pinterest* et d'autres. 
+- la seconde pieuvre avec le plus de tentacule c'est **asos**, étonnement ses tentacules mènent à de nombreux autres réseaux sociaux : on retrouve *facebook, instagram, snapchat, tiktok, pinterest* et d'autres.
 
 ### Expérience 2: on refuse tous les cookies
 
-#### Résultats au global 
+#### Résultats au global
 
 <img width=350 src=diagramme_cookie_2.png>
 
@@ -296,12 +296,12 @@ Si on regarde les statistiques annoncées par le logiciel sur **ma navigation** 
 - Sur les **9 sites visités**, **89%** d'entre eux ont déposé au moins un cookie.
 - Ces cookies échangent potentiellement des informations avec **13 domaines tiers**
 
-Si on se penche maintenant sur **l'usage des cookies**: 
+Si on se penche maintenant sur **l'usage des cookies**:
 <img width=350 src=diagramme_usage_cookies_2.png>
 
 {%attention "Remarques"%}
 - on passe de 76% à 86% de sites qui ont déposés des cookies en les refusant. *Un résultat qui me semble tout de même drôlement illogique. Même si cette information ne nous renseigne pas sur la réelle nature du cookie...*
-- si on regarde le diagramme d'usage de cookies, on remarque que la zone violette **est beaucoup plus étendu quand on refuse les cookies**. On en déduit donc, que les cookies tiers ont tendance à être moins explicites quand on refuse les cookies. 
+- si on regarde le diagramme d'usage de cookies, on remarque que la zone violette **est beaucoup plus étendu quand on refuse les cookies**. On en déduit donc, que les cookies tiers ont tendance à être moins explicites quand on refuse les cookies.
 {%endattention%}
 
 #### Résultats au détails
@@ -320,18 +320,18 @@ J'ai remarqué plusieurs fois l'apparition du cookie **DoubleClick** utilisé pa
 {%endinfo%}
 
 <h2 id=loi> Que dit la loi?</h2>
- 
-Les lois régissant l'utilisation des cookies varient selon les pays et les régions, mais en général, elles visent à protéger la vie privée des utilisateurs en ligne et à garantir qu'ils sont informés de manière transparente sur l'utilisation des cookies par les sites web qu'ils visitent. 
+
+Les lois régissant l'utilisation des cookies varient selon les pays et les régions, mais en général, elles visent à protéger la vie privée des utilisateurs en ligne et à garantir qu'ils sont informés de manière transparente sur l'utilisation des cookies par les sites web qu'ils visitent.
 
 ### Principes énoncés par le CNIL
 
-- **Consentement** 
-  - Les sites web doivent obtenir le consentement des utilisateurs **avant** le dépôt ou la lecture des cookies, et il doit être **re-demandé** à chaque fois qu'il est nécessaire. 
+- **Consentement**
+  - Les sites web doivent obtenir le consentement des utilisateurs **avant** le dépôt ou la lecture des cookies, et il doit être **re-demandé** à chaque fois qu'il est nécessaire.
   - Le consentement doit donc être **libre, spécifique, éclairé, univoque** et donné **explicitement**
   - Chaque acteur recueillant le consentement doit être en mesure de prouver qu'il l'a fait *( captures d'écran horodatées, audits réguliers, conservation des informations sur les outils utilisés)
   - *L'acceptation des conditions générales d'utilisation ne suffit pas pour recueillir le consentement*
   - la simple poursuite de la navigation sur un site ne peut plus être considérée comme une expression valide du consentement de l’internaute
-- **Transparence** 
+- **Transparence**
   - Les utilisateurs doivent être **informés** la finalité des cookies utilisés, les données collectées et la manière dont elles sont utilisées, de manière **claire, complète et rédigée en termes simples et compréhensibles.**
 - **Options de contrôle**
   - L'utilisateur doit avoir un **réel choix** entre accepter ou refuser les cookies, sans subir de préjudice en cas de refus.
@@ -339,7 +339,7 @@ Les lois régissant l'utilisation des cookies varient selon les pays et les rég
 - **Données personnelles**
   - Si les cookies collectent des données personnelles, les **lois sur la protection des données personnelles** peuvent également s'appliquer, ce qui signifie que les sites web doivent se conformer à des normes plus strictes en matière de collecte, de traitement et de protection de ces données.
 
-En plus de ça, le CNIL a publié certaines *recommandations* à destinations des 
+En plus de ça, le CNIL a publié certaines *recommandations* à destinations des
 - Limiter la durée de vie des traceurs à treize mois sans prolongation automatique.
 - Conserver les données collectées pendant vingt-cinq mois maximum.
 - Réexaminer régulièrement ces périodes pour les limiter au strict nécessaire.
@@ -370,13 +370,13 @@ https://www.cnil.fr/fr/la-loi-informatique-et-libertes#article82
 De nombreux services en ligne sont gratuits aujourd'hui, mais pas sans conséquence : les données personnelles des utilisateurs (âge, emplacement géographique, intérêts et comportements d'achat) sont souvent collectées, *via cookies et d'autres outils de suivi*, et utilisées par les entreprises du web pour financer ses services, principalement via la publicité ciblée.
 
 {%info "Cookie Walls"%}
-L’expression « murs de traceurs » *(ou « cookie walls » en anglais)* désigne le fait de conditionner l’accès à un service à l’acceptation par l’internaute du dépôt de cookies sur son terminal (ordinateur, smartphone, ...). 
+L’expression « murs de traceurs » *(ou « cookie walls » en anglais)* désigne le fait de conditionner l’accès à un service à l’acceptation par l’internaute du dépôt de cookies sur son terminal (ordinateur, smartphone, ...).
 {%endinfo%}
 
 En cas de refus de ces *cookies*, certains sites ont recourt à la proposition d’un choix alternatif **l'internaute doit fournir une contrepartie** (*pour permettre aux éditeurs de ces site de compenser la perte de revenus publicitaires liée à cette absence de traceurs par un autre mode de rémunération*)
 
 <u>**Solution**</u> :
-Dans la majorité des cas, la contrepartie est **financière**, on parle alors de **paywall** : *l’internaute qui refuse d’accepter les cookies est obligé de payer pour accéder au site*. Exemple : on retrouve souvent cela sur des sites de magazines en lignes, qui proposent de *s'abonner* en cas de non consentement 
+Dans la majorité des cas, la contrepartie est **financière**, on parle alors de **paywall** : *l’internaute qui refuse d’accepter les cookies est obligé de payer pour accéder au site*. Exemple : on retrouve souvent cela sur des sites de magazines en lignes, qui proposent de *s'abonner* en cas de non consentement
 
 Les **Cookie Walls** ne sont pas interdits par principe, mais leur légalité dépend de plusieurs critères. En l'absence d'une législation spécifique ou d'une position de la Cour de justice de l'Union européenne, c'est la CNIL qui a établi et publié ces critères :
 
@@ -399,7 +399,7 @@ https://www.cnil.fr/fr/cookie-walls-la-cnil-publie-des-premiers-criteres-devalua
 
 Ce scandale, souvent appelé la **fuite de données Facebook-Cambridge Analytica**, concerne les informations personnelles de **87 millions de personnes** sur Facebook, qu'une société britannique nommée Cambridge Analytica, a récupérées à partir de **2014**. Elle a ensuite utilisé ces informations pour influencer les campagnes politiques à grande échelle:
 
-- lors des élections présidentielles aux États-Unis en 2016 
+- lors des élections présidentielles aux États-Unis en 2016
 - lors du référendum sur le Brexit au Royaume-Uni.
 
 Tout part d'un quiz de personnalité développé sur une application appelée "thisisyourdigitallife", conçue en 2014 par Aleksandr Kogan, un chercheur en psychologie affilié à l'Université de Cambridge. Environ 270 000 personnes ont téléchargé cette application sur Facebook, ce qui a permis de partager, sans leur consentement explicite, leurs données personnelles, ainsi que celles de leurs amis, avec l'application. Tout cela, en raison de la manière dont Facebook autorisait le partage de données à l'époque.

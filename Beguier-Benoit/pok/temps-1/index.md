@@ -12,7 +12,7 @@ tags:
   - "Modélisation"
   - "Matlab"
 
-résumé: Je vais dans ce POK effectuer plusieurs modélisations d'une monoplace. Le but est de commencer par la modélisation la plus simpliste, le point matériel, pour arriver à un modèle plus poussé et permettant de jouer sur plusieurs paramètres qui seront à déterminer.
+description: Je vais dans ce POK effectuer plusieurs modélisations d'une monoplace. Le but est de commencer par la modélisation la plus simpliste, le point matériel, pour arriver à un modèle plus poussé et permettant de jouer sur plusieurs paramètres qui seront à déterminer.
 ---
 
 {% prerequis %}
@@ -22,7 +22,7 @@ résumé: Je vais dans ce POK effectuer plusieurs modélisations d'une monoplace
 - Matlab et Simulink
 {% endprerequis %}
 
-Pour la réalisation de ce cours, je me réfèrerais aux sources listées ci-dessous : 
+Pour la réalisation de ce cours, je me réfèrerais aux sources listées ci-dessous :
 - *Race Car Vehicle Dynamics*, de William F. MILLIKEN et Douglas L. MILLIKEN, consulté en pdf.
 - *Race Car Design*, de Derek SEWARD, consulté en pdf.
 - *MATLAB - Simulink Tutorial for Beginners | Udemy instructor, Dr. Ryan Ahmed*, vidéo Youtube accessible [ici](https://www.youtube.com/watch?v=vxzR3W2BcRk).
@@ -55,7 +55,7 @@ Comment s'y prendre ?
 {% endexercice %}
 
 
-A l'heure où je débute ce projet, je ne sais pas encore par quel bout le prendre. Je décide alors de me renseigner sur l'existant de la modélisation de la dynamique d'un véhicule par un point matériel, et ce sur Matlab ou sur un autre logiciel. 
+A l'heure où je débute ce projet, je ne sais pas encore par quel bout le prendre. Je décide alors de me renseigner sur l'existant de la modélisation de la dynamique d'un véhicule par un point matériel, et ce sur Matlab ou sur un autre logiciel.
 J'ai passé plus de temps que prévu sur la documentation et la recherche. J'ai aussi du regarder une vidéo Youtube de 1 heure pour me remettre à niveau sur Simulink.
 J'ai ensuite consulté sans m'attarder les deux documents .pdf, qui donnent les bases dynamiques d'un véhicule. Ceux-ci me permettent d'estimer plus précisément les paramètres importants à prendre en compte.
 
@@ -76,7 +76,7 @@ J'ai visualisé la vidéo de présentation d'une trentaine de minutes afin de mi
 
 J'ai alors réalisé un premier modèle basé sur une représentation en un seul point de la monoplace. Ce point de masse *m* est soumis à la force de traînée, l'inertie, le poids et la résistance au roulement (Source : Zongxuan Sun, Guoming G. Zhu, *Design and Control of Automotive Propulsion Systems*, e-Book).
 
-Le but de cette modélisation est de soumettre le véhicule à un cycle de vitesse de référence : j'ai ici choisi le cycle classique EPA US06 effectué lors des tests de sécurité sur les prototypes automobiles aux Etats-Unis. 
+Le but de cette modélisation est de soumettre le véhicule à un cycle de vitesse de référence : j'ai ici choisi le cycle classique EPA US06 effectué lors des tests de sécurité sur les prototypes automobiles aux Etats-Unis.
 
 {% note %}
 Vous pourrez trouver plus d'informations sur le cycle EPA US06 [ici](https://www.epa.gov/emission-standards-reference-guide/epa-us06-or-supplemental-federal-test-procedures-sftp)
@@ -89,11 +89,11 @@ Le véhicule est quant à lui modélisé à partir des lois physiques auxquelles
 
 
 #### Résultats
-Après avoir exécuté la modélisation Simulink, j'obtiens un graphique comparant la vitesse exigée par le cycle et la vitesse réelle de la monoplace. Nous constatons que ces deux courbes sont **très proches** et qu'il faut zoomer pour voir une différence. 
+Après avoir exécuté la modélisation Simulink, j'obtiens un graphique comparant la vitesse exigée par le cycle et la vitesse réelle de la monoplace. Nous constatons que ces deux courbes sont **très proches** et qu'il faut zoomer pour voir une différence.
 
 ![graphe1](Graphe1.png)
 
-L'écart le plus important que j'ai noté est de 0.2 mph (comprenez *miles per hour*), soit en comparant à la vitesse demandée un **écart de 0.3%**. 
+L'écart le plus important que j'ai noté est de 0.2 mph (comprenez *miles per hour*), soit en comparant à la vitesse demandée un **écart de 0.3%**.
 
 ![graphe2](Graphe2.png)
 
@@ -148,7 +148,7 @@ Il est aussi utile de s'intéresser aux résultats locaux, c'est-à-dire aux  r�
 ![CONSTANCE](Graphe2-3.png)
 
 #### Conclusion sur le modèle
-Il m'est assez difficile de conclure sur la pertinence de mon modèle et sur sa précision. En rajoutant plus de paramètres, les courbes semblent montrer que le modèle est plus difficilement maniable et adaptable par rapport au cycle de référence. 
+Il m'est assez difficile de conclure sur la pertinence de mon modèle et sur sa précision. En rajoutant plus de paramètres, les courbes semblent montrer que le modèle est plus difficilement maniable et adaptable par rapport au cycle de référence.
 Cependant, est-ce uniquement dû aux nouveaux paramètres pris en compte, je ne saurais le dire.
 
 ## Simulateur de temps au tour
@@ -676,8 +676,8 @@ Une fois le code exécuté, on obtient alors une visualisation de la carte de la
 
 ![print](PrintSpa.png)
 
-Nous pouvons observer les trois secteurs (respectivement en violet, bleu et jaune). A droite, le programme trace le graphe des courbures du circuit (c'est-à-dire le rayon des virages), l'altitude et l'inclinaison (par rapport au Nord) selon le kilométrage. 
-Nous ne nous intéresserons pas au banking et facteur d'adhérence dans ce POK. 
+Nous pouvons observer les trois secteurs (respectivement en violet, bleu et jaune). A droite, le programme trace le graphe des courbures du circuit (c'est-à-dire le rayon des virages), l'altitude et l'inclinaison (par rapport au Nord) selon le kilométrage.
+Nous ne nous intéresserons pas au banking et facteur d'adhérence dans ce POK.
 
 {% details "Cliquez pour afficher le code d'**OpenTRACK**" %}
 
@@ -741,9 +741,9 @@ kappa = 1000 ; % [deg]
 % HUD
 disp(['Reading track file: ',filename])
 if strcmp(mode,'logged data')
-    
+
     %% from logged data
-    
+
     [head,data] = read_logged_data(filename) ;
     info.name = head(2,2) ;
     info.country = head(3,2) ;
@@ -842,7 +842,7 @@ if strcmp(mode,'logged data')
     end
 else
     %% from shape data
-    
+
 
     [info] = read_info(filename,'info') ;
     table_shape = read_shape_data(filename,'Shape') ;
@@ -850,7 +850,7 @@ else
     table_bk = read_data(filename,'Banking') ;
     table_gf = read_data(filename,'Grip Factors') ;
     table_sc = read_data(filename,'Sectors') ;
-    
+
 end
 
 %% Track model name
@@ -1420,7 +1420,7 @@ end
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 function [header,data] = read_logged_data(filename,header_startRow,header_endRow,data_startRow,data_endRow)
-    
+
     % Initialize variables.
     delimiter = ',';
     if nargin<=2
@@ -1464,7 +1464,7 @@ function [header,data] = read_logged_data(filename,header_startRow,header_endRow
     end
     % Create output variable
     data = [dataArray{1:end-1}];
-    
+
     % Close the text file.
     fclose(fileID);
 end
@@ -2076,7 +2076,7 @@ end
 
 #### OpenLAP
 Nous arrivons enfin à l'ultime étape de ce POK, et ce pourquoi  tout le travail précédent a été effectué. OpenLAP prend en paramètre le véhicule MaFormule1 que nous avons créé précédement ainsi que la piste de Spa-Francorchamps.
-Pour faire simple, à partir des informations sur les longueurs des rapports de la boîte de vitesse que nous avons fourni lors de la construction du véhicule, le code va en déduire une vitesse et une accélération. Le programme repère alors les points de corde (*apex* en anglais) du circuit et fait décélérer suffisamment la voiture . 
+Pour faire simple, à partir des informations sur les longueurs des rapports de la boîte de vitesse que nous avons fourni lors de la construction du véhicule, le code va en déduire une vitesse et une accélération. Le programme repère alors les points de corde (*apex* en anglais) du circuit et fait décélérer suffisamment la voiture .
 Après exécution du code, nous obtenons ce résultat en terme de temps au tour :
 
 ```
@@ -2099,7 +2099,7 @@ Le rapport suivant est obtenu :
 Je suis plus que satisfait par le résultat obtenu. Voici les principaux points sur lesquels je m'attarde :
 - La première courbe affiche la vitesse du véhicule en fonction de la distance sur le circuit. La courbe seule n'est qu'indicative, mais en combinant plusieurs simulations (par exemple en changeant la charge aéro de la voiture), nous pourrons constater instantanément les différences (dans notre cas, en vitesse de pointe par exemple).
 - La troisième courbe mets en évidence l'accélération subie par la voiture (et le pilote), en bleu lors des zones de freinage (*longitudinal acceleration*) et en orange lors des virages (*lateral acceleration*). Ces courbes correspondent bien aux zones de frainage sur la courbe de vitesse, et aux virages de la track map.
-- Nous avons aussi pour information l'angle volant ainsi que la pression appliquée sur la pédale de frein et la course de la pédale d'accélérateur. Ces informations peuvent servir de comparaison lors d'un débrief pilote. 
+- Nous avons aussi pour information l'angle volant ainsi que la pression appliquée sur la pédale de frein et la course de la pédale d'accélérateur. Ces informations peuvent servir de comparaison lors d'un débrief pilote.
 
 {% attention "**Attention**" %}
 Ces données servent d'indication, et ne sauraient prévaloir sur le ressenti du pilote. Par exemple, la voiture peut-être survireuse ou sous-vireuse, et cela expliquerait des différences d'angle volant avec la simulation.
@@ -2337,31 +2337,31 @@ fclose('all') ;
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 function [sim] = simulate(veh,tr,simname,logid)
-    
+
     %% initialisation
-    
+
     % solver timer
     timer_solver_start = tic ;
-    
+
     % HUD
     disp('Simulation started.')
     fprintf(logid,'%s\n','Simulation started.') ;
-    
+
     %% maximum speed curve (assuming pure lateral condition)
-    
+
     v_max = single(zeros(tr.n,1)) ;
     bps_v_max = single(zeros(tr.n,1)) ;
     tps_v_max = single(zeros(tr.n,1)) ;
     for i=1:tr.n
         [v_max(i),tps_v_max(i),bps_v_max(i)] = vehicle_model_lat(veh,tr,i) ;
     end
-    
+
     % HUD
     disp('Maximum speed calculated at all points.')
     fprintf(logid,'%s\n','Maximum speed calculated at all points.') ;
-    
+
     %% finding apexes
-    
+
     [v_apex,apex] = findpeaks(-v_max) ; % findpeaks works for maxima, so need to flip values
     v_apex = -v_apex ; % flipping to get positive values
     % setting up standing start for open track configuration
@@ -2384,13 +2384,13 @@ function [sim] = simulate(veh,tr,simname,logid)
     % getting driver inputs at apexes
     tps_apex = tps_v_max(apex) ;
     bps_apex = bps_v_max(apex) ;
-    
+
     % HUD
     disp('Found all apexes on track.')
     fprintf(logid,'%s\n','Found all apexes on track.') ;
-    
+
     %% simulation
-    
+
     % memory preallocation
     N = uint32((length(apex))) ; % number of apexes
     flag = false(tr.n,2) ; % flag for checking that speed has been correctly evaluated
@@ -2402,7 +2402,7 @@ function [sim] = simulate(veh,tr,simname,logid)
     ay = single(zeros(tr.n,N,2)) ;
     tps = single(zeros(tr.n,N,2)) ;
     bps = single(zeros(tr.n,N,2)) ;
-    
+
     % HUD
     disp('Starting acceleration and deceleration.')
     fprintf(logid,'%s\n','Starting acceleration and deceleration.') ;
@@ -2416,7 +2416,7 @@ function [sim] = simulate(veh,tr,simname,logid)
     fprintf(logid,'%s\n',' [%]') ;
     fprintf(logid,'________________________________________________\n') ;
     fprintf(logid,'|_Apex__|_Point_|_Mode__|___x___|___v___|_vmax_|\n') ;
-    
+
     % running simulation
     for i=1:N % apex number
         for k=uint8(1:2) % mode number
@@ -2491,7 +2491,7 @@ function [sim] = simulate(veh,tr,simname,logid)
             end
         end
     end
-    
+
     % HUD
     progress_bar(max(flag,[],2),prg_size,logid,prg_pos) ;
     fprintf('\n')
@@ -2511,9 +2511,9 @@ function [sim] = simulate(veh,tr,simname,logid)
     fprintf(logid,'%f',toc(timer_solver_start)) ;
     fprintf(logid,'%s\n',' [s]') ;
     fprintf(logid,'%s\n','Post-processing initialised.') ;
-    
+
     %% post-processing resutls
-    
+
     % result preallocation
     V = zeros(tr.n,1) ;
     AX = zeros(tr.n,1) ;
@@ -2539,7 +2539,7 @@ function [sim] = simulate(veh,tr,simname,logid)
     % HUD
     disp('Correct solution selected from modes.')
     fprintf(logid,'%s\n','Correct solution selected from modes.') ;
-    
+
     % laptime calculation
     if strcmp(tr.info.config,'Open')
         time = cumsum([tr.dx(2)./V(2);tr.dx(2:end)./V(2:end)]) ;
@@ -2554,7 +2554,7 @@ function [sim] = simulate(veh,tr,simname,logid)
     % HUD
     disp('Laptime calculated.')
     fprintf(logid,'%s\n','Laptime calculated.') ;
-    
+
     % calculating forces
     M = veh.M ;
     g = 9.81 ;
@@ -2567,7 +2567,7 @@ function [sim] = simulate(veh,tr,simname,logid)
     % HUD
     disp('Forces calculated.')
     fprintf(logid,'%s\n','Forces calculated.') ;
-    
+
     % calculating yaw motion, vehicle slip angle and steering input
     yaw_rate = V.*tr.r ;
     delta = zeros(tr.n,1) ;
@@ -2586,7 +2586,7 @@ function [sim] = simulate(veh,tr,simname,logid)
     fprintf(logid,'%s\n','Yaw motion calculated.') ;
     fprintf(logid,'%s\n','Steering angles calculated.') ;
     fprintf(logid,'%s\n','Vehicle slip angles calculated.') ;
-    
+
     % calculating engine metrics
     wheel_torque = TPS.*interp1(veh.vehicle_speed,veh.wheel_torque,V,'linear','extrap') ;
     Fx_eng = wheel_torque/veh.tyre_radius ;
@@ -2599,7 +2599,7 @@ function [sim] = simulate(veh,tr,simname,logid)
     % HUD
     disp('Engine metrics calculated.')
     fprintf(logid,'%s\n','Engine metrics calculated.') ;
-    
+
     % calculating kpis
     percent_in_corners = sum(tr.r~=0)/tr.n*100 ;
     percent_in_accel = sum(TPS>0)/tr.n*100 ;
@@ -2628,7 +2628,7 @@ function [sim] = simulate(veh,tr,simname,logid)
     disp('Post-processing finished.')
     fprintf(logid,'%s\n','KPIs calculated.') ;
     fprintf(logid,'%s\n','Post-processing finished.') ;
-    
+
     %% saving results in sim structure
     sim.sim_name.data = simname ;
     sim.distance.data = tr.x ;
@@ -2746,12 +2746,12 @@ function [sim] = simulate(veh,tr,simname,logid)
     disp('Simulation completed.')
     fprintf(logid,'%s\n','Simulation results saved.') ;
     fprintf(logid,'%s\n','Simulation completed.') ;
-    
+
 end
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 function [v,tps,bps] = vehicle_model_lat(veh,tr,p)
-    
+
     %% initialisation
     % getting track data
     g = 9.81 ;
@@ -2770,7 +2770,7 @@ function [v,tps,bps] = vehicle_model_lat(veh,tr,p)
     % induced weight from banking and inclination
     Wy = -M*g*sind(bank) ;
     Wx = M*g*sind(incl) ;
-    
+
     %% speed solution
     if r==0 % straight (limited by engine speed limit or drag)
         % checking for engine speed limit
@@ -2859,14 +2859,14 @@ function [v,tps,bps] = vehicle_model_lat(veh,tr,p)
             end
         end
     end
-    
+
 end
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 function [v_next,ax,ay,tps,bps,overshoot] = vehicle_model_comb(veh,tr,v,v_max_next,j,mode)
-    
+
     %% initialisation
-    
+
     % assuming no overshoot
     overshoot = false ;
     % getting track data
@@ -2886,9 +2886,9 @@ function [v_next,ax,ay,tps,bps,overshoot] = vehicle_model_comb(veh,tr,v,v_max_ne
         factor_aero = 1 ;
         driven_wheels = 4 ;
     end
-    
+
     %% external forces
-    
+
     % Mass
     M = veh.M ;
     % normal load on all wheels
@@ -2903,22 +2903,22 @@ function [v_next,ax,ay,tps,bps,overshoot] = vehicle_model_comb(veh,tr,v,v_max_ne
     Roll_Dr = veh.Cr*(-Aero_Df+Wz) ;
     % normal load on driven wheels
     Wd = (factor_drive*Wz+(-factor_aero*Aero_Df))/driven_wheels ;
-    
+
     %% overshoot acceleration
-    
+
     % maximum allowed long acc to not overshoot at next point
     ax_max = mode*(v_max_next^2-v^2)/2/dx ;
     % drag acceleration
     ax_drag = (Aero_Dr+Roll_Dr+Wx)/M ;
     % ovesrhoot acceleration limit
 	ax_needed = ax_max-ax_drag ;
-    
+
     %% current lat acc
-    
+
     ay = v^2*r+g*sind(bank) ;
-    
+
     %% tyre forces
-    
+
     % longitudinal tyre coefficients
     dmy = factor_grip*veh.sens_y ;
     muy = factor_grip*veh.mu_y ;
@@ -2940,9 +2940,9 @@ function [v_next,ax,ay,tps,bps,overshoot] = vehicle_model_comb(veh,tr,v,v_max_ne
     else % in straight or no compensation for banking needed
         ellipse_multi = 1 ;
     end
-    
+
     %% calculating driver inputs
-    
+
     if ax_needed>=0 % need tps
         % max pure long acc available from driven tyres
         ax_tyre_max = 1/M*(mux+dmx*(Nx-Wd))*Wd*driven_wheels ;
@@ -2969,9 +2969,9 @@ function [v_next,ax,ay,tps,bps,overshoot] = vehicle_model_comb(veh,tr,v,v_max_ne
         % final long acc command
         ax_com = -min(-[ax_tyre,ax_needed]) ;
     end
-    
+
     %% final results
-    
+
     % total vehicle long acc
     ax = ax_com+ax_drag ;
     % next speed value
@@ -2980,9 +2980,9 @@ function [v_next,ax,ay,tps,bps,overshoot] = vehicle_model_comb(veh,tr,v,v_max_ne
     if tps>0 && v/veh.v_max>=0.999
         tps = 1 ;
     end
-    
+
     %% checking for overshoot
-    
+
     if v_next/v_max_next>1
         % setting overshoot flag
         overshoot = true ;
@@ -2994,7 +2994,7 @@ function [v_next,ax,ay,tps,bps,overshoot] = vehicle_model_comb(veh,tr,v,v_max_ne
         bps = -1 ;
         return
     end
-    
+
 end
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -3137,7 +3137,7 @@ function [] = export_report(veh,tr,sim,freq,logid)
     j = strcmp(string(channel_names),"time") ;
     % time data memory preallocation
     time_data = single(zeros(length(t),length(I))) ;
-    % getting 
+    % getting
     for i=1:length(I)
          % checking if channel corresponds to time
         if i==j % time channel

@@ -10,7 +10,7 @@ date: 1970-09-01
 temps: 1
 tags:
 
-résumé: "Remise à niveau au développement Front-end"
+description: "Remise à niveau au développement Front-end"
 ---
 
 
@@ -37,13 +37,13 @@ Ce tutoriel traîte dans les grandes lignes de :
 * L'affichage Grid et Flexbox
 * Quelques fonctionnalités en plus  (ajout d'un formulaire, ajout d'un bouton)
 
-Comme j'avais déjà quelques notions en HTML/CSS, j'ai plutôt survolé ce tutoriel pour me concentrer sur d'autres aspects que je ne connaissais pas. 
+Comme j'avais déjà quelques notions en HTML/CSS, j'ai plutôt survolé ce tutoriel pour me concentrer sur d'autres aspects que je ne connaissais pas.
 
 
 ## Ajouter du JavaScipt
 
 Pour mon [POK 1](../../pok/temps-1/), j'avais besoin de comprendre comment fonctionnait les scripts Javascript.
-Pour ce faire, j'ai suivi la première partie du tutoriel [Créez des pages web dynamiques avec JavaScript](https://openclassrooms.com/fr/courses/7697016-creez-des-pages-web-dynamiques-avec-javascript). 
+Pour ce faire, j'ai suivi la première partie du tutoriel [Créez des pages web dynamiques avec JavaScript](https://openclassrooms.com/fr/courses/7697016-creez-des-pages-web-dynamiques-avec-javascript).
 L'objectif de ce tutoriel est de nous apprendre à rendre une page web dynamique en accédant à des données se trouvant dans des fichiers JSON.
 {% prerequis %}
 Un fichier JSON (JavaScript Object Notation) est un format de données utilisé pour stocker et échanger des informations structurées entre des systèmes informatiques. t
@@ -54,7 +54,7 @@ Le DOM (Document Object Model) est une façon pour les navigateurs web de repré
 
 <img src="DOM.png">
 
-Pour plus d'information sur le DOM, vous pouvez visiter ce [site](https://la-cascade.io/articles/le-dom-cest-quoi-exactement) 
+Pour plus d'information sur le DOM, vous pouvez visiter ce [site](https://la-cascade.io/articles/le-dom-cest-quoi-exactement)
 
 
 ## Three.js
@@ -74,7 +74,7 @@ Après quelques lignes de code, on peut arriver rapidement à manipuler des obje
 
 Pour comprendre le fonctionnement de cette bibliothèque, ce [site](https://gayerie.dev/docs/js/threejs/objets_et_scene.html) est intêressant. Il explique comment manipuler un objet dans une scène. On peut apprendre comment déplacer un objet dans l'espace et comment creer des animations simples.
 
-Je voulais ensuite importer des modèles 3D. Pour cela, j'ai suivi un [tutoriel Youtube](https://www.youtube.com/watch?v=WBe3xrV4CPM&t=233s). 
+Je voulais ensuite importer des modèles 3D. Pour cela, j'ai suivi un [tutoriel Youtube](https://www.youtube.com/watch?v=WBe3xrV4CPM&t=233s).
 Cela m'a permis d'importer un petit chien sur un site web :
 <img src="three.PNG">
 

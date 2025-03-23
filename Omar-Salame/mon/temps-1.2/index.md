@@ -16,7 +16,7 @@ tags:
   - "MongoDB"
 
 
-résumé: "Mon travail vise à approfondir ma maîtrise du développement web côté serveur en utilisant des technologies telles que Node.js, Express, et MongoDB. Je compte utiliser ces connaissances dans mon POK."
+description: "Mon travail vise à approfondir ma maîtrise du développement web côté serveur en utilisant des technologies telles que Node.js, Express, et MongoDB. Je compte utiliser ces connaissances dans mon POK."
 ---
 {% prerequis %}
 **Niveau** : Intermédiaire
@@ -137,7 +137,7 @@ Nous allons étendre notre application pour qu'elle fournisse la même API HTTP 
 app.get('/api/notes/:id', (request, response) => {
   const id = Number(request.params.id)
   const note = notes.find(note => note.id === id)
-  
+
 
   if (note) {
     response.json(note)

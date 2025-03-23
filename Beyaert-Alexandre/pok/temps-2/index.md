@@ -10,7 +10,7 @@ date: 1971-01-01
 temps: 2
 tags:
 
-résumé: Un POK traitant de l'usage de la Data Science au service de l'anatomie Pathologique. En particulier, la création d'un algorithme de classification afin d'aider au diagnostique les médecins dans le risque de récidive du carcinome basocellulaire.
+description: Un POK traitant de l'usage de la Data Science au service de l'anatomie Pathologique. En particulier, la création d'un algorithme de classification afin d'aider au diagnostique les médecins dans le risque de récidive du carcinome basocellulaire.
 ---
 
 {% prerequis %}
@@ -187,7 +187,7 @@ plt.figure(figsize=(8, 8))
 
 # Boucle pour afficher chaque image dans un sous-graphique
 for i, image_path in enumerate(image_paths, 1):
-    
+
     img = mpimg.imread(image_path)
     plt.subplot(2, 2, i)
     plt.imshow(img)
@@ -201,7 +201,7 @@ plt.show()
 ![Exemples d'images](Visualisation.jpg)
 
 Ces différentes images sont à l'heure actuelle peu exploitables.
-On y remarque beaucoup de bruit, des tâches qui pourraient tromper l'algorithme quant à la détection du carcinome... 
+On y remarque beaucoup de bruit, des tâches qui pourraient tromper l'algorithme quant à la détection du carcinome...
 
 ![Annotations](Visualisation_annotee.jpg)
 En noir, la zone où se trouve le carcinome.
@@ -293,7 +293,7 @@ def extraire_contour(image_entree, image_sortie, seuil_canny, taille_dilatation,
     cv2.drawContours(contours_image, contours, -1, (255), 2)
 
     cv2.imwrite(image_sortie, contours_image)
-    
+
     return contours
 ```
 Ce 1er code hélas n'est pas suffisament robuste. Le bruit perturbe le découpage et toutes les formes et contour à l'intérieur de la membrane sont découpés.
@@ -306,7 +306,7 @@ Pour y remédier, j'ai donc décidé d'apporter de la **dilatation :** concrète
 def decouper_image(image_entree, contours, dossier_sortie,fichier):
     # Charger l'image originale
     image_originale = cv2.imread(image_entree)
-   
+
     # Boucler sur les contours
     for i, contour in enumerate(contours):
         masque = np.zeros_like(image_originale)
@@ -326,20 +326,20 @@ def decouper_image(image_entree, contours, dossier_sortie,fichier):
 
 ```python
 def pre_traitement_1_contour_dilatation(dossier_E,dossier_S,dossier_C):
-    
+
     seuil_canny = 100
     taille_delatation=80
     superficier_mini=300
     seuil_contour=20
-    
+
     fichiers = os.listdir(dossier_E)
-    
+
     for fichier in fichiers:
         if fichier.lower().endswith(('.png', '.jpg', '.jpeg', '.bmp', '.gif')):
-            
+
             chemin_entree = os.path.join(dossier_E, fichier)
             chemin_contour = os.path.join(dossier_C, fichier)
-            
+
             #### premier fonction
             contours = extraire_contour(chemin_entree, chemin_contour, seuil_canny,taille_delatation,superficier_mini)
             #### deuxieme fonction
@@ -363,16 +363,16 @@ Les contours délimités, je décide de revoir l'opération de segmentation des 
 
 ```python
 def pre_traitement_2_segmentation(dossier_E,dossier_S):
-    
-    
+
+
     fichiers = os.listdir(dossier_E)
-    
+
     for fichier in fichiers:
         if fichier.lower().endswith(('.png', '.jpg', '.jpeg', '.bmp', '.gif')):
-            
+
             chemin_entree = os.path.join(dossier_E, fichier)
             chemin_sortie = os.path.join(dossier_S, fichier)
-    
+
             image_path = chemin_entree
 
             ######################################################

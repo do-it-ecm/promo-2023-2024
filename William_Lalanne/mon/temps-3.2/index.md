@@ -10,25 +10,25 @@ date: 2023-09-27
 temps: 3
 tags:
 
-résumé: "Dans ce MON je souhaite apprendre les bases de TypeScript"
+description: "Dans ce MON je souhaite apprendre les bases de TypeScript"
 ---
 
 {%prerequis%}
 
 Pré-requis :
 **Niveau :** Moyen
-**Prérequis :** Pour ce MON, il est nécessaire d'avoir certaines bases de JavaScript pour comprendre les concepts avec plus de facilité mais il est possible de s'en passer. 
+**Prérequis :** Pour ce MON, il est nécessaire d'avoir certaines bases de JavaScript pour comprendre les concepts avec plus de facilité mais il est possible de s'en passer.
 
 {%endprerequis%}
 
-## Liens utiles 
+## Liens utiles
 
 [Site TypeScript](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html)
 [Autre site très bien](https://kinsta.com/fr/base-de-connaissances/guide-complet-typescript/)
 [Vidéo youtube TypeScript](https://www.youtube.com/watch?v=30LWjhZzg50)
 
-## Sommaire 
-1. TypeScript, qu'est-ce que c'est 
+## Sommaire
+1. TypeScript, qu'est-ce que c'est
 2. Pourquoi ce MON
 4. Lancer un projet TypeScript
 5. Les types en TypeScript
@@ -37,37 +37,37 @@ Pré-requis :
 8. Conclusion
 
 
-## TypeScript, qu'est-ce que c'est 
+## TypeScript, qu'est-ce que c'est
 
-TypeScript est un langage de programmation développé par Microsoft, qui s'appuie sur JavaScript. La différence entre les deux est que TypeScript est un langage typé, il prend les fonctionnalités de bases de JS et en ajoute des nouvelles dans lesquels le type des variables, des fonctions doit être précisé. Cela apporte une meilleure stabilité et sécurité au code et permet de limiter grandement les erreurs ou en tout cas de les détecter plus tôt. 
+TypeScript est un langage de programmation développé par Microsoft, qui s'appuie sur JavaScript. La différence entre les deux est que TypeScript est un langage typé, il prend les fonctionnalités de bases de JS et en ajoute des nouvelles dans lesquels le type des variables, des fonctions doit être précisé. Cela apporte une meilleure stabilité et sécurité au code et permet de limiter grandement les erreurs ou en tout cas de les détecter plus tôt.
 
 
 ## Pourquoi ce MON
 
-J'ai voulu en apprendre plus sur TypeScript pour plusieurs raisons. D'abord car ce langage est en plein essort, de nombreuses entreprises l'utilisent et c'est le cas de celle dans laquelle je vais effectuer mon stage. C'est donc aussi pour ça que je souhaite connaître ce langage. 
+J'ai voulu en apprendre plus sur TypeScript pour plusieurs raisons. D'abord car ce langage est en plein essort, de nombreuses entreprises l'utilisent et c'est le cas de celle dans laquelle je vais effectuer mon stage. C'est donc aussi pour ça que je souhaite connaître ce langage.
 
 
 ## Lancer un projet TypeScript
 
-Pour lancer un projet TypeScript, rien de très compliqué. Il faut ouvrir un nouvel onglet sur VSCode avec un terminal et taper les commandes suivantes : 
+Pour lancer un projet TypeScript, rien de très compliqué. Il faut ouvrir un nouvel onglet sur VSCode avec un terminal et taper les commandes suivantes :
 
 ```shell
 npm install -D typescript
-``` 
+```
 
-Cette commande permet d'installer le compilateur. 
+Cette commande permet d'installer le compilateur.
 
-Ensuite on crée un projet node avec la commande : 
+Ensuite on crée un projet node avec la commande :
 ```shell
 npm init -y
 ```
 ```shell
 npx tsc .ts
 ```
-Les fichiers typescript doivent se terminer par .ts au lieu de .js comme en JavaScript. 
+Les fichiers typescript doivent se terminer par .ts au lieu de .js comme en JavaScript.
 
 ## Les types en TypeScript
-L'un des points forts de TypeScript est son système de typage statique. Cela signifie qu'on peut spécifier le type de chaque variable ou de chaque paramètre de fonction et même le type de retour des fonctions. Le code sera alors bien plus clair et plus prévisible, et cela évite les erreurs de typage comme il en arrive souvent. 
+L'un des points forts de TypeScript est son système de typage statique. Cela signifie qu'on peut spécifier le type de chaque variable ou de chaque paramètre de fonction et même le type de retour des fonctions. Le code sera alors bien plus clair et plus prévisible, et cela évite les erreurs de typage comme il en arrive souvent.
 Voici un exemple de code TypeScript avec des types pour se rendre mieux compte de comment cela fonctionne :
 
 ```js
@@ -85,14 +85,14 @@ const result = add(10, 20);
 console.log(result);
 ```
 
-On voit ici que la variable message est un String, ou ne pourra donc pas lui attribuer la valeur d'un nombre par exemple. 
-Ensuite la fonction possède deux paramètres, des nombres et le retour doit lui aussi être un nombre. 
+On voit ici que la variable message est un String, ou ne pourra donc pas lui attribuer la valeur d'un nombre par exemple.
+Ensuite la fonction possède deux paramètres, des nombres et le retour doit lui aussi être un nombre.
 
 
 ## Les fonctions et les classes
-En TypeScript, on peut créer des classes comme en JavaScript, la seule différence étant que l'on doit préciser le type des propriétés que l'on utilise. 
+En TypeScript, on peut créer des classes comme en JavaScript, la seule différence étant que l'on doit préciser le type des propriétés que l'on utilise.
 
-Voici comment on écrirait une classe en JavaScript : 
+Voici comment on écrirait une classe en JavaScript :
 ```js
 class Person {
     // Constructeur pour initialiser les propriétés
@@ -108,7 +108,7 @@ class Person {
 }
 ```
 
-Et voici comment on l'écrirait en TypeScript : 
+Et voici comment on l'écrirait en TypeScript :
 
 ```js
 class Person {
@@ -131,7 +131,7 @@ class Person {
 
 ## Notion d'interface
 
-TypeScript permet de créer ce qu'on appelle des interfaces. Cette notion n'existe pas en JavaScript, elle est propre à TypeScript car elle permet de typer les objets et les classes en définissant proprement leur structure. Prenons un exemple : 
+TypeScript permet de créer ce qu'on appelle des interfaces. Cette notion n'existe pas en JavaScript, elle est propre à TypeScript car elle permet de typer les objets et les classes en définissant proprement leur structure. Prenons un exemple :
 
 
 ```js
@@ -149,8 +149,8 @@ console.log(greet(alice));
 ```
 
 
-## Conclusion 
-Grâce à ce MON j'ai pu découvir sommairement ce qu'était TypeScript. Malheuresement en seulement 10h je n'ai pas pu manipuler assez pour vraiment m'habituer à l'utiliser, mais je vais gagner du temps d'apprentissage quand je serai en stage car je saurai à quoi m'attendre. 
+## Conclusion
+Grâce à ce MON j'ai pu découvir sommairement ce qu'était TypeScript. Malheuresement en seulement 10h je n'ai pas pu manipuler assez pour vraiment m'habituer à l'utiliser, mais je vais gagner du temps d'apprentissage quand je serai en stage car je saurai à quoi m'attendre.
 
 
 ## Horodatage

@@ -8,7 +8,7 @@ authors:
 date: 2023-09-27
 
 
-résumé: Codes de mon MON.
+description: Codes de mon MON.
 ---
 *Accueil du site :*
 ```html
@@ -50,12 +50,12 @@ résumé: Codes de mon MON.
         </section>
         <section class="photos_accueil">
             <h2>Mon dernier projet</h2>
-                <div>    
+                <div>
                     <img src="images/accueil/element-1.png" alt="Twelve apostles - Australie" >
                     <img src="images/accueil/element-2.png" alt="Wai-O-Tapu - Nouvelle-Zélande" >
                     <img src="images/accueil/element-3.png" alt="Parc National d’Abel Tasman - Nouvelle-Zélande" >
-                </div>    
-                <div>    
+                </div>
+                <div>
                     <img src="images/accueil/element-4.png" alt="Lac Rotorua - Nouvelle-Zélande" >
                     <img src="images/accueil/element-5.png" alt="Milford Sound - Nouvelle-Zélande" >
                     <img src="images/accueil/element-6.png" alt="Lac Wanaka - Nouvelle-Zélande" >
@@ -71,7 +71,7 @@ résumé: Codes de mon MON.
             <a target="_blank" href="https://www.instagram.com/" class="lien-icone">
                 <img src="images/instagram.png" alt="Logo Instagram" >
             </a>
-        </div>    
+        </div>
     </footer>
 </body>
 

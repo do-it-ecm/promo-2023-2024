@@ -17,7 +17,7 @@ tags:
   - "Web"
   - "Jeu"
 
-résumé: Création d'un quiz multijoueur en ligne en utilisant Java pour le backend'
+description: Création d'un quiz multijoueur en ligne en utilisant Java pour le backend'
 ---
 
 {%prerequis 'POK niveau intermédiaire'%}
@@ -41,7 +41,7 @@ Back-End avec Spring Boot (Java) et une base de données MySQL, Front-End en Rea
 L’objectif de ce POK est de créer un jeu de Quiz multijoueur en mode Battle Royale. Le but du jeu est d’être le dernier survivant de la partie en répondant juste à toutes les questions.
 Nous sommes deux pour réaliser ce POK : Lucas Rioual et   Samy Diafat.
 
-Nous avons choisi cette thématique pour créer une application web avec Spring Boot. 
+Nous avons choisi cette thématique pour créer une application web avec Spring Boot.
 
 ## Cahier des charges
 
@@ -86,7 +86,7 @@ Rédige moi tous les endpoints à prendre en compte en expliquant le fonctionnem
         - Description : Permet à un joueur de quitter la partie.
         - Paramètres : Aucun.
         - Réponse : Indique que le joueur a quitté la partie.
-    
+
 
 ### Frontend :
 
@@ -138,7 +138,7 @@ Pour le front, nous avons choisi de partir sur du React et Tailwind CSS car Luca
 Le temps pour le développement des trois premières pages a été respecté . Cependant le setup du projet a mis plus de temps que prévu (comme à chaque fois). Pour l'instant, il n'y a aucune interaction entre le front et le back. On verra ça pour le deuxième sprint
 
 
-Voici quelques livrables issus du Sprint 1 
+Voici quelques livrables issus du Sprint 1
 
 ### Maquette Figma
 
@@ -203,7 +203,7 @@ Cependant, le back-end développé durant le premier sprint a permis à Lucas d'
 
 ### Déploiement avec Docker
 
- Au début de ce sprint, Lucas a voulu se concentrer sur la conteneurisation de l'API, de la base de donnée et du front. 
+ Au début de ce sprint, Lucas a voulu se concentrer sur la conteneurisation de l'API, de la base de donnée et du front.
 
 Il s'est d'abord concentré sur cet aspect car il pensait que c'est l'étape qui allait poser le plus de problème. Et c'est pas faux.
 
@@ -252,7 +252,7 @@ Le problème était que lorsque que le conteneur était exécuté, cela afficher
 
 Cette partie était beaucoup plus longue que prévue. Pour afficher les joueurs en temps réel dans le salon, nous voulions utiliser des webSockets. Lucas avait déjà utilisé ce genre de chose pour l’application du Killer avec Node. Mais l’implémentation avec Spring Boot était plus compliqué que sur Node.js.
 
-Lucas a perdu beaucoup de temps (5h) car la version [socket.io](http://socket.io) utilisé avec React était différente de celle utilisé par Spring Boot. 
+Lucas a perdu beaucoup de temps (5h) car la version [socket.io](http://socket.io) utilisé avec React était différente de celle utilisé par Spring Boot.
 Malgré cela, nous avons réussi à connecter les joueurs ensemble dans un même salon. Nous avons pas eu le temps de faire la suite du projet.
 
 

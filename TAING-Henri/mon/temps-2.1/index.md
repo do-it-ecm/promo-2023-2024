@@ -13,7 +13,7 @@ tags:
   - Google Sheets
   - Apps Scripts
 
-résumé: "Un vieux qui apprend à faire des tableaux et des graphes sur Excel/Google Sheets, enfin"
+description: "Un vieux qui apprend à faire des tableaux et des graphes sur Excel/Google Sheets, enfin"
 ---
 
 {%prerequis 'MON débutant'%}

@@ -10,7 +10,7 @@ date: 2024-03-14
 temps: 3
 tags:
 
-résumé: Je souhaite explorer les différents modèles de données ainsi que leur utilisation à travers des pipelines, tout en intégrant le processus ETL.
+description: Je souhaite explorer les différents modèles de données ainsi que leur utilisation à travers des pipelines, tout en intégrant le processus ETL.
 ---
 
 ## Table des matières
@@ -49,7 +49,7 @@ Le schéma de la base de données vous permet de valider les données entrantes 
 
 
 ## Pipeline de données <a id="section-3"></a>
-### ETL 
+### ETL
 L'un des pipelines les plus utilisés dans les entreprise est l'ETL(Extract, Load, Transform). ETL permet de collecter des données de différentes sources, de les transformer selon les besoins spécifiques de l'entreprise ou du projet, et enfin de les charger dans une destination où elles peuvent être analysées et exploitées.
 
 {% details "ETL vs ELT" %}
@@ -92,7 +92,7 @@ Vérifier la qualité des données implique de s'assurer que les données sont f
 
 - **Actualité** : Les données sont-elles actuelles ?
 
-- **Intégrité** : Les données sont-elles précises, complètes, cohérentes et fiables ? 
+- **Intégrité** : Les données sont-elles précises, complètes, cohérentes et fiables ?
 
 {% info %}
 **Problèmes courants**

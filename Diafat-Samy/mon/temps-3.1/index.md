@@ -5,8 +5,8 @@ title: "Java et les bases de données avec JDBC, Hibernate et JPA"
 authors:
   - Samy Diafat
 
-résumé: "La très grande majorité des applications va devoir conserver les données manipulées sur le long terme, on utilise pour ce faire des systèmes de gestion de bases de données. Le plus répandu sont les bases de données relationnelles comme par exemple MySQL, Oracle, SQL Server ou PostgreSQL. Java répond  à ce besoin via une API nommées JDBC que l'on peut traduire par Java Database Connectivity" 
-tags: 
+description: "La très grande majorité des applications va devoir conserver les données manipulées sur le long terme, on utilise pour ce faire des systèmes de gestion de bases de données. Le plus répandu sont les bases de données relationnelles comme par exemple MySQL, Oracle, SQL Server ou PostgreSQL. Java répond  à ce besoin via une API nommées JDBC que l'on peut traduire par Java Database Connectivity"
+tags:
    - 'Java'
    - 'JPA'
    - 'JDBC'
@@ -14,7 +14,7 @@ tags:
 ---
 
 
-{%prerequis 'Débutant'%} 
+{%prerequis 'Débutant'%}
 Première expérience avec Java.
 Avoir un environnement de devéloppement type IntelliJ.
 {%endprerequis%}
@@ -27,10 +27,10 @@ Il est possible d'obtenir 30 jours d'essai gratuit sur toutes les formations Jav
 
 
 
-### Sommaire 
+### Sommaire
 1. Présentation de la formation
 1.1 Pourquoi suivre ce cours ?
-1.2 A quoi ressemble un chapitre  ? 
+1.2 A quoi ressemble un chapitre  ?
 1.3 Comment valide-t-on nos connaissances ?
 1.4 Quelles sont les thèmes abordés ?
 2. Points positifs & Points négatifs
@@ -62,7 +62,7 @@ Pour moi, ce cours s'adresse à ceux qui souhaitent véritablement comprendre le
 Egalement, il est parfois compliqué de s'y retrouver dans les normes et usages standards car les outils évoluent beaucoup, ce cours revient donc parfois en arrière et explique les raisons de ces évolutions !
 
 
-### A quoi ressemble un chapitre ? 
+### A quoi ressemble un chapitre ?
 
 Les cours sont assez classiques dans leur forme : un lecteur vidéo (avec la possiblité d'accélérer la vidéo et de la sous-titrer), une section commentaire dédiée, et des fichiers utilisés dans le cours disponibles en téléchargement.
 
@@ -110,7 +110,7 @@ Quelles sont les points positifs selon moi ?
 - Le découpage des vidéos est pertinent.
 - Les vidéos peuvent être accélérées et sous-titrées.
 - Le site est ergonomique.
-- Le contenu de la formation a été mis à jour. 
+- Le contenu de la formation a été mis à jour.
 - Les exercices sont simples à faire après avoir vu les vidéos.
 - Le code est disponible.
 - Les vidéos sont téléchargeables.

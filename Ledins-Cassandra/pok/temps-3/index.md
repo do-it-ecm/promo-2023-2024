@@ -10,10 +10,10 @@ date: 1971-03-01
 temps: 3
 tags:
 
-résumé: Configurer mon propre serveur pour héberger mes sites persos
+description: Configurer mon propre serveur pour héberger mes sites persos
 ---
 
-## Introduction 
+## Introduction
 
 Pour voir la naissance d'une application de A à Z, j'ai envie d'en savoir plus sur la mise en place d'un serveur en passant directement par la pratique. A la fin, j'aimerais pouvoir mettre en ligne mon site (site générique), et qu'une base de données soit servie aussi. Je pense quand même que ça ne sera pas aussi simple qu'en théorie, et j'espère ne pas me faire attaquer. Je pensais mettre ça en place sur une VM pour plus de sécurité perso. Le serveur n'a évidemment aucune vocation à persister.
 
@@ -102,7 +102,7 @@ A la fin du sprint 1, en réalisant que j'étais plus rapide que prévu sur les 
 
 Voici donc les objectifs du sprint 2 redéfinis.
 
-### Nouveaux objectifs 
+### Nouveaux objectifs
 
 - [ ] Configuration d'une base de données et mise en place de la collecte des logs (3 heures) - Niveau de difficulté : 5
   - Installation et configuration d'une base de données.
@@ -134,7 +134,7 @@ Je peux maintenant me connecter sur mon serveur à partir de n'importe quel ordi
 
 Mais un problème apparaît : Modifier et sauvegarder le fichier avec les commandes de l'IDE ne l'effectue pas en tant que 'sudo' (membre avec tous les droits). J'ai trouvé une extension VSCode qui permet de "Save as root", que j'ai lié à un shortcut au clavier. Pratique !
 
-Cette étape n'était pas nécessaire et a ajouté une vulnérabilité à mon serveur en ouvrant un nouveau port pour la connexion SSH. Mais ce genre de pratique reste courante et réaliste. 
+Cette étape n'était pas nécessaire et a ajouté une vulnérabilité à mon serveur en ouvrant un nouveau port pour la connexion SSH. Mais ce genre de pratique reste courante et réaliste.
 
 ### Configurer les logs
 
@@ -144,15 +144,15 @@ Configurer les logs s'est fait en quelques lignes seulement dans les fichiers .c
 
 ### Création de la CGI pour afficher les logs
 
-Je me suis ensuite renseignée rapidement sur les CGIs puisque celà me semblait être une solution viable pour afficher des statistiques en direct à partir de mes documents .log. J'ai alors écrit un programme Python qui renvoie un html avec les IPs présents dans les logs. C'EST PAS TRES RGPD. Après 5 secondes de réflexion, j'ai réalisé que ça ne semblait pas très éthique. J'ai finalement masqué environ 75% des IPs pour pas qu'ils ne soient lisibles. 
+Je me suis ensuite renseignée rapidement sur les CGIs puisque celà me semblait être une solution viable pour afficher des statistiques en direct à partir de mes documents .log. J'ai alors écrit un programme Python qui renvoie un html avec les IPs présents dans les logs. C'EST PAS TRES RGPD. Après 5 secondes de réflexion, j'ai réalisé que ça ne semblait pas très éthique. J'ai finalement masqué environ 75% des IPs pour pas qu'ils ne soient lisibles.
 
-### GeoLite 
+### GeoLite
 
-J'ai ensuite trouvé une base de données gratuite appelée GeoLite qui permet d'associer une IP à un pays, une région ou une ville. J'ai choisi les pays, car je n'ai pas plus d'intérêt que ça à savoir exactement d'où les IPs proviennent. Après avoir importé et décompressé la base de données sur mon serveur, je l'ai inclue dans mon script Python. Et tada ! Ca ne marche pas du tout. 
+J'ai ensuite trouvé une base de données gratuite appelée GeoLite qui permet d'associer une IP à un pays, une région ou une ville. J'ai choisi les pays, car je n'ai pas plus d'intérêt que ça à savoir exactement d'où les IPs proviennent. Après avoir importé et décompressé la base de données sur mon serveur, je l'ai inclue dans mon script Python. Et tada ! Ca ne marche pas du tout.
 
 ### Le REGEX c'est pas marrant
 
-Il se trouve que la récupération d'IP à partir de logs c'est pas évident. J'utilise une expression Regex, mais elle ne marchait pas correctement, et je me retrouvais avec des IPs au format non correct, et surtout je loupais pas mal d'IPs pour une raison inconnue (enfin si, je ne sais juste pas faire des regex propres). Donc j'ai bidouillé une expression jusqu'à ce que ça ait l'air de fonctionner... 
+Il se trouve que la récupération d'IP à partir de logs c'est pas évident. J'utilise une expression Regex, mais elle ne marchait pas correctement, et je me retrouvais avec des IPs au format non correct, et surtout je loupais pas mal d'IPs pour une raison inconnue (enfin si, je ne sais juste pas faire des regex propres). Donc j'ai bidouillé une expression jusqu'à ce que ça ait l'air de fonctionner...
 
 Et là ça marche ! C'est ce que j'aurais dit si j'avais eu des résultats à ce moment.
 
@@ -162,7 +162,7 @@ Je ne m'étais pas encore bien occupée de la configuration de l'accès aux diff
 Sans rentrer dans trop de détails, il a fallu :
 
 - enable l'exécution de CGI
-- créer un nouveau groupe de droits "Apache" 
+- créer un nouveau groupe de droits "Apache"
 - donner la propriété des logs à "Apache" et donc le droit en lecture et écriture
 - donner la propriété de mon script Python à "Apache" pour qu'il puisse l'éxécuter
 - après avoir géré les fichiers, il faut faire d'autres manipulations de droits sur les dossiers...
@@ -215,7 +215,7 @@ La mise en place du serveur a été vraiment différente de ce que j'ai pu imagi
 
 La prochaine fois je choisis un mot de passe sudo un poil plus court, j'ai passé la moitié du POK à le retaper dans tous les sens et à faire des fautes de frappe.
 
-### Sources 
+### Sources
 
 - <a href="https://dev.maxmind.com/geoip/geolite2-free-geolocation-data">Base de données GeoLite2 gratuite</a>
 

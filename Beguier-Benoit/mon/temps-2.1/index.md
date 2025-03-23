@@ -15,7 +15,7 @@ tags:
   - "visualisation"
   - "plot"
 
-résumé: "Le but de ce MON est de reprendre les bases d'algorithmique en Python, puis de s'initier au package Seaborn permettant de plot des jolis graphiques"
+description: "Le but de ce MON est de reprendre les bases d'algorithmique en Python, puis de s'initier au package Seaborn permettant de plot des jolis graphiques"
 ---
 
 {% prerequis %}

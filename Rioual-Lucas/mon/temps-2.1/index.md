@@ -10,7 +10,7 @@ date: 1970-09-01
 temps: 2
 tags:
 
-résumé: "React.js"
+description: "React.js"
 ---
 
 Ce MON a pour objectif de me rendre plus à l’aise avec le développement frontend. J’ai donc décidé d’apprendre React.js et Tailwind CSS.
@@ -25,11 +25,11 @@ Ce MON a pour objectif de me rendre plus à l’aise avec le développement fron
 ## Introduction
 
 **React.js** est un Framework Javascript qui permet de développer des interfaces utilisateurs.
-Ce Framework propose une architecture différente du HTML/CSS/Javascript utilisé dans la conception de site internet traditionnel. Développer une interface réactive et dynamique peut s’avérer compliquer en HTML/CSS/Javascript. **React** facilite la création de ce genre d’interface grâce à des mécanismes que nous verrons plus tard. 
+Ce Framework propose une architecture différente du HTML/CSS/Javascript utilisé dans la conception de site internet traditionnel. Développer une interface réactive et dynamique peut s’avérer compliquer en HTML/CSS/Javascript. **React** facilite la création de ce genre d’interface grâce à des mécanismes que nous verrons plus tard.
 Il existe d’autres Framework Javascript qui permettent plus ou moins la même chose comme **Vue.js** ou **Angular**.
 J’ai choisi d’étudier React.js car il j’avais déjà quelques bases en **React Native** qui utilise à peu près les mêmes notions.
 
-Je me suis fixer comme objectif de refaire le site web que j’ai crée pendant le [POK 1](../../pok/temps-1/) avec **React**. 
+Je me suis fixer comme objectif de refaire le site web que j’ai crée pendant le [POK 1](../../pok/temps-1/) avec **React**.
 
 
 Malheureusement, j’ai récemment perdu toutes les données de mon disque dur externe (y compris le code que j’ai fait durant ce MON). Je sais, cela ressemble à une excuse bidon, mais c’est malheureusement vrai. Je vais quand même expliquer tout mon processus d’apprentissage et certaines notions importante de **React** que j’ai découvert.
@@ -42,7 +42,7 @@ Pour l’apprentissage de React, j’ai utilisé la documentation de React et Ch
 Pour commencer, je vous conseille vraiment de lire la [documentation](https://react.dev/learn/).
 Attention, l'ancienne documentation est obsolète et plus valable.
 
-Je trouve cette documentation très claire et efficace. Il y a un tutoriel pour faire un morpion. C'est un bon exercice pour comprendre les notions fondamentales de React : 
+Je trouve cette documentation très claire et efficace. Il y a un tutoriel pour faire un morpion. C'est un bon exercice pour comprendre les notions fondamentales de React :
 
 - **Les Components**
 - **Les props**
@@ -50,7 +50,7 @@ Je trouve cette documentation très claire et efficace. Il y a un tutoriel pour 
 
 ### Les components
 
-Les components sont essentiels dans le fonctionnement de React. Ce sont des éléments réutilisables qui encapsulent du code et les fonctionnalités. Un component peut être aussi simple qu'un bouton ou aussi complexe qu'une section entière. 
+Les components sont essentiels dans le fonctionnement de React. Ce sont des éléments réutilisables qui encapsulent du code et les fonctionnalités. Un component peut être aussi simple qu'un bouton ou aussi complexe qu'une section entière.
 
 Voici un exemple d’un component représentant le header d’un site web (généré par Chat GPT) :
 
@@ -98,7 +98,7 @@ export default App;
 
 ### Les props
 
-Les composants peuvent accepter des propriétés (props) pour paramétrer leur comportement. Les props sont des passées de parent à enfant. Par exemple, nous pouvons rendre le titre de notre header dynamique en utilisant une prop : 
+Les composants peuvent accepter des propriétés (props) pour paramétrer leur comportement. Les props sont des passées de parent à enfant. Par exemple, nous pouvons rendre le titre de notre header dynamique en utilisant une prop :
 
 ```jsx
 const Header = (props) => {
@@ -131,7 +131,7 @@ const App = () => {
 };
 ```
 
- 
+
 
 ### Le state
 
@@ -147,7 +147,7 @@ const App = () => {
     setCount(count + 1);
   };
 
-	
+
   return (
     <div>
       <Header titre={titreHeader} />
@@ -177,7 +177,7 @@ Tailwind CSS a plusieurs avantages par rapport au CSS classique :
 
 Cependant, nous sommes presque obligé d'avoir une 'antisèche' lorsqu'on développe pour connaître toutes les classes disponible.
 Heureusement que certains sites internet nous offrent un résumé de toutes les classes à utiliser.
-Je vous conseille ce site : https://flowbite.com/tools/tailwind-cheat-sheet/ 
+Je vous conseille ce site : https://flowbite.com/tools/tailwind-cheat-sheet/
 Il est très clair et c'est facile de trouver l'information que nous voulons.
 
 

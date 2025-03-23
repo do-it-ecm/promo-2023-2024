@@ -12,7 +12,7 @@ tags:
   - "Stratégie IT"
   - "Conseil IT"
 
-résumé: "Mon travail vise à approfondir ma compréhension de la façon dont les cabinets de conseil en IT utilisent la stratégie IT pour renforcer la stratégie commerciale de leurs clients."
+description: "Mon travail vise à approfondir ma compréhension de la façon dont les cabinets de conseil en IT utilisent la stratégie IT pour renforcer la stratégie commerciale de leurs clients."
 ---
 
 ## Table des matières

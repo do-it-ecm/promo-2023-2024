@@ -13,9 +13,9 @@ tags:
   - "JavaScript"
   - "TypeScript"
   - "Angular"
-  - "framework"  
+  - "framework"
 
-résumé: "Angular est un framework TypeScript basé sur une architecture très uilisée dans le milieu professionnel. Il est très complet et permet de créer des applications web de grande envergure."
+description: "Angular est un framework TypeScript basé sur une architecture très uilisée dans le milieu professionnel. Il est très complet et permet de créer des applications web de grande envergure."
 ---
 
 ## Prérequis
@@ -148,7 +148,7 @@ Parmi les point à retenir :
 - L’inférence permet à TypeScript de déterminer à l’avance les types de sortie des fonctions à la compilation (et de les traduire en erreur, le cas échéant)
 
 > “Toute la puissance de TypeScript repose sur cet art de typer le moins possible mais au bon endroit pour en profiter au maximum.” [[1]](https://guide-angular.wishtack.io/typescript/inference)
-> 
+>
 - Par exemple, les fonctions de callback sont importantes à typer puisque le type de retour est déterminé après un certain temps dans les fonctions asynchrones. Après, l’IDE peut autocompléter et c’est chouette.
 - Certains décorateurs permettent d’étendre des fonctions TypeScript [[5]](#bibliographie)
 

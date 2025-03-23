@@ -12,7 +12,7 @@ tags:
   - "CSS"
   - "HTML"
 
-résumé: "Utilisation de TailwindCSS pour mettre en forme une page Web"
+description: "Utilisation de TailwindCSS pour mettre en forme une page Web"
 ---
 
 <h2 id="h1"> Introduction </h2>

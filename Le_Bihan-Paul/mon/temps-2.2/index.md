@@ -14,7 +14,7 @@ tags:
   - "CSS"
   - "débutant"
 
-résumé: ""
+description: ""
 ---
 
 {%prerequis 'Niveau <!--insérer le niveau : débutant, ...-->'%}
@@ -37,7 +37,7 @@ Prérequis : <!--insérer les prérequis : aucun, html, css,...-->
 
 <div id=""></div>
 
-## 1. 
+## 1.
 
 <div id="sources"></div>
 
@@ -45,10 +45,10 @@ Prérequis : <!--insérer les prérequis : aucun, html, css,...-->
 
 <div id=""></div>
 
-1. « []() » sur  (consulté le JJ/MM/AAAA). 
+1. « []() » sur  (consulté le JJ/MM/AAAA).
 
 <div id="horodateur"></div>
 
-## Horodateur 
-| Date | Heures passées | Indications | 
+## Horodateur
+| Date | Heures passées | Indications |
 | -------- | -------- |-------- |

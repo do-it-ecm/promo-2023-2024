@@ -16,7 +16,7 @@ tags:
   - Python
   - Flask
 
-résumé: Quoi ? Il y a des conventions pour la manière d'écrire le code ? Une convention par langage en plus ?! Mon dieu, il est temps de nettoyer tout ce code sale et de rénover le site du projet 3A ! (Et aussi le moment d'apprendre de faire du back) 
+description: Quoi ? Il y a des conventions pour la manière d'écrire le code ? Une convention par langage en plus ?! Mon dieu, il est temps de nettoyer tout ce code sale et de rénover le site du projet 3A ! (Et aussi le moment d'apprendre de faire du back)
 
 
 ---
@@ -33,18 +33,18 @@ Savoir lire du code
 2. [PEP 8 pour Python et Google HTML/CSS Style Guide et Google JavaScript Style Guide](#section-2)
 3. [Découverte et apprentissage de Flask](#section-3)
 4. [Conclusion](#section-4)
-5. [Sources et horodateur](#section-5) 
+5. [Sources et horodateur](#section-5)
 
 ## 1. Introduction <a id="section-1"></a>
 
-Cherchant un poste à l'étranger en IT pour mon premier, mes choix sont assez restreints au vu de mes compétences techniques limitées. 
+Cherchant un poste à l'étranger en IT pour mon premier, mes choix sont assez restreints au vu de mes compétences techniques limitées.
 Pour autant, ce n'est pas une raison de ne pas les valoriser en mettant en avant les projets effectués à l'école et sur mon temps libre, avec un lien github par exemple qui donne sur du clean code.
 Dans ce MON, vous verrez les principales conventions utilisées pour rédiger du code et moi, je prendrai cette occasion pour intégrer tout le code que j'ai écrit et le code écrit pour le back par Cassandra.
 
 ## 2. PEP 8 pour Python et Google HTML/CSS Style Guide et Google JavaScript Style Guide <a id="section-2"></a>
 
-Le but de ses conventions est définir des règles de format et de style pour le code afin de promouvoir la collaboration et la compréhension. L'idée est d'écrire du code qui soit lisible et consistent pour faire en sorte que sa lecture ne soit pas une souffrance visuelle en plus d'intellectuelle. 
-Ces guides sont mis à jour régulièrement pour suivre l'évolution de la programmation. Et je vais de ce pas les appliquer à tous les projets que je compte mettre sur GitHub, commençant par le projet 3A. 
+Le but de ses conventions est définir des règles de format et de style pour le code afin de promouvoir la collaboration et la compréhension. L'idée est d'écrire du code qui soit lisible et consistent pour faire en sorte que sa lecture ne soit pas une souffrance visuelle en plus d'intellectuelle.
+Ces guides sont mis à jour régulièrement pour suivre l'évolution de la programmation. Et je vais de ce pas les appliquer à tous les projets que je compte mettre sur GitHub, commençant par le projet 3A.
 
 Les principaux points relèvent de :
 - l'indentation, par exemple, en Python, il faut faire en sorte soit de s'aligner sur le délimiteur ouvert (parenthèse, strophe, crochet) ou d'ajouter 4 espaces pour séparer les arguments du reste ou en alignant les autres lignes par rapport à la première. Et on va préférer les espaces (avec la touche espace) que les "tabs",
@@ -71,8 +71,8 @@ fonction = f(
 
 {% enddetails %}
 
-- le nombre de caractères par ligne, en Python, on conseillera 79 caractères, pour JavaScript 80, 
-- les espaces dans le code, on évitera les espaces inutiles du genre, 
+- le nombre de caractères par ligne, en Python, on conseillera 79 caractères, pour JavaScript 80,
+- les espaces dans le code, on évitera les espaces inutiles du genre,
 
 {% details "Un autre exemple calqué sur celui du guide" %}
 
@@ -87,8 +87,8 @@ petitdej( jambon[ 1 ], { fromage: 2 } )
 {% enddetails %}
 
 - les commentaires dans le code, il faut que ce soient des phrases complètes, explicites et compréhensibles avec une majuscule au début et utilisés si et seulement si ils aident à la compréhension du code
-- les noms des variables, fonctions, etc, par exemple, ne jamais utiliser "l", "O", qui peuvent être confondus avec "1" et "0", écrire le nom des variables en miniscules, etc. 
-- des recommandations générales du type : 
+- les noms des variables, fonctions, etc, par exemple, ne jamais utiliser "l", "O", qui peuvent être confondus avec "1" et "0", écrire le nom des variables en miniscules, etc.
+- des recommandations générales du type :
 {% details "Autres exemples calqués sur celui du guide" %}
 
 ```
@@ -111,12 +111,12 @@ if booleen == True:
 
 ## 3. Découverte et apprentissage de Flask <a id="section-3"></a>
 
-J'apprends mieux en faisant et sous pression. 
-Donc, j'ai décidé de m'inscrire à un hackathon en ligne, "Social Impact Hackathon & Southend Tech". 
+J'apprends mieux en faisant et sous pression.
+Donc, j'ai décidé de m'inscrire à un hackathon en ligne, "Social Impact Hackathon & Southend Tech".
 
 En me basant sur la formation [Formation DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-make-a-web-application-using-flask-in-python-3-fr#etape-1-installation-de-flask) conseillée par @Samy Diafat, mon ami ChatGPT, mes deux neurones et mon coéquipier, un professeur à la retraite, j'étais prêt à me lancer dans cette semaine de hackathon.
 
-En bref, ce que j'ai appris dans le stress et le doute : 
+En bref, ce que j'ai appris dans le stress et le doute :
 
 **Créer une application Flask**
 
@@ -137,7 +137,7 @@ Flask a son architecture propre, c'est-à-dire que dans le dossier du projet, il
 ```
 from flask import Flask, render_template
 
-@app.route('/register')  
+@app.route('/register')
 def register():
     return render_template('register.html')
 
@@ -156,7 +156,7 @@ python app.py
 ```
 from flask_sqlalchemy import SQLAlchemy
 
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///users.db'  
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///users.db'
 db = SQLAlchemy(app)
 
 with app.app_context():
@@ -164,7 +164,7 @@ with app.app_context():
 
 Dans le terminal :
 python -m flask db init
-                
+
 ```
 
 **Créer des users grâce à une classe**
@@ -178,19 +178,19 @@ class User(db.Model):
     feel = db.Column(db.Integer, default=None)
     day = db.Column(db.Integer, default=None)
     health = db.Column(db.Enum(HealthStatus), default=None)
-    district = db.Column(db.Enum(District), default=None)  
+    district = db.Column(db.Enum(District), default=None)
 
     __table_args__ = (
         db.CheckConstraint('feel >= 1 AND feel <= 5', name='check_feel_range'),
         db.CheckConstraint('day >= 1 AND day <= 5', name='check_day_range'),
     )
-  
+
 ```
 
 **Mettre à jour la base de données avec Flask (on peut aussi passer par DB Browser pour visualiser et modifier la base de données)**
 
 ```
-from flask_migrate import Migrate 
+from flask_migrate import Migrate
 
 migrate = Migrate(app, db)
 
@@ -212,7 +212,7 @@ def process_login():
         password = request.form['password']
         user = User.query.filter_by(username=username, password=password).first()
         if user:
-            session['username'] = username  
+            session['username'] = username
             return redirect(url_for('inputs'))
     except IntegrityError:
         pass
@@ -223,7 +223,7 @@ def process_login():
 
 ## 4. Conclusion <a id="section-4"></a>
 
-J'aurais bien voulu plonger plus dans Bootstrap que j'ai effleuré rapidement pour faire mes pages de login/register, mais, au moins, je peux maintenant dire que je suis le développeur full-stack le plus débutant qu'il soit. 
+J'aurais bien voulu plonger plus dans Bootstrap que j'ai effleuré rapidement pour faire mes pages de login/register, mais, au moins, je peux maintenant dire que je suis le développeur full-stack le plus débutant qu'il soit.
 To-do-list avant de quitter Centrale : Faire un hackathon [X], Être full-stack [X].
 
 ## 5. Sources et horodateur <a id="section-5"></a>
@@ -234,7 +234,7 @@ To-do-list avant de quitter Centrale : Faire un hackathon [X], Être full-stack 
 [Formation DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-make-a-web-application-using-flask-in-python-3-fr#etape-1-installation-de-flask)
 [L'application que j'ai créé durant le hackathon](https://github.com/henritaing/social_tracker)
 
-**Horodateur** : 
+**Horodateur** :
 > Mercredi 07/02 : 2h (Lecture des conventions et nettoyage de mon MON d'analyse de données)
 > Samedi 18/02 : 3h (Bases avec la formation DigitalOcean et création de l'architecture, des routes et initialisation de la base de données avec la création d'users)
 > Dimanche 19/02 : 4h (Création de la logique pour gérer les users, l'inscription, la connexion puis l'extraction de ses données pour les analyser et les visualiser)

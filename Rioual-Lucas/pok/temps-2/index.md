@@ -11,7 +11,7 @@ temps: 2
 tags:
   - "backend"
 
-résumé: Création du backend et déploiement de mon site web.
+description: Création du backend et déploiement de mon site web.
 ---
 
 {% prerequis %}
@@ -58,7 +58,7 @@ L’objectif du sprint 1 est d’appliquer mes connaissances en backend que j’
 
 L’objectif de cette page est de pouvoir ajouter/modifier ou supprimer des produits de la base de données.
 
-Pour développer cette page Administrateur, j’ai choisi d’utiliser **React** et **Tailwindcss**. Ce sont des outils que j’ai appris à utiliser lors du [MON 2.1](../../mon/temps-2.1). 
+Pour développer cette page Administrateur, j’ai choisi d’utiliser **React** et **Tailwindcss**. Ce sont des outils que j’ai appris à utiliser lors du [MON 2.1](../../mon/temps-2.1).
 
 Je me suis pas du tout concentré sur le design de la page, car le coeur de POK est le développement du backend.
 
@@ -125,9 +125,9 @@ Vous trouverez le repo Github ici : https://github.com/LucasRioual/curiolab-back
 
 ### Récupérer les données de l’API depuis le site Curiolab
 
-Ici, il n’y a pas eu beaucoup de travail à faire, car il fallait simplement modifier la méthode qui récupèrait les données. 
+Ici, il n’y a pas eu beaucoup de travail à faire, car il fallait simplement modifier la méthode qui récupèrait les données.
 
-Voici la requête que j’effectue à l’API : 
+Voici la requête que j’effectue à l’API :
 
 ```js
 const getOneStuff = async (id) => {
@@ -140,7 +140,7 @@ const getOneStuff = async (id) => {
     document.getElementById("txt-description").innerText = piece.description;
     document.getElementById("txt-prix").innerText = piece.prix + " € TTC";
     document.getElementById("txt-prix-HT").innerText = piece.prix - (piece.prix * 0.2) + " € HT";
-    
+
   }
   catch(error){
     console.error(error);
@@ -267,7 +267,7 @@ while getopts ":hfb" opt; do
 			echo "-f : déployer le frontend dans static"
 			echo "-b : déployer le backend dans node"
 			echo "-h : afficher l'aide"
-			exit 0 
+			exit 0
 			;;
 		f)
 			cd /home/persil/node/static
@@ -292,7 +292,7 @@ while getopts ":hfb" opt; do
 
 ### Amélioration du script
 
-Le problème pour le backend, c’est que l’instance screen ne prend pas en compte les changement, il faut donc kill l’ancien process et recréer un autre process. 
+Le problème pour le backend, c’est que l’instance screen ne prend pas en compte les changement, il faut donc kill l’ancien process et recréer un autre process.
 Merci Tuncay qui explique comment kill un process dans son [POK](../../../../2022-2023/Bilgi-Tuncay/pok/ServeurDistant/) :
 
 ```bash
@@ -306,7 +306,7 @@ persil@ovh1 ~/node (git)-[master] % screen -ls
 No Sockets found in /run/screen/S-persil.
 ```
 
-Le problème c’est que si il n’y a pas de process en cours, cela fait planter le script. J’ai donc demandé à chat GPT de me créer une condition pour vérifier si un process est en cours 
+Le problème c’est que si il n’y a pas de process en cours, cela fait planter le script. J’ai donc demandé à chat GPT de me créer une condition pour vérifier si un process est en cours
 
 Voici donc mon script final
 

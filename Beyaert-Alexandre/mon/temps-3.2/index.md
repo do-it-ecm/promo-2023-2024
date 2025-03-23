@@ -9,7 +9,7 @@ date: 1971-03-01
 temps: 3
 tags:
 
-résumé: "Un MON traitant du travail"
+description: "Un MON traitant du travail"
 ---
 
 ## Horodateur
@@ -80,7 +80,7 @@ Selon Weber, la mise en place de l'administration bureaucratique représente une
 
 #### Taylor, la rationalité productive : le Taylorisme
 
-**Frederick Winslow Taylor, ingénieur américain,** s'intéresse à l'organisation des ateliers de production. 
+**Frederick Winslow Taylor, ingénieur américain,** s'intéresse à l'organisation des ateliers de production.
 
 Il conceptualisera le constat d'Adam Smith au travers son livre **The Principles of Scientific Management (1911)** pour développer une OST consistant en une division **horizontale** (spécialisation avec parcellisation des tâches d'exécution et chronométrage pour définir "the one best way") et **verticale** (hiérarchie afin de séparer les tâches d'éxecution de celles de conception) du travail.
 
@@ -136,22 +136,22 @@ En 2017, la France compte 5,5 millions d’ouvriers soit 20,7% de la population 
 
 À travers son livre, Philippe Askenazy étudie l'évolution des conditions de travail dans les années 1990, confrontées au nouveau productivisme : le **"productivisme réactif".** Alors que le travail serait devenu plus flexible, plus souple, plus "intellectuel" grâce notamment à l'automatisation celui-ci aurait du s'en trouver "moins pénible pour le corps". Pour autant, l'auteur soulève un paradoxe montrant, chiffres à l'appui qu'il n'en est pas du tout le cas et qu'au contraire, ces chiffres semblent s'aggraver au fil des années. S'appuyant sur les modèles des États-Unis et de la France, Askenazy tente d'apporter des réponses à ce paradoxe, pointant du doigt entreprises et gouvernements.
 
-**Chapitre 1 :** 
+**Chapitre 1 :**
 Askenazy introduit le débat en juxtaposant deux réalités apparemment contradictoires : d'une part, le "productivisme réactif" caractérisé par une nouvelle organisation du travail mettant l'accent sur la polyvalence et la satisfaction client, développé aux États-Unis et adopté en France. D'autre part, les statistiques révélant une augmentation de la pénibilité physique du travail, suivant une tendance déjà observée aux États-Unis. La question centrale est alors de comprendre comment ce nouveau productivisme a pu entraîner une détérioration des conditions de travail.
 
-**Chapitre 2 :** 
+**Chapitre 2 :**
 Askenazy examine les interprétations dominantes de cette dégradation des conditions de travail, les critiquant toutes. Il rejette l'idée que l'augmentation des maladies professionnelles serait simplement due à une meilleure détection, et remet en question l'accent mis sur les risques psychologiques, soulignant que cela néglige les pénibilités physiques et encourage les solutions individuelles plutôt que collectives.
 
-**Chapitre 3 et 4 :** 
+**Chapitre 3 et 4 :**
 L'auteur explore les véritables causes de la dégradation des conditions de travail, pointant du doigt l'intensification du travail et la réduction du temps de travail, notamment à travers les lois sur la réduction du temps de travail (RTT) en France. Il critique également l'impact de cette réduction sur les travailleurs les plus vulnérables, soulignant une augmentation de la flexibilité des horaires de travail au détriment du temps de loisir effectif.
 
-**Chapitre 5 :** 
+**Chapitre 5 :**
 Askenazy examine le "miracle" américain, notant une baisse continue des accidents du travail et des maladies professionnelles depuis les années 1990. Il identifie l'action conjointe des pressions syndicales et des forces du marché, notamment à travers le système d'assurances privées incitatives, comme principaux facteurs de cette amélioration.
 
-**Chapitre 6 :** 
+**Chapitre 6 :**
 En contraste, l'auteur expose l'impasse française sur ces questions, soulignant le manque de pouvoir des inspecteurs et médecins du travail, l'absence d'incitations pour les employeurs à améliorer les conditions de travail, et le silence des acteurs syndicaux et politiques sur la question. Il plaide pour un débat urgent sur la transition vers une logique de protection des salariés plutôt que d'assurance des employeurs.
 
-**Conclusion :** 
+**Conclusion :**
 Askenazy propose des solutions inspirées du modèle américain, soulignant que les employeurs ont plus de marges de manœuvre qu'ils ne l'admettent généralement, et appelant à un changement de perspective vers la protection des salariés.
 
 ## 4. Comparaison statistique des conditions de travai au fil du temps
@@ -187,7 +187,7 @@ Outre la révision de modèles organisationnels et fondements du management en e
 
 Bien que la plupart des bouleversements technologiques (Industrialisation, robotisation) ou organisationnels (adoption du lean management notamment) semblent propices à une amélioration des conditions de travail - davantage d'autonomie, de flexibilité, travail moins laborieux, plus ergonome, seul leur implémentation effective permettra de juger véritablement d'un embellissement du travail.
 
-Lorsque dégradation des conditions il ya, le problème réside majoritairement dans l'écart qu'il existe entre théorie et pratique et notamment dans le manque de prise en compte du facteur humain lors du passage de l'un à l'autre, le "lean à la française" en est un bon exemple. Malgré ses promesses de qualité, de responsabilisation, de gain en autonomie, d'écoute de l'opérateur, ce mode de travail peut devenir néfaste au bon développement de l'opérateur s'il s'en voit perverti, accroissant pression physique et morale dans le but de conserver la performance exigée par son entreprise.  
+Lorsque dégradation des conditions il ya, le problème réside majoritairement dans l'écart qu'il existe entre théorie et pratique et notamment dans le manque de prise en compte du facteur humain lors du passage de l'un à l'autre, le "lean à la française" en est un bon exemple. Malgré ses promesses de qualité, de responsabilisation, de gain en autonomie, d'écoute de l'opérateur, ce mode de travail peut devenir néfaste au bon développement de l'opérateur s'il s'en voit perverti, accroissant pression physique et morale dans le but de conserver la performance exigée par son entreprise.
 
 ## 7. Bibliographie
 

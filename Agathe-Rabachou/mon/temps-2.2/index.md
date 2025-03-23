@@ -11,7 +11,7 @@ temps: 2
 tags:
   - "Back-end"
 
-résumé: "Ce MON a pour but de m'initier à la notion de back-end et aux outils associés."
+description: "Ce MON a pour but de m'initier à la notion de back-end et aux outils associés."
 ---
 {%prerequis 'Niveau' %}
   - Débutant en back-end

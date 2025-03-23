@@ -10,7 +10,7 @@ temps: 3
 tags:
   - "Product Manager"
 
-résumé: .
+description: .
 ---
 Pour ce MON, j'ai voulu découvrir le métier du Product Manager de près. J'ai choisi alors de suivre le MOOC [Découvrez le métier de Product Manager](https://openclassrooms.com/fr/courses/5780081-decouvrez-le-metier-de-product-manager)
 # Partie 1 - Découvrez le rôle de Product Manager

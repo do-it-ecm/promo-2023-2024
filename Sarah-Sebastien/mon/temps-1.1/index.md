@@ -13,7 +13,7 @@ tags:
   - ERP
   - PGI
 
-résumé: "Ce MON permettra dans un premier temps de définir précisément un ERP et d'avoir un aperçu des solutions existantes. Puis dans un second temps, il offrira une approche de démarche de déploiement d'un projet ERP"
+description: "Ce MON permettra dans un premier temps de définir précisément un ERP et d'avoir un aperçu des solutions existantes. Puis dans un second temps, il offrira une approche de démarche de déploiement d'un projet ERP"
 
 ---
 
@@ -25,7 +25,7 @@ résumé: "Ce MON permettra dans un premier temps de définir précisément un E
 4. Différents types d'ERP
 5. Une démarche d'implémentation du progiciel dans l'entreprise
 6. Conclusion
-  
+
 ## 1.Définition
 
   Un **ERP** (Entreprise Ressource Planning) en anglais, ou **PGI** (Progiciel de Gestion Intégré) en français, est un système d’informations qui permet de **gérer et fédérer l’ensemble des processus d’une entreprise**. Un ERP est basé sur la construction des applications informatiques de l’entreprise (comptabilité, gestion de stocks,etc.) sous forme de **modules indépendants**. Ces modules partagent une **base de données commune et unique**, permettant la communication de données entre les applications.
@@ -34,7 +34,7 @@ Un ERP a plusieurs caractéristiques :
 - **Couverture fonctionnelle** : doit couvrir au moins 3 fonctions de l’entreprise (souvent 5, si ce n’est toutes).
 - **Base de données unique** : une donnée est saisie une fois et peut être immédiatement disponible dans les autres modules de l’ERP
 - **Adaptation et paramétrage étendu** : un ERP doit être suffisamment flexible pour s’adapter au mode de fonctionnement d’une entreprise avec, par exemple, le paramétrage des postes de travail : autorisations d'accès, environnement de travail personnalisé (interface graphique), traçabilité des opération, etc…
-- **Présence d’outils d’aide à la décision** : le fait de disposer d’une BDD unique permet de faire toutes les requêtes possibles en SQL sans aucune ambiguïté. On peut donc définir une série de requêtes adaptées pour la prise de décision et des sorties sous formes de tableaux, diagrammes, etc... 
+- **Présence d’outils d’aide à la décision** : le fait de disposer d’une BDD unique permet de faire toutes les requêtes possibles en SQL sans aucune ambiguïté. On peut donc définir une série de requêtes adaptées pour la prise de décision et des sorties sous formes de tableaux, diagrammes, etc...
 
 ## 2. L'histoire des ERP
 
@@ -77,7 +77,7 @@ De plus, les ERP sont **compatibles au pack Office**, en particulier pour PowerP
 
 ### b. Une architecture dite "modulaire"
 
-Un ERP est **modulaire** dans le sens où il est possible de n'avoir qu'une ou plusieurs applications pour une entreprise, et d'en ajouter quand elle veut. Les applications modulaires telles que les ERP permettent d'être sûr de la compatibilité des modules entre eux, ils s'imbriquent comme des blocs de Lego et fonctionnent ensemble (pas de vérification de compatibilité à effectuer). 
+Un ERP est **modulaire** dans le sens où il est possible de n'avoir qu'une ou plusieurs applications pour une entreprise, et d'en ajouter quand elle veut. Les applications modulaires telles que les ERP permettent d'être sûr de la compatibilité des modules entre eux, ils s'imbriquent comme des blocs de Lego et fonctionnent ensemble (pas de vérification de compatibilité à effectuer).
 
 <img  src="image_2.png" >
 
@@ -96,7 +96,7 @@ La licence représente 15 % à 25 % de l'investissement total dans un projet ERP
 {%endinfo%}
 
 {%faire "**A noter**"%}
-Aujourd'hui, ce sont principalement les ERP propriétaires qui dominent le marché des PGI. 
+Aujourd'hui, ce sont principalement les ERP propriétaires qui dominent le marché des PGI.
 On peut citer SAP, Oracle NetSuite, Microsoft Dynamics, par exemple, qui sont les 3 principaux ERP de nos jours.
 {% endfaire %}
 
@@ -157,7 +157,7 @@ Il faut également se poser des questions sur la **typologie du progiciel** rech
 D’un point de vue technique, il est également important de tenir compte de la notoriété, et du nombre de licences déjà commercialisées de chaque éditeur (*), afin d’assurer la pérennité de la solution.
 
 {%info "**A noter**"%}
-Il faut savoir que l’on garde en moyenne son ERP 8 à 10 ans. C’est un **engagement à long terme**. 
+Il faut savoir que l’on garde en moyenne son ERP 8 à 10 ans. C’est un **engagement à long terme**.
 {% endinfo %}
 
 #### 4. Sélection d'un intégrateur(*)
@@ -195,7 +195,7 @@ Son déploiement doit être en phase avec le système d’information existant. 
 Une fois l'installation complète, il faut réaliser le paramétrage et les tests:
 - **paramétrage** de l'ERP par le personnel concerné par l'utilisation future de l'ERP
 - **tests par l'équipe projet** dédiée qui va récolter les **retours d'expériences utilisateurs** pour procéder par la suite à d'éventuelles modifications
-  
+
 #### 2. Formation des collaborateurs
 
 Former le personnel permettra une adhésion progressive au nouvel outil. Cette formation est réalisée par **l'intégrateur**, et pourra avoir lieu par le biais des utilisateurs finaux ou de référents.
@@ -203,7 +203,7 @@ Former le personnel permettra une adhésion progressive au nouvel outil. Cette f
 ## 6. Conclusion
 
 Pour conclure, on peut dire qu'on assiste de plus en plus à une **digitalisation des enterprises** qui est devenue un enjeu majeur aujourd'hui pour qu'une entreprise reste performante. (développement du télétravail, migration vers le Cloud, etc..).
-En choisissant de digitaliser ses processus métiers, l'entreprise a la possibilité de mettre en place un système dans lequel ses collaborateurs, ses machines et ses produits interagissent en temps réel. Le rôle d'un ERP devient alors fondamental. 
+En choisissant de digitaliser ses processus métiers, l'entreprise a la possibilité de mettre en place un système dans lequel ses collaborateurs, ses machines et ses produits interagissent en temps réel. Le rôle d'un ERP devient alors fondamental.
 
 Par ailleurs, à l'ère de la **transformation digitale**, c'est devenu un enjeu pour les ERP actuels de fonctionner avec les nouvelles technologies intelligentes (IA, Machine Learning, bases de données In-Memory, etc). Ils permettent aux entreprises d'exécuter des processus encore plus efficaces et de rester compétitive dans un monde industriel en constante évolution.
 

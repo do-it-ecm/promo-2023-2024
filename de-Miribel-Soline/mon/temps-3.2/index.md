@@ -11,7 +11,7 @@ temps: 3
 tags:
   - "management intergénérationnel"
 
-résumé: "Ce MON aborde le sujet du management intergénératinnel."
+description: "Ce MON aborde le sujet du management intergénératinnel."
 ---
 {% prerequis %}
 **Niveau** : débutant
@@ -37,7 +37,7 @@ Les conflits intergénérationnels ne datent pas d’hier. On dénombre aujourd�
 Le mot génération admet plusieurs définitions selon l’emploi qui en est fait. Dans un contexte démographique, les différentes générations seront distinguées par l’âge des personnes alors que dans le contexte des sciences de gestion, les différentes générations se distingueront par l’empreinte commune de leur environnement lors de leur insertion professionnelle. [1]-(p.2) [3]-(V.)
 
 ### Limite de cette définition
-La définition d’une génération est à manier avec prudence car il s’agit d’un modèle simplifié qui ne prend pas en compte la continuité du changement [[2]-(9’18)](https://youtu.be/ZHens5g8wCA?t=558). Ce modèle omet aussi [3]-(I-II-II) : 
+La définition d’une génération est à manier avec prudence car il s’agit d’un modèle simplifié qui ne prend pas en compte la continuité du changement [[2]-(9’18)](https://youtu.be/ZHens5g8wCA?t=558). Ce modèle omet aussi [3]-(I-II-II) :
 - l’évolution individuelle
 - les différences personnelles (sexe, catégorie sociale,...)
 - la dimension géographique
@@ -74,7 +74,7 @@ Le conflit est un élément fondamental de la performance d’équipe. Quand il 
 {% endnote %}
 
 ### Les enjeux
-Une bonne gestion de ces conflits permet à l’entreprise de se positionner favorablement sur divers enjeux tels que : 
+Une bonne gestion de ces conflits permet à l’entreprise de se positionner favorablement sur divers enjeux tels que :
 - l’intégration et la motivation des nouvelles générations
 - la transmission de connaissances et compétences
 - la stimulation des séniors
@@ -88,15 +88,15 @@ Le management intergénérationnel n’est pas le management des générations. 
 
 ## Quelques pratiques du management intergénérationnel
 ### Favoriser le travail collaboratif et l’innovation
-Le management intergénérationnel passe par des méthodes de travail favorisant la collaboration et l’innovation. Cela est favorisé par : 
+Le management intergénérationnel passe par des méthodes de travail favorisant la collaboration et l’innovation. Cela est favorisé par :
 - la culture d’entreprise
 - une communication formelle et informelle entre les générations
 - organiser la transmission des plus anciens aux plus jeunes et dans l’autre sens
 
-[1]-(p.7) [[2]-(56’47)](https://youtu.be/ZHens5g8wCA?t=3407) 
+[1]-(p.7) [[2]-(56’47)](https://youtu.be/ZHens5g8wCA?t=3407)
 
 ### Créer un environnement de travail favorisant le bien-être
-Permettre à chacun de se sentir à sa place dans l’environnement de travail permet de favoriser la collaboration entre les générations. Pour cela, l’entreprise peut : 
+Permettre à chacun de se sentir à sa place dans l’environnement de travail permet de favoriser la collaboration entre les générations. Pour cela, l’entreprise peut :
 - proposer des formations à tous ses salariés
 - proposer des parcours d’intégration
 - offrir des conditions attractives de mobilités, rémunération et perspectives
@@ -105,7 +105,7 @@ adapter les équipements de travail
 [1]-(p.8) [[2]-(1h 08’44)](https://youtu.be/ZHens5g8wCA?t=4124)
 
 ### Veiller à l’équilibre entre vie privée et professionnelle
-Qu’il s’agisse des séniors proches de la retraite ou des jeunes recrues pour qui le travail n’est qu’une partie de leur projet de vie, l’équilibre entre la vie privée et la vie professionnelle est recherché par tous. Pour le garantir, l’entreprise peut notamment : 
+Qu’il s’agisse des séniors proches de la retraite ou des jeunes recrues pour qui le travail n’est qu’une partie de leur projet de vie, l’équilibre entre la vie privée et la vie professionnelle est recherché par tous. Pour le garantir, l’entreprise peut notamment :
 - aménager les temps de travail
 - permettre le télétravail
 - choisir une politique du numérique pertinente
@@ -117,12 +117,12 @@ Qu’il s’agisse des séniors proches de la retraite ou des jeunes recrues pou
 
 {% note %}
 Attention cependant à ne pas créer trop de différence entre les générations, cela aurait des conséquences néfastes. Il est plutôt conseillé d’appliquer ces pratiques à l’ensemble des générations.
-[1]-(p.9) [[2]-(1h22’29)](https://youtu.be/ZHens5g8wCA?t=4949) 
+[1]-(p.9) [[2]-(1h22’29)](https://youtu.be/ZHens5g8wCA?t=4949)
 {% endnote %}
 
 ## Les nouveautés de l'environnement de travail actuel
 Dans le document 1, on trouvera une seconde partie intégralement dédiée à la description de l’évolution de l’environnement de travail. [1]-(p.9)
-La globalisation des marchés, la pénurie des talents ou encore le changement en profondeur du rapport au travail modifient les caractéristiques des modes de travail. On peut citer : 
+La globalisation des marchés, la pénurie des talents ou encore le changement en profondeur du rapport au travail modifient les caractéristiques des modes de travail. On peut citer :
 - la richesse croissante de la diversité
 - l’arrivée du big data et de la numérisation
 - l’importance grandissante de l’individualisme et de la singularité
@@ -132,7 +132,7 @@ La globalisation des marchés, la pénurie des talents ou encore le changement e
 - l’émergence de nouvelle forme d’entreprenariat
 une recherche de sens davantage marquée
 
-Pour s’adapter à ce nouvel environnement de travail, il apparaît que les soft-skills le permettent davantage que des hard-skills. Les composantes socles des soft-skills les plus utiles sont : 
+Pour s’adapter à ce nouvel environnement de travail, il apparaît que les soft-skills le permettent davantage que des hard-skills. Les composantes socles des soft-skills les plus utiles sont :
 - la persévérance
 - l’estime de soi
 - la communication avec les autres

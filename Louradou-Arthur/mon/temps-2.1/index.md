@@ -12,7 +12,7 @@ tags:
   - "docker"
   - "devops"
 
-résumé: "Sur la base des travaux de mes camarades des années précédentes, se former à Docker et à son utilisation dans un contexte de production."
+description: "Sur la base des travaux de mes camarades des années précédentes, se former à Docker et à son utilisation dans un contexte de production."
 ---
 
 ## Sommaire
@@ -121,15 +121,15 @@ CMD ["Hello Word!"]
 Résultat :
 
 ```bash
-$ docker run figlet                                                             
- _   _      _ _        __        __            _ _ 
+$ docker run figlet
+ _   _      _ _        __        __            _ _
 | | | | ___| | | ___   \ \      / /__  _ __ __| | |
 | |_| |/ _ \ | |/ _ \   \ \ /\ / / _ \| \__/ _` | |
 |  _  |  __/ | | (_) |   \ V  V / (_) | | | (_| |_|
 |_| |_|\___|_|_|\___/     \_/\_/ \___/|_|  \__,_(_)
-                                                   
+
 $ docker run figlet coucou!
-                                 _ 
+                                 _
   ___ ___  _   _  ___ ___  _   _| |
  / __/ _ \| | | |/ __/ _ \| | | | |
 | (_| (_) | |_| | (_| (_) | |_| |_|

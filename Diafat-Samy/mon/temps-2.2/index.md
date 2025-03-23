@@ -11,7 +11,7 @@ tags:
   - "Programmation Orientée Objet"
 
 
-résumé: "Ce MON a pour but d'obtenir les bases en Java. "
+description: "Ce MON a pour but d'obtenir les bases en Java. "
 ---
 {%prerequis 'Niveau débutant'%}
 Aucun prérequis.

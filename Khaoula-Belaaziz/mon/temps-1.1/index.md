@@ -10,7 +10,7 @@ date: 2023-09-17
 temps: 1
 tags:
 
-résumé: "Comment une petite start-up est devenue un phénomène mondial ?!!"
+description: "Comment une petite start-up est devenue un phénomène mondial ?!!"
 ---
 ## Sommaire
 - Histoire de la création
@@ -96,24 +96,24 @@ Enfin, la collaboration d'Airbnb avec des événements et des forums a cherché 
 
 ### Site web au fil du temps
 Le site web de Airbnb a connu d'énormes changements depuis sa création en 2008. Vous trouverez dans le site [WayBackMachine](https://web.archive.org/web/20161122123602/https://www.airbnb.com/?cdn_locale_redirect=1)  les détails de ces changements.
-Exemple : 
+Exemple :
 ![Exemples de changements](2009.jpg)
 
 En 2014, l'entreprise a décidé de changer son logo et de choisir un qui reflète sa vision et ses valeurs.
 ![Les deux logos](2_logos.png)
 
-La communauté d'Airbnb n'a pas compris la signification du new logo. ***"[Le Bélo ](https://youtu.be/nMITXMrrVQU?si=3DijuNji2BUyxVeg)"*** est le nom de ce logo : The Story of a Symbol of Belonging 
+La communauté d'Airbnb n'a pas compris la signification du new logo. ***"[Le Bélo ](https://youtu.be/nMITXMrrVQU?si=3DijuNji2BUyxVeg)"*** est le nom de ce logo : The Story of a Symbol of Belonging
 ![Le Bélo](newlogo.png)
 
 
 
 ## Défis
 
-### Questions de Sécurité et de Discrimination : 
+### Questions de Sécurité et de Discrimination :
 Des incidents concernant la sécurité des utilisateurs et des cas de discrimination sur la plateforme ont nécessité des mesures correctives et des améliorations de la part d'Airbnb.
 **En 2011**, Airbnb a dû faire face à un incident de sécurité majeur et très médiatisé, qui a révélé des vulnérabilités dans ses politiques et ses systèmes de protection des utilisateurs.
 
-1. L'Incident: 
+1. L'Incident:
 Un hôte Airbnb, qui a publié son expérience sous le pseudonyme "EJ", a rapporté que son domicile avait été vandalisé et pillé par un locataire qu'elle avait trouvé via la plateforme Airbnb. Selon EJ, le locataire a causé des dommages significatifs à sa propriété et a volé ses biens personnels, y compris des documents importants et des objets de valeur.
 2. Mesures Correctives:
 Face à la réaction publique et aux retombées médiatiques, Brian Chesky, le PDG d'Airbnb, a admis publiquement que l'entreprise avait fait des erreurs dans sa gestion de l'incident. Il a présenté ses excuses pour la manière dont l'incident a été géré et a annoncé une série de mesures visant à améliorer la sécurité sur la plateforme, y compris :

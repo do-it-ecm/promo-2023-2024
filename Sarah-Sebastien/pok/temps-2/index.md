@@ -12,13 +12,13 @@ tags:
   - "Java"
   - "Swing"
 
-résumé: Il s'agit dans ce POK d'apprendre à coder en Java (par envie personnelle de découvrir ce langage et par besoin pour un futur MON au temps 3). L'objectif est de mettre à profit les connaissances acquises au travers de la réalisation d'un jeu "Mastermind" avec une interface graphique en Java.
+description: Il s'agit dans ce POK d'apprendre à coder en Java (par envie personnelle de découvrir ce langage et par besoin pour un futur MON au temps 3). L'objectif est de mettre à profit les connaissances acquises au travers de la réalisation d'un jeu "Mastermind" avec une interface graphique en Java.
 
 ---
 ---
 
-{%prerequis 'Niveau débutant'%} 
-Prérequis : Aucune base en JAVA 
+{%prerequis 'Niveau débutant'%}
+Prérequis : Aucune base en JAVA
 {%endprerequis%}
 
 ## Sommaire
@@ -54,18 +54,18 @@ Prérequis : Aucune base en JAVA
 
 Pour cette étape, je me suis aidée du [MON de Nicolas](../../../Ouzoulias-Nicolas/MON/temps-1.1/index.md) qui traitait exactement du même sujet. J'ai donc suivi la même formation d'Open Classroom que lui. Ce cours qui est censé durer 10h (mais que je n'ai pas suivi en entier) aborde quelques notions assez intéressantes pour commencer. On y retrouve notamment :
 
-**La manipulation de variable**, avec : 
+**La manipulation de variable**, avec :
 - Les conventions d'appellations *(ex: Camel case)*
 - les différents types de variables *(les principaux étant String, int, double, boolean)*
 - La déclaration d'une variable *(composée de trois éléments : type, nom, et valeur)*
 - leur portée *(private, public)*
-  
+
 **La structure d'un code en Java**, avec :
 - les notions de packages, classes et méthodes
-- les différents types de classes 
+- les différents types de classes
   - *modèles*, utilisées comme modèles pour l'instanciation des objets.
   - *utilitaires*, contenant des méthodes statiques qui peuvent être appelées directement sur la classe.
-  
+
 > Une classe est un ensemble de variables (nommées attributs) et de comportements (nommés méthodes).
 
 **La construction de fonctions**, avec :
@@ -75,7 +75,7 @@ Pour cette étape, je me suis aidée du [MON de Nicolas](../../../Ouzoulias-Nico
 - l'utilisation de son terminal pour renseigner des arguments *(que je n'ai jamais réussi à faire fonctionner)*
 - les paramètres et les valeurs de retour
 
-**La création de classe**, avec : 
+**La création de classe**, avec :
 - la notion de **constructeur** *(ie une fonction spéciale du même nom que la classe avec les arguments passés en paramètres)*
 - la notion **d'instance** *(les classes sont vues comme des "modèles", et pour les utiliser il faut créer un objet à partir de ce modèle, en utilisant le processus d'instanciation : signifie déclarer une variable avec la classe comme type, puis utiliser l'expression de création d'objet)*
 
@@ -96,7 +96,7 @@ Et d'autres notions que je n'ai pas étudiées (ex: récursivité, code "Lambda,
 *Je trouve que ce qui est dommage avec cette formation, c'est qu'il y a certains points que je touve importante qu'elle n'aborde pas. Comme less notions de  différents attributs d'une méthode, par exemple (ex : quand écrire "void", "static", etc...). Et donc finalement, en finissant la formation je me suis rendue compte que j'avais appris beaucoup de choses mais que je ne savais rien faire...*
 {%endinfo%}
 
-Alors je me suis tournée vers un autre type de contenu plus didactique et plus parlant: **les vidéos**. J'en ai regardées plusieurs de [cette chaine](https://www.youtube.com/@formation-video) qui étaient vraiment instructives et assez complètes. Je conseille notamment les vidéos sur [la construction de classe](https://www.youtube.com/watch?v=IZ8wKErw0_Y), [l'encapsulation des données](https://www.youtube.com/watch?v=zM_Qf07fEyc), [les attributs](https://www.youtube.com/watch?v=48wGbUfFtfM) et [les méthodes](https://www.youtube.com/watch?v=FkB7N0w81Dk). 
+Alors je me suis tournée vers un autre type de contenu plus didactique et plus parlant: **les vidéos**. J'en ai regardées plusieurs de [cette chaine](https://www.youtube.com/@formation-video) qui étaient vraiment instructives et assez complètes. Je conseille notamment les vidéos sur [la construction de classe](https://www.youtube.com/watch?v=IZ8wKErw0_Y), [l'encapsulation des données](https://www.youtube.com/watch?v=zM_Qf07fEyc), [les attributs](https://www.youtube.com/watch?v=48wGbUfFtfM) et [les méthodes](https://www.youtube.com/watch?v=FkB7N0w81Dk).
 
 
 <h2 id=exercice> S'entrainer en Java </h2>
@@ -113,7 +113,7 @@ Un élève sera ici modélisé par la classe Eleve d'un paquetage nommé gestion
 La classe Eleve posséde trois attributs privés :
 - son nom, nommé nom, de type String,
 - un ensemble de notes, nommé listeNotes, qui sont des entiers rangés dans un ArrayList<Integer>
-- une moyenne de type double, nommée moyenne, qui doit toujours être égale à la moyenne des notes contenues dans l'attribut listeNotes. Un élève sans aucune note sera considéré comme ayant une moyenne nulle. 
+- une moyenne de type double, nommée moyenne, qui doit toujours être égale à la moyenne des notes contenues dans l'attribut listeNotes. Un élève sans aucune note sera considéré comme ayant une moyenne nulle.
 
 La classe Eleve possède un constructeur permettant uniquement d'inialiser le nom de l'élève.
 La classe Eleve possède aussi cinq méthodes publiques :
@@ -146,10 +146,10 @@ public class Eleve {
     }
 
     public double getMoyenne() {
-        boolean IsEmpty = listeNotes.isEmpty(); 
-        if (IsEmpty == true) 
+        boolean IsEmpty = listeNotes.isEmpty();
+        if (IsEmpty == true)
             return 0;
-        else 
+        else
             return moyenne;
     }
     public String getNom() {
@@ -192,7 +192,7 @@ public class TestEleve {
 ```
 Résultat :
 ```
-PS C:\Users\X3400\Documents\GitHub\project_java>  c:; cd 'c:\Users\X3400\Documents\GitHub\project_java'; & 'C:\Program Files\Eclipse Adoptium\jdk-21.0.1.12-hotspot\bin\java.exe' '--enable-preview' '-XX:+ShowCodeDetailsInExceptionMessages' '-cp' 'C:\Users\X3400\Documents\GitHub\project_java\bin' 'gestionEleves.TestEleve' 
+PS C:\Users\X3400\Documents\GitHub\project_java>  c:; cd 'c:\Users\X3400\Documents\GitHub\project_java'; & 'C:\Program Files\Eclipse Adoptium\jdk-21.0.1.12-hotspot\bin\java.exe' '--enable-preview' '-XX:+ShowCodeDetailsInExceptionMessages' '-cp' 'C:\Users\X3400\Documents\GitHub\project_java\bin' 'gestionEleves.TestEleve'
 Sarah a une moyenne de 14.0
 ```
 {% enddetails %}
@@ -200,7 +200,7 @@ Sarah a une moyenne de 14.0
 
 <h2 id=choix> Choix de l'interface graphique du projet</h2>
 
-Après recherches, j'ai trouvé qu'il existait trois API de mise en oeuvre d'interfaces graphiques proposées par l'environnement Java : 
+Après recherches, j'ai trouvé qu'il existait trois API de mise en oeuvre d'interfaces graphiques proposées par l'environnement Java :
 
 - **AWT (Abstract Window Toolkit)**
 - **Swing**
@@ -208,7 +208,7 @@ Après recherches, j'ai trouvé qu'il existait trois API de mise en oeuvre d'int
 
 Laquelle choisir ?
 
-Voici un petit tableau qui retrace les avantages et inconvénients de chaque système que j'ai pu trouvés: 
+Voici un petit tableau qui retrace les avantages et inconvénients de chaque système que j'ai pu trouvés:
 
 |API|Inconvénients|Avantages|
 |---|---|---|
@@ -218,12 +218,12 @@ Voici un petit tableau qui retrace les avantages et inconvénients de chaque sys
 
 Ainsi, même si JavaFx semble présenter de très forts avantages, comme je débute encore en Java, je pense qu'il est plus judicieux de faire la suite de ce POK avec Swing. Comme c'est une API plus "mature", il me sera plus facile de trouver des ressources (tuto, exemples que lesquels s'appuyer et autres..) pour réaliser mon projet.
 
-{%prerequis "<u>Sources</u>"%} 
+{%prerequis "<u>Sources</u>"%}
 - [Interface Graphique en Java®](https://www.youtube.com/watch?v=K8OXvWJlVmU)
 - https://www.developpez.net/forums/d1597238/java/interfaces-graphiques-java/lequel-choisir-poa-poo/
 - [Comparatif AWT/Swing/SWT/JavaFX](https://koor.fr/Java/TutorialSwing/comparatif.wp)
 - [JavaFX mérite-t-il son statut de remplaçant de Swing ?](https://java.developpez.com/actu/121250/JavaFX-merite-t-il-son-statut-de-remplacant-de-Swing-Son-utilisation-semble-peiner-a-se-democratiser/)
-{%endprerequis%} 
+{%endprerequis%}
 
 <h2 id=swing> Apprendre à utiliser l'API Swing</h2>
 
@@ -254,7 +254,7 @@ Je n'ai malheureusement pas eu le temps d'apprendre à me servir de ce système.
 
 Pour mon premier POK, je me suis rendue compte que j'avais perdu beaucoup de temps sur la partie visuelle de mon tableau de Gantt. Comme je n'avais défini clairement à quoi je voulais qu'il ressemble, j'ai passé longtemps à tester et retester des dispositions, des couleurs et des polices. Finalement, j'aurais été beaucoup plus efficace si j'avais défini dès le départ ma charte graphique.
 
-Alors cette fois, j'ai décidé de ne pas faire la même erreur. J'ai donc regardé sur internet à quoi ressemblait les jeux qui avaient déjà pu être faits par d'autres dans le passé, pour avoir une idée de ce qui était réellement faisable. Et j'ai réalisé une maquette sur Figma, en essayant d'appliquer les conseils qu'on avait pu avoir pendant les cours d'UI/UX. 
+Alors cette fois, j'ai décidé de ne pas faire la même erreur. J'ai donc regardé sur internet à quoi ressemblait les jeux qui avaient déjà pu être faits par d'autres dans le passé, pour avoir une idée de ce qui était réellement faisable. Et j'ai réalisé une maquette sur Figma, en essayant d'appliquer les conseils qu'on avait pu avoir pendant les cours d'UI/UX.
 
 |---|---|
 |<img width="350" src="Maquette_jeu_1.png">|<img width="350" src="Maquette_jeu_2.png">|
@@ -263,7 +263,7 @@ Vous pouvez retrouver la maquette [ici](https://www.figma.com/file/nxQbQ6gxDwGkS
 
 <h2 id=sprint2>  Vers le sprint 2...</h2>
 
-Si on reprend le backlog du sprint 1 que je m'étais fixé : 
+Si on reprend le backlog du sprint 1 que je m'étais fixé :
 
 |Intitulé|Temps estimé|Temps réalisé|
 |---|---|---|---|
@@ -283,13 +283,13 @@ On peut alors redéfinir le backlog pour le sprint 2 :
 
 J'avais repérer une vidéo sur l'utilisation de Swing pour réaliser une interface graphique durant le sprint 1 que j'avais notée [ici](#swing), mais que je n'avais pas eu le temps de suivre.
 
-J'ai d'abord commencé mon sprint 2 par son visionnage. Je la conseille vivement à toute personne voulant débuter ! Elle permet d'acquérir les bases et de comprendre la logique et elle est très bien expliquée. 
+J'ai d'abord commencé mon sprint 2 par son visionnage. Je la conseille vivement à toute personne voulant débuter ! Elle permet d'acquérir les bases et de comprendre la logique et elle est très bien expliquée.
 
 <h3 id=visuel> Le jeu final </h3>
 
 *Le dossier du jeu est téléchargeable [ici](jeu_mastermind.zip)*
 
-#### Interface initiale 
+#### Interface initiale
 
 <img width="350" src="Mastermind_1.png">
 
@@ -302,7 +302,7 @@ Le joueur vient écrire sa proposition:
 Une fois sa tentative validée, les indications de la justesse de sa proposition s'affichent sur la droite :
 - **Blanc** : la couleur est bonne mais mal placée
 - **Rouge** : la couleur est bonne et bien placée
-  
+
 <img width="350" src="Mastermind_4.png">
 
 #### Fin de la partie
@@ -316,7 +316,7 @@ Une fois sa tentative validée, les indications de la justesse de sa proposition
 {%info "**Avant de commencer...**"%}
 J'avais repérer une vidéo sur l'utilisation de Swing pour réaliser une interface graphique durant le sprint 1 que j'avais notée [ici](#swing), mais que je n'avais pas eu le temps de suivre.
 
-J'ai d'abord commencé mon sprint 2 par son visionnage. Je la conseille vivement à toute personne voulant débuter ! Elle permet d'acquérir les bases et de comprendre la logique et elle est très bien expliquée. 
+J'ai d'abord commencé mon sprint 2 par son visionnage. Je la conseille vivement à toute personne voulant débuter ! Elle permet d'acquérir les bases et de comprendre la logique et elle est très bien expliquée.
 {%endinfo%}
 
 Pour mon projet, j'ai créé un package *Interface* dans lequel j'ai créé 2 classes : **_MainFrame_** (qui gère l'affichage de l'écran de jeu) et **_MessageFrame_** (qui gère l'affichage de l'écran final de fin de partie), qui héritent de **JFrame**.
@@ -324,7 +324,7 @@ Pour mon projet, j'ai créé un package *Interface* dans lequel j'ai créé 2 cl
 {%prerequis%}
 Classes importantes du package Java Swing,
 - **JPanel** :  est un conteneur capable de stocker, et d'organiser ainsi,un ensemble de composants.
-- **Jframe** : utilisée pour créer des fenêtres graphiques dans une application 
+- **Jframe** : utilisée pour créer des fenêtres graphiques dans une application
 {%endprerequis%}
 
 <img width="200" src="Jframe_Jpanel.png">
@@ -332,7 +332,7 @@ Classes importantes du package Java Swing,
 [Source image](https://waytolearnx.com/2020/05/jpanel-java-swing.html)
 
 
-### Construction de la partie 
+### Construction de la partie
 
 - [Main Frame](#mainframe)
   - [Implémentation des méthodes](#a)
@@ -372,7 +372,7 @@ private List<Color> generateCode(){
 ```
 {% enddetails %}
 
-... Puis une autre qui va initialiser une grille vide de taille 7x4 de couleur noire qui servira pour l'affichage du jeu de l'utilisateur. 
+... Puis une autre qui va initialiser une grille vide de taille 7x4 de couleur noire qui servira pour l'affichage du jeu de l'utilisateur.
 
 {% details "Création grille vide" %}
 ```java
@@ -399,7 +399,7 @@ D'autres méthodes seront aussi utiles plus tard, comme par exemple:
 {% details "Un aperçu de ces méthodes" %}
 ```java
 private void updateChoice(Color color) {
-        //méthode permettant de mettre à jour les couleurs choisies par l'utilisateur 
+        //méthode permettant de mettre à jour les couleurs choisies par l'utilisateur
         for (int i = 0; i <= Choices.size(); i++) {
             if (Choices.get(i)==Color.LIGHT_GRAY) {
             // Changer la valeur de l'élément vide à la valeur du bouton appuyé
@@ -463,7 +463,7 @@ private void updateChoice(Color color) {
 
 <h4 id=b> Gestion des graphismes</h4>
 
-Toute la création des formes graphiques (cercles, rectangles) se fait au moyen de la méthode **paint** pour laquelle j'ai créé une **classe fille**. 
+Toute la création des formes graphiques (cercles, rectangles) se fait au moyen de la méthode **paint** pour laquelle j'ai créé une **classe fille**.
 
 {%info "**Remarque**"%}
 *La position se chaque forme se fait relativement à la dimension initiale de la fenêtre de jeu : quand on augmente ou diminue la taille de la fenêtre lors de la partie, la taille des graphismes n'est pas adaptée (ce qui fait que le jeu n'est pas du tout Responsive...)*
@@ -478,8 +478,8 @@ public void paint(Graphics g) {
         //creation du rectangle de fond
         g.setColor (new Color(91, 91, 91));
         g.fillRect(40,40,580,480);
-  
-        //grilles de colonnes 
+
+        //grilles de colonnes
         for (int i = 0; i < (choicesGrid.length); i += 1) {
             for (int j = 0; j < (choicesGrid[i].length); j += 1) {
                g.setColor(choicesGrid[i][j]);
@@ -508,7 +508,7 @@ public void paint(Graphics g) {
 
 <h4 id=c> Création des Panels</h4>
 
-On va ensuite s'occuper de la méthode *initialize* qui va permettre de créer les *panels*, les *boutons* et les *actions associées*. 
+On va ensuite s'occuper de la méthode *initialize* qui va permettre de créer les *panels*, les *boutons* et les *actions associées*.
 
 ##### 1 : Button Panel
 
@@ -564,7 +564,7 @@ Pour m’entraîner, j'ai utilisé à la fois des classes anonymes (*new ActionL
 
         //Ajout des boutons des couleurs
         JButton btnRed = new JButton();
-        btnRed.setBackground(Color.RED); 
+        btnRed.setBackground(Color.RED);
         btnRed.addActionListener(e -> updateChoice(Color.RED));
         btnRed.setPreferredSize(new Dimension(this.WIDTH, 50));
 
@@ -577,18 +577,18 @@ Pour m’entraîner, j'ai utilisé à la fois des classes anonymes (*new ActionL
         btnCyan.addActionListener(e -> updateChoice(Color.CYAN));
 
         JButton btnYellow = new JButton();
-        btnYellow.setBackground(Color.YELLOW); 
+        btnYellow.setBackground(Color.YELLOW);
         btnYellow.addActionListener(e -> updateChoice(Color.YELLOW));
 
         JButton btnGreen = new JButton();
-        btnGreen.setBackground(Color.GREEN); 
+        btnGreen.setBackground(Color.GREEN);
         btnGreen.addActionListener(e -> updateChoice(Color.GREEN));
 
 
         JButton btnPink = new JButton();
         btnPink.setBackground(Color.MAGENTA);
         btnPink.addActionListener(e -> updateChoice(Color.MAGENTA));
-        
+
         colorPanel.add(btnRed);
         colorPanel.add(btnBlue);
         colorPanel.add(btnCyan);
@@ -629,7 +629,7 @@ Enfin, on créé la méthode principale pour executer le panneau principal :
         MainFrame myFrame = new MainFrame();
         myFrame.initialize();
         }
-``` 
+```
 
 <h3 id=messageframe> Message Frame</h3>
 
@@ -657,7 +657,7 @@ public class MessageFrame extends JFrame{
         //creation du rectangle de fond
         g.setColor (Color.WHITE);
         g.fillRect(100,320,480,130);
-        
+
         //creation des icones du code secret
         for (int i = 1; i <= 4; i += 1) {
             g.setColor(secretCode.get(i-1));
@@ -742,7 +742,7 @@ public class MessageFrame extends JFrame{
 |Avoir à indicateur du nombre de couleurs justes et bien placées et juste et mal placées à chaque combinaison validée|5|Must|✅|
 |Avoir le code secret recherché qui s'affiche à la fin d'une partie|3|Won't|✅|
 
-Finalement, je n'ai pas réussi à implémenter toutes les fonctionnalités que j'avais espérées pour mon jeu, surtout par manque de temps : 
+Finalement, je n'ai pas réussi à implémenter toutes les fonctionnalités que j'avais espérées pour mon jeu, surtout par manque de temps :
 - *accéder aux règles du jeu* et n'*effacer que la dernière couleur sélectionnée* n'étaient pas forcément compliqué à mettre en place (rajouter un bouton avec un autre JFrame avec la même méthode que le MessageFrame) mais pas primordial
 - le bouton *Abandonner* était plus compliqué à mettre en place. Je n'ai pas réussi à combiner les graphismes créés avec la méthode paint avec les JButton. J'aurais pu revoir toute la disposition de l'écran, mais cela signifiait changer toutes les proportions, et je manquais de temps...
 
@@ -754,8 +754,8 @@ Finalement, je n'ai pas réussi à implémenter toutes les fonctionnalités que 
 
 > **(*) Plus en détails**
 > 1h30 : Recherches et réalisations des boutons de choix de couleurs
-> 1h30 : Recherches sur la méthode paint et réalisation des graphismes 
-> 1h : Tentatives de création des boutons du jeu ("Abandonner", "Effacer", "Valider") 
+> 1h30 : Recherches sur la méthode paint et réalisation des graphismes
+> 1h : Tentatives de création des boutons du jeu ("Abandonner", "Effacer", "Valider")
 > 45 mins : Gestion de la ligne de choix de l'utilisateur
 > 1h : Gestion de la grille du jeu complet de l’utilisateur et création des méthodes
 > 1h : Gestion de l'affiche et de la mise à jour des indices et méthodes
@@ -763,7 +763,7 @@ Finalement, je n'ai pas réussi à implémenter toutes les fonctionnalités que 
 > 45 mins : Tests du jeu pour s'assurer de son fonctionnement au fur et à mesure
 
 Bon...
-J'ai finalement assez sous estimé le temps que prendrait le jeu à implémenter. 
+J'ai finalement assez sous estimé le temps que prendrait le jeu à implémenter.
 
 
 <h2 id=experience> Retour d'expérience </h2>

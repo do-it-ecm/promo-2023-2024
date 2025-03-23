@@ -13,11 +13,11 @@ tags:
   - "Langage C++"
   - "Apprentissage d'un langage"
 
-résumé: "Dans ce MON l'objectif est de découvrir un nouveau langage informatique dans lequel je n'ai aucune base. A la fin des 10h de cours j'espère savoir coder de petits algorithmes simples en C++."
+description: "Dans ce MON l'objectif est de découvrir un nouveau langage informatique dans lequel je n'ai aucune base. A la fin des 10h de cours j'espère savoir coder de petits algorithmes simples en C++."
 ---
 
-{%prerequis 'Niveau débutant'%} 
-Prérequis : Savoir ce qu'est un langage orienté objet. 
+{%prerequis 'Niveau débutant'%}
+Prérequis : Savoir ce qu'est un langage orienté objet.
 {%endprerequis%}
 
 ## Sommaire
@@ -37,20 +37,20 @@ Le langage C++ est apparu dans les années 90 et il est aujourd'hui devenu un la
 
 
 ## 2. Syntaxe du C++
-#### Type de variable 
-Comme d'autres langages le C++ possède plusieurs type de variables :  
+#### Type de variable
+Comme d'autres langages le C++ possède plusieurs type de variables :
 + vide : *void*  - aucune voriable ne peut être de ce type on verra son utilité plus tard
-+ entier : *char* - petit entier de -128 à 127 
++ entier : *char* - petit entier de -128 à 127
           *short* - grand entier de -32768  à 32767
-          *long* - très grand entier 
-          *int* - coïncide avec short ou long en fonction de l'initialisation 
+          *long* - très grand entier
+          *int* - coïncide avec short ou long en fonction de l'initialisation
 + réels : *float* - précision de 7 chiffres
-          *double* - précision de 15 chiffres 
+          *double* - précision de 15 chiffres
           *long double* - précision de 18 chiffres
 
 Parfois on pourra rencontré le type ***unsigned*** , il s'agit d'un entier dit "non signé".
 
-#### Déclarer une variable 
+#### Déclarer une variable
 Il est nécessaire de déclarer une variable avant de devoir l'utiliser en C++.
 Pour déclarer une variable on utilise la syntaxe suivante : *type liste_de_variables*.
 Exemples :
@@ -74,10 +74,10 @@ Exemples :
 Comme d'autres langage l'utilisation de ++ ou de -- permet d'incrémenter ou de décrémenter une variable.
 
 #### Instructions
-Pour donner des instruction en C++ on peut soit faire une instruction par ligne comme ceci : 
+Pour donner des instruction en C++ on peut soit faire une instruction par ligne comme ceci :
 ```html
 int a = 4;
-a++; 
+a++;
 ```
 Ou utiliser des instruction-bloc comme ceci :
 ```html
@@ -87,13 +87,13 @@ Ou utiliser des instruction-bloc comme ceci :
 }
 ```
 Si je déclare une variable dans un bloc alors elle ne pourra pas être utilisée en dehors de ce bloc., il s'agit d'une variable *locale*.
-Il est interdit de donner le même nom à deux variables distinctes au sein d'un même bloc. 
+Il est interdit de donner le même nom à deux variables distinctes au sein d'un même bloc.
 Si je déclare une variable en dehors d'un bloc alors c'est une variable dite *globale*.
 
-#### Fonctions 
+#### Fonctions
 ##### Elements de bases
-Une fonction est définie par 4 éléments distincts : 
-+ son nom 
+Une fonction est définie par 4 éléments distincts :
++ son nom
 + le type de valeur qu'elle renvoie
 + les paramètres dont elle a besoin
 + le corps de la fonction
@@ -109,8 +109,8 @@ void AfficherUnNombreXFois(int nombre, int x);
 On voit ici l'utilité de <strong>*void*</strong> rencontré plus tôt. La dernière fonction n'a pour vocation que d'afficher et ne return pas de valeur.
 
 ##### Définir une fonction
-Pour déclarer une fonction voici la syntaxe : 
-type nom_de_la_fonction(tous_les_paramètres) 
+Pour déclarer une fonction voici la syntaxe :
+type nom_de_la_fonction(tous_les_paramètres)
 {
   corps de la fonction
 }
@@ -124,7 +124,7 @@ double Moyenne(double x, double y){
 Lorsque l'on utilise *return* cela interrompt l'exécution de la fonction.
 
 ##### Utiliser une fonction
-Une fois ma fonction déclarée je peux appeler ma fonction pour l'utiliser sur différentes valeurs. 
+Une fois ma fonction déclarée je peux appeler ma fonction pour l'utiliser sur différentes valeurs.
 ```html
 double n=3;
 double m=4;
@@ -136,8 +136,8 @@ Alors la variable *resultat* récupérera la valeur de la moyenne de 3 et 4 soit
 Comme d'autres langages on retrouve les instructions de bases *if*, *while*, *do*, *for*, et aussi *switch* qui permet de dissocier différents cas pour lequels on ne veut pas lancer la même instruction.
 
 ##### Compléments
-Il existe des expressions particulière en C++. 
-  + L'expression virgule 
+Il existe des expressions particulière en C++.
+  + L'expression virgule
 Elle s'utilise de la forme suivante : *expression 1* , *expression 2*.
 D'abord, l'*expression 1* est évaluée mais sa valeur n'est pas gardée en mémoire.
 Ensuite l'*expression 2* est évaluée et donne sa valeur est l'*expression 1*.
@@ -145,7 +145,7 @@ Cette utilisation est utile dans le cas où l'*expression 1* a un effet de bord.
 
   + L'expression conditionnelle
 Elle s'utilise de la forme suivante : *expression 1* ? *expression 2* : *expression 3*.
-D'abord l'*expression 1* est évaluée. Ensuite, si elle est non nulle, l'*expression 2* est évaluée et donne sa valeur à l'expression conditionnelle. Sinon, l'*expression 3* est évaluée et donne sa valeur à l'expression conditionnelle. 
+D'abord l'*expression 1* est évaluée. Ensuite, si elle est non nulle, l'*expression 2* est évaluée et donne sa valeur à l'expression conditionnelle. Sinon, l'*expression 3* est évaluée et donne sa valeur à l'expression conditionnelle.
 
 Plusieurs fonctions utiles sont aussi à connaitre telles que : *floor*, *fabs*, *sqrt*, *pow* ainsi que les fonctions trigo.
 
@@ -158,7 +158,7 @@ Exemple :
 enum Chiffres { un, deux, trois, quatre, cinq, six, sept, huit, neuf}
 enum Peinture { huile, gouache, acrylique, aquarelle}
 ```
-Alors on obtiendra la déclaration implicite des constantes entières : 
+Alors on obtiendra la déclaration implicite des constantes entières :
 ```html
 const int huile=0;
 const int gouache=1;
@@ -169,8 +169,8 @@ Et attribue à ces constantes un type appelé Peinture.
 
 + Tableaux
 Un tableau est une collection indicée de variables de même type.
-On peut le définir de la façon suivante : *type* *nom* [*taille*] où 
-*type* est le type des éléments du tableau 
+On peut le définir de la façon suivante : *type* *nom* [*taille*] où
+*type* est le type des éléments du tableau
 *nom* est le nom du tableau
 *taille* est une constante entière égale au nmbre d'éléments du tableau.
 
@@ -192,9 +192,9 @@ strcpy(couleur, "rouge")
 Les chaines de caractères peuvent être affichées grâce aux habituels *cin* et *cout*. De nombreuses fonctions de bases utiles pour les chaines de caractères sont déjà pré-définies en C++.
 
 ## 3.Premiers algorithmes
-Dans cette partie je vais m'exercer à coder de petits algorithmes simples avec ce que j'ai appris du langage. 
+Dans cette partie je vais m'exercer à coder de petits algorithmes simples avec ce que j'ai appris du langage.
 
-#### Algorithme de calcul de distance entre deux points 
+#### Algorithme de calcul de distance entre deux points
 ```html
 double Distance(x1,y1,x2,y2){
   double dx,dy;
@@ -219,7 +219,7 @@ return a;
 int main()
 {
     int arr[] = { 2, 7, 9, -1, 0, 3, 6, 21, 8, -12};
- 
+
     int max = INT_MIN;
     for (int i: arr)
     {
@@ -237,26 +237,26 @@ Suite à cela j'ai repris le mode arcade de CodeSignal depuis le début mais en 
 
 ## 4. Orientation Objet
 #### Définitions
-En informatique un objet est défini comme ce qui suit : 
-*"Un objet est une structure informatique regroupant :* 
+En informatique un objet est défini comme ce qui suit :
+*"Un objet est une structure informatique regroupant :*
 *- des variables, caractérisant l'état de l'objet,*
 *- des fonctions, caractérisant le comportement de l'objet."*
 
 Tout objet appartient à une classe, on dira que l'objet est une *instance* de cette classe.
-Ainsi avant de décrire un objet il est important de décrire la classe à laquelle il appartienne. 
+Ainsi avant de décrire un objet il est important de décrire la classe à laquelle il appartienne.
 
-#### Stratégie D.D.U 
+#### Stratégie D.D.U
 Lorsque l'on souhaite programmer une classe, on passe par trois phases :
 + Déclaration
 + Définition
 + Utilisation
 
-##### Déclaration 
+##### Déclaration
 Cette partie se traite dans un fichier .h qui se présente sous cette forme :
 ```html
 class Classe
 {
-  public : 
+  public :
     *déclaration*
   private :
     *déclaration*
@@ -273,12 +273,12 @@ Ainsi pour chaque classe on aura un fichier .h avec sa déclaration et un fichie
 
 <div><img src="schema_objet.png"></div>
 
-#### Comment créé un programme ? 
-On procéde en trois étape : 
+#### Comment créé un programme ?
+On procéde en trois étape :
 + Créer les fichiers sources en .h et .cpp.
 + Compiler les fichieres .cpp ce qui crée deux fichiers objets.
 + Editer les liens entre les fichiers objets pour obtenir un fichier exécutable en .exe.
-  
+
 Pour ce faire, sur Microsoft, il suffit de créer les fichiers sources, de les ajouter dans un projet et de lancer la commande <strong>build</strong>. Les phase 2 et 3 se feront alors automatiquement.
 
 #### Conclusion

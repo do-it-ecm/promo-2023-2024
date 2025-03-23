@@ -11,7 +11,7 @@ tags:
   - "VBA"
   - "excel"
 
-résumé: "Découverte du langage VBA"
+description: "Découverte du langage VBA"
 ---
 
 <h2 id="h1"> Introduction </h2>
@@ -71,9 +71,9 @@ Que ce soit à titre personnel ou professionnel, il arrive parfois de faire plus
 
 **les principaux cas d'usages**
 
-- Automatisation simple 
-- Traitement automatique 
-- Automatisation complète 
+- Automatisation simple
+- Traitement automatique
+- Automatisation complète
 - ERP (Enterprise Resource Planning) professionnel complet.
 
 **Les Macros**
@@ -166,7 +166,7 @@ Certaines fonctionnalités liés à l'exécution de code peut comporter des risq
 
 <h2 id="h5"> Google sheet</h2>
 
-Pour travailler sur google sheet, le langage VBA ne fonctionne pas. Cependant, il y a un équivalent, le javascript. 
+Pour travailler sur google sheet, le langage VBA ne fonctionne pas. Cependant, il y a un équivalent, le javascript.
 
 <h2 id="h6"> Conclusion </h2>
 

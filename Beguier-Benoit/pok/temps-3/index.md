@@ -14,7 +14,7 @@ tags:
   - "Gestion d'équipe"
   - "Communication"
 
-résumé: Appliquer les bases de la gestion de projet, de la supply chain et de la logistique à l'organisation d'une équipe de Formula Student.
+description: Appliquer les bases de la gestion de projet, de la supply chain et de la logistique à l'organisation d'une équipe de Formula Student.
 ---
 
 {% prerequis %}

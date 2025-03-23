@@ -10,7 +10,7 @@ temps: 3
 tags:
   - "management de l'innovation"
 
-résumé: " Suite du MON de Soline sur le management de l'innovation"
+description: " Suite du MON de Soline sur le management de l'innovation"
 ---
 L'objectif de ce MON est de faire suite au [MON de Soline]({{ site.url }}/promos/2023-2024/de-Miribel-Soline/mon/temps-3.1/) sur le management de l'innovation. Pour cela, je vais revenir plus en détail sur certaines notions et faire des études de cas représentatives.
 

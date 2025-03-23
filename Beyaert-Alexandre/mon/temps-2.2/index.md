@@ -9,7 +9,7 @@ date: 1971-01-01
 temps: 2
 tags:
 
-résumé: "Un MON traitant de l'utilisation des bibliothèques Python pour la Data Science."
+description: "Un MON traitant de l'utilisation des bibliothèques Python pour la Data Science."
 ---
 
 {% prerequis %}
